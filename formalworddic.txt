@@ -1,0 +1,3824 @@
+pope ||| 29 0.01
+migrants ||| 28 0.01
+says ||| 24 0.01
+us ||| 23 0.01
+amp ||| 15 0.01
+syrian ||| 13 0.0
+say ||| 13 0.0
+francis ||| 12 0.0
+refugees ||| 11 0.0
+border ||| 11 0.0
+hungary ||| 11 0.0
+family ||| 10 0.0
+austria ||| 9 0.0
+marriage ||| 9 0.0
+teen ||| 9 0.0
+police ||| 9 0.0
+judge ||| 9 0.0
+new ||| 9 0.0
+station ||| 8 0.0
+u ||| 8 0.0
+same-sex ||| 8 0.0
+people ||| 8 0.0
+kentucky ||| 8 0.0
+tells ||| 8 0.0
+http ||| 7 0.0
+uk ||| 7 0.0
+death ||| 7 0.0
+west ||| 7 0.0
+2 ||| 7 0.0
+one ||| 7 0.0
+love ||| 7 0.0
+life ||| 7 0.0
+dow ||| 7 0.0
+drowned ||| 7 0.0
+officials ||| 6 0.0
+thousands ||| 6 0.0
+day ||| 6 0.0
+toddler ||| 6 0.0
+visit ||| 6 0.0
+europe ||| 6 0.0
+set ||| 6 0.0
+buses ||| 6 0.0
+jobs ||| 6 0.0
+year-old ||| 6 0.0
+report ||| 6 0.0
+points ||| 6 0.0
+germany ||| 6 0.0
+arrested ||| 6 0.0
+injured ||| 5 0.0
+final ||| 5 0.0
+david ||| 5 0.0
+train ||| 5 0.0
+others ||| 5 0.0
+licenses ||| 5 0.0
+syria ||| 5 0.0
+cameron ||| 5 0.0
+football ||| 5 0.0
+4 ||| 5 0.0
+summer ||| 5 0.0
+minister ||| 5 0.0
+take ||| 5 0.0
+city ||| 5 0.0
+california ||| 5 0.0
+clerk ||| 5 0.0
+suspect ||| 5 0.0
+p ||| 5 0.0
+leave ||| 5 0.0
+dies ||| 5 0.0
+player ||| 5 0.0
+asks ||| 5 0.0
+campaign ||| 5 0.0
+school ||| 5 0.0
+courageous ||| 5 0.0
+virtual ||| 4 0.0
+gets ||| 4 0.0
+member ||| 4 0.0
+email ||| 4 0.0
+man ||| 4 0.0
+davis ||| 4 0.0
+could ||| 4 0.0
+budapest ||| 4 0.0
+austrian ||| 4 0.0
+high ||| 4 0.0
+capital ||| 4 0.0
+back ||| 4 0.0
+pillow ||| 4 0.0
+fire ||| 4 0.0
+point ||| 4 0.0
+foreign ||| 4 0.0
+last ||| 4 0.0
+reach ||| 4 0.0
+operation ||| 4 0.0
+found ||| 4 0.0
+cucumbers ||| 4 0.0
+ahead ||| 4 0.0
+important ||| 4 0.0
+road ||| 4 0.0
+audience ||| 4 0.0
+week ||| 4 0.0
+august ||| 4 0.0
+turned ||| 4 0.0
+10 ||| 4 0.0
+11 ||| 4 0.0
+here's ||| 4 0.0
+open ||| 4 0.0
+still ||| 4 0.0
+salmonella ||| 4 0.0
+trump ||| 4 0.0
+father ||| 4 0.0
+fight ||| 4 0.0
+donald ||| 4 0.0
+dead ||| 4 0.0
+kim ||| 4 0.0
+make ||| 4 0.0
+air ||| 4 0.0
+coast ||| 4 0.0
+watch ||| 4 0.0
+president ||| 4 0.0
+end ||| 4 0.0
+100 ||| 4 0.0
+shooting ||| 3 0.0
+bus ||| 3 0.0
+world ||| 3 0.0
+sister ||| 3 0.0
+leader ||| 3 0.0
+home ||| 3 0.0
+walk ||| 3 0.0
+group ||| 3 0.0
+rowan ||| 3 0.0
+movie ||| 3 0.0
+linked ||| 3 0.0
+labor ||| 3 0.0
+stock ||| 3 0.0
+eagles ||| 3 0.0
+private ||| 3 0.0
+deputy ||| 3 0.0
+30 ||| 3 0.0
+turkish ||| 3 0.0
+nuns ||| 3 0.0
+m ||| 3 0.0
+prosecutor ||| 3 0.0
+clinton ||| 3 0.0
+refuses ||| 3 0.0
+temple ||| 3 0.0
+shoreham ||| 3 0.0
+else ||| 3 0.0
+pm ||| 3 0.0
+kurdi ||| 3 0.0
+defense ||| 3 0.0
+northern ||| 3 0.0
+nasdaq ||| 3 0.0
+aged ||| 3 0.0
+least ||| 3 0.0
+issue ||| 3 0.0
+clashes ||| 3 0.0
+injury ||| 3 0.0
+6 ||| 3 0.0
+two ||| 3 0.0
+calls ||| 3 0.0
+5 ||| 3 0.0
+image ||| 3 0.0
+server ||| 3 0.0
+department ||| 3 0.0
+early ||| 3 0.0
+kills ||| 3 0.0
+running ||| 3 0.0
+500 ||| 3 0.0
+turkey ||| 3 0.0
+many ||| 3 0.0
+staffer ||| 3 0.0
+outside ||| 3 0.0
+bootleg ||| 3 0.0
+cadets ||| 3 0.0
+prime ||| 3 0.0
+get ||| 3 0.0
+hungarian ||| 3 0.0
+walking ||| 3 0.0
+falls ||| 3 0.0
+paid ||| 3 0.0
+responsibility ||| 3 0.0
+national ||| 3 0.0
+massive ||| 3 0.0
+british ||| 3 0.0
+killed ||| 3 0.0
+heart ||| 3 0.0
+car ||| 3 0.0
+today ||| 3 0.0
+boy ||| 3 0.0
+water ||| 3 0.0
+weekend ||| 3 0.0
+tim ||| 3 0.0
+tennis ||| 3 0.0
+support ||| 3 0.0
+deal ||| 3 0.0
+tebow ||| 3 0.0
+thanks ||| 3 0.0
+mother ||| 3 0.0
+much ||| 3 0.0
+country ||| 3 0.0
+cop ||| 3 0.0
+seek ||| 3 0.0
+272 ||| 3 0.0
+refugee ||| 3 0.0
+admits ||| 3 0.0
+arizona ||| 3 0.0
+kiev ||| 3 0.0
+saturday ||| 3 0.0
+london ||| 3 0.0
+provide ||| 3 0.0
+want ||| 3 0.0
+give ||| 3 0.0
+refusing ||| 3 0.0
+work ||| 3 0.0
+county ||| 3 0.0
+sorry ||| 3 0.0
+illinois ||| 2 0.0
+deadly ||| 2 0.0
+palmyra ||| 2 0.0
+signed ||| 2 0.0
+official ||| 2 0.0
+north ||| 2 0.0
+buy ||| 2 0.0
+certainty ||| 2 0.0
+like ||| 2 0.0
+protesters ||| 2 0.0
+government ||| 2 0.0
+285 ||| 2 0.0
+destruction ||| 2 0.0
+sisters ||| 2 0.0
+policy ||| 2 0.0
+louisiana ||| 2 0.0
+it's ||| 2 0.0
+second ||| 2 0.0
+rebekah ||| 2 0.0
+joy ||| 2 0.0
+state ||| 2 0.0
+nuclear ||| 2 0.0
+qb ||| 2 0.0
+gray ||| 2 0.0
+bear ||| 2 0.0
+employee ||| 2 0.0
+staff ||| 2 0.0
+bring ||| 2 0.0
+wounded ||| 2 0.0
+1,000 ||| 2 0.0
+concerns ||| 2 0.0
+dallas ||| 2 0.0
+bel ||| 2 0.0
+july ||| 2 0.0
+start ||| 2 0.0
+ancient ||| 2 0.0
+florida ||| 2 0.0
+mallinson ||| 2 0.0
+announces ||| 2 0.0
+crossing ||| 2 0.0
+university ||| 2 0.0
+crash ||| 2 0.0
+2016 ||| 2 0.0
+looks ||| 2 0.0
+including ||| 2 0.0
+chief ||| 2 0.0
+waters ||| 2 0.0
+stop ||| 2 0.0
+contempt ||| 2 0.0
+drops ||| 2 0.0
+meet ||| 2 0.0
+honor ||| 2 0.0
+alaska ||| 2 0.0
+great ||| 2 0.0
+sing ||| 2 0.0
+waiting ||| 2 0.0
+plead ||| 2 0.0
+pledge ||| 2 0.0
+garden ||| 2 0.0
+sent ||| 2 0.0
+go ||| 2 0.0
+aunt ||| 2 0.0
+single ||| 2 0.0
+line ||| 2 0.0
+opens ||| 2 0.0
+long ||| 2 0.0
+run ||| 2 0.0
+per ||| 2 0.0
+decision ||| 2 0.0
+3.3 ||| 2 0.0
+parade ||| 2 0.0
+suffering ||| 2 0.0
+big ||| 2 0.0
+march ||| 2 0.0
+cut ||| 2 0.0
+lower ||| 2 0.0
+affectionate ||| 2 0.0
+church ||| 2 0.0
+finds ||| 2 0.0
+connection ||| 2 0.0
+annual ||| 2 0.0
+license ||| 2 0.0
+missing ||| 2 0.0
+feared ||| 2 0.0
+sea ||| 2 0.0
+emails ||| 2 0.0
+trees ||| 2 0.0
+gains ||| 2 0.0
+hit ||| 2 0.0
+penalty ||| 2 0.0
+funeral ||| 2 0.0
+reunion ||| 2 0.0
+determined ||| 2 0.0
+obama ||| 2 0.0
+part ||| 2 0.0
+dentist ||| 2 0.0
+done ||| 2 0.0
+w ||| 2 0.0
+american ||| 2 0.0
+intruder ||| 2 0.0
+everyone ||| 2 0.0
+outbreak ||| 2 0.0
+food ||| 2 0.0
+return ||| 2 0.0
+pray ||| 2 0.0
+23 ||| 2 0.0
+24 ||| 2 0.0
+soon ||| 2 0.0
+playing ||| 2 0.0
+hatton ||| 2 0.0
+brady ||| 2 0.0
+refuse ||| 2 0.0
+breaking ||| 2 0.0
+biden ||| 2 0.0
+states ||| 2 0.0
+accept ||| 2 0.0
+london's ||| 2 0.0
+remain ||| 2 0.0
+recall ||| 2 0.0
+town ||| 2 0.0
+markets ||| 2 0.0
+concussions ||| 2 0.0
+marriages ||| 2 0.0
+ex-labor ||| 2 0.0
+iran ||| 2 0.0
+rate ||| 2 0.0
+small ||| 2 0.0
+difference ||| 2 0.0
+fall ||| 2 0.0
+horror ||| 2 0.0
+health ||| 2 0.0
+th ||| 2 0.0
+spirit ||| 2 0.0
+religious ||| 2 0.0
+chinese ||| 2 0.0
+building ||| 2 0.0
+moves ||| 2 0.0
+fights ||| 2 0.0
+island ||| 2 0.0
+boat ||| 2 0.0
+greeting ||| 2 0.0
+migrant ||| 2 0.0
+violent ||| 2 0.0
+rest ||| 2 0.0
+money ||| 2 0.0
+charged ||| 2 0.0
+model ||| 2 0.0
+trains ||| 2 0.0
+couples ||| 2 0.0
+newspaper ||| 2 0.0
+case ||| 2 0.0
+former ||| 2 0.0
+photos ||| 2 0.0
+custody ||| 2 0.0
+66 ||| 2 0.0
+according ||| 2 0.0
+across ||| 2 0.0
+college ||| 2 0.0
+carolina ||| 2 0.0
+shot ||| 2 0.0
+200 ||| 2 0.0
+clintons ||| 2 0.0
+correction ||| 2 0.0
+r ||| 2 0.0
+13 ||| 2 0.0
+thai ||| 2 0.0
+hillary ||| 2 0.0
+released ||| 2 0.0
+little ||| 2 0.0
+suspended ||| 2 0.0
+americans ||| 2 0.0
+first ||| 2 0.0
+charleston ||| 2 0.0
+brooks ||| 2 0.0
+million ||| 2 0.0
+looking ||| 2 0.0
+canada ||| 2 0.0
+eu ||| 2 0.0
+year ||| 2 0.0
+name ||| 2 0.0
+nation ||| 2 0.0
+texas ||| 2 0.0
+main ||| 2 0.0
+cold ||| 2 0.0
+years ||| 2 0.0
+talk ||| 2 0.0
+beverley ||| 2 0.0
+arrive ||| 2 0.0
+abortion ||| 2 0.0
+cases ||| 2 0.0
+oregon ||| 2 0.0
+retweeted ||| 2 0.0
+market ||| 2 0.0
+guilty ||| 2 0.0
+team ||| 2 0.0
+turns ||| 2 0.0
+charge ||| 2 0.0
+suicide ||| 2 0.0
+battle ||| 2 0.0
+time ||| 2 0.0
+longer ||| 2 0.0
+died ||| 2 0.0
+authorities ||| 2 0.0
+transgender ||| 2 0.0
+trio ||| 2 0.0
+inside ||| 2 0.0
+post ||| 2 0.0
+confusing ||| 2 0.0
+sends ||| 2 0.0
+old ||| 2 0.0
+50 ||| 2 0.0
+54 ||| 2 0.0
+aylan ||| 2 0.0
+300 ||| 2 0.0
+photographer ||| 2 0.0
+victim ||| 2 0.0
+unemployment ||| 2 0.0
+left ||| 2 0.0
+game ||| 2 0.0
+humble ||| 2 0.0
+couple ||| 2 0.0
+perform ||| 2 0.0
+grown ||| 2 0.0
+mexico ||| 2 0.0
+entered ||| 2 0.0
+planned ||| 2 0.0
+games ||| 2 0.0
+players ||| 2 0.0
+accused ||| 2 0.0
+news ||| 2 0.0
+sickens ||| 2 0.0
+bargains ||| 2 0.0
+away ||| 2 0.0
+release ||| 2 0.0
+twice ||| 2 0.0
+jailed ||| 2 0.0
+camp ||| 2 0.0
+blue ||| 2 0.0
+seen ||| 2 0.0
+trek ||| 2 0.0
+begins ||| 2 0.0
+murder ||| 2 0.0
+tom ||| 2 0.0
+girls ||| 2 0.0
+another ||| 2 0.0
+days ||| 2 0.0
+starts ||| 2 0.0
+given ||| 2 0.0
+safety ||| 2 0.0
+laid ||| 2 0.0
+navy ||| 2 0.0
+bombing ||| 2 0.0
+order ||| 2 0.0
+loyalty ||| 2 0.0
+boats ||| 2 0.0
+travel ||| 2 0.0
+hurt ||| 2 0.0
+call ||| 2 0.0
+study ||| 2 0.0
+kids ||| 2 0.0
+china ||| 2 0.0
+bangkok ||| 2 0.0
+hundreds ||| 2 0.0
+likely ||| 2 0.0
+talks ||| 2 0.0
+force ||| 2 0.0
+rise ||| 2 0.0
+tweet ||| 2 0.0
+four ||| 2 0.0
+rule ||| 1 0.0
+jewel ||| 1 0.0
+macedonia-greece ||| 1 0.0
+gatsby ||| 1 0.0
+stay ||| 1 0.0
+embracing ||| 1 0.0
+monday ||| 1 0.0
+hashana ||| 1 0.0
+monitors ||| 1 0.0
+treatment ||| 1 0.0
+42 ||| 1 0.0
+jesse ||| 1 0.0
+lived ||| 1 0.0
+173,000 ||| 1 0.0
+label's ||| 1 0.0
+distribution ||| 1 0.0
+convince ||| 1 0.0
+alba's ||| 1 0.0
+whether ||| 1 0.0
+made ||| 1 0.0
+sending ||| 1 0.0
+count ||| 1 0.0
+19,000 ||| 1 0.0
+cyberattacks ||| 1 0.0
+biggest ||| 1 0.0
+slovakia ||| 1 0.0
+noticed ||| 1 0.0
+museum ||| 1 0.0
+rejoice ||| 1 0.0
+nuke ||| 1 0.0
+registration ||| 1 0.0
+weather ||| 1 0.0
+guard ||| 1 0.0
+referendum ||| 1 0.0
+washington ||| 1 0.0
+backcountry ||| 1 0.0
+travelers ||| 1 0.0
+owe ||| 1 0.0
+carrier ||| 1 0.0
+carries ||| 1 0.0
+17,000 ||| 1 0.0
+moderated ||| 1 0.0
+upswing ||| 1 0.0
+lead ||| 1 0.0
+transport ||| 1 0.0
+convey ||| 1 0.0
+authority ||| 1 0.0
+twitter ||| 1 0.0
+leaves ||| 1 0.0
+lost ||| 1 0.0
+five ||| 1 0.0
+26, ||| 1 0.0
+myth ||| 1 0.0
+definitive ||| 1 0.0
+match ||| 1 0.0
+enfield ||| 1 0.0
+wet ||| 1 0.0
+simple ||| 1 0.0
+wes ||| 1 0.0
+fled ||| 1 0.0
+lake ||| 1 0.0
+smith ||| 1 0.0
+7,000 ||| 1 0.0
+hazing ||| 1 0.0
+detain ||| 1 0.0
+anadolu ||| 1 0.0
+cries ||| 1 0.0
+executive ||| 1 0.0
+nadal ||| 1 0.0
+obstacles ||| 1 0.0
+afghan ||| 1 0.0
+whale ||| 1 0.0
+student ||| 1 0.0
+effect ||| 1 0.0
+difficult ||| 1 0.0
+party ||| 1 0.0
+cross ||| 1 0.0
+began ||| 1 0.0
+vs ||| 1 0.0
+helped ||| 1 0.0
+neapolitan ||| 1 0.0
+stunning ||| 1 0.0
+novel ||| 1 0.0
+injustices ||| 1 0.0
+volunteerism ||| 1 0.0
+733 ||| 1 0.0
+dazzling ||| 1 0.0
+thanked ||| 1 0.0
+videos ||| 1 0.0
+fukushima ||| 1 0.0
+wall ||| 1 0.0
+ambushed ||| 1 0.0
+drug ||| 1 0.0
+aircraft ||| 1 0.0
+limits ||| 1 0.0
+hits ||| 1 0.0
+mediterranean's ||| 1 0.0
+key ||| 1 0.0
+joe ||| 1 0.0
+ends ||| 1 0.0
+closed ||| 1 0.0
+difficulties ||| 1 0.0
+nightmare ||| 1 0.0
+greece ||| 1 0.0
+beaulieu ||| 1 0.0
+acquired ||| 1 0.0
+wish ||| 1 0.0
+corruption ||| 1 0.0
+h ||| 1 0.0
+hiring ||| 1 0.0
+ex-mailroom ||| 1 0.0
+father-and-son ||| 1 0.0
+words ||| 1 0.0
+sues ||| 1 0.0
+joint ||| 1 0.0
+michigan ||| 1 0.0
+handle ||| 1 0.0
+sued ||| 1 0.0
+hope ||| 1 0.0
+deceptively ||| 1 0.0
+darkest ||| 1 0.0
+fear ||| 1 0.0
+soldiers ||| 1 0.0
+planning ||| 1 0.0
+longevity ||| 1 0.0
+kite ||| 1 0.0
+stranded ||| 1 0.0
+class ||| 1 0.0
+device ||| 1 0.0
+parks ||| 1 0.0
+unlikely ||| 1 0.0
+tonight ||| 1 0.0
+non-transgender ||| 1 0.0
+shrinks ||| 1 0.0
+false ||| 1 0.0
+loves ||| 1 0.0
+budapest's ||| 1 0.0
+europe's ||| 1 0.0
+photograph ||| 1 0.0
+accelerates ||| 1 0.0
+rockumentary ||| 1 0.0
+exactly ||| 1 0.0
+doomed ||| 1 0.0
+evacuated ||| 1 0.0
+sergeant ||| 1 0.0
+system ||| 1 0.0
+warships ||| 1 0.0
+reached ||| 1 0.0
+eagerly-awaited ||| 1 0.0
+philadelphia ||| 1 0.0
+blown ||| 1 0.0
+south ||| 1 0.0
+g ||| 1 0.0
+drowning ||| 1 0.0
+conservatives ||| 1 0.0
+york ||| 1 0.0
+jessica ||| 1 0.0
+math ||| 1 0.0
+remands ||| 1 0.0
+evacuation ||| 1 0.0
+airbnb ||| 1 0.0
+chaos ||| 1 0.0
+bag ||| 1 0.0
+80 ||| 1 0.0
+books ||| 1 0.0
+88 ||| 1 0.0
+serbia ||| 1 0.0
+tents ||| 1 0.0
+disaffected ||| 1 0.0
+slide ||| 1 0.0
+nfl ||| 1 0.0
+thrill ||| 1 0.0
+flee ||| 1 0.0
+front ||| 1 0.0
+covered ||| 1 0.0
+2019 ||| 1 0.0
+ships ||| 1 0.0
+la ||| 1 0.0
+underwater ||| 1 0.0
+perfect ||| 1 0.0
+grayson ||| 1 0.0
+move ||| 1 0.0
+eisenberg ||| 1 0.0
+batter ||| 1 0.0
+chapman ||| 1 0.0
+light ||| 1 0.0
+notebook ||| 1 0.0
+await ||| 1 0.0
+attend ||| 1 0.0
+guatemalan ||| 1 0.0
+winners ||| 1 0.0
+responsibilities ||| 1 0.0
+hesitate ||| 1 0.0
+self-driving ||| 1 0.0
+pieces ||| 1 0.0
+0.4 ||| 1 0.0
+tap ||| 1 0.0
+streamed ||| 1 0.0
+beijing ||| 1 0.0
+archer ||| 1 0.0
+tune-up ||| 1 0.0
+account ||| 1 0.0
+baby ||| 1 0.0
+started ||| 1 0.0
+shipwreck ||| 1 0.0
+parliament ||| 1 0.0
+apple's ||| 1 0.0
+defendant ||| 1 0.0
+next ||| 1 0.0
+illegal ||| 1 0.0
+fed ||| 1 0.0
+standing ||| 1 0.0
+grassy ||| 1 0.0
+scandal ||| 1 0.0
+motor ||| 1 0.0
+apple ||| 1 0.0
+named ||| 1 0.0
+grillers ||| 1 0.0
+involves ||| 1 0.0
+residents ||| 1 0.0
+leaving ||| 1 0.0
+32 ||| 1 0.0
+ukraine ||| 1 0.0
+kidnapped ||| 1 0.0
+sink ||| 1 0.0
+let ||| 1 0.0
+giant ||| 1 0.0
+pushing ||| 1 0.0
+leg ||| 1 0.0
+indian ||| 1 0.0
+evokes ||| 1 0.0
+tajikistan's ||| 1 0.0
+procession ||| 1 0.0
+kobane ||| 1 0.0
+first-degree ||| 1 0.0
+resigns ||| 1 0.0
+deals ||| 1 0.0
+murdoch ||| 1 0.0
+michael ||| 1 0.0
+300,000, ||| 1 0.0
+facebook ||| 1 0.0
+wave ||| 1 0.0
+dessert ||| 1 0.0
+young ||| 1 0.0
+mosque ||| 1 0.0
+gold ||| 1 0.0
+centers ||| 1 0.0
+issued ||| 1 0.0
+palmyra's ||| 1 0.0
+fresh ||| 1 0.0
+carrying ||| 1 0.0
+responded ||| 1 0.0
+age ||| 1 0.0
+vice ||| 1 0.0
+land ||| 1 0.0
+dushanbe ||| 1 0.0
+militants ||| 1 0.0
+helping ||| 1 0.0
+antiquities ||| 1 0.0
+deadbolt ||| 1 0.0
+scraps ||| 1 0.0
+actors ||| 1 0.0
+denying ||| 1 0.0
+graham ||| 1 0.0
+rupert ||| 1 0.0
+rally ||| 1 0.0
+supervisor ||| 1 0.0
+un ||| 1 0.0
+planet ||| 1 0.0
+collapses ||| 1 0.0
+russian ||| 1 0.0
+boys ||| 1 0.0
+vienna ||| 1 0.0
+footage ||| 1 0.0
+forward ||| 1 0.0
+suit ||| 1 0.0
+live ||| 1 0.0
+question ||| 1 0.0
+arcade ||| 1 0.0
+nothing ||| 1 0.0
+hatcher ||| 1 0.0
+cautious ||| 1 0.0
+become ||| 1 0.0
+opposes ||| 1 0.0
+choudary ||| 1 0.0
+word ||| 1 0.0
+china's ||| 1 0.0
+boko ||| 1 0.0
+added ||| 1 0.0
+senate ||| 1 0.0
+front-runner ||| 1 0.0
+alexandra ||| 1 0.0
+yorker ||| 1 0.0
+separately ||| 1 0.0
+toyota ||| 1 0.0
+salutes ||| 1 0.0
+bid ||| 1 0.0
+location ||| 1 0.0
+parents ||| 1 0.0
+workers ||| 1 0.0
+prince ||| 1 0.0
+using ||| 1 0.0
+shape ||| 1 0.0
+craven ||| 1 0.0
+poland ||| 1 0.0
+arrived ||| 1 0.0
+26,000 ||| 1 0.0
+used ||| 1 0.0
+9 ||| 1 0.0
+grant ||| 1 0.0
+italy ||| 1 0.0
+confirms ||| 1 0.0
+hoping ||| 1 0.0
+pack ||| 1 0.0
+guide ||| 1 0.0
+fleet ||| 1 0.0
+homework ||| 1 0.0
+gas ||| 1 0.0
+firefighters ||| 1 0.0
+passengers ||| 1 0.0
+gay ||| 1 0.0
+flight ||| 1 0.0
+ferrante's ||| 1 0.0
+meeting ||| 1 0.0
+ireland ||| 1 0.0
+describes ||| 1 0.0
+cockatiels ||| 1 0.0
+reasons ||| 1 0.0
+baltimore ||| 1 0.0
+long-term ||| 1 0.0
+secrets ||| 1 0.0
+abruptly ||| 1 0.0
+asthma ||| 1 0.0
+franchise ||| 1 0.0
+incident ||| 1 0.0
+slaying ||| 1 0.0
+conditions ||| 1 0.0
+fans ||| 1 0.0
+electoral ||| 1 0.0
+wow ||| 1 0.0
+pictures ||| 1 0.0
+visiting ||| 1 0.0
+termites ||| 1 0.0
+migration ||| 1 0.0
+see ||| 1 0.0
+feds ||| 1 0.0
+creator ||| 1 0.0
+art ||| 1 0.0
+contagious ||| 1 0.0
+catches ||| 1 0.0
+merchandise ||| 1 0.0
+reporters ||| 1 0.0
+5,000 ||| 1 0.0
+8 ||| 1 0.0
+writes ||| 1 0.0
+awakens ||| 1 0.0
+impact ||| 1 0.0
+austrians ||| 1 0.0
+stunned ||| 1 0.0
+wording ||| 1 0.0
+parody ||| 1 0.0
+ky ||| 1 0.0
+cover ||| 1 0.0
+arson ||| 1 0.0
+accepting ||| 1 0.0
+services ||| 1 0.0
+significant ||| 1 0.0
+72 ||| 1 0.0
+76 ||| 1 0.0
+freddie ||| 1 0.0
+pondering ||| 1 0.0
+quota ||| 1 0.0
+monastery ||| 1 0.0
+serena ||| 1 0.0
+experienced ||| 1 0.0
+play ||| 1 0.0
+cameroon ||| 1 0.0
+finding ||| 1 0.0
+lifts ||| 1 0.0
+k2 ||| 1 0.0
+officers ||| 1 0.0
+adrift ||| 1 0.0
+mountain ||| 1 0.0
+previews ||| 1 0.0
+treated ||| 1 0.0
+2020 ||| 1 0.0
+pennsylvania ||| 1 0.0
+vocal ||| 1 0.0
+getaway ||| 1 0.0
+grocery ||| 1 0.0
+king ||| 1 0.0
+store ||| 1 0.0
+scheme ||| 1 0.0
+lejeune ||| 1 0.0
+kuchen ||| 1 0.0
+ulster ||| 1 0.0
+climbing ||| 1 0.0
+fierce ||| 1 0.0
+radical ||| 1 0.0
+cyanide ||| 1 0.0
+thrown ||| 1 0.0
+coastline ||| 1 0.0
+extraordinary ||| 1 0.0
+nationally ||| 1 0.0
+sparked ||| 1 0.0
+dirt ||| 1 0.0
+exodus ||| 1 0.0
+salute ||| 1 0.0
+induced ||| 1 0.0
+fountain ||| 1 0.0
+exhaustion ||| 1 0.0
+research ||| 1 0.0
+wondered ||| 1 0.0
+dominates ||| 1 0.0
+really ||| 1 0.0
+gun ||| 1 0.0
+energy ||| 1 0.0
+isn't ||| 1 0.0
+labeling ||| 1 0.0
+always ||| 1 0.0
+coffeecake ||| 1 0.0
+foot ||| 1 0.0
+you've ||| 1 0.0
+speechless ||| 1 0.0
+good ||| 1 0.0
+ally ||| 1 0.0
+might ||| 1 0.0
+soccer ||| 1 0.0
+travelling ||| 1 0.0
+22 ||| 1 0.0
+20 ||| 1 0.0
+27 ||| 1 0.0
+romance ||| 1 0.0
+committee ||| 1 0.0
+back-to-school ||| 1 0.0
+setback ||| 1 0.0
+september ||| 1 0.0
+help ||| 1 0.0
+dream ||| 1 0.0
+media ||| 1 0.0
+invasion ||| 1 0.0
+coming ||| 1 0.0
+plant ||| 1 0.0
+reject ||| 1 0.0
+cling ||| 1 0.0
+heart's ||| 1 0.0
+5.1 ||| 1 0.0
+numbers ||| 1 0.0
+share ||| 1 0.0
+trial ||| 1 0.0
+stubborn ||| 1 0.0
+history ||| 1 0.0
+56,000 ||| 1 0.0
+knocked ||| 1 0.0
+nfl's ||| 1 0.0
+hour ||| 1 0.0
+kendra ||| 1 0.0
+site ||| 1 0.0
+company ||| 1 0.0
+diamond ||| 1 0.0
+fiat ||| 1 0.0
+mysterious ||| 1 0.0
+widens ||| 1 0.0
+takes ||| 1 0.0
+armed ||| 1 0.0
+prosecutors ||| 1 0.0
+500, ||| 1 0.0
+backlash ||| 1 0.0
+hours ||| 1 0.0
+surfer ||| 1 0.0
+answers ||| 1 0.0
+5000 ||| 1 0.0
+turmoil ||| 1 0.0
+learned ||| 1 0.0
+deeply ||| 1 0.0
+richard ||| 1 0.0
+conscience ||| 1 0.0
+lawyer ||| 1 0.0
+sank ||| 1 0.0
+harry ||| 1 0.0
+grandfather ||| 1 0.0
+heist ||| 1 0.0
+mukasey ||| 1 0.0
+elena ||| 1 0.0
+mps ||| 1 0.0
+worst ||| 1 0.0
+woman ||| 1 0.0
+infirmary ||| 1 0.0
+children ||| 1 0.0
+settlement ||| 1 0.0
+follow ||| 1 0.0
+debris ||| 1 0.0
+month ||| 1 0.0
+bmw ||| 1 0.0
+starting ||| 1 0.0
+god ||| 1 0.0
+websites ||| 1 0.0
+applause ||| 1 0.0
+remote ||| 1 0.0
+students ||| 1 0.0
+4,000 ||| 1 0.0
+murdoch's ||| 1 0.0
+spends ||| 1 0.0
+lifetime ||| 1 0.0
+britain ||| 1 0.0
+rvs ||| 1 0.0
+fellow ||| 1 0.0
+moved ||| 1 0.0
+ag ||| 1 0.0
+kakutani ||| 1 0.0
+trips ||| 1 0.0
+deadlock ||| 1 0.0
+emissions ||| 1 0.0
+default ||| 1 0.0
+rage ||| 1 0.0
+spice ||| 1 0.0
+trying ||| 1 0.0
+suffers ||| 1 0.0
+mh370 ||| 1 0.0
+strikes ||| 1 0.0
+enough ||| 1 0.0
+recommends ||| 1 0.0
+lot ||| 1 0.0
+lions ||| 1 0.0
+strict ||| 1 0.0
+alleged ||| 1 0.0
+area ||| 1 0.0
+takata ||| 1 0.0
+homeless ||| 1 0.0
+ukraine's ||| 1 0.0
+two-day ||| 1 0.0
+protests ||| 1 0.0
+provisional ||| 1 0.0
+journey ||| 1 0.0
+violence ||| 1 0.0
+industry ||| 1 0.0
+ace ||| 1 0.0
+william ||| 1 0.0
+broken ||| 1 0.0
+inspect ||| 1 0.0
+biased ||| 1 0.0
+caring ||| 1 0.0
+exit ||| 1 0.0
+tube ||| 1 0.0
+memories ||| 1 0.0
+confirm ||| 1 0.0
+faster ||| 1 0.0
+intact ||| 1 0.0
+images ||| 1 0.0
+conditional ||| 1 0.0
+fulfil ||| 1 0.0
+recalls ||| 1 0.0
+haram ||| 1 0.0
+facing ||| 1 0.0
+railroad ||| 1 0.0
+mom ||| 1 0.0
+virginia ||| 1 0.0
+rules ||| 1 0.0
+around ||| 1 0.0
+skies ||| 1 0.0
+smugglers ||| 1 0.0
+except ||| 1 0.0
+flood ||| 1 0.0
+rosh ||| 1 0.0
+announcement ||| 1 0.0
+blow ||| 1 0.0
+perilous ||| 1 0.0
+polish ||| 1 0.0
+touch ||| 1 0.0
+plagiarised ||| 1 0.0
+bodies ||| 1 0.0
+without ||| 1 0.0
+charges ||| 1 0.0
+band ||| 1 0.0
+changing ||| 1 0.0
+drives ||| 1 0.0
+refusal ||| 1 0.0
+applaud ||| 1 0.0
+investigated ||| 1 0.0
+ceo ||| 1 0.0
+trip ||| 1 0.0
+spiraling ||| 1 0.0
+pay ||| 1 0.0
+rooting ||| 1 0.0
+property ||| 1 0.0
+someone ||| 1 0.0
+middle ||| 1 0.0
+cast ||| 1 0.0
+bequeaths ||| 1 0.0
+developing ||| 1 0.0
+suspected ||| 1 0.0
+centerpiece ||| 1 0.0
+borders ||| 1 0.0
+helicopter ||| 1 0.0
+vacation ||| 1 0.0
+stretch ||| 1 0.0
+poll ||| 1 0.0
+among ||| 1 0.0
+railway ||| 1 0.0
+senator ||| 1 0.0
+workplace ||| 1 0.0
+blasts ||| 1 0.0
+millionaire ||| 1 0.0
+libya ||| 1 0.0
+come ||| 1 0.0
+nazi-era ||| 1 0.0
+reigns ||| 1 0.0
+killing ||| 1 0.0
+parent ||| 1 0.0
+reading ||| 1 0.0
+registering ||| 1 0.0
+misconduct ||| 1 0.0
+husband ||| 1 0.0
+losers ||| 1 0.0
+morning ||| 1 0.0
+malaysian ||| 1 0.0
+celebrate ||| 1 0.0
+humbled ||| 1 0.0
+clerks ||| 1 0.0
+nearly ||| 1 0.0
+inquests ||| 1 0.0
+baghdad ||| 1 0.0
+awareness ||| 1 0.0
+reflektor ||| 1 0.0
+plums ||| 1 0.0
+black ||| 1 0.0
+tears ||| 1 0.0
+pump ||| 1 0.0
+fanny ||| 1 0.0
+dylann ||| 1 0.0
+allegations ||| 1 0.0
+laws ||| 1 0.0
+montagu ||| 1 0.0
+wing ||| 1 0.0
+later ||| 1 0.0
+hardships ||| 1 0.0
+america ||| 1 0.0
+runmaro ||| 1 0.0
+knew ||| 1 0.0
+multiple ||| 1 0.0
+hunt ||| 1 0.0
+roadside ||| 1 0.0
+mourners ||| 1 0.0
+greek ||| 1 0.0
+buried ||| 1 0.0
+conspiracy ||| 1 0.0
+sad ||| 1 0.0
+top-ranked ||| 1 0.0
+marines ||| 1 0.0
+optimism ||| 1 0.0
+18 ||| 1 0.0
+16 ||| 1 0.0
+17 ||| 1 0.0
+alan ||| 1 0.0
+season ||| 1 0.0
+speaking ||| 1 0.0
+returns ||| 1 0.0
+carson ||| 1 0.0
+george ||| 1 0.0
+message ||| 1 0.0
+fast ||| 1 0.0
+xi ||| 1 0.0
+teammates ||| 1 0.0
+tangled ||| 1 0.0
+honest ||| 1 0.0
+ministry ||| 1 0.0
+quite ||| 1 0.0
+shows ||| 1 0.0
+dutch ||| 1 0.0
+investigation ||| 1 0.0
+seriously ||| 1 0.0
+afghans ||| 1 0.0
+sunrise ||| 1 0.0
+entering ||| 1 0.0
+el ||| 1 0.0
+quartet ||| 1 0.0
+italy's ||| 1 0.0
+drop ||| 1 0.0
+james ||| 1 0.0
+attorneys ||| 1 0.0
+killer ||| 1 0.0
+100,000 ||| 1 0.0
+suspension ||| 1 0.0
+tweets ||| 1 0.0
+hometown ||| 1 0.0
+thank ||| 1 0.0
+kanye ||| 1 0.0
+cuts ||| 1 0.0
+brain ||| 1 0.0
+deposit ||| 1 0.0
+jail ||| 1 0.0
+outpouring ||| 1 0.0
+dispelling ||| 1 0.0
+stress ||| 1 0.0
+orban ||| 1 0.0
+maritime ||| 1 0.0
+islamic ||| 1 0.0
+southern ||| 1 0.0
+use ||| 1 0.0
+145 ||| 1 0.0
+economy ||| 1 0.0
+nyc ||| 1 0.0
+sunday ||| 1 0.0
+1 ||| 1 0.0
+secured ||| 1 0.0
+winter ||| 1 0.0
+allowed ||| 1 0.0
+dropped ||| 1 0.0
+reviews ||| 1 0.0
+tokyo ||| 1 0.0
+power-sharing ||| 1 0.0
+sharing ||| 1 0.0
+keleti ||| 1 0.0
+msg ||| 1 0.0
+capsizes ||| 1 0.0
+france ||| 1 0.0
+crammed ||| 1 0.0
+everybody ||| 1 0.0
+crisis ||| 1 0.0
+paralyzed ||| 1 0.0
+bloody ||| 1 0.0
+extra ||| 1 0.0
+homecoming ||| 1 0.0
+rafael ||| 1 0.0
+appears ||| 1 0.0
+alone ||| 1 0.0
+groups ||| 1 0.0
+understanding ||| 1 0.0
+french ||| 1 0.0
+jury ||| 1 0.0
+supplies ||| 1 0.0
+celebrated ||| 1 0.0
+adds ||| 1 0.0
+chicken ||| 1 0.0
+injunction ||| 1 0.0
+upper ||| 1 0.0
+illustrators ||| 1 0.0
+accidentally ||| 1 0.0
+blast ||| 1 0.0
+locked ||| 1 0.0
+vegas ||| 1 0.0
+suffered ||| 1 0.0
+answered ||| 1 0.0
+milk ||| 1 0.0
+mile ||| 1 0.0
+sanna ||| 1 0.0
+eldest ||| 1 0.0
+global ||| 1 0.0
+neighbors ||| 1 0.0
+safe ||| 1 0.0
+younger ||| 1 0.0
+devon ||| 1 0.0
+parenthood ||| 1 0.0
+update ||| 1 0.0
+welcome ||| 1 0.0
+nw ||| 1 0.0
+republic ||| 1 0.0
+shrine ||| 1 0.0
+check ||| 1 0.0
+exist ||| 1 0.0
+evidence ||| 1 0.0
+michiko ||| 1 0.0
+crystal ||| 1 0.0
+isis ||| 1 0.0
+duel ||| 1 0.0
+taken ||| 1 0.0
+peninsula ||| 1 0.0
+bengals ||| 1 0.0
+secondhand ||| 1 0.0
+happy ||| 1 0.0
+war ||| 1 0.0
+vacated ||| 1 0.0
+czech ||| 1 0.0
+transform ||| 1 0.0
+crowd ||| 1 0.0
+shoots ||| 1 0.0
+fumes ||| 1 0.0
+son ||| 1 0.0
+bound ||| 1 0.0
+presence ||| 1 0.0
+lied ||| 1 0.0
+ensure ||| 1 0.0
+o ||| 1 0.0
+months ||| 1 0.0
+corp ||| 1 0.0
+pose ||| 1 0.0
+ww2 ||| 1 0.0
+cnn ||| 1 0.0
+polluted ||| 1 0.0
+fox ||| 1 0.0
+kingpin's ||| 1 0.0
+terli ||| 1 0.0
+gunmen ||| 1 0.0
+right ||| 1 0.0
+towards ||| 1 0.0
+night ||| 1 0.0
+officer ||| 1 0.0
+steps ||| 1 0.0
+gifted ||| 1 0.0
+cultural ||| 1 0.0
+possible ||| 1 0.0
+breaks ||| 1 0.0
+rnc ||| 1 0.0
+preseason ||| 1 0.0
+mocked ||| 1 0.0
+east ||| 1 0.0
+prisoner ||| 1 0.0
+issuing ||| 1 0.0
+elm ||| 1 0.0
+yes ||| 1 0.0
+indicts ||| 1 0.0
+photo ||| 1 0.0
+alabama ||| 1 0.0
+claims ||| 1 0.0
+detained ||| 1 0.0
+dylan ||| 1 0.0
+greeted ||| 1 0.0
+rain ||| 1 0.0
+rail ||| 1 0.0
+blames ||| 1 0.0
+sacramento ||| 1 0.0
+chrysler ||| 1 0.0
+raid ||| 1 0.0
+bearded ||| 1 0.0
+fairly ||| 1 0.0
+wheel ||| 1 0.0
+harmony ||| 1 0.0
+victims ||| 1 0.0
+k ||| 1 0.0
+voice ||| 1 0.0
+aid ||| 1 0.0
+rutgers ||| 1 0.0
+near ||| 1 0.0
+dept ||| 1 0.0
+catch ||| 1 0.0
+child ||| 1 0.0
+filmmaker ||| 1 0.0
+madhouse ||| 1 0.0
+republicans ||| 1 0.0
+concerning ||| 1 0.0
+attacked ||| 1 0.0
+in-demand ||| 1 0.0
+cub ||| 1 0.0
+riley ||| 1 0.0
+interest ||| 1 0.0
+commission ||| 1 0.0
+quickly ||| 1 0.0
+tiny ||| 1 0.0
+three ||| 1 0.0
+union ||| 1 0.0
+speak ||| 1 0.0
+path ||| 1 0.0
+rockies ||| 1 0.0
+appeared ||| 1 0.0
+asked ||| 1 0.0
+sheriff's ||| 1 0.0
+1, ||| 1 0.0
+macedonia ||| 1 0.0
+protect ||| 1 0.0
+debt ||| 1 0.0
+extent ||| 1 0.0
+33,000 ||| 1 0.0
+confusion ||| 1 0.0
+terms ||| 1 0.0
+ira ||| 1 0.0
+simplest ||| 1 0.0
+olympics ||| 1 0.0
+score ||| 1 0.0
+inappropriate ||| 1 0.0
+said ||| 1 0.0
+best ||| 1 0.0
+full ||| 1 0.0
+nun ||| 1 0.0
+fair ||| 1 0.0
+disaster ||| 1 0.0
+boarded ||| 1 0.0
+erupt ||| 1 0.0
+bad ||| 1 0.0
+countries ||| 1 0.0
+bar ||| 1 0.0
+ben ||| 1 0.0
+despite ||| 1 0.0
+amazon ||| 1 0.0
+distribute ||| 1 0.0
+touched ||| 1 0.0
+minnesota ||| 1 0.0
+lessons ||| 1 0.0
+bail ||| 1 0.0
+probe ||| 1 0.0
+bomb ||| 1 0.0
+1957, ||| 1 0.0
+saying ||| 1 0.0
+came ||| 1 0.0
+tech ||| 1 0.0
+freeway ||| 1 0.0
+metal ||| 1 0.0
+medical ||| 1 0.0
+cops ||| 1 0.0
+translator ||| 1 0.0
+doors ||| 1 0.0
+elation ||| 1 0.0
+indexes ||| 1 0.0
+picks ||| 1 0.0
+modern ||| 1 0.0
+entail ||| 1 0.0
+fashion ||| 1 0.0
+bridge ||| 1 0.0
+hacking ||| 1 0.0
+nations ||| 1 0.0
+anjem ||| 1 0.0
+hike ||| 1 0.0
+disciplined ||| 1 0.0
+anxiety ||| 1 0.0
+crawl ||| 1 0.0
+western ||| 1 0.0
+japanese ||| 1 0.0
+took ||| 1 0.0
+service ||| 1 0.0
+anyone ||| 1 0.0
+173 ||| 1 0.0
+encouraging ||| 1 0.0
+economists ||| 1 0.0
+characters ||| 1 0.0
+already ||| 1 0.0
+onto ||| 1 0.0
+isa ||| 1 0.0
+baltic ||| 1 0.0
+signature ||| 1 0.0
+thanking ||| 1 0.0
+shelves ||| 1 0.0
+suvs ||| 1 0.0
+disputed ||| 1 0.0
+gop ||| 1 0.0
+driving ||| 1 0.0
+truman ||| 1 0.0
+logo ||| 1 0.0
+aide ||| 1 0.0
+satellite ||| 1 0.0
+series ||| 1 0.0
+enthusiasts ||| 1 0.0
+burial ||| 1 0.0
+went ||| 1 0.0
+roast ||| 1 0.0
+l ||| 1 0.0
+meat ||| 1 0.0
+bread ||| 1 0.0
+schools ||| 1 0.0
+unionist ||| 1 0.0
+academics ||| 1 0.0
+grand ||| 1 0.0
+churchgoers ||| 1 0.0
+prevented ||| 1 0.0
+diseases ||| 1 0.0
+iowa ||| 1 0.0
+easier ||| 1 0.0
+fit ||| 1 0.0
+mayor ||| 1 0.0
+japan ||| 1 0.0
+operations ||| 1 0.0
+democratic ||| 1 0.0
+ultimate ||| 1 0.0
+green ||| 1 0.0
+baggage ||| 1 0.0
+amid ||| 1 0.0
+third ||| 1 0.0
+las ||| 1 0.0
+law ||| 1 0.0
+chapo's ||| 1 0.0
+beauty ||| 1 0.0
+cyberspace ||| 1 0.0
+beach ||| 1 0.0
+machine ||| 1 0.0
+bel's ||| 1 0.0
+damage ||| 1 0.0
+stand-off ||| 1 0.0
+autonomy ||| 1 0.0
+hand-in-hand ||| 1 0.0
+temperatures ||| 1 0.0
+locker ||| 1 0.0
+roof ||| 1 0.0
+room ||| 1 0.0
+join ||| 1 0.0
+shoot ||| 1 0.0
+zoo's ||| 1 0.0
+casualties ||| 1 0.0
+91 ||| 1 0.0
+grief ||| 1 0.0
+brings ||| 1 0.0
+supporters ||| 1 0.0
+breathe ||| 1 0.0
+7,800 ||| 1 0.0
+calm ||| 1 0.0
+hospital ||| 1 0.0
+would ||| 1 0.0
+landscape ||| 1 0.0
+moral ||| 1 0.0
+highly ||| 1 0.0
+cloistered ||| 1 0.0
+vacations ||| 1 0.0
+settled ||| 1 0.0
+i'm ||| 1 0.0
+military ||| 1 0.0
+smoke ||| 1 0.0
+tapes ||| 1 0.0
+borrowers ||| 1 0.0
+johnsonville ||| 1 0.0
+burgle ||| 1 0.0
+men ||| 1 0.0
+licences ||| 1 0.0
+reporter ||| 1 0.0
+told ||| 1 0.0
+seeks ||| 1 0.0
+ever ||| 1 0.0
+tips ||| 1 0.0
+spokesman ||| 1 0.0
+cooking ||| 1 0.0
+deliberate ||| 1 0.0
+yemen's ||| 1 0.0
+established ||| 1 0.0
+even ||| 1 0.0
+panda ||| 1 0.0
+street ||| 1 0.0
+preacher ||| 1 0.0
+direct ||| 1 0.0
+tired ||| 1 0.0
+venus ||| 1 0.0
+daughter's ||| 1 0.0
+vast ||| 1 0.0
+fumigated ||| 1 0.0
+updates ||| 1 0.0
+worth ||| 1 0.0
+lord ||| 1 0.0
+paris ||| 1 0.0
+calculate ||| 1 0.0
+saved ||| 1 0.0
+limited ||| 1 0.0
+pope francis ||| 12 0.0
+pope tells ||| 6 0.0
+marriage licenses ||| 5 0.0
+david cameron ||| 5 0.0
+high school ||| 4 0.0
+migrants reach ||| 4 0.0
+kentucky clerk ||| 4 0.0
+drowned toddler ||| 4 0.0
+amp p ||| 4 0.0
+jobs report ||| 4 0.0
+west point ||| 4 0.0
+us visit ||| 4 0.0
+virtual audience ||| 4 0.0
+syrian refugees ||| 4 0.0
+donald trump ||| 4 0.0
+pillow fight ||| 4 0.0
+kim davis ||| 4 0.0
+272 points ||| 3 0.0
+dow falls ||| 3 0.0
+same-sex marriage ||| 3 0.0
+bootleg movie ||| 3 0.0
+movie operation ||| 3 0.0
+rowan county ||| 3 0.0
+love much ||| 3 0.0
+train station ||| 3 0.0
+drowned syrian ||| 3 0.0
+buses take ||| 3 0.0
+private email ||| 3 0.0
+minister david ||| 3 0.0
+linked cucumbers ||| 3 0.0
+life pope ||| 3 0.0
+tim tebow ||| 3 0.0
+austria germany ||| 3 0.0
+cameron says ||| 3 0.0
+migrants refugees ||| 3 0.0
+prime minister ||| 3 0.0
+email server ||| 3 0.0
+officials say ||| 3 0.0
+thousands syrian ||| 3 0.0
+p 500 ||| 3 0.0
+player dies ||| 3 0.0
+football player ||| 3 0.0
+school football ||| 3 0.0
+set private ||| 3 0.0
+reach austria ||| 3 0.0
+11 year-old ||| 2 0.0
+day weekend ||| 2 0.0
+waters alaska ||| 2 0.0
+laid rest ||| 2 0.0
+custody refusing ||| 2 0.0
+u waters ||| 2 0.0
+rebekah brooks ||| 2 0.0
+dallas dentist ||| 2 0.0
+summer early ||| 2 0.0
+temple bel ||| 2 0.0
+bring family ||| 2 0.0
+says country ||| 2 0.0
+employee admits ||| 2 0.0
+tebow per ||| 2 0.0
+bear responsibility ||| 2 0.0
+uk provide ||| 2 0.0
+london's hatton ||| 2 0.0
+retweeted leader ||| 2 0.0
+oregon judge ||| 2 0.0
+suffering injury ||| 2 0.0
+louisiana high ||| 2 0.0
+gets first ||| 2 0.0
+qb tim ||| 2 0.0
+walking say ||| 2 0.0
+thanks nuns ||| 2 0.0
+country accept ||| 2 0.0
+nuns us ||| 2 0.0
+francis asks ||| 2 0.0
+staffer set ||| 2 0.0
+lower year ||| 2 0.0
+british prime ||| 2 0.0
+pope us ||| 2 0.0
+loyalty pledge ||| 2 0.0
+syrian city ||| 2 0.0
+fights bring ||| 2 0.0
+hillary clinton ||| 2 0.0
+last week ||| 2 0.0
+accept thousands ||| 2 0.0
+says us ||| 2 0.0
+suspect arrested ||| 2 0.0
+couple gets ||| 2 0.0
+us ahead ||| 2 0.0
+border hungary ||| 2 0.0
+tells americans ||| 2 0.0
+nasdaq amp ||| 2 0.0
+2 days ||| 2 0.0
+same-sex couple ||| 2 0.0
+tennis player ||| 2 0.0
+summer love ||| 2 0.0
+pope says ||| 2 0.0
+issue same-sex ||| 2 0.0
+first marriage ||| 2 0.0
+sorry confusing ||| 2 0.0
+plead guilty ||| 2 0.0
+arrested turkey ||| 2 0.0
+tells sends ||| 2 0.0
+important meet ||| 2 0.0
+release qb ||| 2 0.0
+else life ||| 2 0.0
+hatton garden ||| 2 0.0
+say 2 ||| 2 0.0
+end summer ||| 2 0.0
+annual pillow ||| 2 0.0
+week 3.3 ||| 2 0.0
+cucumbers grown ||| 2 0.0
+francis retweeted ||| 2 0.0
+alaska last ||| 2 0.0
+entered u ||| 2 0.0
+pope asks ||| 2 0.0
+everyone else ||| 2 0.0
+refusing issue ||| 2 0.0
+teen us ||| 2 0.0
+work done ||| 2 0.0
+tweet us ||| 2 0.0
+much pope ||| 2 0.0
+city family ||| 2 0.0
+ahead us ||| 2 0.0
+station r ||| 2 0.0
+courageous abortion ||| 2 0.0
+sing virtual ||| 2 0.0
+seek death ||| 2 0.0
+greeting us ||| 2 0.0
+prosecutor seek ||| 2 0.0
+r walking ||| 2 0.0
+2 amp ||| 2 0.0
+ex-labor department ||| 2 0.0
+admits bootleg ||| 2 0.0
+clintons paid ||| 2 0.0
+county kentucky ||| 2 0.0
+perform same-sex ||| 2 0.0
+visit humble ||| 2 0.0
+1,000 migrants ||| 2 0.0
+u open ||| 2 0.0
+same-sex marriages ||| 2 0.0
+us work ||| 2 0.0
+austrian border ||| 2 0.0
+single mother ||| 2 0.0
+tom brady ||| 2 0.0
+paid staffer ||| 2 0.0
+eagles release ||| 2 0.0
+death penalty ||| 2 0.0
+responsibility everyone ||| 2 0.0
+leader world ||| 2 0.0
+found reunion ||| 2 0.0
+mother courageous ||| 2 0.0
+francis thanks ||| 2 0.0
+study says ||| 2 0.0
+falls 272 ||| 2 0.0
+shoreham air ||| 2 0.0
+department employee ||| 2 0.0
+confusing people ||| 2 0.0
+tells teen ||| 2 0.0
+teen sing ||| 2 0.0
+died aged ||| 2 0.0
+francis calls ||| 2 0.0
+labor day ||| 2 0.0
+humble pope ||| 2 0.0
+air crash ||| 2 0.0
+judge refuses ||| 2 0.0
+rest syrian ||| 2 0.0
+ahead visit ||| 2 0.0
+asks us ||| 2 0.0
+aylan kurdi ||| 2 0.0
+family canada ||| 2 0.0
+asks teen ||| 2 0.0
+dies suffering ||| 2 0.0
+calls single ||| 2 0.0
+marriage license ||| 2 0.0
+license rowan ||| 2 0.0
+migrants austrian ||| 2 0.0
+us bear ||| 2 0.0
+defense officials ||| 2 0.0
+encouraging support ||| 1 0.0
+california coast ||| 1 0.0
+church shooting ||| 1 0.0
+sharing team ||| 1 0.0
+commission recommends ||| 1 0.0
+uk name ||| 1 0.0
+travel books ||| 1 0.0
+bar crawl ||| 1 0.0
+roadside hungary ||| 1 0.0
+hungary announces ||| 1 0.0
+appeared illustrators ||| 1 0.0
+energy scheme ||| 1 0.0
+schools sent ||| 1 0.0
+arcade fire ||| 1 0.0
+could lead ||| 1 0.0
+translator arrested ||| 1 0.0
+500 0.4 ||| 1 0.0
+visiting stretch ||| 1 0.0
+marriage licences ||| 1 0.0
+extent temple ||| 1 0.0
+joint call ||| 1 0.0
+fox lake ||| 1 0.0
+france amp ||| 1 0.0
+173,000 jobs ||| 1 0.0
+difficult pope ||| 1 0.0
+enthusiasts rejoice ||| 1 0.0
+spirit http ||| 1 0.0
+erupt ukraine ||| 1 0.0
+shoot man ||| 1 0.0
+craven creator ||| 1 0.0
+say dow ||| 1 0.0
+32 cockatiels ||| 1 0.0
+says britain ||| 1 0.0
+100 police ||| 1 0.0
+pictures aylan ||| 1 0.0
+rockies cold ||| 1 0.0
+supplies austrian ||| 1 0.0
+new study ||| 1 0.0
+bridge could ||| 1 0.0
+coast libya ||| 1 0.0
+battle websites ||| 1 0.0
+mayor runmaro ||| 1 0.0
+someone loves ||| 1 0.0
+next w ||| 1 0.0
+college shooting ||| 1 0.0
+tells america ||| 1 0.0
+prosecutor says ||| 1 0.0
+10 year-old ||| 1 0.0
+hesitate run ||| 1 0.0
+border hometown ||| 1 0.0
+transgender teen ||| 1 0.0
+th suspect ||| 1 0.0
+deal go ||| 1 0.0
+fear difficulties ||| 1 0.0
+riley make ||| 1 0.0
+photos school ||| 1 0.0
+border czech ||| 1 0.0
+syrian man ||| 1 0.0
+much love ||| 1 0.0
+mourners give ||| 1 0.0
+crash richard ||| 1 0.0
+soldiers inspect ||| 1 0.0
+hundreds migrants ||| 1 0.0
+upswing http ||| 1 0.0
+4 plead ||| 1 0.0
+protests fellow ||| 1 0.0
+london syria ||| 1 0.0
+iowa migrants ||| 1 0.0
+third world ||| 1 0.0
+reach macedonia-greece ||| 1 0.0
+blast device ||| 1 0.0
+police uk ||| 1 0.0
+speak pope ||| 1 0.0
+finds kentucky ||| 1 0.0
+officer first-degree ||| 1 0.0
+child nearly ||| 1 0.0
+monastery finds ||| 1 0.0
+refugees kim ||| 1 0.0
+speechless amp ||| 1 0.0
+railroad station ||| 1 0.0
+report key ||| 1 0.0
+cries finding ||| 1 0.0
+town near ||| 1 0.0
+celebrate here's ||| 1 0.0
+injured kiev ||| 1 0.0
+refusing grant ||| 1 0.0
+europe distribute ||| 1 0.0
+chicken plums ||| 1 0.0
+family fled ||| 1 0.0
+beaulieu died ||| 1 0.0
+walk hand-in-hand ||| 1 0.0
+underwater footage ||| 1 0.0
+cold temperatures ||| 1 0.0
+boy alan ||| 1 0.0
+fight west ||| 1 0.0
+adrift serena ||| 1 0.0
+still standing ||| 1 0.0
+mosque yemen's ||| 1 0.0
+west coast ||| 1 0.0
+numbers same-sex ||| 1 0.0
+dazzling neapolitan ||| 1 0.0
+deceptively simple ||| 1 0.0
+wounded sacramento ||| 1 0.0
+neapolitan quartet ||| 1 0.0
+beverley eldest ||| 1 0.0
+road cops ||| 1 0.0
+syria isa ||| 1 0.0
+carrying 100 ||| 1 0.0
+feared officials ||| 1 0.0
+without registering ||| 1 0.0
+become airbnb ||| 1 0.0
+hometown kobane ||| 1 0.0
+shooting charged ||| 1 0.0
+trains western ||| 1 0.0
+points ends ||| 1 0.0
+austria end ||| 1 0.0
+take registration ||| 1 0.0
+apple kuchen ||| 1 0.0
+marriages exhaustion ||| 1 0.0
+china cut ||| 1 0.0
+prince george ||| 1 0.0
+reasons parents ||| 1 0.0
+arson trial ||| 1 0.0
+carolina want ||| 1 0.0
+aunt fights ||| 1 0.0
+blow syria ||| 1 0.0
+pope brings ||| 1 0.0
+amp refugees ||| 1 0.0
+you've waiting ||| 1 0.0
+boy left ||| 1 0.0
+stock market ||| 1 0.0
+toyota spends ||| 1 0.0
+confirm destruction ||| 1 0.0
+research centers ||| 1 0.0
+southern california ||| 1 0.0
+definitive guide ||| 1 0.0
+injustices life ||| 1 0.0
+funeral procession ||| 1 0.0
+want cling ||| 1 0.0
+hungary aunt ||| 1 0.0
+vast stubborn ||| 1 0.0
+give marriage ||| 1 0.0
+inspect site ||| 1 0.0
+locker room ||| 1 0.0
+arrived austria ||| 1 0.0
+years hit ||| 1 0.0
+fight limits ||| 1 0.0
+early saturday ||| 1 0.0
+want live ||| 1 0.0
+outbreak linked ||| 1 0.0
+sacramento city ||| 1 0.0
+incident camp ||| 1 0.0
+china markets ||| 1 0.0
+toddler describes ||| 1 0.0
+gas station ||| 1 0.0
+play transgender ||| 1 0.0
+staffer paid ||| 1 0.0
+plums get ||| 1 0.0
+migrants clashes ||| 1 0.0
+outside property ||| 1 0.0
+man dead ||| 1 0.0
+exit guatemalan ||| 1 0.0
+amp stock ||| 1 0.0
+around tajikistan's ||| 1 0.0
+planned 8 ||| 1 0.0
+border hoping ||| 1 0.0
+injury playing ||| 1 0.0
+arrive border ||| 1 0.0
+satellite images ||| 1 0.0
+investigation widens ||| 1 0.0
+chinese navy ||| 1 0.0
+accidentally give ||| 1 0.0
+migrants trains ||| 1 0.0
+outside hungary ||| 1 0.0
+writes facebook ||| 1 0.0
+released philadelphia ||| 1 0.0
+aged 76 ||| 1 0.0
+unlikely ally ||| 1 0.0
+capital dushanbe ||| 1 0.0
+points jobs ||| 1 0.0
+walking border ||| 1 0.0
+signed gop ||| 1 0.0
+fall russian ||| 1 0.0
+carolina prosecutor ||| 1 0.0
+saturday hungary ||| 1 0.0
+eu quota ||| 1 0.0
+grayson kentucky ||| 1 0.0
+cast play ||| 1 0.0
+player started ||| 1 0.0
+aircraft carrier ||| 1 0.0
+cut open ||| 1 0.0
+germany make ||| 1 0.0
+tips happy ||| 1 0.0
+national guard ||| 1 0.0
+father-and-son bar ||| 1 0.0
+university band ||| 1 0.0
+recalls 7,800 ||| 1 0.0
+dow gains ||| 1 0.0
+concerns u ||| 1 0.0
+rvs new ||| 1 0.0
+media migrants ||| 1 0.0
+fulfil moral ||| 1 0.0
+cling small ||| 1 0.0
+bel's destruction ||| 1 0.0
+simplest apple ||| 1 0.0
+railway station ||| 1 0.0
+certainty wing ||| 1 0.0
+chief says ||| 1 0.0
+cop paralyzed ||| 1 0.0
+europe budapest ||| 1 0.0
+car seriously ||| 1 0.0
+investigated part ||| 1 0.0
+arrested connection ||| 1 0.0
+10 picks ||| 1 0.0
+iran nuclear ||| 1 0.0
+treated like ||| 1 0.0
+4,000 migrants ||| 1 0.0
+wounded recall ||| 1 0.0
+drowning toddler ||| 1 0.0
+national motor ||| 1 0.0
+joe biden ||| 1 0.0
+official refuses ||| 1 0.0
+stop outside ||| 1 0.0
+nazi-era gold ||| 1 0.0
+shoreham victim ||| 1 0.0
+monday official ||| 1 0.0
+50 migrants ||| 1 0.0
+rooting thanks ||| 1 0.0
+august last ||| 1 0.0
+previews 2016 ||| 1 0.0
+turkey accused ||| 1 0.0
+towards europe ||| 1 0.0
+supporters still ||| 1 0.0
+austrian welcome ||| 1 0.0
+apple's eagerly-awaited ||| 1 0.0
+fair distribution ||| 1 0.0
+simple beauty ||| 1 0.0
+family taken ||| 1 0.0
+love father ||| 1 0.0
+per clintons ||| 1 0.0
+yorker cover ||| 1 0.0
+hungary march ||| 1 0.0
+crammed 2 ||| 1 0.0
+francis tells ||| 1 0.0
+migrant word ||| 1 0.0
+started playing ||| 1 0.0
+transform signature ||| 1 0.0
+group 1,000 ||| 1 0.0
+jailed clerk ||| 1 0.0
+u cold ||| 1 0.0
+afghan schools ||| 1 0.0
+migrants entering ||| 1 0.0
+tangled line ||| 1 0.0
+debt borrowers ||| 1 0.0
+difference class ||| 1 0.0
+july came ||| 1 0.0
+awakens merchandise ||| 1 0.0
+bombing bangkok ||| 1 0.0
+sickens 285 ||| 1 0.0
+m self-driving ||| 1 0.0
+buy grocery ||| 1 0.0
+judge today ||| 1 0.0
+suit parody ||| 1 0.0
+death william ||| 1 0.0
+marriages virtual ||| 1 0.0
+spiraling violence ||| 1 0.0
+anyone even ||| 1 0.0
+germany annual ||| 1 0.0
+police kiev ||| 1 0.0
+connection drowning ||| 1 0.0
+dow nasdaq ||| 1 0.0
+getaway check ||| 1 0.0
+11 others ||| 1 0.0
+forward tweet ||| 1 0.0
+says sister ||| 1 0.0
+quite trip ||| 1 0.0
+europe's darkest ||| 1 0.0
+already germany ||| 1 0.0
+slide accelerates ||| 1 0.0
+attacked boko ||| 1 0.0
+hundreds u ||| 1 0.0
+police seek ||| 1 0.0
+according west ||| 1 0.0
+top-ranked tennis ||| 1 0.0
+distribution refugees ||| 1 0.0
+moves syria ||| 1 0.0
+salmonella cases ||| 1 0.0
+26, 42 ||| 1 0.0
+murder dallas ||| 1 0.0
+health secondhand ||| 1 0.0
+licenses mysterious ||| 1 0.0
+signed loyalty ||| 1 0.0
+mysterious fumes ||| 1 0.0
+best family ||| 1 0.0
+iran deal ||| 1 0.0
+london police ||| 1 0.0
+baggage prevented ||| 1 0.0
+suicide cyanide ||| 1 0.0
+charleston us ||| 1 0.0
+sea 13 ||| 1 0.0
+senate ensure ||| 1 0.0
+beijing least ||| 1 0.0
+open match ||| 1 0.0
+couples speaking ||| 1 0.0
+saying wording ||| 1 0.0
+money nothing ||| 1 0.0
+budapest foot ||| 1 0.0
+guard dies ||| 1 0.0
+500 lower ||| 1 0.0
+here's tune-up ||| 1 0.0
+evidence found ||| 1 0.0
+grillers small ||| 1 0.0
+sea move ||| 1 0.0
+happy life ||| 1 0.0
+hand-in-hand someone ||| 1 0.0
+men plead ||| 1 0.0
+stress bad ||| 1 0.0
+jobs added ||| 1 0.0
+anadolu h ||| 1 0.0
+dept labor ||| 1 0.0
+licences gay ||| 1 0.0
+line get ||| 1 0.0
+salute texas ||| 1 0.0
+toddler aylan ||| 1 0.0
+support us ||| 1 0.0
+widens exodus ||| 1 0.0
+shot clashes ||| 1 0.0
+boats migrants ||| 1 0.0
+harmony trio ||| 1 0.0
+suspended rail ||| 1 0.0
+rules french ||| 1 0.0
+welcome ahead ||| 1 0.0
+cyberattacks foreign ||| 1 0.0
+year-old dylan ||| 1 0.0
+michiko kakutani ||| 1 0.0
+judge vacated ||| 1 0.0
+tiny boats ||| 1 0.0
+us president ||| 1 0.0
+final salute ||| 1 0.0
+buried syria ||| 1 0.0
+main railway ||| 1 0.0
+says boat ||| 1 0.0
+newspaper operation ||| 1 0.0
+gray us ||| 1 0.0
+videos acquired ||| 1 0.0
+streamed budapest ||| 1 0.0
+points amp ||| 1 0.0
+hope syrian ||| 1 0.0
+davis rally ||| 1 0.0
+services says ||| 1 0.0
+turkey connection ||| 1 0.0
+key interest ||| 1 0.0
+report dow ||| 1 0.0
+time celebrate ||| 1 0.0
+saturday arcade ||| 1 0.0
+applause arrive ||| 1 0.0
+alone younger ||| 1 0.0
+claims transgender ||| 1 0.0
+president resigns ||| 1 0.0
+terli anadolu ||| 1 0.0
+parks covered ||| 1 0.0
+police say ||| 1 0.0
+smoke new ||| 1 0.0
+macedonia-greece border ||| 1 0.0
+closed 2 ||| 1 0.0
+name say ||| 1 0.0
+path pope ||| 1 0.0
+mukasey emails ||| 1 0.0
+hungary helped ||| 1 0.0
+people staff ||| 1 0.0
+world conditions ||| 1 0.0
+shape cyberspace ||| 1 0.0
+uk radical ||| 1 0.0
+king one ||| 1 0.0
+september suspended ||| 1 0.0
+145 wounded ||| 1 0.0
+pack europe ||| 1 0.0
+clerk jailed ||| 1 0.0
+strikes planned ||| 1 0.0
+order town ||| 1 0.0
+migrants boarded ||| 1 0.0
+54 million ||| 1 0.0
+gatsby http ||| 1 0.0
+markets closed ||| 1 0.0
+sad homecoming ||| 1 0.0
+detain suspect ||| 1 0.0
+i'm sorry ||| 1 0.0
+paid separately ||| 1 0.0
+washington planned ||| 1 0.0
+fight turned ||| 1 0.0
+reading gatsby ||| 1 0.0
+88 london ||| 1 0.0
+california one ||| 1 0.0
+near doomed ||| 1 0.0
+treatment migrants ||| 1 0.0
+same-sex couples ||| 1 0.0
+clashes kiev ||| 1 0.0
+station wall ||| 1 0.0
+suspended awareness ||| 1 0.0
+responded outpouring ||| 1 0.0
+eisenberg used ||| 1 0.0
+migrant boats ||| 1 0.0
+like want ||| 1 0.0
+pennsylvania amazon ||| 1 0.0
+16 turkish ||| 1 0.0
+pondering run ||| 1 0.0
+ky 11 ||| 1 0.0
+heist unemployment ||| 1 0.0
+intruder joe ||| 1 0.0
+says photographer ||| 1 0.0
+biggest winners ||| 1 0.0
+pope virtual ||| 1 0.0
+remain custody ||| 1 0.0
+evacuated fukushima ||| 1 0.0
+developing 4,000 ||| 1 0.0
+open migrants ||| 1 0.0
+horror mediterranean's ||| 1 0.0
+nasdaq 1 ||| 1 0.0
+k jobs ||| 1 0.0
+august breaks ||| 1 0.0
+infirmary attacked ||| 1 0.0
+murdoch's uk ||| 1 0.0
+joy love ||| 1 0.0
+killed teen ||| 1 0.0
+part found ||| 1 0.0
+kuchen involves ||| 1 0.0
+images confirm ||| 1 0.0
+injured marines ||| 1 0.0
+others say ||| 1 0.0
+bus fleet ||| 1 0.0
+takata air ||| 1 0.0
+stay right ||| 1 0.0
+like everybody ||| 1 0.0
+disputed east ||| 1 0.0
+home alone ||| 1 0.0
+stock slide ||| 1 0.0
+allowed leave ||| 1 0.0
+days arrested ||| 1 0.0
+former ag ||| 1 0.0
+air bag ||| 1 0.0
+workers kidnapped ||| 1 0.0
+bid blow ||| 1 0.0
+creator nightmare ||| 1 0.0
+thank tweets ||| 1 0.0
+navy ships ||| 1 0.0
+audience pope ||| 1 0.0
+brady calm ||| 1 0.0
+experienced backlash ||| 1 0.0
+get touch ||| 1 0.0
+religious conservatives ||| 1 0.0
+nations rise ||| 1 0.0
+boy buried ||| 1 0.0
+rise takata ||| 1 0.0
+established national ||| 1 0.0
+climbing trees ||| 1 0.0
+say videos ||| 1 0.0
+300 mile ||| 1 0.0
+eldest member ||| 1 0.0
+2 afghan ||| 1 0.0
+outbreak kills ||| 1 0.0
+self-driving car ||| 1 0.0
+border clinton ||| 1 0.0
+match kentucky ||| 1 0.0
+uk newspaper ||| 1 0.0
+audience w ||| 1 0.0
+us thousands ||| 1 0.0
+4 game ||| 1 0.0
+convey it's ||| 1 0.0
+l freeway ||| 1 0.0
+words tim ||| 1 0.0
+texas deputy ||| 1 0.0
+dispelling myth ||| 1 0.0
+father 11 ||| 1 0.0
+refugees stranded ||| 1 0.0
+turned quite ||| 1 0.0
+message pondering ||| 1 0.0
+meat grand ||| 1 0.0
+richard smith ||| 1 0.0
+kurdi laid ||| 1 0.0
+done pope ||| 1 0.0
+vegas new ||| 1 0.0
+presence girls ||| 1 0.0
+say caring ||| 1 0.0
+5 players ||| 1 0.0
+motor museum ||| 1 0.0
+crossing final ||| 1 0.0
+dead 4 ||| 1 0.0
+island landscape ||| 1 0.0
+executive rupert ||| 1 0.0
+reporters translator ||| 1 0.0
+begins beijing ||| 1 0.0
+today soon ||| 1 0.0
+brain damage ||| 1 0.0
+early case ||| 1 0.0
+green energy ||| 1 0.0
+thanks sharing ||| 1 0.0
+tajikistan's capital ||| 1 0.0
+suicide study ||| 1 0.0
+fed hike ||| 1 0.0
+cadets suffered ||| 1 0.0
+us photos ||| 1 0.0
+laws could ||| 1 0.0
+capital area ||| 1 0.0
+refugees amp ||| 1 0.0
+campaign hiring ||| 1 0.0
+minister says ||| 1 0.0
+jesse eisenberg ||| 1 0.0
+30 cadets ||| 1 0.0
+operation starting ||| 1 0.0
+north baghdad ||| 1 0.0
+markets dow ||| 1 0.0
+casualties feared ||| 1 0.0
+students it's ||| 1 0.0
+bombing high ||| 1 0.0
+olympics committee ||| 1 0.0
+last romance ||| 1 0.0
+turkish border ||| 1 0.0
+reigns migrants ||| 1 0.0
+davis deputy ||| 1 0.0
+vacated nfl's ||| 1 0.0
+state bid ||| 1 0.0
+kiev mps ||| 1 0.0
+fiat chrysler ||| 1 0.0
+panda cub ||| 1 0.0
+illinois city ||| 1 0.0
+rosh hashana ||| 1 0.0
+airbnb rvs ||| 1 0.0
+blasts mosque ||| 1 0.0
+california fire ||| 1 0.0
+visit report ||| 1 0.0
+abortion family ||| 1 0.0
+one woman ||| 1 0.0
+nun pope ||| 1 0.0
+protesters police ||| 1 0.0
+here's dirt ||| 1 0.0
+nyc parks ||| 1 0.0
+lead drops ||| 1 0.0
+doors in-demand ||| 1 0.0
+make pay ||| 1 0.0
+emails coming ||| 1 0.0
+twice bread ||| 1 0.0
+hospital officials ||| 1 0.0
+austria hungary ||| 1 0.0
+conservatives end ||| 1 0.0
+still intact ||| 1 0.0
+photograph says ||| 1 0.0
+bel still ||| 1 0.0
+americans ahead ||| 1 0.0
+backcountry battle ||| 1 0.0
+ministry says ||| 1 0.0
+gunmen north ||| 1 0.0
+made batter ||| 1 0.0
+done another ||| 1 0.0
+u eagles ||| 1 0.0
+licenses same-sex ||| 1 0.0
+leave church ||| 1 0.0
+medical officials ||| 1 0.0
+kakutani reviews ||| 1 0.0
+knew middle ||| 1 0.0
+buses cautious ||| 1 0.0
+msg many ||| 1 0.0
+company sued ||| 1 0.0
+nfl's 4 ||| 1 0.0
+game significant ||| 1 0.0
+denying marriage ||| 1 0.0
+trump campaign ||| 1 0.0
+game suspension ||| 1 0.0
+series summer ||| 1 0.0
+four men ||| 1 0.0
+confirms uk ||| 1 0.0
+reject eu ||| 1 0.0
+device thrown ||| 1 0.0
+confusion biden ||| 1 0.0
+bengals final ||| 1 0.0
+cameroon leaving ||| 1 0.0
+russian moves ||| 1 0.0
+announcement soon ||| 1 0.0
+life difficult ||| 1 0.0
+authorities second ||| 1 0.0
+slovakia reject ||| 1 0.0
+middle name ||| 1 0.0
+impact season ||| 1 0.0
+8 10 ||| 1 0.0
+illegal armed ||| 1 0.0
+pm david ||| 1 0.0
+full decision ||| 1 0.0
+charges 6 ||| 1 0.0
+little easier ||| 1 0.0
+water running ||| 1 0.0
+conditions heart ||| 1 0.0
+end day ||| 1 0.0
+image workplace ||| 1 0.0
+team saturday ||| 1 0.0
+uk electoral ||| 1 0.0
+understanding others ||| 1 0.0
+answered diseases ||| 1 0.0
+cucumbers kills ||| 1 0.0
+grassy bridge ||| 1 0.0
+baltimore police ||| 1 0.0
+august thai ||| 1 0.0
+here's national ||| 1 0.0
+stop donald ||| 1 0.0
+6 money ||| 1 0.0
+churchgoers charleston ||| 1 0.0
+2019 10 ||| 1 0.0
+front-runner donald ||| 1 0.0
+bus catches ||| 1 0.0
+market turmoil ||| 1 0.0
+says dow ||| 1 0.0
+police officer ||| 1 0.0
+breaking deadlock ||| 1 0.0
+fairly photographer ||| 1 0.0
+amp m ||| 1 0.0
+watch pope ||| 1 0.0
+family staff ||| 1 0.0
+upper peninsula ||| 1 0.0
+new global ||| 1 0.0
+injury salmonella ||| 1 0.0
+cnn clintons ||| 1 0.0
+cautious optimism ||| 1 0.0
+shot death ||| 1 0.0
+back across ||| 1 0.0
+paris prosecutor ||| 1 0.0
+safe teen ||| 1 0.0
+dessert simplest ||| 1 0.0
+rage long ||| 1 0.0
+calls prisoner ||| 1 0.0
+military 300,000, ||| 1 0.0
+cop killer ||| 1 0.0
+seek 10 ||| 1 0.0
+seen biased ||| 1 0.0
+100,000 32 ||| 1 0.0
+grown mexico ||| 1 0.0
+remain speechless ||| 1 0.0
+skies turned ||| 1 0.0
+deals visiting ||| 1 0.0
+budapest's keleti ||| 1 0.0
+american travelers ||| 1 0.0
+horror filmmaker ||| 1 0.0
+stretch california ||| 1 0.0
+migrants breaking ||| 1 0.0
+toddler amp ||| 1 0.0
+separately set ||| 1 0.0
+733 crammed ||| 1 0.0
+dushanbe leave ||| 1 0.0
+hungary carries ||| 1 0.0
+7,000 migrants ||| 1 0.0
+returns stock ||| 1 0.0
+appears harry ||| 1 0.0
+sues university ||| 1 0.0
+pose concerns ||| 1 0.0
+un says ||| 1 0.0
+diamond 200 ||| 1 0.0
+saturday 2 ||| 1 0.0
+setback obama ||| 1 0.0
+trump ben ||| 1 0.0
+says injunction ||| 1 0.0
+bangkok shrine ||| 1 0.0
+calm returns ||| 1 0.0
+obstacles reached ||| 1 0.0
+thrown crowd ||| 1 0.0
+collapses u ||| 1 0.0
+gets 4 ||| 1 0.0
+smith 26, ||| 1 0.0
+us louisiana ||| 1 0.0
+likely default ||| 1 0.0
+toddler fights ||| 1 0.0
+maritime transport ||| 1 0.0
+indexes including ||| 1 0.0
+biden possible ||| 1 0.0
+says 66 ||| 1 0.0
+amp 11 ||| 1 0.0
+syria antiquities ||| 1 0.0
+garden jewel ||| 1 0.0
+francis talks ||| 1 0.0
+migrants streamed ||| 1 0.0
+teen homeless ||| 1 0.0
+surfer blown ||| 1 0.0
+thanking fans ||| 1 0.0
+began sink ||| 1 0.0
+saved life ||| 1 0.0
+boys aunt ||| 1 0.0
+probe man ||| 1 0.0
+syria join ||| 1 0.0
+refugees bodies ||| 1 0.0
+really touched ||| 1 0.0
+run former ||| 1 0.0
+migrants evokes ||| 1 0.0
+serbia sea ||| 1 0.0
+model vacation ||| 1 0.0
+66 cases ||| 1 0.0
+photographer looks ||| 1 0.0
+reached austria ||| 1 0.0
+cases salmonella ||| 1 0.0
+humbled pope ||| 1 0.0
+cops detain ||| 1 0.0
+refuses drop ||| 1 0.0
+final novel ||| 1 0.0
+trek mom ||| 1 0.0
+cultural baggage ||| 1 0.0
+elena ferrante's ||| 1 0.0
+long-term campaign ||| 1 0.0
+might protect ||| 1 0.0
+day china's ||| 1 0.0
+20 people ||| 1 0.0
+5 tips ||| 1 0.0
+massive parade ||| 1 0.0
+told cnn ||| 1 0.0
+violent pillow ||| 1 0.0
+road trips ||| 1 0.0
+ceo uk ||| 1 0.0
+britain fulfil ||| 1 0.0
+rain starts ||| 1 0.0
+budapest refuse ||| 1 0.0
+hurt violent ||| 1 0.0
+conspiracy burgle ||| 1 0.0
+american road ||| 1 0.0
+17,000 score ||| 1 0.0
+migrants leaves ||| 1 0.0
+prosecutors say ||| 1 0.0
+drives young ||| 1 0.0
+chrysler recalls ||| 1 0.0
+judge says ||| 1 0.0
+burgle london's ||| 1 0.0
+seeks rockumentary ||| 1 0.0
+gains 80 ||| 1 0.0
+kanye west ||| 1 0.0
+victims shoreham ||| 1 0.0
+younger sister ||| 1 0.0
+quickly made ||| 1 0.0
+march buses ||| 1 0.0
+report west ||| 1 0.0
+service member ||| 1 0.0
+exactly walk ||| 1 0.0
+syrian smugglers ||| 1 0.0
+day dutch ||| 1 0.0
+kentucky go ||| 1 0.0
+old old ||| 1 0.0
+roof accused ||| 1 0.0
+grandfather update ||| 1 0.0
+suffered concussions ||| 1 0.0
+here's difference ||| 1 0.0
+knocked u ||| 1 0.0
+burial south ||| 1 0.0
+massive ww2 ||| 1 0.0
+landscape deceptively ||| 1 0.0
+man wounded ||| 1 0.0
+opens borders ||| 1 0.0
+five lessons ||| 1 0.0
+station madhouse ||| 1 0.0
+hungarian refugee ||| 1 0.0
+migrants set ||| 1 0.0
+anjem choudary ||| 1 0.0
+kills one ||| 1 0.0
+it's rooting ||| 1 0.0
+gray train ||| 1 0.0
+notebook buses ||| 1 0.0
+capital sanna ||| 1 0.0
+autonomy deal ||| 1 0.0
+speaking watch ||| 1 0.0
+marriage law ||| 1 0.0
+starting monday ||| 1 0.0
+twice reading ||| 1 0.0
+trip http ||| 1 0.0
+500, lower ||| 1 0.0
+could help ||| 1 0.0
+limited 13 ||| 1 0.0
+driving machine ||| 1 0.0
+food water ||| 1 0.0
+north carolina ||| 1 0.0
+mountain lions ||| 1 0.0
+family shoreham ||| 1 0.0
+tired waiting ||| 1 0.0
+mile trek ||| 1 0.0
+world pope ||| 1 0.0
+named 72 ||| 1 0.0
+cadets hurt ||| 1 0.0
+drug kingpin's ||| 1 0.0
+member vocal ||| 1 0.0
+death dallas ||| 1 0.0
+invasion 11 ||| 1 0.0
+possible campaign ||| 1 0.0
+baghdad police ||| 1 0.0
+amp humbled ||| 1 0.0
+wondered many ||| 1 0.0
+sisters died ||| 1 0.0
+hungary capital ||| 1 0.0
+guatemalan president ||| 1 0.0
+hunt nazi-era ||| 1 0.0
+procession leave ||| 1 0.0
+today denying ||| 1 0.0
+roast chicken ||| 1 0.0
+rally grayson ||| 1 0.0
+waiting migrants ||| 1 0.0
+madhouse volunteerism ||| 1 0.0
+trips labor ||| 1 0.0
+clashes erupt ||| 1 0.0
+server campaign ||| 1 0.0
+car could ||| 1 0.0
+kendra hatcher ||| 1 0.0
+least likely ||| 1 0.0
+touched heart ||| 1 0.0
+sanna medical ||| 1 0.0
+7,800 suvs ||| 1 0.0
+prevented us ||| 1 0.0
+plagiarised uk ||| 1 0.0
+open amp ||| 1 0.0
+america always ||| 1 0.0
+baby sister ||| 1 0.0
+worst europe ||| 1 0.0
+blue whale ||| 1 0.0
+salmonella arizona ||| 1 0.0
+cameron confirms ||| 1 0.0
+good night ||| 1 0.0
+slaying vast ||| 1 0.0
+says emails ||| 1 0.0
+turns stop ||| 1 0.0
+80 points ||| 1 0.0
+border fiat ||| 1 0.0
+building workers ||| 1 0.0
+long cultural ||| 1 0.0
+york city ||| 1 0.0
+crash 22 ||| 1 0.0
+judge rules ||| 1 0.0
+sister worth ||| 1 0.0
+left 30 ||| 1 0.0
+pushing fed ||| 1 0.0
+syria detained ||| 1 0.0
+centerpiece california ||| 1 0.0
+two top-ranked ||| 1 0.0
+love modern ||| 1 0.0
+massive diamond ||| 1 0.0
+m university ||| 1 0.0
+wish best ||| 1 0.0
+teammates support ||| 1 0.0
+archer ulster ||| 1 0.0
+rail maritime ||| 1 0.0
+answers concerning ||| 1 0.0
+one another ||| 1 0.0
+tennis ace ||| 1 0.0
+500 nasdaq ||| 1 0.0
+post thanking ||| 1 0.0
+back-to-school bargains ||| 1 0.0
+2016 message ||| 1 0.0
+bus bound ||| 1 0.0
+characters talk ||| 1 0.0
+uk murdoch ||| 1 0.0
+bearded enthusiasts ||| 1 0.0
+market infirmary ||| 1 0.0
+homeless understanding ||| 1 0.0
+land prince ||| 1 0.0
+defense minister ||| 1 0.0
+vocal harmony ||| 1 0.0
+registering authorities ||| 1 0.0
+neighbors deadbolt ||| 1 0.0
+tap sunday ||| 1 0.0
+onto road ||| 1 0.0
+refugees flood ||| 1 0.0
+boats food ||| 1 0.0
+extraordinary march ||| 1 0.0
+stranded hungary ||| 1 0.0
+march migrants ||| 1 0.0
+elm street ||| 1 0.0
+polish soldiers ||| 1 0.0
+take photograph ||| 1 0.0
+300,000, says ||| 1 0.0
+asked answered ||| 1 0.0
+eagerly-awaited car ||| 1 0.0
+point pillow ||| 1 0.0
+myth student ||| 1 0.0
+spends 50 ||| 1 0.0
+football team ||| 1 0.0
+policy says ||| 1 0.0
+2016 family ||| 1 0.0
+live longer ||| 1 0.0
+woman determined ||| 1 0.0
+unemployment 5.1 ||| 1 0.0
+bag recall ||| 1 0.0
+carries migrants ||| 1 0.0
+migrants walking ||| 1 0.0
+francis 5 ||| 1 0.0
+plant blue ||| 1 0.0
+gains nationally ||| 1 0.0
+sunday morning ||| 1 0.0
+hiring people ||| 1 0.0
+malaysian coast ||| 1 0.0
+indicts virginia ||| 1 0.0
+father drowned ||| 1 0.0
+city college ||| 1 0.0
+moderated starts ||| 1 0.0
+arrested hillary ||| 1 0.0
+missing flight ||| 1 0.0
+years hazing ||| 1 0.0
+mh370 david ||| 1 0.0
+make joint ||| 1 0.0
+brady writes ||| 1 0.0
+shipwreck 6 ||| 1 0.0
+scandal spokesman ||| 1 0.0
+pm orban ||| 1 0.0
+new giant ||| 1 0.0
+reunion island ||| 1 0.0
+anxiety math ||| 1 0.0
+trees planet ||| 1 0.0
+remands custody ||| 1 0.0
+faster fall ||| 1 0.0
+exodus spiraling ||| 1 0.0
+fire seeks ||| 1 0.0
+home fumigated ||| 1 0.0
+city millionaire ||| 1 0.0
+ex-mailroom supervisor ||| 1 0.0
+people killed ||| 1 0.0
+news reporters ||| 1 0.0
+want treated ||| 1 0.0
+make difference ||| 1 0.0
+devon still ||| 1 0.0
+beach big ||| 1 0.0
+locked inside ||| 1 0.0
+hungary ex-labor ||| 1 0.0
+k2 nation ||| 1 0.0
+photos sad ||| 1 0.0
+greeted applause ||| 1 0.0
+go effect ||| 1 0.0
+town evacuated ||| 1 0.0
+meeting rnc ||| 1 0.0
+quota system ||| 1 0.0
+foreign policy ||| 1 0.0
+reflektor tapes ||| 1 0.0
+fellow students ||| 1 0.0
+walk beach ||| 1 0.0
+m aid ||| 1 0.0
+merchandise hits ||| 1 0.0
+least 20 ||| 1 0.0
+property enfield ||| 1 0.0
+coffeecake dessert ||| 1 0.0
+non-transgender actors ||| 1 0.0
+county ky ||| 1 0.0
+licenses correction ||| 1 0.0
+found meat ||| 1 0.0
+conscience stock ||| 1 0.0
+dead outside ||| 1 0.0
+certainty debris ||| 1 0.0
+despite islamic ||| 1 0.0
+p turns ||| 1 0.0
+republic hungary ||| 1 0.0
+amp image ||| 1 0.0
+unionist party ||| 1 0.0
+backlash migrants ||| 1 0.0
+syrian migrants ||| 1 0.0
+remote baltic ||| 1 0.0
+states outbreak ||| 1 0.0
+evacuation order ||| 1 0.0
+everybody else ||| 1 0.0
+many injustices ||| 1 0.0
+100 share ||| 1 0.0
+truman new ||| 1 0.0
+give final ||| 1 0.0
+hashana food ||| 1 0.0
+30 injured ||| 1 0.0
+china's massive ||| 1 0.0
+join isis ||| 1 0.0
+palmyra militants ||| 1 0.0
+tokyo 2020 ||| 1 0.0
+cockatiels devon ||| 1 0.0
+players disciplined ||| 1 0.0
+parade begins ||| 1 0.0
+disciplined suspended ||| 1 0.0
+sink coast ||| 1 0.0
+migrants two-day ||| 1 0.0
+northern cameroon ||| 1 0.0
+others issue ||| 1 0.0
+trio running ||| 1 0.0
+91 tokyo ||| 1 0.0
+death gas ||| 1 0.0
+mexico arizona ||| 1 0.0
+games looking ||| 1 0.0
+contempt remands ||| 1 0.0
+ukraine's national ||| 1 0.0
+get new ||| 1 0.0
+arrested home ||| 1 0.0
+helicopter incident ||| 1 0.0
+son accidentally ||| 1 0.0
+border grassy ||| 1 0.0
+noticed venus ||| 1 0.0
+winter weather ||| 1 0.0
+vs migrant ||| 1 0.0
+disaster developing ||| 1 0.0
+shooting judge ||| 1 0.0
+kobane burial ||| 1 0.0
+austria 66 ||| 1 0.0
+go jail ||| 1 0.0
+football back ||| 1 0.0
+determined make ||| 1 0.0
+lifts evacuation ||| 1 0.0
+worth lot ||| 1 0.0
+vienna railroad ||| 1 0.0
+distribute refugees ||| 1 0.0
+french prosecutors ||| 1 0.0
+grand jury ||| 1 0.0
+went syria ||| 1 0.0
+27 states ||| 1 0.0
+fumes 2 ||| 1 0.0
+hungary hungary ||| 1 0.0
+pump labor ||| 1 0.0
+freeway firefighters ||| 1 0.0
+players football ||| 1 0.0
+nadal knocked ||| 1 0.0
+admits running ||| 1 0.0
+kidnapped gunmen ||| 1 0.0
+lifetime 10 ||| 1 0.0
+four children ||| 1 0.0
+come border ||| 1 0.0
+violent 30 ||| 1 0.0
+charge death ||| 1 0.0
+peninsula turned ||| 1 0.0
+jury indicts ||| 1 0.0
+except take ||| 1 0.0
+wave preseason ||| 1 0.0
+ireland provisional ||| 1 0.0
+year-old suffers ||| 1 0.0
+false labeling ||| 1 0.0
+japan lifts ||| 1 0.0
+final wave ||| 1 0.0
+buses turned ||| 1 0.0
+husband father ||| 1 0.0
+parade skies ||| 1 0.0
+72 year-old ||| 1 0.0
+joy beverley ||| 1 0.0
+loves pope ||| 1 0.0
+train budapest ||| 1 0.0
+station hundreds ||| 1 0.0
+rule limited ||| 1 0.0
+obama water ||| 1 0.0
+effect rebekah ||| 1 0.0
+palmyra's ancient ||| 1 0.0
+violence drives ||| 1 0.0
+global war ||| 1 0.0
+deputy hillary ||| 1 0.0
+great tech ||| 1 0.0
+leave sent ||| 1 0.0
+la teen ||| 1 0.0
+street franchise ||| 1 0.0
+facing judge ||| 1 0.0
+couples kentucky ||| 1 0.0
+greek model ||| 1 0.0
+duel become ||| 1 0.0
+rejoice time ||| 1 0.0
+xi massive ||| 1 0.0
+trump biggest ||| 1 0.0
+fanny pack ||| 1 0.0
+time later ||| 1 0.0
+nationally according ||| 1 0.0
+school spirit ||| 1 0.0
+station breaking ||| 1 0.0
+planet kentucky ||| 1 0.0
+walk away ||| 1 0.0
+turned crystal ||| 1 0.0
+given conditional ||| 1 0.0
+centers here's ||| 1 0.0
+killing 9 ||| 1 0.0
+big impact ||| 1 0.0
+refuse leave ||| 1 0.0
+reviews stunning ||| 1 0.0
+charged encouraging ||| 1 0.0
+honest company ||| 1 0.0
+officers death ||| 1 0.0
+charged jobs ||| 1 0.0
+japanese town ||| 1 0.0
+borders 7,000 ||| 1 0.0
+teen intruder ||| 1 0.0
+force awakens ||| 1 0.0
+could seen ||| 1 0.0
+correction cucumbers ||| 1 0.0
+soon family ||| 1 0.0
+salutes funeral ||| 1 0.0
+says would ||| 1 0.0
+hazing death ||| 1 0.0
+campaign aide ||| 1 0.0
+per bearded ||| 1 0.0
+week multiple ||| 1 0.0
+small pieces ||| 1 0.0
+toddler laid ||| 1 0.0
+western europe ||| 1 0.0
+say good ||| 1 0.0
+cyanide fire ||| 1 0.0
+enough support ||| 1 0.0
+say palmyra's ||| 1 0.0
+chaos reigns ||| 1 0.0
+death freddie ||| 1 0.0
+south carolina ||| 1 0.0
+texas sheriff's ||| 1 0.0
+logo allegations ||| 1 0.0
+germany opens ||| 1 0.0
+museum beaulieu ||| 1 0.0
+whale tangled ||| 1 0.0
+end week ||| 1 0.0
+ag michael ||| 1 0.0
+least 16 ||| 1 0.0
+image shows ||| 1 0.0
+stubborn california ||| 1 0.0
+mps back ||| 1 0.0
+cop slaying ||| 1 0.0
+sank 1957, ||| 1 0.0
+americans courageous ||| 1 0.0
+czech republic ||| 1 0.0
+camp lejeune ||| 1 0.0
+adds 173,000 ||| 1 0.0
+wheel still ||| 1 0.0
+22 august ||| 1 0.0
+aide says ||| 1 0.0
+ancient syrian ||| 1 0.0
+fleet hungary ||| 1 0.0
+father two ||| 1 0.0
+contagious parent ||| 1 0.0
+50 m ||| 1 0.0
+decision paris ||| 1 0.0
+9 black ||| 1 0.0
+back games ||| 1 0.0
+follow updates ||| 1 0.0
+fierce battle ||| 1 0.0
+garden safety ||| 1 0.0
+main station ||| 1 0.0
+says players ||| 1 0.0
+penalty defendant ||| 1 0.0
+grown u ||| 1 0.0
+travelers count ||| 1 0.0
+make history ||| 1 0.0
+thrill honor ||| 1 0.0
+member ukraine's ||| 1 0.0
+kingpin's location ||| 1 0.0
+amp germany ||| 1 0.0
+exist lied ||| 1 0.0
+shelves today ||| 1 0.0
+smugglers arrested ||| 1 0.0
+camp migrants ||| 1 0.0
+deputy clerks ||| 1 0.0
+little hope ||| 1 0.0
+isn't exactly ||| 1 0.0
+licenses today ||| 1 0.0
+east country ||| 1 0.0
+defendant charleston ||| 1 0.0
+small little ||| 1 0.0
+turns violent ||| 1 0.0
+gifted tennis ||| 1 0.0
+arizona department ||| 1 0.0
+site hunt ||| 1 0.0
+cuts pope ||| 1 0.0
+black churchgoers ||| 1 0.0
+blown onto ||| 1 0.0
+europe american ||| 1 0.0
+finds joy ||| 1 0.0
+fire washington ||| 1 0.0
+footage shipwreck ||| 1 0.0
+13 states ||| 1 0.0
+lost sea ||| 1 0.0
+amp slovakia ||| 1 0.0
+year-old father ||| 1 0.0
+one took ||| 1 0.0
+afghans towards ||| 1 0.0
+border twice ||| 1 0.0
+cut military ||| 1 0.0
+isa terli ||| 1 0.0
+drop charges ||| 1 0.0
+g o ||| 1 0.0
+davis case ||| 1 0.0
+man lost ||| 1 0.0
+militants satellite ||| 1 0.0
+travelling london ||| 1 0.0
+penalty dylann ||| 1 0.0
+accepting migrants ||| 1 0.0
+migrants missing ||| 1 0.0
+syrian boy ||| 1 0.0
+23 points ||| 1 0.0
+francis amp ||| 1 0.0
+migrants allowed ||| 1 0.0
+issued johnsonville ||| 1 0.0
+left home ||| 1 0.0
+foreign ministry ||| 1 0.0
+corp announces ||| 1 0.0
+yes god ||| 1 0.0
+murder charge ||| 1 0.0
+germany experienced ||| 1 0.0
+machine 1,000 ||| 1 0.0
+kentucky drowned ||| 1 0.0
+say certainty ||| 1 0.0
+said yes ||| 1 0.0
+destruction ancient ||| 1 0.0
+brings tears ||| 1 0.0
+hurt bus ||| 1 0.0
+judge investigated ||| 1 0.0
+unemployment report ||| 1 0.0
+catch water ||| 1 0.0
+crystal blue ||| 1 0.0
+dream lifetime ||| 1 0.0
+points open ||| 1 0.0
+kiev blast ||| 1 0.0
+hatcher sunrise ||| 1 0.0
+august named ||| 1 0.0
+accused killing ||| 1 0.0
+food industry ||| 1 0.0
+biased second ||| 1 0.0
+talk one ||| 1 0.0
+johnsonville grillers ||| 1 0.0
+parody twitter ||| 1 0.0
+lied twice ||| 1 0.0
+boat began ||| 1 0.0
+important msg ||| 1 0.0
+cooking kids ||| 1 0.0
+facebook post ||| 1 0.0
+department health ||| 1 0.0
+crossing greece ||| 1 0.0
+cover here's ||| 1 0.0
+leader watch ||| 1 0.0
+heart calculate ||| 1 0.0
+broken leg ||| 1 0.0
+firefighters cut ||| 1 0.0
+keleti station ||| 1 0.0
+lawyer calls ||| 1 0.0
+ace alexandra ||| 1 0.0
+carrier one ||| 1 0.0
+police officers ||| 1 0.0
+fire las ||| 1 0.0
+us judge ||| 1 0.0
+year-old killed ||| 1 0.0
+grant authority ||| 1 0.0
+suspect shooting ||| 1 0.0
+preseason cuts ||| 1 0.0
+provisional ira ||| 1 0.0
+3.3 dow ||| 1 0.0
+flood across ||| 1 0.0
+love rutgers ||| 1 0.0
+judge finds ||| 1 0.0
+leave 17 ||| 1 0.0
+fast rise ||| 1 0.0
+sent hungarian ||| 1 0.0
+jewel heist ||| 1 0.0
+montagu established ||| 1 0.0
+touch spice ||| 1 0.0
+would hesitate ||| 1 0.0
+chief executive ||| 1 0.0
+lejeune north ||| 1 0.0
+migrants amp ||| 1 0.0
+turkish media ||| 1 0.0
+licenses front-runner ||| 1 0.0
+trees nyc ||| 1 0.0
+today rowan ||| 1 0.0
+sunrise serbia ||| 1 0.0
+recommends changing ||| 1 0.0
+cub feds ||| 1 0.0
+president secured ||| 1 0.0
+campaign long ||| 1 0.0
+contempt judge ||| 1 0.0
+novel elena ||| 1 0.0
+w pope ||| 1 0.0
+london tube ||| 1 0.0
+cold wet ||| 1 0.0
+amid corruption ||| 1 0.0
+blue polluted ||| 1 0.0
+watch college ||| 1 0.0
+former florida ||| 1 0.0
+freddie gray ||| 1 0.0
+operation previews ||| 1 0.0
+breaking hungarian ||| 1 0.0
+resigns amid ||| 1 0.0
+ambushed texas ||| 1 0.0
+guilty conspiracy ||| 1 0.0
+metal found ||| 1 0.0
+others hardships ||| 1 0.0
+migrants arrived ||| 1 0.0
+economists say ||| 1 0.0
+pledge says ||| 1 0.0
+hardships pope ||| 1 0.0
+lions cross ||| 1 0.0
+tune-up entail ||| 1 0.0
+line southern ||| 1 0.0
+victim graham ||| 1 0.0
+nothing except ||| 1 0.0
+illustrators responded ||| 1 0.0
+vice news ||| 1 0.0
+darkest hour ||| 1 0.0
+week defense ||| 1 0.0
+border austria ||| 1 0.0
+young afghans ||| 1 0.0
+work art ||| 1 0.0
+island july ||| 1 0.0
+default http ||| 1 0.0
+settlement thousands ||| 1 0.0
+homecoming drowned ||| 1 0.0
+road vienna ||| 1 0.0
+one day ||| 1 0.0
+still looking ||| 1 0.0
+killer probe ||| 1 0.0
+state gun ||| 1 0.0
+station police ||| 1 0.0
+syrian toddler ||| 1 0.0
+hit car ||| 1 0.0
+seen pushing ||| 1 0.0
+17 dead ||| 1 0.0
+foreign nations ||| 1 0.0
+states father ||| 1 0.0
+mediterranean's migrant ||| 1 0.0
+bodies drowned ||| 1 0.0
+6 great ||| 1 0.0
+say italy ||| 1 0.0
+ferrante's dazzling ||| 1 0.0
+dentist summer ||| 1 0.0
+us senate ||| 1 0.0
+shoots kills ||| 1 0.0
+question eu ||| 1 0.0
+buy travel ||| 1 0.0
+describes perilous ||| 1 0.0
+ultimate driving ||| 1 0.0
+refugees pm ||| 1 0.0
+honor tonight ||| 1 0.0
+two-day stand-off ||| 1 0.0
+200 points ||| 1 0.0
+missing boat ||| 1 0.0
+deadly bangkok ||| 1 0.0
+hungarian obstacles ||| 1 0.0
+rutgers dropped ||| 1 0.0
+marines helicopter ||| 1 0.0
+college football ||| 1 0.0
+family cries ||| 1 0.0
+antiquities chief ||| 1 0.0
+force sergeant ||| 1 0.0
+bloody 24 ||| 1 0.0
+aged 91 ||| 1 0.0
+always walk ||| 1 0.0
+helped travel ||| 1 0.0
+authority others ||| 1 0.0
+turmoil dow ||| 1 0.0
+chinese warships ||| 1 0.0
+provide extra ||| 1 0.0
+kiev 100 ||| 1 0.0
+later planning ||| 1 0.0
+photographer image ||| 1 0.0
+intact see ||| 1 0.0
+paralyzed indian ||| 1 0.0
+ulster unionist ||| 1 0.0
+moral responsibilities ||| 1 0.0
+zoo's new ||| 1 0.0
+memories europe's ||| 1 0.0
+case stunned ||| 1 0.0
+europe residents ||| 1 0.0
+refugees border ||| 1 0.0
+baltic island ||| 1 0.0
+vacations people ||| 1 0.0
+greece macedonia ||| 1 0.0
+1957, wheel ||| 1 0.0
+attend funeral ||| 1 0.0
+alleged false ||| 1 0.0
+running bootleg ||| 1 0.0
+university pennsylvania ||| 1 0.0
+turned roadside ||| 1 0.0
+ww2 parade ||| 1 0.0
+suspect deliberate ||| 1 0.0
+raid 50 ||| 1 0.0
+italy's foreign ||| 1 0.0
+poll judge ||| 1 0.0
+5000 migrants ||| 1 0.0
+sparked protests ||| 1 0.0
+finding speak ||| 1 0.0
+vacation saved ||| 1 0.0
+ends week ||| 1 0.0
+months sank ||| 1 0.0
+learned series ||| 1 0.0
+image watch ||| 1 0.0
+two victims ||| 1 0.0
+173 k ||| 1 0.0
+committee scraps ||| 1 0.0
+nfl policy ||| 1 0.0
+looks inside ||| 1 0.0
+2020 olympics ||| 1 0.0
+embracing fanny ||| 1 0.0
+11 th ||| 1 0.0
+mallinson inquests ||| 1 0.0
+added august ||| 1 0.0
+heart's age ||| 1 0.0
+davis lawyer ||| 1 0.0
+soccer terms ||| 1 0.0
+area tents ||| 1 0.0
+budapest opens ||| 1 0.0
+lessons learned ||| 1 0.0
+new groups ||| 1 0.0
+refugees europe ||| 1 0.0
+says want ||| 1 0.0
+name two ||| 1 0.0
+brooks return ||| 1 0.0
+acquired fox ||| 1 0.0
+across turkish ||| 1 0.0
+operation vacations ||| 1 0.0
+amazon daughter's ||| 1 0.0
+coast casualties ||| 1 0.0
+wow remain ||| 1 0.0
+doomed nuke ||| 1 0.0
+18 great ||| 1 0.0
+armed group ||| 1 0.0
+million work ||| 1 0.0
+clerk remain ||| 1 0.0
+party walk ||| 1 0.0
+protesters outside ||| 1 0.0
+brooks back ||| 1 0.0
+government northern ||| 1 0.0
+player collapses ||| 1 0.0
+300 girls ||| 1 0.0
+found illinois ||| 1 0.0
+crowd protesters ||| 1 0.0
+kite surfer ||| 1 0.0
+president 2016 ||| 1 0.0
+season tweet ||| 1 0.0
+settled suit ||| 1 0.0
+station hungarian ||| 1 0.0
+teen gets ||| 1 0.0
+mom sues ||| 1 0.0
+coast setback ||| 1 0.0
+pope say ||| 1 0.0
+shows extent ||| 1 0.0
+daughter's suicide ||| 1 0.0
+minister uk ||| 1 0.0
+gold train ||| 1 0.0
+july judge ||| 1 0.0
+suffers brain ||| 1 0.0
+month economists ||| 1 0.0
+begins alabama ||| 1 0.0
+injunction obama ||| 1 0.0
+last unemployment ||| 1 0.0
+right path ||| 1 0.0
+opposes iran ||| 1 0.0
+harry truman ||| 1 0.0
+run president ||| 1 0.0
+could take ||| 1 0.0
+thousands migrants ||| 1 0.0
+66 salmonella ||| 1 0.0
+rise faster ||| 1 0.0
+talks la ||| 1 0.0
+modern love ||| 1 0.0
+salmonella outbreak ||| 1 0.0
+mocked mayor ||| 1 0.0
+set 300 ||| 1 0.0
+law land ||| 1 0.0
+children feared ||| 1 0.0
+weekend suspect ||| 1 0.0
+misconduct full ||| 1 0.0
+optimism west ||| 1 0.0
+23 months ||| 1 0.0
+share longevity ||| 1 0.0
+interest rate ||| 1 0.0
+dirt might ||| 1 0.0
+man arrested ||| 1 0.0
+model 54 ||| 1 0.0
+europe italy's ||| 1 0.0
+photo appeared ||| 1 0.0
+others misconduct ||| 1 0.0
+76 police ||| 1 0.0
+second group ||| 1 0.0
+safety deposit ||| 1 0.0
+spokesman says ||| 1 0.0
+money moves ||| 1 0.0
+country lord ||| 1 0.0
+including 24 ||| 1 0.0
+haram northern ||| 1 0.0
+cucumbers mexico ||| 1 0.0
+bail four ||| 1 0.0
+weekend winter ||| 1 0.0
+judge nfl ||| 1 0.0
+planning fall ||| 1 0.0
+family trying ||| 1 0.0
+hungary sending ||| 1 0.0
+point michiko ||| 1 0.0
+fountain annual ||| 1 0.0
+celebrated bus ||| 1 0.0
+bangkok bombing ||| 1 0.0
+mother four ||| 1 0.0
+nuke plant ||| 1 0.0
+provide settlement ||| 1 0.0
+leave hungary ||| 1 0.0
+pope talks ||| 1 0.0
+location image ||| 1 0.0
+killed others ||| 1 0.0
+fled breathe ||| 1 0.0
+austria saturday ||| 1 0.0
+refugee camp ||| 1 0.0
+hacking concerns ||| 1 0.0
+million green ||| 1 0.0
+northern ireland ||| 1 0.0
+registration austrians ||| 1 0.0
+sent 300 ||| 1 0.0
+florida amp ||| 1 0.0
+deadlock authorities ||| 1 0.0
+room sparked ||| 1 0.0
+using academics ||| 1 0.0
+turkish building ||| 1 0.0
+bargains 18 ||| 1 0.0
+hit road ||| 1 0.0
+breaks numbers ||| 1 0.0
+migrants abruptly ||| 1 0.0
+austria new ||| 1 0.0
+secondhand smoke ||| 1 0.0
+evokes memories ||| 1 0.0
+handle market ||| 1 0.0
+clerk kim ||| 1 0.0
+ancient temple ||| 1 0.0
+city settled ||| 1 0.0
+carson post ||| 1 0.0
+new poll ||| 1 0.0
+member gets ||| 1 0.0
+in-demand fit ||| 1 0.0
+campaign wish ||| 1 0.0
+lake cop ||| 1 0.0
+report man ||| 1 0.0
+away power-sharing ||| 1 0.0
+winners losers ||| 1 0.0
+group given ||| 1 0.0
+air force ||| 1 0.0
+wall honor ||| 1 0.0
+took 23 ||| 1 0.0
+supervisor admits ||| 1 0.0
+industry using ||| 1 0.0
+inside cloistered ||| 1 0.0
+volunteerism asked ||| 1 0.0
+books countries ||| 1 0.0
+hungary poland ||| 1 0.0
+charleston church ||| 1 0.0
+jessica alba's ||| 1 0.0
+100 people ||| 1 0.0
+stunning final ||| 1 0.0
+second foreign ||| 1 0.0
+lord montagu ||| 1 0.0
+buses arrive ||| 1 0.0
+injured line ||| 1 0.0
+arrested murder ||| 1 0.0
+william chapman ||| 1 0.0
+one supporters ||| 1 0.0
+killed bomb ||| 1 0.0
+trio beverley ||| 1 0.0
+5.1 173 ||| 1 0.0
+nuns pope ||| 1 0.0
+austrians applaud ||| 1 0.0
+points day ||| 1 0.0
+shooting death ||| 1 0.0
+dropped 5 ||| 1 0.0
+rate decision ||| 1 0.0
+chapo's son ||| 1 0.0
+bound austria ||| 1 0.0
+concussions according ||| 1 0.0
+parenthood building ||| 1 0.0
+abruptly stop ||| 1 0.0
+building determined ||| 1 0.0
+student debt ||| 1 0.0
+kurdi family ||| 1 0.0
+playing rafael ||| 1 0.0
+alexandra riley ||| 1 0.0
+long weekend ||| 1 0.0
+amp syrian ||| 1 0.0
+nation induced ||| 1 0.0
+beverley sisters ||| 1 0.0
+jail contempt ||| 1 0.0
+school safe ||| 1 0.0
+germany let ||| 1 0.0
+economy adds ||| 1 0.0
+start least ||| 1 0.0
+murdoch newspaper ||| 1 0.0
+count bargains ||| 1 0.0
+venus upswing ||| 1 0.0
+parents cooking ||| 1 0.0
+batter 5 ||| 1 0.0
+pm says ||| 1 0.0
+limits germany ||| 1 0.0
+kurdi says ||| 1 0.0
+scraps games ||| 1 0.0
+leave direct ||| 1 0.0
+year-old boy ||| 1 0.0
+parent child ||| 1 0.0
+life drowned ||| 1 0.0
+another important ||| 1 0.0
+takes shape ||| 1 0.0
+crawl michigan ||| 1 0.0
+weekend centerpiece ||| 1 0.0
+direct trains ||| 1 0.0
+5 reasons ||| 1 0.0
+catches fire ||| 1 0.0
+cadets injured ||| 1 0.0
+responsibilities 4 ||| 1 0.0
+inside tom ||| 1 0.0
+jailed refusing ||| 1 0.0
+sisters said ||| 1 0.0
+big time ||| 1 0.0
+scheme third ||| 1 0.0
+morning nw ||| 1 0.0
+love say ||| 1 0.0
+officials told ||| 1 0.0
+talks teen ||| 1 0.0
+stunned nation ||| 1 0.0
+flee same-sex ||| 1 0.0
+kentucky british ||| 1 0.0
+dominates asks ||| 1 0.0
+42 year-old ||| 1 0.0
+10 th ||| 1 0.0
+damage florida ||| 1 0.0
+clinton tells ||| 1 0.0
+54 year-old ||| 1 0.0
+lived 100 ||| 1 0.0
+victim shoreham ||| 1 0.0
+hike rate ||| 1 0.0
+pay big ||| 1 0.0
+drops 272 ||| 1 0.0
+spirit here's ||| 1 0.0
+refugee buses ||| 1 0.0
+hungary without ||| 1 0.0
+3.3 three ||| 1 0.0
+released bengals ||| 1 0.0
+perilous trek ||| 1 0.0
+journey transform ||| 1 0.0
+away drug ||| 1 0.0
+clerks start ||| 1 0.0
+palmyra un ||| 1 0.0
+monitors say ||| 1 0.0
+dies aged ||| 1 0.0
+us official ||| 1 0.0
+religious sisters ||| 1 0.0
+clashes around ||| 1 0.0
+toddler boy ||| 1 0.0
+important stay ||| 1 0.0
+server ex-labor ||| 1 0.0
+conditional bail ||| 1 0.0
+thousands religious ||| 1 0.0
+class 2019 ||| 1 0.0
+4 suspected ||| 1 0.0
+kills 1, ||| 1 0.0
+sister shoots ||| 1 0.0
+ever wondered ||| 1 0.0
+says president ||| 1 0.0
+easier signed ||| 1 0.0
+residents return ||| 1 0.0
+canada kite ||| 1 0.0
+migration monitors ||| 1 0.0
+heart california ||| 1 0.0
+preacher anjem ||| 1 0.0
+applaud refugee ||| 1 0.0
+three indexes ||| 1 0.0
+take refugees ||| 1 0.0
+blames disaffected ||| 1 0.0
+suvs hacking ||| 1 0.0
+grief jobs ||| 1 0.0
+o p ||| 1 0.0
+west malaysian ||| 1 0.0
+new yorker ||| 1 0.0
+mallinson knew ||| 1 0.0
+taken back ||| 1 0.0
+nightmare elm ||| 1 0.0
+trek former ||| 1 0.0
+get supplies ||| 1 0.0
+us responsibility ||| 1 0.0
+recall shrinks ||| 1 0.0
+kids thousands ||| 1 0.0
+history order ||| 1 0.0
+amp people ||| 1 0.0
+member killed ||| 1 0.0
+yemen's capital ||| 1 0.0
+24 cadets ||| 1 0.0
+labor jessica ||| 1 0.0
+capsizes west ||| 1 0.0
+leaves main ||| 1 0.0
+west appears ||| 1 0.0
+summer donald ||| 1 0.0
+says facing ||| 1 0.0
+support toyota ||| 1 0.0
+team spirit ||| 1 0.0
+funeral ambushed ||| 1 0.0
+syria pose ||| 1 0.0
+twitter account ||| 1 0.0
+actors cast ||| 1 0.0
+correction dow ||| 1 0.0
+tube strikes ||| 1 0.0
+concussions one ||| 1 0.0
+recall issued ||| 1 0.0
+dies injury ||| 1 0.0
+travel safety ||| 1 0.0
+authorities pm ||| 1 0.0
+moved pictures ||| 1 0.0
+math homework ||| 1 0.0
+suspect deadly ||| 1 0.0
+lot money ||| 1 0.0
+campaign emissions ||| 1 0.0
+first-degree murder ||| 1 0.0
+cases arizona ||| 1 0.0
+hoping get ||| 1 0.0
+wing part ||| 1 0.0
+5,000 migrants ||| 1 0.0
+us economy ||| 1 0.0
+sickens hundreds ||| 1 0.0
+voice religious ||| 1 0.0
+water fountain ||| 1 0.0
+rnc leader ||| 1 0.0
+trains migrants ||| 1 0.0
+group member ||| 1 0.0
+attorneys kentucky ||| 1 0.0
+awareness others ||| 1 0.0
+destruction palmyra ||| 1 0.0
+national zoo's ||| 1 0.0
+officials suspect ||| 1 0.0
+move crossing ||| 1 0.0
+day baby ||| 1 0.0
+dutch air ||| 1 0.0
+eu referendum ||| 1 0.0
+check 6 ||| 1 0.0
+alba's honest ||| 1 0.0
+nearly 5000 ||| 1 0.0
+games logo ||| 1 0.0
+dylann roof ||| 1 0.0
+accelerates jobs ||| 1 0.0
+tents await ||| 1 0.0
+back ceo ||| 1 0.0
+longer exist ||| 1 0.0
+serena dominates ||| 1 0.0
+police leave ||| 1 0.0
+refusal perform ||| 1 0.0
+budapest train ||| 1 0.0
+bmw journey ||| 1 0.0
+connection deadly ||| 1 0.0
+northern rockies ||| 1 0.0
+age eagles ||| 1 0.0
+british vice ||| 1 0.0
+termites chinese ||| 1 0.0
+let migrants ||| 1 0.0
+detained turkey ||| 1 0.0
+200 million ||| 1 0.0
+word use ||| 1 0.0
+falls 200 ||| 1 0.0
+poland amp ||| 1 0.0
+system accepting ||| 1 0.0
+foreign suspect ||| 1 0.0
+tech deals ||| 1 0.0
+losers oregon ||| 1 0.0
+inquests start ||| 1 0.0
+guide climbing ||| 1 0.0
+life wow ||| 1 0.0
+transport union ||| 1 0.0
+announces rebekah ||| 1 0.0
+according new ||| 1 0.0
+weather northern ||| 1 0.0
+biden says ||| 1 0.0
+people dream ||| 1 0.0
+reunion july ||| 1 0.0
+still released ||| 1 0.0
+intruder kanye ||| 1 0.0
+cross l ||| 1 0.0
+officials many ||| 1 0.0
+pieces metal ||| 1 0.0
+aid syrian ||| 1 0.0
+including nasdaq ||| 1 0.0
+secured enough ||| 1 0.0
+people capsizes ||| 1 0.0
+runmaro remote ||| 1 0.0
+4 injured ||| 1 0.0
+says meeting ||| 1 0.0
+coastline isn't ||| 1 0.0
+coming next ||| 1 0.0
+minnesota neighbors ||| 1 0.0
+came missing ||| 1 0.0
+websites duel ||| 1 0.0
+tonight thank ||| 1 0.0
+parliament officials ||| 1 0.0
+war front ||| 1 0.0
+moves make ||| 1 0.0
+george king ||| 1 0.0
+trump signed ||| 1 0.0
+say love ||| 1 0.0
+ukraine protesters ||| 1 0.0
+longevity secrets ||| 1 0.0
+bel palmyra ||| 1 0.0
+deal disputed ||| 1 0.0
+gun laws ||| 1 0.0
+james mallinson ||| 1 0.0
+final steps ||| 1 0.0
+updates kim ||| 1 0.0
+turned bloody ||| 1 0.0
+dow drops ||| 1 0.0
+home invasion ||| 1 0.0
+sending buses ||| 1 0.0
+terms convey ||| 1 0.0
+says nun ||| 1 0.0
+longer people ||| 1 0.0
+take migrants ||| 1 0.0
+union mother ||| 1 0.0
+support group ||| 1 0.0
+point cadets ||| 1 0.0
+graham mallinson ||| 1 0.0
+family come ||| 1 0.0
+gay couples ||| 1 0.0
+refugee vs ||| 1 0.0
+refuses perform ||| 1 0.0
+tebow released ||| 1 0.0
+police shoot ||| 1 0.0
+call fair ||| 1 0.0
+protect kids ||| 1 0.0
+tweets oregon ||| 1 0.0
+polluted gray ||| 1 0.0
+workplace stress ||| 1 0.0
+flight mh370 ||| 1 0.0
+orban says ||| 1 0.0
+romance jesse ||| 1 0.0
+homework highly ||| 1 0.0
+see underwater ||| 1 0.0
+4 years ||| 1 0.0
+coast thrill ||| 1 0.0
+elation 5,000 ||| 1 0.0
+early coffeecake ||| 1 0.0
+austrian family ||| 1 0.0
+aged 88 ||| 1 0.0
+navy aircraft ||| 1 0.0
+crisis thousands ||| 1 0.0
+austria border ||| 1 0.0
+fresh voice ||| 1 0.0
+emissions set ||| 1 0.0
+concerns tired ||| 1 0.0
+rupert murdoch's ||| 1 0.0
+year-old james ||| 1 0.0
+millionaire bequeaths ||| 1 0.0
+bad health ||| 1 0.0
+dead 145 ||| 1 0.0
+mexico correction ||| 1 0.0
+trial begins ||| 1 0.0
+running adrift ||| 1 0.0
+outpouring grief ||| 1 0.0
+across border ||| 1 0.0
+strict state ||| 1 0.0
+one broken ||| 1 0.0
+eagles kim ||| 1 0.0
+fans teammates ||| 1 0.0
+capital budapest ||| 1 0.0
+cyberspace cyberattacks ||| 1 0.0
+debris found ||| 1 0.0
+entail u ||| 1 0.0
+border crisis ||| 1 0.0
+set dispelling ||| 1 0.0
+wes craven ||| 1 0.0
+decision uk ||| 1 0.0
+water rule ||| 1 0.0
+news corp ||| 1 0.0
+account mocked ||| 1 0.0
+deposit raid ||| 1 0.0
+spice rosh ||| 1 0.0
+us horror ||| 1 0.0
+13 hours ||| 1 0.0
+europe border ||| 1 0.0
+cloistered monastery ||| 1 0.0
+operation dept ||| 1 0.0
+convince buy ||| 1 0.0
+await passengers ||| 1 0.0
+diseases catch ||| 1 0.0
+visit pope ||| 1 0.0
+front takes ||| 1 0.0
+great american ||| 1 0.0
+outside parliament ||| 1 0.0
+prisoner conscience ||| 1 0.0
+arizona linked ||| 1 0.0
+rate month ||| 1 0.0
+people http ||| 1 0.0
+changing question ||| 1 0.0
+two british ||| 1 0.0
+aunt drowned ||| 1 0.0
+filmmaker wes ||| 1 0.0
+feds charge ||| 1 0.0
+secrets strict ||| 1 0.0
+give away ||| 1 0.0
+says amp ||| 1 0.0
+countries longer ||| 1 0.0
+turkey joy ||| 1 0.0
+thai pm ||| 1 0.0
+waiting definitive ||| 1 0.0
+referendum saying ||| 1 0.0
+cameron deeply ||| 1 0.0
+police injured ||| 1 0.0
+newspaper operations ||| 1 0.0
+provide buses ||| 1 0.0
+deputy shot ||| 1 0.0
+p 500, ||| 1 0.0
+virginia police ||| 1 0.0
+kids asthma ||| 1 0.0
+back autonomy ||| 1 0.0
+1, sickens ||| 1 0.0
+ensure iran ||| 1 0.0
+responsibility one ||| 1 0.0
+fumigated termites ||| 1 0.0
+2 dead ||| 1 0.0
+jobs august ||| 1 0.0
+bequeaths 100,000 ||| 1 0.0
+deeply moved ||| 1 0.0
+people iowa ||| 1 0.0
+likely went ||| 1 0.0
+florida home ||| 1 0.0
+suspected syrian ||| 1 0.0
+wet crossing ||| 1 0.0
+fall getaway ||| 1 0.0
+looks like ||| 1 0.0
+thanked us ||| 1 0.0
+democratic senator ||| 1 0.0
+drops suicide ||| 1 0.0
+death photos ||| 1 0.0
+help mountain ||| 1 0.0
+deadly bombing ||| 1 0.0
+trying flee ||| 1 0.0
+night illinois ||| 1 0.0
+leaving 30 ||| 1 0.0
+alan kurdi ||| 1 0.0
+feared travelling ||| 1 0.0
+syrian temple ||| 1 0.0
+multiple defense ||| 1 0.0
+asks whether ||| 1 0.0
+light rain ||| 1 0.0
+kentucky roast ||| 1 0.0
+el chapo's ||| 1 0.0
+pope thanked ||| 1 0.0
+th final ||| 1 0.0
+issue marriage ||| 1 0.0
+ally republicans ||| 1 0.0
+ben carson ||| 1 0.0
+standing despite ||| 1 0.0
+life us ||| 1 0.0
+abortion thai ||| 1 0.0
+temperatures tap ||| 1 0.0
+arizona among ||| 1 0.0
+refugees gifted ||| 1 0.0
+honor salutes ||| 1 0.0
+fight left ||| 1 0.0
+fashion label's ||| 1 0.0
+start issuing ||| 1 0.0
+fukushima nuclear ||| 1 0.0
+w talk ||| 1 0.0
+point turns ||| 1 0.0
+corruption scandal ||| 1 0.0
+senator opposes ||| 1 0.0
+given fresh ||| 1 0.0
+shrinks investigation ||| 1 0.0
+libya migration ||| 1 0.0
+email confusion ||| 1 0.0
+seriously hurt ||| 1 0.0
+indian grandfather ||| 1 0.0
+clerk contempt ||| 1 0.0
+6 baltimore ||| 1 0.0
+michael mukasey ||| 1 0.0
+gets locked ||| 1 0.0
+old heart ||| 1 0.0
+stand-off china ||| 1 0.0
+shrine august ||| 1 0.0
+ira claims ||| 1 0.0
+bargains pump ||| 1 0.0
+transgender characters ||| 1 0.0
+inappropriate pope ||| 1 0.0
+u navy ||| 1 0.0
+asthma refugee ||| 1 0.0
+285 judge ||| 1 0.0
+refugees fairly ||| 1 0.0
+enfield us ||| 1 0.0
+report seen ||| 1 0.0
+steps buses ||| 1 0.0
+italy france ||| 1 0.0
+philadelphia eagles ||| 1 0.0
+safety follow ||| 1 0.0
+academics convince ||| 1 0.0
+say prime ||| 1 0.0
+one sickens ||| 1 0.0
+part refusal ||| 1 0.0
+president xi ||| 1 0.0
+clinton staffer ||| 1 0.0
+sheriff's deputy ||| 1 0.0
+illinois cop ||| 1 0.0
+285 27 ||| 1 0.0
+announces provide ||| 1 0.0
+train end ||| 1 0.0
+family handle ||| 1 0.0
+hours greek ||| 1 0.0
+germany early ||| 1 0.0
+injured bus ||| 1 0.0
+fire rage ||| 1 0.0
+ships entered ||| 1 0.0
+involves quickly ||| 1 0.0
+tears really ||| 1 0.0
+new york ||| 1 0.0
+watch prosecutor ||| 1 0.0
+10 september ||| 1 0.0
+health services ||| 1 0.0
+deal drowned ||| 1 0.0
+says clashes ||| 1 0.0
+dentist kendra ||| 1 0.0
+grocery store ||| 1 0.0
+used buy ||| 1 0.0
+franchise dies ||| 1 0.0
+issuing marriage ||| 1 0.0
+rafael nadal ||| 1 0.0
+running 54 ||| 1 0.0
+bomb blasts ||| 1 0.0
+u ex-mailroom ||| 1 0.0
+deliberate migrants ||| 1 0.0
+case given ||| 1 0.0
+says apple's ||| 1 0.0
+return chief ||| 1 0.0
+charge trio ||| 1 0.0
+alabama cop ||| 1 0.0
+many trees ||| 1 0.0
+year attorneys ||| 1 0.0
+guilty london's ||| 1 0.0
+boko haram ||| 1 0.0
+soon photo ||| 1 0.0
+church light ||| 1 0.0
+points end ||| 1 0.0
+people lived ||| 1 0.0
+amp migrants ||| 1 0.0
+planned parenthood ||| 1 0.0
+difficulties life ||| 1 0.0
+2 tiny ||| 1 0.0
+dead government ||| 1 0.0
+label's fast ||| 1 0.0
+giant panda ||| 1 0.0
+return japanese ||| 1 0.0
+refugees 2 ||| 1 0.0
+breathe little ||| 1 0.0
+among 285 ||| 1 0.0
+policy answers ||| 1 0.0
+kills intruder ||| 1 0.0
+bread milk ||| 1 0.0
+groups set ||| 1 0.0
+dylan archer ||| 1 0.0
+nuclear deal ||| 1 0.0
+hungarian capital ||| 1 0.0
+hour anxiety ||| 1 0.0
+sued alleged ||| 1 0.0
+warships entered ||| 1 0.0
+set fierce ||| 1 0.0
+emails sorry ||| 1 0.0
+it's important ||| 1 0.0
+caring husband ||| 1 0.0
+new evidence ||| 1 0.0
+dies shot ||| 1 0.0
+obama democratic ||| 1 0.0
+final victim ||| 1 0.0
+refuse exit ||| 1 0.0
+many migrants ||| 1 0.0
+arrive austria ||| 1 0.0
+choudary charged ||| 1 0.0
+determined arson ||| 1 0.0
+power-sharing government ||| 1 0.0
+owe least ||| 1 0.0
+boarded train ||| 1 0.0
+girls hospital ||| 1 0.0
+temple bel's ||| 1 0.0
+update austria ||| 1 0.0
+foot austrian ||| 1 0.0
+exhaustion elation ||| 1 0.0
+syrian boys ||| 1 0.0
+looking forward ||| 1 0.0
+thousands attend ||| 1 0.0
+canada bmw ||| 1 0.0
+helping illegal ||| 1 0.0
+clerk same-sex ||| 1 0.0
+deadbolt doors ||| 1 0.0
+migrants celebrated ||| 1 0.0
+isis defense ||| 1 0.0
+chapman tennis ||| 1 0.0
+sergeant likely ||| 1 0.0
+whether anyone ||| 1 0.0
+boat carrying ||| 1 0.0
+thai police ||| 1 0.0
+others injured ||| 1 0.0
+server louisiana ||| 1 0.0
+car research ||| 1 0.0
+passengers refuse ||| 1 0.0
+suspension tom ||| 1 0.0
+fit model ||| 1 0.0
+radical preacher ||| 1 0.0
+use europe ||| 1 0.0
+24 concussions ||| 1 0.0
+injured including ||| 1 0.0
+concerning http ||| 1 0.0
+gop loyalty ||| 1 0.0
+say london ||| 1 0.0
+injury game ||| 1 0.0
+borrowers owe ||| 1 0.0
+band member ||| 1 0.0
+road hit ||| 1 0.0
+perfect back-to-school ||| 1 0.0
+starts west ||| 1 0.0
+accused helping ||| 1 0.0
+hits shelves ||| 1 0.0
+talk g ||| 1 0.0
+100 m ||| 1 0.0
+calculate heart's ||| 1 0.0
+looking perfect ||| 1 0.0
+operations news ||| 1 0.0
+disaffected minister ||| 1 0.0
+salmonella linked ||| 1 0.0
+us embracing ||| 1 0.0
+0.4 china ||| 1 0.0
+30 dead ||| 1 0.0
+official announcement ||| 1 0.0
+post gains ||| 1 0.0
+even noticed ||| 1 0.0
+says certainty ||| 1 0.0
+opens main ||| 1 0.0
+entering budapest's ||| 1 0.0
+say turkish ||| 1 0.0
+leg non-transgender ||| 1 0.0
+open high ||| 1 0.0
+store you've ||| 1 0.0
+watch mourners ||| 1 0.0
+dow 23 ||| 1 0.0
+significant new ||| 1 0.0
+sister nuns ||| 1 0.0
+government blames ||| 1 0.0
+electoral commission ||| 1 0.0
+signature ultimate ||| 1 0.0
+california coastline ||| 1 0.0
+refuses give ||| 1 0.0
+teen soccer ||| 1 0.0
+migrants greeted ||| 1 0.0
+stock markets ||| 1 0.0
+wording could ||| 1 0.0
+day i'm ||| 1 0.0
+nuclear disaster ||| 1 0.0
+order chaos ||| 1 0.0
+highly contagious ||| 1 0.0
+says two ||| 1 0.0
+induced minnesota ||| 1 0.0
+allegations plagiarised ||| 1 0.0
+las vegas ||| 1 0.0
+take years ||| 1 0.0
+islamic state ||| 1 0.0
