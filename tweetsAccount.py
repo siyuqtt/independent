@@ -6,16 +6,16 @@ except ImportError:
 # Import the necessary methods from "twitter" library
 from twitter import Twitter, OAuth
 import re
-
+from configHelper import myconfig
 URLINTEXT_PAT = \
     re.compile(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
 
 import requests
 # Variables that contains the user credentials to access Twitter API 
-ACCESS_TOKEN = '3472190621-U5GkT9KetqgZt08TJuTXa7PSQWHuZH32r7FMyCr'
-ACCESS_SECRET = 'd9qYqlqqfuqHnDY8U8dsP22IOoJOStMwlpD0sy7nhz4jC'
-CONSUMER_KEY = 'AWFQMU6SQMuC4N2dGUS75uqXP'
-CONSUMER_SECRET = 'SQmziWxo5szZ4dAifDNJNkx2PIY7kSmhUmbdj610qzCuKKThfp'
+ACCESS_TOKEN = myconfig.accesstoken
+ACCESS_SECRET = myconfig.accessscecret
+CONSUMER_KEY = myconfig.consumertoken
+CONSUMER_SECRET = myconfig.consumersecret
 
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 
