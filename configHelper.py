@@ -3,7 +3,6 @@ import xml.etree.ElementTree as ET
 tree = ET.parse('config')
 root = tree.getroot()
 
-
 class config:
     def __init__(self):
         self.accesstoken = root.find('ACCESS_TOKEN').text
