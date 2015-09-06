@@ -19,7 +19,25 @@ oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 twitter = Twitter(auth=oauth)
 
 
-formalaccount = ['@nytimes','@cnnbrk','@BBCBreaking','@CNN','@ABC','@NBCNews']
+iterator = twitter_stream.statuses.sample()
+
+# Print each tweet in the stream to the screen
+# Here we set it to stop after getting 1000 tweets.
+# You don't have to set it to stop, but can continue running
+# the Twitter API to collect data for days or even longer.
+tweet_count = 1000
+for tweet in iterator:
+    tweet_count -= 1
+    # Twitter Python Tool wraps the data returned by Twitter
+    # as a TwitterDictResponse object.
+    # We convert it back to the JSON format to print/score
+    print json.dumps(tweet)
+
+    # The command below will do pretty printing for JSON data, try it out
+    # print json.dumps(tweet, indent=4)
+
+    if tweet_count <= 0:
+        break
 formaltweets = []
 for acnt in formalaccount:
     query = twitter.search.tweets(q="from:"+acnt,
@@ -28,7 +46,7 @@ for acnt in formalaccount:
                         )
     formaltweets += [y["text"] for y in [x for x in query['statuses']]]
 
-f = open('formaltweets.txt','w')
+f = open('informaltweets.txt','w')
 
 for it in formaltweets:
     try:
