@@ -7,6 +7,7 @@ except ImportError:
 from twitter import Twitter, OAuth
 import re
 from configHelper import myconfig
+from tweetstext import textManager
 URLINTEXT_PAT = \
     re.compile(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
 
@@ -41,6 +42,7 @@ for surl in shorturlsets:
     except:
         pass
 data = {}
+
 for furl in fullurlset:
     data[furl] = set()
     query = twitter.search.tweets(q=furl,
@@ -49,30 +51,24 @@ for furl in fullurlset:
     for result in query["statuses"]:
         nre = re.sub(URLINTEXT_PAT,"",result["text"]).lower().strip()
         data[furl].add(nre)
-# Print each tweet in the stream to the screen 
-# Here we set it to stop after getting 1000 tweets. 
-# You don't have to set it to stop, but can continue running 
-# the Twitter API to collect data for days or even longer. 
-# tweet_count = 1000
-# for tweet in iterator:
-#     tweet_count -= 1
-#     # Twitter Python Tool wraps the data returned by Twitter
-#     # as a TwitterDictResponse object.
-#     # We convert it back to the JSON format to print/score
-#     data  = json.dumps(tweet)
-#
-#     # The command below will do pretty printing for JSON data, try it out
-#     # print json.dumps(tweet, indent=4)
-#
-#     if tweet_count <= 0:
-#         break
+
 f = open('urltweets.txt','w')
+
+mytextmanager = textManager()
 for k,v in data.items():
+    tokens= []
     f.write(k+'\n')
     for vv in v:
         try:
             f.write('\t'+vv+'\n')
+            tokens += mytextmanager.tokenizefromstring(vv)
         except:
             f.write('\t'+vv.encode('utf-8')+'\n')
+            tokens += mytextmanager.tokenizefromstring(vv.encode('utf-8'))
+    (total, wordfre) = mytextmanager.getfreword(tokens)
+    (total_bi, bifre) = mytextmanager.getfrebigram(tokens)
+    mytextmanager.writetofile(f,wordfre,total,bifre,total_bi)
     f.write('\n')
 f.close()
+
+
