@@ -47,7 +47,8 @@ for furl in fullurlset:
                               count="100",
                               lang="en")
     for result in query["statuses"]:
-        data[furl].add(result["text"])
+        nre = re.sub(URLINTEXT_PAT,"",result["text"]).lower().strip()
+        data[furl].add(nre)
 # Print each tweet in the stream to the screen 
 # Here we set it to stop after getting 1000 tweets. 
 # You don't have to set it to stop, but can continue running 
@@ -65,14 +66,13 @@ for furl in fullurlset:
 #
 #     if tweet_count <= 0:
 #         break
-f = open('test_json.txt','w')
-f.write(json.dumps(data, sort_keys=True,
-            indent=4, separators=(',', ': ')))
-# for k,v in data.items():
-#     f.write(k+'\n')
-#     for vv in v:
-#         try:
-#             f.write('\t'+vv+'\n')
-#         except:
-#             f.write('\t'+vv.encode('utf-8')+'\n')
+f = open('urltweets.txt','w')
+for k,v in data.items():
+    f.write(k+'\n')
+    for vv in v:
+        try:
+            f.write('\t'+vv+'\n')
+        except:
+            f.write('\t'+vv.encode('utf-8')+'\n')
+    f.write('\n')
 f.close()
