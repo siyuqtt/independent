@@ -1,7 +1,7 @@
 __author__ = 'siyuqiu'
 
 
-from tweetstext import textManager
+from tweetsManager import textManager
 
 mytextmanager = textManager()
 terms_stop=mytextmanager.tokenize('formaltweets.txt')

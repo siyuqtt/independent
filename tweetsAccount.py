@@ -23,7 +23,7 @@ formalaccount = ['@nytimes','@cnnbrk','@BBCBreaking','@CNN','@ABC','@NBCNews']
 formaltweets = []
 for acnt in formalaccount:
     query = twitter.search.tweets(q="from:"+acnt,
-                                  count="50",
+                                  count="150",
                                   lang="en"
                         )
     formaltweets += [y["text"] for y in [x for x in query['statuses']]]

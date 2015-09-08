@@ -8,7 +8,8 @@ from nltk import bigrams
 class textManager:
     def __init__(self):
         self.punctuation = list(string.punctuation)
-        self.stop = stopwords.words('english') + self.punctuation + ['rt', 'via']
+        self.remove = self.punctuation + ['rt', 'via']
+        self.stop = stopwords.words('english')
         self.regex_str = [
             r'<[^>]+>', # HTML tags
             r'(?:@[\w_]+)', # @-mentions
@@ -27,7 +28,7 @@ class textManager:
         nl = re.sub(self.URLINTEXT_PAT, '', l.lower())
         ws = self.tokens_re.findall(nl)
         return [term for term in ws
-                  if term not in self.stop and
+                  if term not in self.remove and
                   not term.startswith(('#', '@'))]
 
     def tokenize(self, f):
@@ -37,7 +38,7 @@ class textManager:
             nl = re.sub(self.URLINTEXT_PAT, '', l.lower())
             ws = self.tokens_re.findall(nl)
             terms_only = [term for term in ws
-                      if term not in self.stop and
+                      if term not in self.remove and
                       not term.startswith(('#', '@'))]
             terms_stop += terms_only
         return terms_stop

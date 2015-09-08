@@ -5,9 +5,9 @@ except ImportError:
 
 # Import the necessary methods from "twitter" library
 from twitter import Twitter, OAuth
-import re
+import re,util
 from configHelper import myconfig
-from tweetstext import textManager
+from tweetsManager import textManager
 URLINTEXT_PAT = \
     re.compile(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
 
@@ -53,11 +53,13 @@ for furl in fullurlset:
         data[furl].add(nre)
 
 f = open('urltweets.txt','w')
-
+tweetsstatic =[]
+tokenstatic =[]
 mytextmanager = textManager()
 for k,v in data.items():
     tokens= []
     f.write(k+'\n')
+
     for vv in v:
         try:
             f.write('\t'+vv+'\n')
@@ -65,10 +67,20 @@ for k,v in data.items():
         except:
             f.write('\t'+vv.encode('utf-8')+'\n')
             tokens += mytextmanager.tokenizefromstring(vv.encode('utf-8'))
+    tweetsstatic.append(len(v))
+    tokenstatic.append(len(tokens))
     (total, wordfre) = mytextmanager.getfreword(tokens)
     (total_bi, bifre) = mytextmanager.getfrebigram(tokens)
     mytextmanager.writetofile(f,wordfre,total,bifre,total_bi)
     f.write('\n')
 f.close()
+anylasis = util.statis(tweetsstatic)
+print anylasis.getreport()
+anylasis.setArray(tokenstatic)
+print anylasis.getreport()
+
+
+
+
 
 
