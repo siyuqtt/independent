@@ -57,21 +57,31 @@ tweetsstatic =[]
 tokenstatic =[]
 mytextmanager = textManager()
 for k,v in data.items():
-    tokens= []
-    f.write(k+'\n')
-
+    # tokens= []
+    # f.write(k+'\n')
+    #
+    # for vv in v:
+    #     try:
+    #         f.write('\t'+vv+'\n')
+    #         tokens += mytextmanager.tokenizefromstring(vv)
+    #     except:
+    #         f.write('\t'+vv.encode('utf-8')+'\n')
+    #         tokens += mytextmanager.tokenizefromstring(vv.encode('utf-8'))
+    # tweetsstatic.append(len(v))
+    # tokenstatic.append(len(tokens))
+    # (total, wordfre) = mytextmanager.getfreword(tokens)
+    # (total_bi, bifre) = mytextmanager.getfrebigram(tokens)
+    # mytextmanager.writetofile(f,wordfre,total,bifre,total_bi)
     for vv in v:
-        try:
-            f.write('\t'+vv+'\n')
-            tokens += mytextmanager.tokenizefromstring(vv)
-        except:
-            f.write('\t'+vv.encode('utf-8')+'\n')
-            tokens += mytextmanager.tokenizefromstring(vv.encode('utf-8'))
-    tweetsstatic.append(len(v))
-    tokenstatic.append(len(tokens))
-    (total, wordfre) = mytextmanager.getfreword(tokens)
-    (total_bi, bifre) = mytextmanager.getfrebigram(tokens)
-    mytextmanager.writetofile(f,wordfre,total,bifre,total_bi)
+        tokens = mytextmanager.tokenizefromstring(vv)
+        for t in tokens:
+            try:
+                f.write(t.encode('utf-8')+" ")
+            except:
+                f.write(t+" ")
+        tweetsstatic.append(len(v))
+        tokenstatic.append(len(tokens))
+        f.write('\n')
     f.write('\n')
 f.close()
 anylasis = util.statis(tweetsstatic)

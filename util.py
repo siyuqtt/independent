@@ -7,7 +7,7 @@ from sklearn import svm
 from sklearn.linear_model import SGDClassifier
 from sklearn import neighbors
 from sklearn import cross_validation
-
+import operator
 class statis:
     def __init__(self, arr):
         self.array = np.array(arr)
@@ -83,6 +83,7 @@ class dataprepare:
                  , min(array[idx]), max(array[idx]), sum(array[idx])/len(array[idx])])
 
         return [[round(x[0]*1.0/maxtoken,2)] + x[1:]  for x in X]
+
     def crossvalidation(self, rawX, Y):
         trainF = self.genfeature(rawX)
         X_train, X_test, y_train, y_test = cross_validation.train_test_split(trainF, Y, test_size=0.4, random_state=0)
@@ -92,3 +93,20 @@ class dataprepare:
         print 'SGDC hinge/l2',clf.score(X_test,y_test),clf.coef_
         clf = neighbors.KNeighborsClassifier(5 , weights='uniform').fit(X_train,y_train)
         print 'KNN 5/uniform',clf.score(X_test,y_test)
+
+    def genParaphrase(self, fname):
+        tweet = {}
+        ret = []
+        with open(fname) as f:
+            for l in f.readlines():
+                if len(l.strip()) == 0:
+                    sorted_x = dict(sorted(tweet.items(), key=operator.itemgetter(1)))
+                    ret.append([k for k,v in sorted_x.items() if v > 1])
+                    tweet.clear()
+                    continue
+                try:
+                    tweet[l] += 1
+                except:
+                    tweet[l] = 1
+        return ret
+
