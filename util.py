@@ -8,6 +8,7 @@ from sklearn.linear_model import SGDClassifier
 from sklearn import neighbors
 from sklearn import cross_validation
 import operator
+import string
 class statis:
     def __init__(self, arr):
         self.array = np.array(arr)
@@ -31,6 +32,7 @@ class statis:
 class dataprepare:
     def __init__(self):
         self.tweetmanager = textManager()
+        self.punctuation = list(string.punctuation)
     def cleantext(self, fname):
 
         ff = open(fname.split('.')[0]+'_cleaned.txt','w')
@@ -45,6 +47,7 @@ class dataprepare:
                 ff.write('\n')
         f.close()
         ff.close()
+        return ff.name.__str__()
     def labeldata(self,f1,f2):
         ls = [(l[:-1],1) for l in open(f1,'r').readlines()] + [(l[:-1],0) for l in open(f2,'r').readlines()]
         shuffle(ls)
@@ -99,14 +102,33 @@ class dataprepare:
         ret = []
         with open(fname) as f:
             for l in f.readlines():
-                if len(l.strip()) == 0:
+                nl = ''.join(ch for ch in l if ch not in self.punctuation)
+                if len(nl.strip()) == 0:
                     sorted_x = dict(sorted(tweet.items(), key=operator.itemgetter(1)))
                     ret.append([k for k,v in sorted_x.items() if v > 1])
                     tweet.clear()
                     continue
                 try:
-                    tweet[l] += 1
+                    tweet[nl] += 1
                 except:
-                    tweet[l] = 1
+                    tweet[nl] = 1
         return ret
 
+    def genParaterm(self,fname):
+        terms = {}
+        result = []
+        with open(fname) as f:
+            for l in f.readlines():
+
+                if len(l.strip()) == 0:
+                    sorted_x = dict(sorted(terms.items(), key=operator.itemgetter(1)))
+                    result.append([k for k,v in sorted_x.items() if v > 1])
+                    terms.clear()
+                    continue
+                ret = self.tweetmanager.tokenizefromstring(l)
+                for v, w in zip(ret[:-1], ret[1:]):
+                    try:
+                        terms[v+" "+w] += 1
+                    except:
+                        terms[v+" "+w] = 1
+        return result

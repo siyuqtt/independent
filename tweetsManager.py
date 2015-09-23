@@ -26,16 +26,18 @@ class textManager:
     def tokenizefromstring(self,l):
 
         nl = re.sub(self.URLINTEXT_PAT, '', l.lower())
+        nl = ''.join(ch for ch in nl if ch not in self.punctuation)
         ws = self.tokens_re.findall(nl)
         return [term for term in ws
                   if term not in self.remove and
-                  not term.startswith(('#', '@'))]
+                  not term.startswith(('#', '@')) and len(term.strip()) > 0]
 
     def tokenize(self, f):
         #build dictionary to find frequent used words
         terms_stop = []
         for l in open(f,'r').readlines():
             nl = re.sub(self.URLINTEXT_PAT, '', l.lower())
+            nl = ''.join(ch for ch in nl if ch not in self.punctuation)
             ws = self.tokens_re.findall(nl)
             terms_only = [term for term in ws
                       if term not in self.remove and

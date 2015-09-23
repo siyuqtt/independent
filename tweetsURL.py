@@ -78,7 +78,8 @@ for k,v in data.items():
             try:
                 f.write(t.encode('utf-8')+" ")
             except:
-                f.write(t+" ")
+                # f.write(t+" ")
+                pass
         tweetsstatic.append(len(v))
         tokenstatic.append(len(tokens))
         f.write('\n')
