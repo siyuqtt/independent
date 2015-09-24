@@ -9,6 +9,9 @@ from twitter import TwitterStream, OAuth,Twitter
 import re,util
 from configHelper import myconfig
 from tweetsManager import textManager
+import datetime
+import time
+from dateutil import parser
 URLINTEXT_PAT = \
     re.compile(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
 
@@ -36,6 +39,10 @@ shorturlsets = set()
 for tweet in iterator:
     try:
         if tweet['lang'] == 'en':
+            '''
+            take only tweets at most 7 days away from today
+        '''
+        if abs((datetime.datetime.now() -parser.parse(tweet["created_at"]).now()).days) < 7:
             urls = URLINTEXT_PAT.findall(tweet["text"])
             if len(urls) ==0:
                 continue
@@ -60,19 +67,24 @@ for surl in shorturlsets:
 data = {}
 twitter = Twitter(auth=oauth)
 for furl in fullurlset:
-    data[furl] = set()
+    data[furl] = []
+    cur = set()
     query = twitter.search.tweets(q=furl,
                               count="100",
                               lang="en")
     for result in query["statuses"]:
+
         nre = re.sub(URLINTEXT_PAT,"",result["text"]).lower().strip()
-        data[furl].add(nre)
+        if nre not in cur:
+            data[furl].append([result["id_str"],nre])
+            cur.add(nre)
 
 f = open('files/urltweets_stream.txt','w')
 tweetsstatic =[]
 tokenstatic =[]
 mytextmanager = textManager()
 for k,v in data.items():
+    f.write(k+'\n')
     # tokens= []
     # f.write(k+'\n')
     #
@@ -88,8 +100,9 @@ for k,v in data.items():
     # (total, wordfre) = mytextmanager.getfreword(tokens)
     # (total_bi, bifre) = mytextmanager.getfrebigram(tokens)
     # mytextmanager.writetofile(f,wordfre,total,bifre,total_bi)
-    for vv in v:
+    for [id,vv] in v:
         tokens = mytextmanager.tokenizefromstring(vv)
+        f.write(id+"\t")
         for t in tokens:
             try:
                 f.write(t.encode('utf-8')+" ")
