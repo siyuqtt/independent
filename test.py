@@ -82,11 +82,11 @@ def filter(lines):
                     todelet.add(l)
     return [l for l in lines if l not in todelet]
 
-with open('urltweets.txt') as f:
+with open('files/urltweets_stream.txt') as f:
     lines = f.readlines()
     pivot = None
     group = []
-    fout = open('urltweets_rm_substr.txt','w')
+    fout = open('files/urltweets_stream_rm_substr.txt','w')
     for l in lines:
         if len(l.strip()) == 0:
             ret = filter(group)
