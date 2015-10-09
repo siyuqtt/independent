@@ -171,41 +171,41 @@
 from operator import add
 import operator
 import wordnetutil
-w2v = {}
-with open('files/glove.twitter.27B.25d.txt') as f:
-    for line in f:
-        pts = line.split()
-        w2v[pts[0]] = [float(x) for x in pts[1:]]
-f.close()
+# w2v = {}
+# with open('files/glove.twitter.27B.25d.txt') as f:
+#     for line in f:
+#         pts = line.split()
+#         w2v[pts[0]] = [float(x) for x in pts[1:]]
+# f.close()
 
 import re
-
-def sentenceEmbedding(line):
-    token = line.split()
-    count = 0
-    ret = [0 for _ in xrange(len(w2v[w2v.keys()[0]]))]
-    for t in token:
-        try:
-            ret = map(add, ret, w2v[t])
-            count += 1
-        except:
-            pass
-    if count == 0:
-        return ret
-    else:
-        return [x/count for x in ret]
-
-from math import*
-
-def square_rooted(x):
-
-   return round(sqrt(sum([a*a for a in x])),3)
-
-def similarity(x,y):
-
- numerator = sum(a*b for a,b in zip(x,y))
- denominator = square_rooted(x)*square_rooted(y)+1e-10
- return round(numerator/float(denominator),3)
+#
+# def sentenceEmbedding(line):
+#     token = line.split()
+#     count = 0
+#     ret = [0 for _ in xrange(len(w2v[w2v.keys()[0]]))]
+#     for t in token:
+#         try:
+#             ret = map(add, ret, w2v[t])
+#             count += 1
+#         except:
+#             pass
+#     if count == 0:
+#         return ret
+#     else:
+#         return [x/count for x in ret]
+#
+# from math import*
+#
+# def square_rooted(x):
+#
+#    return round(sqrt(sum([a*a for a in x])),3)
+#
+# def similarity(x,y):
+#
+#  numerator = sum(a*b for a,b in zip(x,y))
+#  denominator = square_rooted(x)*square_rooted(y)+1e-10
+#  return round(numerator/float(denominator),3)
 
 
 
@@ -252,18 +252,39 @@ def similarity(x,y):
 #
 #
 #
-count = 0
-cover = 0
-with open('files/embedding_filtered.txt') as f:
+# count = 0
+# cover = 0
+# with open('files/embedding_filtered.txt') as f:
+#
+#     for line in f:
+#         tkns = line.strip().split()
+#         count += len(tkns)
+#         for t in tkns:
+#             if w2v.has_key(t):
+#                 cover += 1
+#
+#
+# print count
+# print cover
+# print cover*100.0/count
+import util
+similarity = util.sentenceSimilarity()
 
-    for line in f:
-        tkns = line.strip().split()
-        count += len(tkns)
-        for t in tkns:
-            if w2v.has_key(t):
-                cover += 1
+fout = open('files/filtered_acnt_@cnnbrk_further.txt','w')
+with open('files/filtered_acnt_@cnnbrk.txt') as f:
+        candi = []
+        for line in f:
+            line = line.strip()
+            if len(line) != 0:
+                candi.append(line)
+            else:
 
-
-print count
-print cover
-print cover*100.0/count
+                candi = similarity.KnnClassify(candi)
+                if len(candi) < 2:
+                    candi = []
+                    continue
+                for c in candi:
+                    fout.write(c+'\n')
+                fout.write('\n')
+                candi = []
+fout.close()

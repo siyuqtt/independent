@@ -39,11 +39,12 @@ while curStage < goal:
     shorturlsets = set()
     for tweet in iterator:
         try:
-            if tweet['lang'] == 'en':
+            if tweet['lang'] != 'en':
+                continue
                 '''
-                take only tweets at most 7 days away from today
+                take only tweets at most 15 days away from today
                 '''
-            if abs((datetime.datetime.now() - parser.parse(tweet["created_at"]).now()).days) < 7:
+            if abs((datetime.datetime.now() - parser.parse(tweet["created_at"]).now()).days) < 15:
                 urls = URLINTEXT_PAT.findall(tweet["text"])
                 if len(urls) ==0:
                     continue
@@ -128,17 +129,17 @@ while curStage < goal:
                         first filting
                         filter out tweets look too same or too different
                     '''
-                    candi = similarity.groupExcatWordscore(candi,0.9,0.3)
+                    candi = similarity.groupExcatWordscore(candi,0.8,0.3)
                     '''
                         second filting
                         filter by embedding
                     '''
-                    candi = similarity.embeddingScore(0.5, candi)
+                    candi = similarity.embeddingScore(0.6, candi)
                     '''
                         third filting
                         filter by wordNet
                     '''
-                    candi = similarity.wordNetScore(0.5,candi)
+                    candi = similarity.wordNetScore(0.6,candi)
                     if len(candi) < 2:
                         candi = []
                         continue
@@ -147,6 +148,7 @@ while curStage < goal:
                         fout.write(c+'\n')
                     fout.write('\n')
                     candi = []
+    fout.close()
 
 
 

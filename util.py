@@ -13,6 +13,7 @@ from math import *
 from collections import Counter
 import operator
 import wordnetutil
+from sklearn.cluster import KMeans
 class statis:
     def __init__(self, arr):
         self.array = np.array(arr)
@@ -161,6 +162,7 @@ class sentenceSimilarity:
         vector2 = self.text_to_vector(text2)
         return self.get_cosine(vector1, vector2)
 
+
     def groupExcatWordscore(self, candi, upper, lower):
         scores = {}
         l = len(candi)
@@ -209,7 +211,7 @@ class sentenceSimilarity:
 
     def buildEmbedding(self):
         self.w2v = {}
-        with open('files/glove.twitter.27B.25d.txt') as f:
+        with open('files/glove.twitter.27B.50d.txt') as f:
             for line in f:
                 pts = line.split()
                 self.w2v[pts[0]] = [float(x) for x in pts[1:]]
@@ -303,4 +305,43 @@ class sentenceSimilarity:
             if v > threshold:
                 ret.append(candi[k])
         return ret
+
+    def extracAllword(self,candi):
+        words = set()
+        for s in candi:
+            ws = self.WORD.findall(s)
+            for w in ws:
+                words.add(w)
+        return list(words)
+
+
+    def KnnClassify(self,candi):
+        words = self.extracAllword(candi)
+        word_dict = {w:idx for idx, w in enumerate(words)}
+        x = [[0 for _ in xrange(len(words))] for _ in xrange(len(candi))]
+        if len(x) < 2:
+            return candi
+        for id, s in enumerate(candi):
+            tmp = self.text_to_vector(s)
+            for k,v in tmp.items():
+                x[id][word_dict[k]] = v
+
+        km = KMeans(n_clusters=2)
+        km.fit(x)
+        samples = {}
+        X_new = km.transform(x)
+        for idx, l in enumerate(km.labels_):
+            try:
+                samples[l][idx] = X_new[idx][l]
+            except:
+                samples[l] ={}
+                samples[l][idx] = X_new[idx][l]
+        ret = []
+        for k, v in samples.items():
+            sortedv = sorted(v.items(), key=operator.itemgetter(1), reverse=True)
+            for it in sortedv[:5]:
+                ret.append(candi[it[0]])
+        return ret
+
+
 
