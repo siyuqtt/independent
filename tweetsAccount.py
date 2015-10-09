@@ -5,8 +5,8 @@ except ImportError:
 
 # Import the necessary methods from "twitter" library
 from twitter import Twitter, OAuth
-import re
 from configHelper import myconfig
+
 
 ACCESS_TOKEN = myconfig.accesstoken
 ACCESS_SECRET = myconfig.accessscecret

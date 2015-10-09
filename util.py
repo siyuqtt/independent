@@ -7,21 +7,38 @@ from sklearn import svm
 from sklearn.linear_model import SGDClassifier
 from sklearn import neighbors
 from sklearn import cross_validation
-import operator
 import string
+import re
+from math import *
+from collections import Counter
+import operator
+import wordnetutil
 class statis:
     def __init__(self, arr):
         self.array = np.array(arr)
     def setArray(self,arr):
         self.array = np.array(arr)
+
     def getavg(self):
-        return np.mean(self.array)
+        try:
+            return np.mean(self.array)
+        except:
+            return  0
     def getstd(self):
-        return np.std(self.array)
+        try:
+            return np.std(self.array)
+        except:
+            return 0
     def getmin(self):
-        return np.min(self.array)
+        try:
+            return np.min(self.array)
+        except:
+            return 0
     def getmax(self):
-        return np.max(self.array)
+        try:
+            return np.max(self.array)
+        except:
+            return 0
     def getreport(self):
         f ={'avg':self.getavg, 'std':self.getstd, 'max':self.getmax, 'min':self.getmin}
         ret = ""
@@ -132,3 +149,158 @@ class dataprepare:
                     except:
                         terms[v+" "+w] = 1
         return result
+
+class sentenceSimilarity:
+
+
+    def __init__(self):
+        self.WORD = re.compile(r'\w+')
+
+    def excatWordscore(self, text1, text2):
+        vector1 = self.text_to_vector(text1)
+        vector2 = self.text_to_vector(text2)
+        return self.get_cosine(vector1, vector2)
+
+    def groupExcatWordscore(self, candi, upper, lower):
+        scores = {}
+        l = len(candi)
+        ret = []
+        for i in xrange(l):
+            try:
+                scores[i] += 0
+            except:
+                scores[i] = 0
+            for j in xrange(i+1, l):
+                t = self.excatWordscore(candi[i], candi[j])
+                scores[i] += t
+                try:
+                    scores[j] += t
+                except:
+                    scores[j] = t
+            try:
+                scores[i] /= (l-1)
+            except:
+                pass
+        # sorted_s = sorted(scores.items(), key=operator.itemgetter(1), reverse=True)
+        # for k in sorted_s[:l/2+1]:
+        #     fout.write(candi[k[0]]+'\n')
+        # fout.write('\n')
+        for k,v in scores.items():
+            if v > lower and v  < upper:
+                ret.append(candi[k])
+        return ret
+
+    def get_cosine(self,vec1, vec2):
+         intersection = set(vec1.keys()) & set(vec2.keys())
+         numerator = sum([vec1[x] * vec2[x] for x in intersection])
+
+         sum1 = sum([vec1[x]**2 for x in vec1.keys()])
+         sum2 = sum([vec2[x]**2 for x in vec2.keys()])
+         denominator = sqrt(sum1) * sqrt(sum2)
+
+         if not denominator:
+            return 0.0
+         else:
+            return float(numerator) / denominator
+
+    def text_to_vector(self,text):
+         words = self.WORD.findall(text)
+         return Counter(words)
+
+    def buildEmbedding(self):
+        self.w2v = {}
+        with open('files/glove.twitter.27B.25d.txt') as f:
+            for line in f:
+                pts = line.split()
+                self.w2v[pts[0]] = [float(x) for x in pts[1:]]
+        f.close()
+
+
+    def sentenceEmbedding(self, line):
+        token = line.split()
+        count = 0
+        ret = [0 for _ in xrange(len(self.w2v[self.w2v.keys()[0]]))]
+        for t in token:
+            try:
+                ret = map(operator.add, ret, self.w2v[t])
+                count += 1
+            except:
+                pass
+        if count == 0:
+            return ret
+        else:
+            return [x/count for x in ret]
+
+    def square_rooted(self,x):
+        return round(sqrt(sum([a*a for a in x])),3)
+
+    def similarity(self,x,y):
+        numerator = sum(a*b for a,b in zip(x,y))
+        denominator = self.square_rooted(x)*self.square_rooted(y)+1e-10
+        return round(numerator/float(denominator),3)
+
+    def embeddingScore(self, threshold, candi):
+        scores = {}
+        embed = {}
+        ret = []
+        for idx,c in enumerate(candi):
+            embed[idx] = self.sentenceEmbedding(c)
+        l = len(candi)
+        for i in xrange(l):
+            try:
+                scores[i] += 0
+            except:
+                scores[i] = 0
+            for j in xrange(i+1, l):
+                t = self.similarity(embed[i], embed[j])
+                scores[i] += t
+                try:
+                    scores[j] += t
+                except:
+                    scores[j] = t
+            try:
+                scores[i] /= (l-1)
+            except:
+                pass
+        # sorted_s = sorted(scores.items(), key=operator.itemgetter(1), reverse=True)
+        # for k in sorted_s[:l/2+1]:
+        #     fout.write(candi[k[0]]+'\n')
+        # fout.write('\n')
+        for k,v in scores.items():
+            if v > threshold:
+                ret.append(candi[k])
+        return ret
+
+    def wordNetScore(self, threshold,candi):
+
+        scores = {}
+        l = len(candi)
+        ret = []
+        for i in xrange(l):
+            try:
+                scores[i] += 0
+            except:
+                scores[i] = 0
+            for j in xrange(i+1, l):
+                c1 = re.sub(r'[^\w\s]+','',candi[i])
+                c2 = re.sub(r'[^\w\s]+','',candi[j])
+                s2 = wordnetutil.similarity(c1,c2,True)
+                t = s2
+                scores[i] += t
+                try:
+                    scores[j] += t
+                except:
+                    scores[j] = t
+            try:
+                scores[i] /= (l-1)
+            except:
+                pass
+        # sorted_s = sorted(scores.items(), key=operator.itemgetter(1), reverse=True)
+        # for k in sorted_s[:l/2+1]:
+        #     fout.write(candi[k[0]]+'\n')
+        # fout.write('\n')
+        for k,v in scores.items():
+            if v > threshold:
+                ret.append(candi[k])
+        return ret
+
