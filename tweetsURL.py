@@ -103,16 +103,29 @@ for acnt in formalaccount:
                     '''
                         first filting
                         filter out tweets look too same or too different
+
+                        TODO:
+                        refact here: track not only the average
+                        for one tweets that have high similarity with the some (upper)
+                        or one tweet looks too different (lower) filter out
+
+                        automatically set upper and lower by using 1-sigma vairance
+
                     '''
                     candi = similarity.groupExcatWordscore(candi,0.8,0.3)
                     '''
                         second filting
                         filter by embedding
+
+
+                        TODO: automatically set bound by using avg + 1 sigma
                     '''
                     candi = similarity.embeddingScore(0.6, candi)
                     '''
                         third filting
                         filter by wordNet
+
+                         TODO: automatically set bound by using avg + 1 sigma
                     '''
                     candi = similarity.wordNetScore(0.6,candi)
                     if len(candi) < 2:
