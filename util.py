@@ -1,5 +1,6 @@
 __author__ = 'siyuqiu'
 import numpy as np
+from scipy.stats import norm
 from tweetsManager import textManager
 from random import shuffle
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -14,6 +15,10 @@ from collections import Counter
 import operator
 import wordnetutil
 from sklearn.cluster import KMeans
+from collections import defaultdict
+import warnings
+
+warnings.simplefilter("error")
 class statis:
     def __init__(self, arr):
         self.array = np.array(arr)
@@ -46,6 +51,9 @@ class statis:
         for k, v in f.items():
             ret += k+": "+ str(v())+'\n'
         return ret
+    def getvalue(self,x, mean, std):
+        return norm.pdf(x, mean, std)
+
 
 class dataprepare:
     def __init__(self):
@@ -163,33 +171,33 @@ class sentenceSimilarity:
         return self.get_cosine(vector1, vector2)
 
 
-    def groupExcatWordscore(self, candi, upper, lower):
-        scores = {}
+    def groupExcatWordscore(self, candi):
+        scores = defaultdict(list)
         l = len(candi)
         ret = []
+        total = []
         for i in xrange(l):
-            try:
-                scores[i] += 0
-            except:
-                scores[i] = 0
             for j in xrange(i+1, l):
                 t = self.excatWordscore(candi[i], candi[j])
-                scores[i] += t
-                try:
-                    scores[j] += t
-                except:
-                    scores[j] = t
-            try:
-                scores[i] /= (l-1)
-            except:
-                pass
+                scores[i].append(t)
+                total.append(t)
+                scores[j].append(t)
+
         # sorted_s = sorted(scores.items(), key=operator.itemgetter(1), reverse=True)
         # for k in sorted_s[:l/2+1]:
         #     fout.write(candi[k[0]]+'\n')
         # fout.write('\n')
+        stat = statis(total)
+        avg = stat.getavg()
+        std = stat.getstd()
+        lower = avg-std
+        upper = avg+std
         for k,v in scores.items():
-            if v > lower and v  < upper:
-                ret.append(candi[k])
+            cur = statis(v)
+            cur_avg = cur.getavg()
+            if cur_avg > upper or cur_avg < lower:
+                continue
+            ret.append(candi[k])
         return ret
 
     def get_cosine(self,vec1, vec2):
@@ -223,11 +231,10 @@ class sentenceSimilarity:
         count = 0
         ret = [0 for _ in xrange(len(self.w2v[self.w2v.keys()[0]]))]
         for t in token:
-            try:
+            if self.w2v.has_key(t):
                 ret = map(operator.add, ret, self.w2v[t])
                 count += 1
-            except:
-                pass
+
         if count == 0:
             return ret
         else:
@@ -241,10 +248,11 @@ class sentenceSimilarity:
         denominator = self.square_rooted(x)*self.square_rooted(y)+1e-10
         return round(numerator/float(denominator),3)
 
-    def embeddingScore(self, threshold, candi):
+    def embeddingScore(self,  candi):
         scores = {}
         embed = {}
         ret = []
+        total = []
         for idx,c in enumerate(candi):
             embed[idx] = self.sentenceEmbedding(c)
         l = len(candi)
@@ -255,7 +263,9 @@ class sentenceSimilarity:
                 scores[i] = 0
             for j in xrange(i+1, l):
                 t = self.similarity(embed[i], embed[j])
+                # assert t is not None
                 scores[i] += t
+                total.append(t)
                 try:
                     scores[j] += t
                 except:
@@ -268,16 +278,25 @@ class sentenceSimilarity:
         # for k in sorted_s[:l/2+1]:
         #     fout.write(candi[k[0]]+'\n')
         # fout.write('\n')
+        # stat = statis(total)
+        # std = stat.getstd()
+        # avg = stat.getavg()
+        try:
+            threshold = sum(total)/len(total)
+        except:
+            threshold = 0
+        print 'embedding',threshold
         for k,v in scores.items():
             if v > threshold:
                 ret.append(candi[k])
         return ret
 
-    def wordNetScore(self, threshold,candi):
+    def wordNetScore(self,candi):
 
         scores = {}
         l = len(candi)
         ret = []
+        total = []
         for i in xrange(l):
             try:
                 scores[i] += 0
@@ -286,8 +305,8 @@ class sentenceSimilarity:
             for j in xrange(i+1, l):
                 c1 = re.sub(r'[^\w\s]+','',candi[i])
                 c2 = re.sub(r'[^\w\s]+','',candi[j])
-                s2 = wordnetutil.similarity(c1,c2,True)
-                t = s2
+                t = wordnetutil.similarity(c1,c2,True)
+                total.append(t)
                 scores[i] += t
                 try:
                     scores[j] += t
@@ -301,6 +320,12 @@ class sentenceSimilarity:
         # for k in sorted_s[:l/2+1]:
         #     fout.write(candi[k[0]]+'\n')
         # fout.write('\n')
+        try:
+            threshold = sum(total)/len(total)
+        except:
+            threshold = 0
+
+        print 'wordnet',threshold
         for k,v in scores.items():
             if v > threshold:
                 ret.append(candi[k])

@@ -270,8 +270,8 @@ import re
 import util
 similarity = util.sentenceSimilarity()
 
-fout = open('files/filtered_acnt_@cnnbrk_further.txt','w')
-with open('files/filtered_acnt_@cnnbrk.txt') as f:
+fout = open('files/filtered_acnt_@BBCBreaking_auto_further.txt','w')
+with open('files/filtered_acnt_@BBCBreaking_auto.txt') as f:
         candi = []
         for line in f:
             line = line.strip()
