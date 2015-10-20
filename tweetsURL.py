@@ -5,7 +5,7 @@ except ImportError:
 
 # Import the necessary methods from "twitter" library
 from twitter import Twitter, OAuth
-import re, os
+import re, os,time
 from configHelper import myconfig
 from tweetsManager import textManager
 import datetime
@@ -62,13 +62,29 @@ def queryNewUrl(oldurls):
 
 
 
+def RateLimited(maxPerSecond,lastTimeCalled):
+    """
+    :param maxPerSecond: 0.2
+    :param lastTimeCalled:
+    :return:
+    """
+
+    minInterval = 1.0 / float(maxPerSecond)
+    elapsed = time.clock() - lastTimeCalled
+    leftToWait = int(minInterval - elapsed)+1
+    if leftToWait>0:
+        time.sleep(leftToWait)
+    return time.clock()
+
+
+
 def querywithFull(urldict,acnt):
     data = {}
+    lastTimeCalled = time.clock()
     for surl, furl in urldict.items():
-        # time.sleep(15*60)
         data[surl] = []
         cur = set()
-
+        lastTimeCalled = RateLimited(0.2,lastTimeCalled)
         query = twitter.search.tweets(q=furl,
                                           count="100",
                                           lang="en",
