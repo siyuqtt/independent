@@ -3,15 +3,14 @@ try:
 except ImportError:
     import simplejson as json
 
-# Import the necessary methods from "twitter" library
 from twitter import Twitter, OAuth
+from tokenize import *
 import re, os,time
 from configHelper import myconfig
-from tweetsManager import textManager
 import datetime
 URLINTEXT_PAT = \
     re.compile(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
-
+import schedule
 import requests
 # Variables that contains the user credentials to access Twitter API 
 ACCESS_TOKEN = myconfig.accesstoken
@@ -35,7 +34,7 @@ def getOldUrl(fhander):
         return dict()
 
 
-def queryNewUrl(oldurls):
+def queryNewUrl(oldurls,acnt):
 
     query = twitter.search.tweets(q="from:"+acnt,
                                   count="100",
@@ -76,37 +75,66 @@ def RateLimited(maxPerSecond,lastTimeCalled):
         time.sleep(leftToWait)
     return time.clock()
 
+def getQuery(maxid, minid, furl):
+
+    if maxid is not None and minid is not None:
+        query = twitter.search.tweets(q=furl,
+                                      count="100",
+                                      lang="en",
+                                      max_id=maxid
+                                      )
+        if len(query["statuses"])==0:
+            query = twitter.search.tweets(q=furl,
+                                      count="100",
+                                      lang="en",
+                                      since_id=minid
+                                      )
+    else:
+        query = twitter.search.tweets(q=furl,
+                                      count="100",
+                                      lang="en"
+                                      )
+
+    return query
 
 
-def querywithFull(urldict,acnt):
+def querywithFull(urldict,acnt,urlid_dict):
     data = {}
     lastTimeCalled = time.clock()
     for surl, furl in urldict.items():
         data[surl] = []
         cur = set()
         lastTimeCalled = RateLimited(0.2,lastTimeCalled)
-        query = twitter.search.tweets(q=furl,
-                                          count="100",
-                                          lang="en",
-                                      until=targetdate
-                                          )
+        if urlid_dict.has_key(surl):
+            maxid = urlid_dict[surl][0]
+            minid = urlid_dict[surl][1]
+        else:
+            maxid, minid = None, None
+
+        query = getQuery(maxid,minid,furl)
         for result in query["statuses"]:
             nre = re.sub(URLINTEXT_PAT,"",result["text"]).lower().strip()
             if nre not in cur:
                 data[surl].append([result["id_str"],nre])
+                maxid = max(maxid, result["id_str"])
+                if minid is None:
+                    minid = result["id_str"]
+                else:
+                    minid = min(minid, result["id_str"])
                 cur.add(nre)
+        urlid_dict[surl] = (maxid, minid)
 
 
     f = open('files/urltweets_acnt_info_'+acnt+'_'+date+'_auto.txt','a')
     rawfilename = 'files/urltweets_acnt_'+acnt+'_'+date+'_auto.txt'
     ff = open(rawfilename,'a')
     statff = open('files/'+acnt+'_'+date+'_urlcounts.txt','a')
-    mytextmanager = textManager()
+    # mytextmanager = textManager()
     for k,v in data.items():
         f.write(k+'\n')
         statff.write(k+'\t'+str(len(v))+'\n')
         for [id,vv] in v:
-            tokens = mytextmanager.tokenizefromstring(vv)
+            tokens = tokenizeRawTweetText(vv)
             f.write(id+"\t")
             for t in tokens:
                 try:
@@ -122,26 +150,57 @@ def querywithFull(urldict,acnt):
         ff.write('\n')
         if len(v) < 50:
             del urldict[k]
+            del urlid_dict[k]
     f.close()
     statff.close()
     ff.close()
 
+def buildurlDictfromFile(handler):
+    handler.seek(0, os.SEEK_SET)
+    def item(l):
+        ts = l.strip().split()
+        try:
+            return (ts[0],(ts[1], ts[2]))
+        except:
+            return None
+    try:
+        return dict(item(l) for l in handler.readlines())
+    except:
+        return dict()
 
-for acnt in formalaccount:
+def job():
+    for acnt in formalaccount:
 
-    urlfiles = 'files/'+acnt+'_urls.txt'
+        urlfiles = 'files/'+acnt+'_urls.txt'
+        urlfile_handler= open(urlfiles,'a+')
+        urldict = getOldUrl(urlfile_handler)
 
-    urlfile_handler= open(urlfiles,'a+')
+        urlidfiles = "files/"+ acnt+"_urlID.txt"
+        urlid_handler = open(urlidfiles,'a+')
+        urlid_dict = buildurlDictfromFile(urlid_handler)
+        queryNewUrl(urldict,acnt)
+        if len(urldict) > 0:
+            querywithFull(urldict,acnt,urlid_dict)
+        urlfile_handler.seek(0, os.SEEK_SET)
+        urlfile_handler.truncate(0)
+        for k,v in urldict.items():
+            urlfile_handler.write(k+'\t'+v+'\n')
+        urlfile_handler.close()
 
-    urldict = getOldUrl(urlfile_handler)
-    queryNewUrl(urldict)
-    if len(urldict) > 0:
-        querywithFull(urldict,acnt)
-    urlfile_handler.seek(0, os.SEEK_SET)
-    urlfile_handler.truncate(0)
-    for k,v in urldict.items():
-        urlfile_handler.write(k+'\t'+v+'\n')
-    urlfile_handler.close()
+        urlid_handler.seek(0,os.SEEK_SET)
+        urlid_handler.truncate(0)
+        for k,v in urlid_dict.items():
+            urlid_handler.write(k+'\t'+v[0]+'\t'+v[1]+'\n')
+        urlid_handler.close()
+
+
+
+schedule.every(4).hour.do(job)
+
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
     # for iter in xrange(10):
 
 

@@ -267,24 +267,51 @@ import re
 # print count
 # print cover
 # print cover*100.0/count
-import util
-similarity = util.sentenceSimilarity()
+# import util
+# similarity = util.sentenceSimilarity()
+#
+# fout = open('files/filtered_acnt_@BBCBreaking_auto_further.txt','w')
+# with open('files/filtered_acnt_@BBCBreaking_auto.txt') as f:
+#         candi = []
+#         for line in f:
+#             line = line.strip()
+#             if len(line) != 0:
+#                 candi.append(line)
+#             else:
+#
+#                 candi = similarity.KnnClassify(candi)
+#                 if len(candi) < 2:
+#                     candi = []
+#                     continue
+#                 for c in candi:
+#                     fout.write(c+'\n')
+#                 fout.write('\n')
+#                 candi = []
+# fout.close()
 
-fout = open('files/filtered_acnt_@BBCBreaking_auto_further.txt','w')
-with open('files/filtered_acnt_@BBCBreaking_auto.txt') as f:
-        candi = []
-        for line in f:
-            line = line.strip()
-            if len(line) != 0:
-                candi.append(line)
-            else:
 
-                candi = similarity.KnnClassify(candi)
-                if len(candi) < 2:
-                    candi = []
-                    continue
-                for c in candi:
-                    fout.write(c+'\n')
-                fout.write('\n')
-                candi = []
-fout.close()
+import re
+from DateUrl import DateUrl
+from collections import defaultdict
+p = re.compile(r'@(.*)_(.*)_urlcounts.txt')
+from os import listdir
+from os.path import isfile, join
+mypath = "files"
+onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
+
+for fn in onlyfiles:
+
+    date_urls = defaultdict(list)
+    m = p.match(fn)
+    if p.match(fn):
+        acnt = m.group(1)
+        date = m.group(2)
+        dateurlObj = DateUrl(date, acnt)
+        with open(fn) as fhandler:
+            tmp = dict((x, int(y)) for [x, y] in [l.strip().split() for l in fhandler.readlines()])
+            dateurlObj.setUrlNum(len(tmp))
+            dateurlObj.setTotaltweet(sum(tmp.values()))
+            dateurlObj.setUrlNumDict(tmp)
+        date_urls[date].append(dateurlObj)
+
+
