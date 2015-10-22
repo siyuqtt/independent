@@ -298,20 +298,62 @@ from os import listdir
 from os.path import isfile, join
 mypath = "files"
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
-
+date_urls = defaultdict(list)
+acnt_date = {}
+acnt_url  = {}
 for fn in onlyfiles:
-
-    date_urls = defaultdict(list)
     m = p.match(fn)
     if p.match(fn):
         acnt = m.group(1)
+        if not acnt_date.has_key(acnt):
+            acnt_date[acnt] = defaultdict(list)
+            acnt_url[acnt]  = defaultdict(list)
         date = m.group(2)
         dateurlObj = DateUrl(date, acnt)
-        with open(fn) as fhandler:
-            tmp = dict((x, int(y)) for [x, y] in [l.strip().split() for l in fhandler.readlines()])
+        with open(join(mypath,fn)) as fhandler:
+            tmp = {}
+            for [x, y ] in [l.strip().split() for l in fhandler.readlines()]:
+                 if tmp.has_key(x):
+                    tmp[x] += int(y)
+                 else:
+                     tmp[x] = int(y)
             dateurlObj.setUrlNum(len(tmp))
             dateurlObj.setTotaltweet(sum(tmp.values()))
             dateurlObj.setUrlNumDict(tmp)
+            acnt_date[acnt][date]= tmp.values()
+            for k,v in tmp.items():
+                acnt_url[acnt][k].append(v)
         date_urls[date].append(dateurlObj)
+
+
+
+'''
+ one account avg single tweet amount daily trend
+'''
+
+from PlotView import PlotView
+import operator
+from util import statis
+
+painter = PlotView()
+statis_helper = statis(None)
+for acn, datedict in acnt_date.items():
+    painter.setAcntName(acn)
+    '''
+        xlabel means std
+    '''
+    xlabel = []
+    means = []
+    stds  = []
+    sorted_tuple = sorted(datedict.items(), key=operator.itemgetter(0))
+
+    for tup in sorted_tuple:
+        statis_helper.setArray(tup[1])
+        means.append(statis_helper.getavg())
+        stds.append(statis_helper.getstd())
+        xlabel.append(tup[0])
+    painter.plotBar(xlabel,means,stds,acn+"_AvgTweetPerUrl")
+
+    painter.plotBar(xlabel,[len(tup[1]) for tup in sorted_tuple],None,acn+"_UrlPerDay")
 
 

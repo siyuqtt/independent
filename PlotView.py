@@ -1,4 +1,6 @@
 __author__ = 'siyuqiu'
+import matplotlib
+matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 import numpy as np
 class PlotView:
@@ -13,16 +15,13 @@ class PlotView:
     def setDate(self, date):
         self.date = date
 
-    def plotSingleUrlTrend(self, singleUrlDict ):
+    def plotBar(self, xlable, means, std, title):
         """
 
         :param singleUrlDict: (date: num)
         :return:
         """
-        n_groups = len(singleUrlDict)
-
-        means_men = (20, 35, 30, 35, 27)
-        std_men = (2, 3, 4, 1, 2)
+        n_groups = len(xlable)
 
 
 
@@ -33,21 +32,27 @@ class PlotView:
 
         opacity = 0.4
         error_config = {'ecolor': '0.3'}
-
-        rects1 = plt.bar(index, means_men, bar_width,
+        if std is not None:
+            rects1 = plt.bar(index, means, bar_width,
                          alpha=opacity,
                          color='b',
-                         yerr=std_men,
+                         yerr=std,
                          error_kw=error_config,
-                         label='Men')
+                         label=self.acnt)
+        else:
+            rects1 = plt.bar(index, means, bar_width,
+                         alpha=opacity,
+                         color='b',
+                         label=self.acnt)
+
 
 
 
         plt.xlabel('Date')
         plt.ylabel('Num')
-        plt.title('Single Url Trend')
+        plt.title(title)
         # plt.xticks(index + bar_width, ('A', 'B', 'C', 'D', 'E'))
-        plt.xticks(index + bar_width, singleUrlDict.keys())
+        plt.xticks(index + bar_width, xlable)
         plt.legend()
 
         plt.tight_layout()

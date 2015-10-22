@@ -195,7 +195,7 @@ def job():
 
 
 
-schedule.every(4).hour.do(job)
+schedule.every().hour.do(job)
 
 
 while True:

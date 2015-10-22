@@ -20,8 +20,10 @@ import warnings
 
 warnings.simplefilter("error")
 class statis:
+
     def __init__(self, arr):
         self.array = np.array(arr)
+
     def setArray(self,arr):
         self.array = np.array(arr)
 
@@ -30,27 +32,32 @@ class statis:
             return np.mean(self.array)
         except:
             return  0
+
     def getstd(self):
         try:
             return np.std(self.array)
         except:
             return 0
+
     def getmin(self):
         try:
             return np.min(self.array)
         except:
             return 0
+
     def getmax(self):
         try:
             return np.max(self.array)
         except:
             return 0
+
     def getreport(self):
         f ={'avg':self.getavg, 'std':self.getstd, 'max':self.getmax, 'min':self.getmin}
         ret = ""
         for k, v in f.items():
             ret += k+": "+ str(v())+'\n'
         return ret
+
     def getvalue(self,x, mean, std):
         return norm.pdf(x, mean, std)
 
