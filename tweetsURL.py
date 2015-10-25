@@ -24,8 +24,13 @@ oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 twitter = Twitter(auth=oauth)
 # Get a sample of the public data following through Twitter
 formalaccount = ['@nytimes','@cnnbrk','@BBCBreaking','@CNN','@ABC','@NBCNews']
-date = datetime.date.today().__str__()
-targetdate = (datetime.date.today()- datetime.timedelta(days=7)).__str__()
+
+def getDate():
+    return datetime.date.today().__str__()
+
+def getTargetDate():
+    targetdate = (datetime.date.today()- datetime.timedelta(days=7)).__str__()
+    return targetdate
 def getOldUrl(fhander):
     try:
         fhander.seek(0, os.SEEK_SET)
@@ -35,7 +40,7 @@ def getOldUrl(fhander):
 
 
 def queryNewUrl(oldurls,acnt):
-
+    targetdate = getTargetDate()
     query = twitter.search.tweets(q="from:"+acnt,
                                   count="100",
                                   lang="en",
@@ -81,13 +86,13 @@ def getQuery(maxid, minid, furl):
         query = twitter.search.tweets(q=furl,
                                       count="100",
                                       lang="en",
-                                      max_id=maxid
+                                      max_id=minid
                                       )
         if len(query["statuses"])==0:
             query = twitter.search.tweets(q=furl,
                                       count="100",
                                       lang="en",
-                                      since_id=minid
+                                      since_id=maxid
                                       )
     else:
         query = twitter.search.tweets(q=furl,
@@ -99,6 +104,7 @@ def getQuery(maxid, minid, furl):
 
 
 def querywithFull(urldict,acnt,urlid_dict):
+    date = getDate()
     data = {}
     lastTimeCalled = time.clock()
     for surl, furl in urldict.items():
@@ -170,7 +176,7 @@ def buildurlDictfromFile(handler):
 
 def job():
     for acnt in formalaccount:
-
+        print acnt, time.asctime()
         urlfiles = 'files/'+acnt+'_urls.txt'
         urlfile_handler= open(urlfiles,'a+')
         urldict = getOldUrl(urlfile_handler)

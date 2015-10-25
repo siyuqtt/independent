@@ -337,6 +337,15 @@ from util import statis
 
 painter = PlotView()
 statis_helper = statis(None)
+def elementAdd(l1, l2):
+        if len(l1) > len(l2):
+            return elementAdd(l2, l1)
+        return map(add,l1, l2[:len(l1)])+l2[len(l1):]
+def elementDiv(l, d):
+    if d == 0:
+        return l
+    return [it*1.0/d for it in l]
+
 for acn, datedict in acnt_date.items():
     painter.setAcntName(acn)
     '''
@@ -355,5 +364,16 @@ for acn, datedict in acnt_date.items():
     painter.plotBar(xlabel,means,stds,acn+"_AvgTweetPerUrl")
 
     painter.plotBar(xlabel,[len(tup[1]) for tup in sorted_tuple],None,acn+"_UrlPerDay")
+    '''
+    acnt_url[acnt][k].append(v)
+    '''
+    totalsum = []
+    acnt_all_url = acnt_url[acn]
+
+    for v in acnt_all_url.values():
+        totalsum = elementAdd(totalsum,v)
+    totalsum = elementDiv(totalsum, len(acnt_all_url))
+    # for
+    painter.plotBar([i+1 for i in xrange(len(totalsum))],totalsum,None,acn+"_Url_Num")
 
 
