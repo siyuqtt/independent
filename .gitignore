@@ -2,3 +2,4 @@
 config
 glove.twitter.27B.50d.txt
 .idea
+.DS_Store
