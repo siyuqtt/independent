@@ -5,11 +5,7 @@ except ImportError:
 
 from twitter import Twitter, OAuth
 from tokenize import *
-<<<<<<< HEAD
 import re, os,time,sys
-=======
-import re, os,time
->>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 from configHelper import myconfig
 import datetime
 URLINTEXT_PAT = \
@@ -177,7 +173,6 @@ def buildurlDictfromFile(handler):
         return dict(item(l) for l in handler.readlines())
     except:
         return dict()
-<<<<<<< HEAD
 
 def job():
     for acnt in formalaccount:
