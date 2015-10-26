@@ -4,7 +4,7 @@ import operator
 from nltk.corpus import stopwords
 import string
 from nltk import bigrams
-
+import nltk
 class textManager:
     def __init__(self):
         self.punctuation = list(string.punctuation)
