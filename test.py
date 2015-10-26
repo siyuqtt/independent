@@ -267,24 +267,113 @@ import re
 # print count
 # print cover
 # print cover*100.0/count
-import util
-similarity = util.sentenceSimilarity()
+# import util
+# similarity = util.sentenceSimilarity()
+#
+# fout = open('files/filtered_acnt_@BBCBreaking_auto_further.txt','w')
+# with open('files/filtered_acnt_@BBCBreaking_auto.txt') as f:
+#         candi = []
+#         for line in f:
+#             line = line.strip()
+#             if len(line) != 0:
+#                 candi.append(line)
+#             else:
+#
+#                 candi = similarity.KnnClassify(candi)
+#                 if len(candi) < 2:
+#                     candi = []
+#                     continue
+#                 for c in candi:
+#                     fout.write(c+'\n')
+#                 fout.write('\n')
+#                 candi = []
+# fout.close()
 
-fout = open('files/filtered_acnt_@BBCBreaking_auto_further.txt','w')
-with open('files/filtered_acnt_@BBCBreaking_auto.txt') as f:
-        candi = []
-        for line in f:
-            line = line.strip()
-            if len(line) != 0:
-                candi.append(line)
-            else:
 
-                candi = similarity.KnnClassify(candi)
-                if len(candi) < 2:
-                    candi = []
-                    continue
-                for c in candi:
-                    fout.write(c+'\n')
-                fout.write('\n')
-                candi = []
-fout.close()
+import re
+from DateUrl import DateUrl
+from collections import defaultdict
+p = re.compile(r'@(.*)_(.*)_urlcounts.txt')
+from os import listdir
+from os.path import isfile, join
+mypath = "files"
+onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
+date_urls = defaultdict(list)
+acnt_date = {}
+acnt_url  = {}
+for fn in onlyfiles:
+    m = p.match(fn)
+    if p.match(fn):
+        acnt = m.group(1)
+        if not acnt_date.has_key(acnt):
+            acnt_date[acnt] = defaultdict(list)
+            acnt_url[acnt]  = defaultdict(list)
+        date = m.group(2)
+        dateurlObj = DateUrl(date, acnt)
+        with open(join(mypath,fn)) as fhandler:
+            tmp = {}
+            for [x, y ] in [l.strip().split() for l in fhandler.readlines()]:
+                 if tmp.has_key(x):
+                    tmp[x] += int(y)
+                 else:
+                     tmp[x] = int(y)
+            dateurlObj.setUrlNum(len(tmp))
+            dateurlObj.setTotaltweet(sum(tmp.values()))
+            dateurlObj.setUrlNumDict(tmp)
+            acnt_date[acnt][date]= tmp.values()
+            for k,v in tmp.items():
+                acnt_url[acnt][k].append(v)
+        date_urls[date].append(dateurlObj)
+
+
+
+'''
+ one account avg single tweet amount daily trend
+'''
+
+from PlotView import PlotView
+import operator
+from util import statis
+
+painter = PlotView()
+statis_helper = statis(None)
+def elementAdd(l1, l2):
+        if len(l1) > len(l2):
+            return elementAdd(l2, l1)
+        return map(add,l1, l2[:len(l1)])+l2[len(l1):]
+def elementDiv(l, d):
+    if d == 0:
+        return l
+    return [it*1.0/d for it in l]
+
+for acn, datedict in acnt_date.items():
+    painter.setAcntName(acn)
+    '''
+        xlabel means std
+    '''
+    xlabel = []
+    means = []
+    stds  = []
+    sorted_tuple = sorted(datedict.items(), key=operator.itemgetter(0))
+
+    for tup in sorted_tuple:
+        statis_helper.setArray(tup[1])
+        means.append(statis_helper.getavg())
+        stds.append(statis_helper.getstd())
+        xlabel.append(tup[0])
+    painter.plotBar(xlabel,means,stds,acn+"_AvgTweetPerUrl")
+
+    painter.plotBar(xlabel,[len(tup[1]) for tup in sorted_tuple],None,acn+"_UrlPerDay")
+    '''
+    acnt_url[acnt][k].append(v)
+    '''
+    totalsum = []
+    acnt_all_url = acnt_url[acn]
+
+    for v in acnt_all_url.values():
+        totalsum = elementAdd(totalsum,v)
+    totalsum = elementDiv(totalsum, len(acnt_all_url))
+    # for
+    painter.plotBar([i+1 for i in xrange(len(totalsum))],totalsum,None,acn+"_Url_Num")
+
+
