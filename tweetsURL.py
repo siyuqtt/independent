@@ -177,7 +177,7 @@ def buildurlDictfromFile(handler):
 def job():
     for acnt in formalaccount:
         print acnt, time.asctime()
-	sys.stdout.flush()
+        sys.stdout.flush()
         urlfiles = 'files/'+acnt+'_urls.txt'
         urlfile_handler= open(urlfiles,'a+')
         urldict = getOldUrl(urlfile_handler)
