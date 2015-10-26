@@ -28,7 +28,10 @@ http://t.co/WUS6qusYQu
 654777713379557376	the asian advantage via @nytimes 
 654763416830107648	the asian advantage : 
 654713334768365569	the asian advantage i love the awkward question because we are all thinking it 
+<<<<<<< HEAD
+=======
 654640547395710976	catching up : @nickkristof tries to explain the asian advantage . food for thought . 
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 654420034370973696	" an a- is an " asian " f . " lol the asian advantage 
 654326560950906880	the asian advantage - new york times 
 654318958993018881	rt @nickkristof : what lessons do we draw from the success of asian-americans in us life ? my column : … 
@@ -61,6 +64,69 @@ http://t.co/WUS6qusYQu
 653938999443111936	opinion | the asian advantage - the new york times 
 653912535079485442	the asian advantage -- good column . he's right about positive stereotypes and they do have disadvantages . 
 653877291060097025	" lets not use the success of asians to pat ourselves on the back and pretend that discrimination is history . " 
+<<<<<<< HEAD
+653833645656903680	the asian american advantage - the new york times but does it translate to c level jobs , f-500 board seats ? not yet . 
+
+http://t.co/NZU6eCxPZZ
+656553331939262464	seattle , in midst of tech boom , tries to keep its soul 
+656546207553032192	this city's fucked : seattle , in midst of tech boom , tries to keep its soul 
+656534747074703361	seattle , in midst of tech boom , tries to keep its soul . an interesting case for other cities , too . 
+656082382668193792	seattle aiming for growth , balance & culture #seattle 
+655738008235192320	rt @liberationtech : like san francisco , seattle - in midst of tech boom - tries to keep its soul | by @nickwingfield 
+655615734152753152	seattle , in midst of tech boom , tries to keep its soul #seattle 
+655543944428810240	" seattle , in midst of tech boom , tries to keep its soul " via @nickwingfield , @nytimes #seattle #tech #futureofwork 
+655375304752537600	like san francisco , seattle - in midst of tech boom - tries to keep its soul | by @nickwingfield 
+655138501483171840	as i drove my scooter by a big truck yesterday he flipped me off and said , you are the reason seattle is becoming ... 
+655056622197317632	rt @techmeme : how seattle is trying to avoid the issues plaguing san francisco , as its tech scene expands … 
+654814106843672576	rt @cbloggy : somehow missed this last week . seattle using san francisco as a " cautionary tale " & a guide as to what not to do … 
+654747450519851008	seattle , in midst of tech boom , tries to keep its soul #portcity #research #sanfrancisco 
+654744799979810816	#seattle hits the @nytimes : this is happening . cranes . are . everywhere . 
+654719453171597312	somehow missed this last week . seattle using san francisco as a " cautionary tale " & a guide as to what not to do 
+654719424839090176	seattle , in midst of tech boom , tries to keep its soul : 
+654716025607294976	seattle , in midst of tech boom , tries to keep its soul - the new york times 
+654443833225154560	people call it a housing crisis . other say it's a transit crisis . seattle is gaining attention for its high cost ... 
+654399406884581376	can seattle keep its soul ? nytimes ponders this in light of 7500 new homes added in 2014 ( vs 3.5 k in san francisco ) 
+654345762357309440	amidst #techgrowth #seattle attempts to learn lessons from #sanfrancisco #affordablehousing crisis 
+654338330792849408	#seattle , in midst of tech boom , tries to keep its soul #tech 
+654286280646389764	" in midst of tech boom , #seattle tries to keep its soul " #toolate ( signed , a one-time resident ) 
+654281807370711041	#seattle , in midst of #techboom , tries to keep its soul 
+654108442802544641	blame those who shilled for downtown seattle tunnel instead of better transit & roads for affordability problem . 
+654108011451957248	opponents of more housing overall & dense development in urban centers are making seattle less affordable . 
+654107783353110528	much better transit is needed now . bold measures . if family could live in seattle w/out car , would save big $ . 
+654107427344773121	talkers get it wrong : affordability will come from more housing supply (& smart density ) . 
+654107141523963904	folks in mexico city still talking about this article : seattle , in midst of tech boom , tries to keep its soul 
+654093490649825281	" seattle's new view of san francisco . " can the city keep its #soul in spite of all the #growth ? #realestate #seattle 
+654073316647370752	tech boom could ruin off campus student housing options in seattle . @nytimes 
+654055828299747328	seattle , in midst of tech boom , tries to keep its soul ty , #seattle for having a #soul and being #awesome #lovemycity 
+654026077166284800	seattle , in midst of tech boom , tries to keep its soul | 
+654025254373822464	how seattle is building housing with the cautionary tale of san francisco's housing market in mind . via @nyt : 
+654025193317339136	. #seattle , 2nd top us #tech hub , " tries to keep its soul in midst of boom " by @nickwingfield 
+654015101347823616	nyt plasters pages with meaningless time-lapse videos , as prerolls to commercials . scammy . 
+654013684302254081	seattle , in midst of tech boom , tries to keep its soul via @nytimes 
+654009020299247616	sf is turning into a " cautionary tale " for cities like seattle via @nickwingfield #tech #startups 
+653999205543866368	rt @jimkerstetter : translation from @nickwingfield : how not to be like sf ... seattle , in midst of tech boom , tries to keep its soul … 
+653998782997245952	rt seattle , in midst of tech boom , tries to keep its soul #realestate #tech #technology # … 
+653998106263076864	seattle , in midst of tech boom , tries to keep its soul #realestate #tech #technology #housing 
+653995765593972736	seattle , in midst of tech boom , tries to keep its soul via @nytimes #tech #business #techboom #technology #economy 
+653970417992888320	rt @comerpatrick : lessons for #nolatech as seattle copes with rising housing , wages , and not sf : 
+653959882693963776	the new york times ran an article on seattle growth and the direction seattleites want our city to go : 
+653924802273673220	how seattle is trying to avoid sf's probs - surging home prices , less diversity - as its tech scene expands ( nyt ) . 
+653810576385159168	rt @afahey : from the affordable housing dept : seattle , in midst of tech boom , tries to keep its soul @sightline 
+653716443985391616	rt @startupljackson : this other path sounds interesting . tell me more . 
+653692370349764608	seattle , in midst of tech boom , tries to keep its soul [ @jeffburnside @ciaraorourke here's that #seattle piece ! ] 
+653681992697970688	change is a constant . seattle , in midst of tech boom , tries to keep its soul 
+653680507373289472	1/2 that boston globe amp story caught fire today . this should too , if you sub " nashville " for " seattle " 
+653672068257591296	seattle , in midst of tech boom , tries to keep its soul >> look out , atx . 
+653665155658571776	rt @mayoredmurray : icymi : a great read in the @nytimes about what we are doing to build an #affordableseattle 
+653644168028274688	from the affordable housing dept : seattle , in midst of tech boom , tries to keep its soul @sightline 
+653613073572495360	seattle is looking to the bay area as a different sort of model : a cautionary tale 
+653598386495488000	it's not too late to save portland .... 
+653594036083658752	is tech culture soulless ? seattle's growing pains and tech boom #inbend 
+653591750951329792	no , we certainly do not want to be sf // seattle , in midst of tech boom , tries to keep its soul #economicdiversity 
+653567908937863168	seattle , in midst of tech boom , tries to keep its soul @nytimes 
+653567797230968832	they should tax the sh*t out of people to keep things equal . ~ seattle , in midst of tech boom , tries to keep its soul 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 
 http://t.co/dtIyydwkwB
 655694332620623873	rt @tmagazine : “ if you don’t daydream your life is a nightmare , ” and more from @karllagerfeld 
@@ -70,7 +136,10 @@ http://t.co/LUnnZiy0ws
 655131006018678784	the heartbreaking story of rosemary kennedy . the sister of john and robert kennedy , she had intellectual ... 
 654760460432994304	‘ rosemary : the hidden kennedy daughter , ’ by kate clifford larson #innovativemommas #babyankees #soothercaddy 
 654686437938360324	‘ rosemary : the hidden kennedy daughter , ’ by kate clifford larson 
+<<<<<<< HEAD
+=======
 654579287488643072	rt @nswcid : much to learn from rosemary's life @catiamalaquias rosemary : the hidden kennedy daughter , ’ by kate clifford larson … 
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 654441407952867330	sorrowful and relevant : ‘ rosemary : the hidden kennedy daughter , ’ by kate clifford larson 
 654437611839299584	rt @occupybroadway ' rosemary : the hidden kennedy daughter , ' by kate clifford larson . #lit 
 654303822634971136	rt @nyu_journalism : the hidden kennedy daughter - prof meryl gordon's review of @kclifflarson ' s book @nytimes http : … 
@@ -79,6 +148,10 @@ http://t.co/LUnnZiy0ws
 653968619106381824	‘ rosemary : the hidden kennedy daughter , ’ by kate clifford larson #mentalillness #stigma 
 653892400738385920	rt @sfdirewolf : mt review of ‘ rosemary : the hidden kennedy daughter , ’ by kate clifford larson #disability #intellect … 
 653814482775355392	* heartbreak * 
+<<<<<<< HEAD
+653777966787235840	rt @nswcid : much to learn from rosemary's life @catiamalaquias rosemary : the hidden kennedy daughter , ’ by kate clifford larson … 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653776097360777217	much to learn from rosemary's life @catiamalaquias rosemary : the hidden kennedy daughter , ’ by kate clifford larson 
 653775883107454977	‘ rosemary : the hidden kennedy daughter , ’ by kate clifford larson : 
 653614898740613121	rt @backstorymom1 : ‘ rosemary : the hidden kennedy daughter , ’ by kate clifford larson 
@@ -93,6 +166,17 @@ http://t.co/LUnnZiy0ws
 653371091386142720	‘ rosemary : the hidden kennedy daughter , ’ by kate clifford larson ( nyt ) 
 653296821171802112	rt @nyu_journalism : the tragic tale of rosemary kennedy - prof meryl gordon's review via @nytimes @kclifflarson ' s book - … 
 653283071093927936	‘ rosemary : the hidden kennedy daughter , ’ by kate clifford larson the tragedy of the stigma of mental illness ... 
+<<<<<<< HEAD
+653260120131043328	the tragic tale of rosemary kennedy - prof meryl gordon's review via @nytimes @kclifflarson ' s book - 
+653225103061217280	😔 ' rosemary : the hidden kennedy daughter , ’ by kate clifford larson 
+653219576679923712	the heroine of this story is eunice kennedy shriver : ‘ rosemary : the hidden kennedy daughter , ’ by kate clifford larson 
+653206329323061249	‘ rosemary : the hidden kennedy daughter , ’ by kate clifford larson a horrifying read . 😕💔 
+653200927596355584	review : ‘ rosemary : the hidden kennedy daughter , ’ by kate clifford larson 
+653197831117783041	rt @fatalpolitics : the story of rosemary kennedy is so heartbreaking i can barely make it through the book reviews . 
+653196074534891521	‘ rosemary : the hidden kennedy daughter , ’ by kate clifford larson #bookreview 
+653195409658118144	the story of rosemary kennedy is so heartbreaking i can barely make it through the book reviews . 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 
 http://t.co/UrgqgIW
 
@@ -138,11 +222,20 @@ http://t.co/1kLrHmSMmA
 653533403954876416	( #leeticoohteam ) new york today : here’s the deal via @flacojonas 
 653533012810829824	new york today : here’s the deal : m.t.a. plans , sunny skies and a holiday for some . #oladeile 
 653532909962309632	new york today : here’s the deal #nytimes 
+<<<<<<< HEAD
+653528450762936320	new york today : here’s the deal : m.t.a. plans , sunny skies and a holiday for some . [[ this … 
+653527116437393408	new york today : here’s the deal our beloved metrocard may go the way of the token 
+653524279661727744	dillydee blogs new york today : here’s the deal : m.t.a. plans , sunny skies and a holiday for some . follow us 
+653524247948603392	new york today : here’s the deal : m.t.a. plans , sunny skies and a holiday for some . #nytimes 
+653524135318941696	somaliland : new york today : here’s the deal : m.t.a. plans , sunny skies and a holiday for some . #somaliland 
+653524085863940096	new york today : here’s the deal #teamfollowback 
+=======
 653527116437393408	new york today : here’s the deal our beloved metrocard may go the way of the token 
 653524279661727744	dillydee blogs new york today : here’s the deal : m.t.a. plans , sunny skies and a holiday for some . follow us 
 653524259440988160	new york today : here’s the deal : m.t.a. plans , sunny skies and a holiday for some . #breaking #news 
 653524247948603392	new york today : here’s the deal : m.t.a. plans , sunny skies and a holiday for some . #nytimes 
 653524135318941696	somaliland : new york today : here’s the deal : m.t.a. plans , sunny skies and a holiday for some . #somaliland 
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653524079224455168	$29 billion dollar plan for metro doesn't come without headaches . new york today : here’s the deal 
 653523990829359104	new york today : here’s the deal : m.t.a. plans , sunny skies and a holiday for some . #news_on_world 
 653523457523585024	#sharenews new york today : here’s the deal 
@@ -156,6 +249,10 @@ http://t.co/80CM6awgqa
 653688357294354432	pictures of the day : #photos #foto 
 653688316093669376	" rt nytimesphoto : photos of the day " 
 653688265330061312	rt nytimesphoto : photos of the day 
+<<<<<<< HEAD
+653687976753504256	rt nytimesphoto : photos of the day via nytimes 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653687784079794176	nytimes : rt nytimesphoto : photos of the day 
 653686970921709568	slide show : pictures of the day : spain and elsewhere , via @nytimes 
 653686162045960192	pictures of the day : spain and elsewhere 
@@ -163,6 +260,42 @@ http://t.co/80CM6awgqa
 653679647880777728	#blog " pictures of the day : spain and elsewhere " by unknown author via nyt -> @davidjcc_zgz 
 653679069410775040	" pictures of the day : spain and elsewhere " by unknown author via nyt 
 
+<<<<<<< HEAD
+http://t.co/TubwoIU8Qc
+656632848129093632	from donald trump , hints of a campaign exit strategy 
+656256795023818752	rt @teaisfortreason : #donaldtrump -hints of a campaign exit strategy #tcot #ccot #tpot #p2 #uniteblue #tntvote #cir h … 
+655160999184568321	rt @botincy60 : from donald trump , hints of a campaign exit strategy all a lie from the left . 
+654549250622164992	hints of a campaign exit strategy this article is a complete fabrication . author should find a new career . 
+654409154086469633	rt @adrastosno : from donald trump , hints of a campaign exit strategy 
+654320592900853760	rt @docbonn : from donald trump , hints of a campaign exit strategy 
+653955888898637824	you mean reality ? from donald trump , hints of a campaign exit strategy - the new york times - 
+653954272753778688	please make this wish come true : from donald trump , hints of a campaign exit strategy 
+653888675164504065	from donald trump , hints of a campaign exit strategy - new york times 
+653881145537400832	from donald trump , hints of a campaign exit strategy via @instapaper 
+653874964295127040	new york times from donald trump , hints of a campaign exit strategy new york times in unmistakable ways over the … 
+653750601793208320	from donald trump , hints of a campaign exit strategy - the new york times 
+653602110886449152	rt @cupgoodness : prophesied by @prophetcarn from donald trump , hints of a campaign exit strategy 
+653587338942119936	has the trumpster peaked ? even if he spends media buck$ can he get any delegates ? how far can his ego take him ... 
+653558523952033792	from donald trump , hints of a campaign exit strategy u.s. 
+653431108072161280	rt @cherijacobus : from donald trump , hints of a campaign exit strategy 
+653393390986399748	from donald trump , hints of a campaign exit strategy #dumptrump #nyt 
+653332679090302976	from donald trump , hints of a campaign exit strategy could he turn out to be a loser ? stupid ? lightweight ? might be . 
+653326042887647232	rt @jillelswick : from donald trump , hints of a campaign exit strategy * i called this the first time he publicly env … 
+653310460247326720	trump's exit strategy ? 
+653306240592945152	rt @alantonelson : kind of a long silence from @maggienyt in our exchange re my accusation of bias in this #trump article : … 
+653306167372959745	the inevitable trump exit edges closer : from donald trump , hints of a campaign exit strategy 
+653293581462016000	kind of a long silence from @maggienyt in our exchange re my accusation of bias in this #trump article : #lastword ? 
+653272597132541952	from @realdonaldtrump , hints of a campaign exit strategy 
+653265990311104512	in unmistakable ways over last 2 weeks , trump has started to articulate way out of presidential race . 
+653245445070721024	my christmas wish ... from donald trump , hints of a campaign exit strategy 
+653211705024102401	from donald trump , hints of a campaign exit strategy all a lie from the left . 
+653206428744704000	from donald trump , hints of a campaign exit strategy via @nytimes ( vía @sarabentivegna ) 
+653204828211027968	" mr. trump , who has made his standing in the polls a central facet of his campaign message " 
+653200991660187649	ny times doing a ' trump mindread ' what could go wrong ? 
+653194784857792512	from @realdonaldtrump , hints of a campaign exit strategy . i don't think so . in bus , we plan ahead just in case . 
+
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 http://t.co/1EWmq4G8WK
 656493580597489664	rt @nytimes : why can't we sit still anymore ? via @nytopinion 
 653534878420606980	why can't we sit still anymore ? via @nytopinion 
@@ -173,7 +306,12 @@ http://t.co/KddzfXEtfx
 656616142681739264	rt @tmagazine : in which @rihanna and @miranda_july become best friends 
 
 http://t.co/0iUQib4vVY
+<<<<<<< HEAD
+656673593615609857	rt @clairecmc : we must end the citizens united madness . from fracking to finance , a torrent of campaign cash - the new york times … 
+656659856213020672	just 158 families have provided nearly half of the early money for efforts to capture the white house . 158 ! wtf ! 
+=======
 656647092979572736	rt @clairecmc : we must end the citizens united madness . from fracking to finance , a torrent of campaign cash - the new york times … 
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 656612784894050304	the families funding the 2016 presidential election 
 656595975918632960	this tells you all you need to know ... 
 656580567446650880	rt @katrinanation : think citizens united didn't ravage our fragile democracy , read this : 158 families funding the 2016 prez election https : … 
@@ -295,13 +433,125 @@ http://t.co/EacyJT3nWE
 653385079423545344	rt @mikeaztec28 : is vladimir putin trying to teach the west a lesson in syria ? 
 653344721159520257	rt @andrewsweiss : yet more proof krastev is among our most thoughtful russia watchers : is putin teaching the west a lesson in #syria ? http : … 
 
+<<<<<<< HEAD
+http://t.co/j18GQhcfkb
+654774850020470784	" farhad and mike’s week in tech : figuring out twitter’s future " by farhad manjoo and mike isaac via nyt technology 
+654277012958412801	farhad and mike’s week in tech : figuring out twitter’s future 
+653958171875110912	farhad and mike’s week in tech : figuring out twitter’s future #twitter 
+653932091994951680	farhad and mike’s week in tech : figuring out twitter’s future via @nytimes 
+653686776490520576	week in tech : figuring out twitter’s future 
+653643764171304960	farhad and mike's week in tech : figuring out twitter's future - #googlealerts #leadership #training #ethics 
+653607695354695680	@bowsdream -search engine agent 
+653603170065743872	each saturday , farhad manjoo and mike isaac , technology reporters at the new york times , review the week’s news , off … 
+653601050595864576	" farhad and mike’s week in tech : figuring out twitter’s future " @nytimes 
+653576359495667712	#twitter's future ? 
+653575295774003200	twitter in a flap 
+653560836766715904	" farhad and mike’s week in tech : figuring out twitter’s future " by farhad manjoo and mike isaac via nyt technology … 
+653556242837843969	farhad and mike’s week in tech : figuring out #twitter’s future 
+653506181881831424	" farhad and mike’s week in tech : figuring out twitter’s future " by farhad manjoo and mike isaac via nyt 
+653482478703890432	check out this article . 
+653454353416630272	quinn records tm top-10 song chart for monday october 12 , 2015 is posted 
+653439963166478336	will dorsey’s return be a radical departure from twitter's continuing challenges ( hard to use , niche product , spam ,… 
+653325771071578112	[ a ] “ product guy , ” which is silicon valley-speak for a willingness to think about how normal people use technology . 
+653319235389624320	love the humor in ' farhad and mike’s week in tech . ' not the only news recap i read , but definitely my favorite : 
+653286837214015488	momentum key in #tech . #twitter lost it . #jackdorsey has huge double challenge ahead . #square #ipo . twitter reset . 
+653257818875777024	... “ product guy , ” which is silicon valley-speak for a willingness to think about how normal people use technology " 
+653238804120248320	#technology #tech #newyorktimes #newtechnology #news #science " farhad and mike’s week in tech : figuring out twitte … 
+653237888084279296	farhad and mike’s week in tech : figuring out twitter’s future - nytimes 
+653222771699400705	rt @nattoman : is it too late to save twitter ? farhad and mike’s week in tech : figuring out twitter’s future 
+653222689583198208	is it too late to save twitter ? farhad and mike’s week in tech : figuring out twitter’s future 
+653194013135241216	rt @suaju : sharing #suaju farhad and mike's week in tech : figuring out twitter's future - new york times #twitter #internet … 
+653193841810501636	sharing #suaju farhad and mike's week in tech : figuring out twitter's future - new york times #twitter #internet 
+653188922265206784	farhad and mike’s week in tech : figuring out twitter’s future . 
+653184590039920640	farhad and mike's week in tech : figuring out twitter's future - #soical 
+
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 http://t.co/upjDzDHcLA
 655029183131750400	lets not wait .. @nytimes eric hites weighed 567lbs , wife left him : so started riding a bike . 
 654197452396847104	rt @nytimes : he weighed 567 pounds and his wife left him . so eric hites started riding a bike . 
 653581065660067840	nytimes : he weighed 567 pounds and his wife left him . so eric hites started riding a bike . 
 
+<<<<<<< HEAD
+http://t.co/7IQy6jaSDu
+656595342754975744	#electric cars outpace plugs if memory serves @sagassi called the need for #ev infrastructure 6-7 yrs ago . 
+656569630354481156	in california , electric cars outpace plugs , and sparks fly 
+656568889791279104	people are fighting for public plugs : in ca , electric cars outpace plugs & sparks fly #evetiquette #tesla #i3 #leaf 
+656549117347414016	in california , many more electric cars than public charging stations . conflicts are arising . coping strategies ? 
+656516003153645568	@kiddynamiteblog good thing you don't live in bay area ; would have been keyed or beat up . 
+656485183844188161	the latest from the new york times ! " in california , electric cars outpace plugs , and sparks fly " by matt richtel 
+656378171105873920	in california , electric cars outpace plugs , and sparks fly 
+656166123478519808	" right now , there is one public charger for every 10 electric vehicles — 15k in california and 33k across the us " 
+656122335825698817	rt @saelig : electric cars outpace plugs in ca & sparks fly ( nyt ) 
+656118956604956672	electric cars outpace plugs in ca & sparks fly ( nyt ) 
+656095235055988736	nytimes : in california , electric cars outpace plugs , and sparks fly 
+656091504604258304	rt @johncalia : nytimes : in #california , #electriccars outpace plugs , and sparks fly #tech #roc 
+656091359762358272	nytimes : in #california , #electriccars outpace plugs , and sparks fly #tech #roc 
+656078252746874880	california , a state that holds 50% of the country's electric cars , is facing a plug-in shortage 
+655912631727861760	rt @aprilsixteenday : in california , electric cars outpace plugs , and sparks fly 
+655615820781850625	will tesla deliver a self powered car before 2020 ? ask m . t . keshe , qeg & auroratek 
+655574985768095744	sign of the times : ..... in california , electric cars outpace plugs , and sparks fly 
+655447185048342528	with the rise in ev use , it’s time to think about etiquette 
+655415585489063936	“ in california , electric cars outpace plugs , and sparks fly ” but the push to make the state greener is creating an … 
+655310521688838144	rt @erikbryn : suggestion : prices can be used to allocate scarce resources . " electric cars outpace free plugs , and sparks fly " … 
+655072849154211840	increased ev ownership , limited charger access leads to bad behavior in california . 
+655058460892110848	@whitneymcknight hey , @sherryboschert good to hear from you . i meant to send you this last week : re : e-cars in sfca 
+654894295678255104	electric vehicle owners in california face a growing etiquette shortage ... #electriccars 
+654781813378777088	in california , electric cars outpace plugs , and sparks fly - new york times 
+654761187356217345	in california , #electric cars outpace plugs , and sparks fly via @nytimes 
+654707866801041413	new york times in california , electric cars outpace plugs , and sparks fly new york times san francisco — of all the … 
+654692289462190081	this explains all the eco rage in #ca #sf #prius #tesla 
+654644337385578496	do you know electric vehicle etiquette ? in california people are learning . #drivesafe 
+654530678692933632	sounds like smug ev owners are getting into cat fights over charging stations . lol the sense of entitlement runs ... 
+654526401773764608	in california , electric cars outpace plugs ... and sparks fly 
+654484682705387520	in district , electric vehicles outpace objects , and sparks fly 
+654480971929096193	cars at their greenest , humanity at its darkest : ny times piece on electric vehicle drivers fighting over charging 
+654426252544188416	problems due to increased demand in e . v . ' s mean we're on the right track ... but increased infrastructure requires bo … 
+654409518873485312	rt @freewiretech : in california , electric cars outpace plugs , and sparks fly via @nytimes - and @freewiretech has a solution . … 
+654363582465839104	in california , electric cars outpace plugs , and sparks fly via @nytimes 
+654335252765126656	“ they’re not bad people , necessarily , ” she said . “ they may have some entitlement . ” 
+654332132899225600	in california , arm wrestling at the plugs ! need to solve the etiquette of charging #ev -cars in public outlets ! 
+654221806065352704	in california , electric cars outpace plugs , and sparks fly #visionzero #actonclimate 
+654183735064174592	rt @rezendi : '“ they’re not bad people , necessarily , ” she said . “ they may have some amount of entitlement . ”' 
+654156137391001600	rt @mrichtel : unintended side effect of electric cars : people get meaner . read about parking rage in @nytimescience … 
+654137265749393408	in california , #electriccars outpace plugs , and sparks fly 
+654132807355138048	in california , electric cars outpace plugs , and sparks fly - the new york times 
+654101604359106560	electric car charging station conflicts 9,000 ev etiquette survival packs sold black market in trading spots 
+654088019142647809	rt @dcsolar : need more access to #ev charging ? we have a #solar solution that might surprise you ! … 
+654062489370406912	how is your charge rage going @rb2k 
+654061653189873664	in california , electric cars outspace plugs , and sparks fly via @nytimes #ev #greencalifornia 
+654061033225498624	in california , #electricvehicles outpace plugs , and sparks fly via @nytimes 
+654057709424119808	in california , electric cars outpace plugs , and sparks fly ( via @pocket ) 
+654054033460563968	#electric cars in california are facing a plugshare problem via @nytimes 
+654047798573330433	they are calling it " recharge rage " 
+654012834007896066	in california , electric cars outpace plugs , and sparks fly #ev 
+654012542428299269	in california , electric cars outpace plugs , and sparks fly #envhm14 
+653996664664006656	rt @dwberkley : rumble ! " in california , electric cars outpace plugs , and sparks fly " 
+653991755843551232	in california , electric cars outpace plugs , and sparks fly via @nytimes - and @freewiretech has a solution . 
+653981174491181056	a new twist on road rage : in california , electric cars outpace plugs , and sparks fly 
+653975473999867904	in california , electric cars outpace plugs , and sparks fly #infrastructure 
+653959763009667073	" electric-vehicle etiquette " -- filed under " things we never thought would be a thing . " #dontunplugme 
+653959641844465664	vruuuuum ! in california , electric cars outpace plugs , and sparks fly 
+653953551325102080	the only solution to poor #ev charging etiquette is more powerpost #chargingstations ! #phev #electricvehicle 
+653934593175879680	rumble ! " in california , electric cars outpace plugs , and sparks fly " 
+653933275988127745	the surge for #electric cars in california is great but the need for more outlets is causing issues among drivers . 
+653927074449752064	“ it’s high time , ” she said , “ for somebody to tackle the electric-vehicle etiquette problem . ” 
+653925826715500544	rt @bennohansen : #chargerage : not enough workplace chargers ; americans unplug each other's electrical cars … 
+653920355342413824	good or bad ? 
+653913242553724928	rt @nytcorneroffice : in california , electric cars outpace plugs , and sparks fly 
+653909460415565825	the push to make california greener is creating an unintended side effect : it is making some people meaner . 
+653898476548419584	rt @kristofcloud : in california , electric cars outpace plugs , and sparks fly . flying to us & ca tomorrow , @evbox can/will solve this http :/ … 
+653892154612391936	" ice holes " & the blackmarket for ev charging spots 
+653867466406395904	" in california , electric cars outpace plugs , and sparks fly " by matt richtel via nyt 
+653849476306726912	in california , electric cars outpace charging points , and sparks fly . 
+653841435309969408	in california , #electric cars outpace plugs & sparks fly . #foodforthought #planforthis @larissawaters @turnbullmalcolm 
+
+http://t.co/tQpRni2afO
+656669701033086976	the gonzo vision of quentin tarantino 
+=======
 http://t.co/tQpRni2afO
 656564669772144640	the gonzo vision of quentin tarantino 
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 656234271565332481	i don’t need to watch hbo with a bunch of strangers . 
 656185677550387201	the greats : the gonzo vision of quentin tarantino @nytfashion 
 656185664652910592	the gonzo vision of quentin #tarantino @tmagazine 
@@ -349,9 +599,15 @@ http://t.co/tQpRni2afO
 654449541576527872	rt @15minutesinc : the gonzo vision of quentin tarantino yes ! @pamgrier @abanajacobs 
 654444328065048576	rt @goseewrite : the gonzo vision of quentin tarantino 
 654441666699390976	the gonzo vision of quentin tarantino #film 
+<<<<<<< HEAD
+
+http://t.co/Me2Jej2dqL
+656661311355359232	" the other #refugee crisis " & why the #dadaab refugee camp in #africa is the future not the past . #refugeehighway 
+=======
 654440115465355264	bookmarked ! 
 
 http://t.co/Me2Jej2dqL
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 656074845537595392	rt @refugeehighway : " the other #refugee crisis " & why the #dadaab refugee camp in #africa is the future not the past . … 
 656004392626221056	" the other #refugee crisis " & why the #dadaab refugee camp in #africa is the future not the past . #refugeehighway 
 655869872241528832	the other refugee crisis . how could the world allow all these people to stay in this open prison ? 
@@ -412,6 +668,10 @@ http://t.co/pBSw1ti9iq
 654665440195510272	rt @nytimes : morning briefing : here's what you need to know to start your day . 
 653631510688481281	morning briefing : here's what you need to know to start your day . 
 653524685880213504	nytimes : morning briefing : here's what you need to know to start your day . 
+<<<<<<< HEAD
+653523458563919872	morning briefing : here's what you need to know to start your day . via nytimes 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 
 http://t.co/IOkuPPzOn9
 653775867617910784	usc fires steve sarkisian one day after putting coach on leave - the new york times 
@@ -444,7 +704,10 @@ http://t.co/o0NFrG2WUw
 653929108062253057	avoiding the mansion tax in nyc -- which kicks in at the very non-mansion price of a million bucks 
 653925515917721600	this apartment is not $1 million . it’s only $ 999,000 . #dream homes , #exotic homes , #mastermindswins 
 653914018214768640	this apartment is not $1million . it’s only $ 999,000 . i much prefer swanky studio tax vs mansion tax #nyc #realestate 
+<<<<<<< HEAD
+=======
 653897249190244352	" tax policies r strong motivators to modify human behavior ” says @jonathanmiller on $999k apartment pricing @mc_nyc 
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653890109721309185	the appraisal : this apartment is not $1 million . it’s only $ 999,000 . : in an attempt to avoid a 1 percent surch ... 
 653849742586314752	check out this article . 
 653849697400950788	#nyc #ny the appraisal : this apartment is not $1 million . it’s only $ 999,000 . : in an attempt to av ... #realestate 
@@ -458,6 +721,10 @@ http://t.co/o0NFrG2WUw
 653810962269495297	the appraisal : this apartment is not $1 million . it’s only $ 999,000 . : in an attempt to avoid ... california homes 
 653810956154175488	the appraisal : this apartment is not $1 million . it’s only $ 999,000 . : in an attempt to av ... #realestate #nytimes 
 653810947635568640	the appraisal : this apartment is not $1 million . it’s only $ 999,000 . : in an attempt to avoid a 1 p ... #realestate 
+<<<<<<< HEAD
+653808688294174720	the appraisal : this apartment is not $1 million . it’s only $ 999,000 . : in an attempt to avoid … 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653808462833549312	rt @christinaocre : the appraisal : this apartment is not $1 million . it’s only $ 999,000 . #irvine #realestate … 
 653808221921103872	the appraisal : this apartment is not $1 million . it’s only $ 999,000 . #irvine #realestate 
 653807815149137920	the appraisal : this apartment is not $1 million . it’s only $ 999,000 . #realestate #sacramento 
@@ -544,6 +811,62 @@ http://t.co/Sx05a5c6IE
 653194810749243392	a membership-based coffee shop in greenwich village @rcm_nyc - i would spend the money but the village is so far !!! 
 653194053052440576	interesting concept ! a membership-based coffee shop in greenwich village #retail #nyc 
 
+<<<<<<< HEAD
+http://t.co/PyF8PTuGni
+653639883886477312	israeli retaliatory strike in gaza kills woman and child , palestinians say @netanyahu #abbas #templemount 
+653631897910689792	israeli retaliatory strike in gaza kills woman and child , palestinians say 
+653534701630672896	nytimes : israeli retaliatory strike in gaza kills woman and child , palestinians say 
+653518213972643841	how is this title : palestiians kill parents in front of child ? 
+653422706709258240	hatta rajasa news : israeli retaliatory strike in gaza kills woman and child ... - new york times : new york ti ... 
+653416801775304704	israeli retaliatory strike in gaza kills woman and child , palestinians say #money 
+653404095525425152	israeli retaliatory strike in gaza kills woman and child , palestinian officials say 
+653391340349206528	israeli retaliatory strike in gaza kills woman and child #freepalestine #gaza #palestine 
+653322152112844801	israeli retaliatory strike in gaza kills woman and child , palestinians say - new york times 
+653313615164915712	israeli retaliatory strike in gaza kills woman and child , palestinians say - new york times #israel #israelnews 
+653307371825922048	israeli retaliatory strike in gaza kills woman and child , palestinians say - new york times : new york ... #israel 
+653303752368066560	rt @justinpodur : hey , @nytimes , you managed to figure out who did it . just had to get the ' retaliatory ' in there though , didntcha ? … 
+653264880624140288	hey , @nytimes , you managed to figure out who did it . just had to get the ' retaliatory ' in there though , didntcha ? 
+653263836095496192	israeli retaliatory strike in gaza kills woman and child , palestinian officials say - - #world 
+653256496113938432	rt @finance_fan : israeli retaliatory strike in gaza kills woman and child , palestinian officials say : the dea ... via … 
+653247848205709312	" israeli retaliatory strike in gaza kills woman and child , palestinian officials say " by isabel kershner via nyt 
+653247541216215041	israeli retaliatory strike in gaza kills woman and child , palestinian officials say #news 
+653245398321111040	israeli retaliatory strike in gaza kills woman and child , palestinian officials say : 
+653243492043517952	israeli retaliatory strike in gaza kills woman and child , palestinian ... - new ... 
+653243015306211328	it is an old trick for states with eyes on expanding their territory to cite provocation to justify their invasion . 
+653236378243719172	is there any independent verification of hamas rocket fire , before israel's bombing that killed woman & child ? @wsj 
+653236143815716864	rt @senatorshlikas : you forgot to mention that idf fired live ammunition into a crowd of unarmed palestinians , killing 6 . @nytimes @wsj htt … 
+653235758036180992	there is a difference between palestinian resistance to 67-year israeli occupation & terrorism . @nytimes @wsj @ap 
+653234873658793986	you forgot to mention that idf fired live ammunition into a crowd of unarmed palestinians , killing 6 . @nytimes @wsj 
+653225823634255877	israeli retaliatory strike in gaza kills woman and child , palestinian officials say : the deaths from an israel ... 
+653225810023739392	#tnn :: israeli retaliatory strike in gaza kills woman and child , palestinian officials say 
+653225576929488896	#cuba #usa israeli retaliatory strike in gaza kills woman and child , palestinian official ...... 
+653225562903703552	#cuba #usa israeli retaliatory strike in gaza kills woman and child , palestinian official ... #palabrasentreelcafe 
+653224355267084288	israeli retaliatory strike in gaza kills woman and child , palestinian officials say #newyorktimes 
+653224326297051136	( nytimes ) israeli retaliatory strike in gaza kills woman and child , palestinian officials say : the deaths from ... 
+653224318223056896	latest news : israeli retaliatory strike in gaza kills woman and child , palestinian officials say : the deaths f ... 
+653224300414013444	#news israeli retaliatory strike in gaza kills woman and child , palestinian officials say : the deaths from an ... 
+653224289169117186	nyt : israeli retaliatory strike in gaza kills woman and child , palestinian officials say 
+653223019041583105	israeli retaliatory strike in gaza kills woman and child , palestinian officials say : th ... 
+653222979904499713	#nytimes israeli retaliatory strike in gaza kills woman and child , palestinian officials say : the de ... #services 
+653222975605358592	israeli retaliatory strike in gaza kills woman and child , palestinian officials say : the deaths ... #breakingnews 
+653222957049737216	israeli retaliatory strike in gaza kills woman and child , palestinian officials say #itsparto 
+653222939005816832	ny times : israeli retaliatory strike in gaza kills woman and child , palestinian officials say 
+653222731786416128	israeli retaliatory strike in gaza kills woman and child , palestinian officials say : the … 
+653220213433962496	rt @santafeez : israeli retaliatory strike in gaza kills woman achild , pa officials say much of this nyt article is is … 
+653219759610306560	israeli retaliatory strike in gaza kills woman achild , pa officials say much of this nyt article is israeli propaganda 
+653216216937422850	#israel retaliatory strike kills #gaza woman and child #tcot #westbank #alaqsa 
+653214176119132160	#news israeli retaliatory strike in gaza kills woman and child , palestinian officials s ... 
+653212826161418240	israeli retaliatory strike in gaza kills woman and child , palestinian officials say : the deaths from an ... #world 
+653212803843551232	via @nytimes israeli retaliatory strike in gaza kills woman and child , palestinian officials say #ufo4ublogworld 
+653212773225115649	when love to come . israeli retaliatory strike in gaza kills woman and child , palestinia ... 
+653212766078025728	#nytimes israeli retaliatory strike in gaza kills woman and child , palestinian officials say : t ... #worldrssfeeds 
+653212379006631938	nyt- israeli retaliatory strike in gaza kills woman and child , palestinian officials say : the deaths from an i ... 
+653212374254489600	nytimes me : israeli retaliatory strike in gaza kills woman and child , palestinian officials say : the d ... #israel 
+653211851153608705	israeli retaliatory strike in gaza kills woman and child , palestinian officials say | new york times 
+653211850528587777	israeli retaliatory strike in gaza kills woman and child , palestinian ... - new york times … 
+
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 http://t.co/oAjuix
 
 http://t.co/kmFTchWzXQ
@@ -628,6 +951,10 @@ http://t.co/P8NqsTX6cM
 654074496396214272	shame ! as dnc officer says she was disinvited from debate after calling for more of them via @nytpolitics 
 654069721839497216	rt @laurennfrench : what makes this so shocking is many see gabbard as a natural replacement for dws after the latter leaves the dnc http://… 
 654065247502909440	rt @68darwin : come on #debbiewasermanshultz #disappointed via @nytpolitics 
+<<<<<<< HEAD
+654021848238280704	rt @cd5762 : d.n.c. officer says she was disinvited from debate after calling for more of them via @nytpolitics 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 
 http://t.co/LHhK5nnFpq
 654999401115467776	rt @nytimes : in a very revealing conversation , miranda july asks rihanna about what turns her on … 
@@ -760,6 +1087,10 @@ http://t.co/rHdDzhdokj
 654159366363348992	rt @laaksonenari : u.s. weaponry is turning syria into proxy war with russia via @nytimes 
 
 http://t.co/6h59potjc5
+<<<<<<< HEAD
+656653508234579968	you should read : a very revealing conversation with rihanna -- via @pocket + @ifttt 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 656634979175153664	a very revealing conversation with rihanna << i'm such a stan for @mirandajuly . dope interview ! >> 
 656630478263472128	rt @lenadunham : when @miranda_july does her thing on queen rih . oh happiest of mondays : 
 656617538978193408	👩‍ ❤ ️‍👩 a very revealing conversation with rihanna 👩‍ ❤ ️‍👩 
@@ -850,12 +1181,112 @@ http://t.co/rBS3zqPmYX
 653664041500413952	tim and jan are great designers/people , and fortunately ( for me ) friends of mine for many years now . this is a wonde … 
 653655903623888898	rt @slowberlin : the flussbad plan in berlin reimagines a canal for the people 
 
+<<<<<<< HEAD
+http://t.co/Kedhmp0VX6
+654774850020470784	" farhad and mike’s week in tech : figuring out twitter’s future " by farhad manjoo and mike isaac via nyt technology 
+654277012958412801	farhad and mike’s week in tech : figuring out twitter’s future 
+653958171875110912	farhad and mike’s week in tech : figuring out twitter’s future #twitter 
+653932091994951680	farhad and mike’s week in tech : figuring out twitter’s future via @nytimes 
+653686776490520576	week in tech : figuring out twitter’s future 
+653643764171304960	farhad and mike's week in tech : figuring out twitter's future - #googlealerts #leadership #training #ethics 
+653607695354695680	@bowsdream -search engine agent 
+653603170065743872	each saturday , farhad manjoo and mike isaac , technology reporters at the new york times , review the week’s news , off … 
+653601050595864576	" farhad and mike’s week in tech : figuring out twitter’s future " @nytimes 
+653576359495667712	#twitter's future ? 
+653575295774003200	twitter in a flap 
+653560836766715904	" farhad and mike’s week in tech : figuring out twitter’s future " by farhad manjoo and mike isaac via nyt technology … 
+653556242837843969	farhad and mike’s week in tech : figuring out #twitter’s future 
+653506181881831424	" farhad and mike’s week in tech : figuring out twitter’s future " by farhad manjoo and mike isaac via nyt 
+653482478703890432	check out this article . 
+653454353416630272	quinn records tm top-10 song chart for monday october 12 , 2015 is posted 
+653439963166478336	will dorsey’s return be a radical departure from twitter's continuing challenges ( hard to use , niche product , spam ,… 
+653325771071578112	[ a ] “ product guy , ” which is silicon valley-speak for a willingness to think about how normal people use technology . 
+653319235389624320	love the humor in ' farhad and mike’s week in tech . ' not the only news recap i read , but definitely my favorite : 
+653286837214015488	momentum key in #tech . #twitter lost it . #jackdorsey has huge double challenge ahead . #square #ipo . twitter reset . 
+653257818875777024	... “ product guy , ” which is silicon valley-speak for a willingness to think about how normal people use technology " 
+653238804120248320	#technology #tech #newyorktimes #newtechnology #news #science " farhad and mike’s week in tech : figuring out twitte … 
+653237888084279296	farhad and mike’s week in tech : figuring out twitter’s future - nytimes 
+653222771699400705	rt @nattoman : is it too late to save twitter ? farhad and mike’s week in tech : figuring out twitter’s future 
+653222689583198208	is it too late to save twitter ? farhad and mike’s week in tech : figuring out twitter’s future 
+653194013135241216	rt @suaju : sharing #suaju farhad and mike's week in tech : figuring out twitter's future - new york times #twitter #internet … 
+653193841810501636	sharing #suaju farhad and mike's week in tech : figuring out twitter's future - new york times #twitter #internet 
+653188922265206784	farhad and mike’s week in tech : figuring out twitter’s future . 
+653184590039920640	farhad and mike's week in tech : figuring out twitter's future - #soical 
+
+http://t.co/c7yppOw9sx
+656527348322308096	rt @wpiinsights : why aren't women's names on more buildings ? @nytimes explains : 
+656508256584663040	why aren't women's names on more buildings ? @nytimes explains : 
+656448853995102208	rt @wpiinsights : philanthropist adrienne arsht on why women should put their names on big gifts in @nytimes article : 
+656443753318785024	philanthropist adrienne arsht on why women should put their names on big gifts in @nytimes article : 
+656416777971220480	rt @kaylaablackwell : how do you raise $3.47 billion ? ask these guys . 
+656217315487404032	rt @mattockska : good read for @artsmgmtma students --> how do you raise $3.47 billion ? ask these guys . via @nytimesa … 
+656168149436469248	rt @wpiinsights : in #philanthropy women shy away from public acknowledgement but 1 woman philanthropist says it's important : @nytimes : http : … 
+656134262215823360	in #philanthropy women shy away from public acknowledgement but 1 woman philanthropist says it's important : @nytimes : 
+655801093788737537	much food for thought ( and , more importantly , action ) for #arts orgs , large & small . via @rpogrebin #fundraising 
+655730760452849664	how do you raise $3.47 billion ? ask these guys . 
+655122365031038976	rt @chrispolktweets : how do you raise $3.47 billion ? ask these guys . #philanthropymatters 
+655050821386805248	how do you raise $3.47 billion ? ask these guys . #philanthropymatters 
+655043084632375296	how do you raise $3.47 billion ? ask these guys . | by @rpogrebin for @nytimes | 
+654960641254510592	good read for @artsmgmtma students --> how do you raise $3.47 billion ? ask these guys . via @nytimesarts 
+654947533374930944	rt @mikecaren : how do you raise $3.47 billion ? ask these guys . - the new york times 
+654941630475182080	rt @arts_businessni : cultural fundraiser ? how do you raise $3.47 billion ? ask these guys . @nytimes via @artspro good … 
+654932022931144704	cultural fundraiser ? how do you raise $3.47 billion ? ask these guys . @nytimes via @artspro good reads 
+654826146119446528	rt @serranomejias : the business of fundraising for the arts : evidence from new york city #mustread @nytimes 
+654826120496480256	rt @lfung : great look at ny institutions ' fund-raising frenzy + the big givers via @rpogrebin @nytimes … 
+654440889868161025	how do you raise $3.47 billion ? ask these guys . #advancement 
+654338382953381888	how do you raise $3.5 billion ? 
+654282722672812032	philanthropy is biography . spend time understanding the business and personal life of the prospect . spend time ... 
+654220786664894464	don't forget to update status , action track , and detail each step in your donor database . 
+654071322276966400	#google and with the success of the new whitney museum of american art which 
+654061376172756993	how do you raise $3.47 billion in the arts ? ask these guys . 
+654052239431049216	rt @s4excel : how do you raise $3.47 billion ? ask these guys > 
+654051576621998080	how do you raise $3.47 billion ? ask these guys > 
+654012584153235456	to be a successful leader you need to know : how do you raise $3.47 billion ? ask these guys . 
+653972003163140100	how do you raise $3.47 billion ? ask these guys . #fundraising #nonprofit #leadership 
+653971702637035521	how do you raise $3.47 billion ? ask these guys . from @nytimes : #arts #development #fundraising 
+653967116551327744	here's how we do it in nyc 
+653953554546343937	my weekend study material ... how do you raise $3.47 billion ? ask these guys . 
+653911308505473028	good reading for #nonprofit #fundraisers . @nytimes @rpogrebin 
+653893867771678721	new york cultural institutions & fundraising - how do you raise $3.47 billion ? ask these guys . 
+653868827810238464	how do you raise $3.47 billion for the arts ? 
+653815862852390912	rt @deustachio : the big ask 
+653747616598126592	interesting read : how do you raise $3.47 billion ? ask these guys . 
+653734905067798528	how do you raise $3.47 billion ? ask these guys . this is a must read ! 
+653709171959943169	rt @dmfellows : how do you raise $3.47 billion ? ask these guys . 
+653703545049354240	great tips from nytimes to help nonprofit fundraisers , especially love the " dos and don'ts " 
+653679197941014528	rt @arts4la : how do you raise $3.5 b for cultural institutions ? new york is finding out . 
+653678946857435136	arts fundraising in the big apple : how do you raise $3.47 billion ? ask these guys . 
+653674750292586496	great interactive article from @nytimes on arts fundraising in nyc : how do you raise $3.47 billion ? ask these guys . 
+653650941103632384	can we artists make a " big ask " that a portion of money raised is earmarked for artist salaries ? 
+653644798864158720	how do you raise $3.47 billion ? ask these guys . #fundraising 
+653643729052504064	if you work in fundraising , read this ! " how do you raise $3.47 billion ? ask these guys " 
+653640671367143424	rt @daniellemattoon : nyc cultural orgs in frenzy to raise more than $3 billion . naming rights to bathroom stalls can get to 6 figures ! htt … 
+653638388591890432	since more than a few of my friends find themselves fundraising , let's dream big , y'all . it'll be interesting to ... 
+653618409842741248	" how do you raise $3.47 billion ? ask these guys . ” via @nytimes #fundchat #nonprofit 
+653615136062570496	rt @arts4la : how do you raise $3.47 billion for cultural institutions ? new york is finding out . … 
+653611504776810496	rt @pjlibby : amid this long nyt piece on " the ask " is a part " bigger boards , bigger donations . " my question is : do these boards g …… 
+653611218326786048	amid this long nyt piece on " the ask " is a part " bigger boards , bigger donations . " my question is : do these boards g … 
+653587219140247552	did you catch the ny times article about donors and capital campaigns ? the new a . r . t . /new york theatres got a nice ... 
+653582220511313920	lots of lessons for #nonprofits in @nytimes piece " how do you raise $3.47 billion ? " #fundraising 
+653579584223465472	all #fundraisers : read this now ! not just cap campaigns : #fundraising 101 & #nonprofit industry trends via @nytimes 
+653570059881811969	rt @annepasternak : how do nyc cultural orgs raise $3.47 billion ? ask these guys . 
+653569959193350145	rt @sallygold : the donors behind nyc's cultural capital projects and expansions : 
+653569782889979904	rt @morselibby : @notforwhatnow @saraestern @lipmanhearne how do you raise $3.47 billion ? ask these guys . 
+653552802816503808	fascinating read ! fundraising for ny cultural institutions : via @nytimes 
+653551333497290752	how do you raise $3.47 billion ? there is no rule book for raising money for nonprofits , but know these tips . 
+
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 http://t.co/mppJ7topnu
 656199725385916416	rt @nytimes : chinese artist and activist ai weiwei returned to beijing to find listening devices in his studio and home … 
 656133379738370048	rt @nytimes : chinese artist and activist ai weiwei returns to beijing to find listening devices in his studio and home … 
 654855558823092224	artsbeat : ai weiwei returns to beijing to find listening devices in hi #innovativemommas #babyankees #soothercaddy 
 653487568059629568	chinese artist and activist ai weiwei returned to beijing to find listening devices in his studio and home 
 653476297658769408	ai weiwei returns to beijing to find listening devices in his studio and home 
+<<<<<<< HEAD
+653474406245793792	chinese artist and activist ai weiwei returned to beijing to find listening devices in his studio and home via nyt … 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653471812014227456	nytimes : chinese artist and activist ai weiwei returned to beijing to find listening devices in his studio and home 
 653470681682833408	#chinese artist + activist #weiwei returned 2 #beijing to find listening devices in his studio + home #thepresswave 
 
@@ -939,8 +1370,47 @@ http://t.co/6FjmOU0TpZ
 653744301512491008	rt @nytimes : morning briefing : here's what you need to know to start your day . 
 653556763275300865	morning briefing : here's what you need to know to start your day . 
 653547636700639232	when the pizza arrives 
+<<<<<<< HEAD
+653546516225892352	morning briefing : here's what you need to know to start your day . via nytimes 
 653546210352087040	nytimes : morning briefing : here's what you need to know to start your day . 
 
+http://t.co/7iSISJOhA9
+656632848129093632	from donald trump , hints of a campaign exit strategy 
+656256795023818752	rt @teaisfortreason : #donaldtrump -hints of a campaign exit strategy #tcot #ccot #tpot #p2 #uniteblue #tntvote #cir h … 
+655160999184568321	rt @botincy60 : from donald trump , hints of a campaign exit strategy all a lie from the left . 
+654549250622164992	hints of a campaign exit strategy this article is a complete fabrication . author should find a new career . 
+654409154086469633	rt @adrastosno : from donald trump , hints of a campaign exit strategy 
+654320592900853760	rt @docbonn : from donald trump , hints of a campaign exit strategy 
+653955888898637824	you mean reality ? from donald trump , hints of a campaign exit strategy - the new york times - 
+653954272753778688	please make this wish come true : from donald trump , hints of a campaign exit strategy 
+653888675164504065	from donald trump , hints of a campaign exit strategy - new york times 
+653881145537400832	from donald trump , hints of a campaign exit strategy via @instapaper 
+653874964295127040	new york times from donald trump , hints of a campaign exit strategy new york times in unmistakable ways over the … 
+653750601793208320	from donald trump , hints of a campaign exit strategy - the new york times 
+653602110886449152	rt @cupgoodness : prophesied by @prophetcarn from donald trump , hints of a campaign exit strategy 
+653587338942119936	has the trumpster peaked ? even if he spends media buck$ can he get any delegates ? how far can his ego take him ... 
+653558523952033792	from donald trump , hints of a campaign exit strategy u.s. 
+653431108072161280	rt @cherijacobus : from donald trump , hints of a campaign exit strategy 
+653393390986399748	from donald trump , hints of a campaign exit strategy #dumptrump #nyt 
+653332679090302976	from donald trump , hints of a campaign exit strategy could he turn out to be a loser ? stupid ? lightweight ? might be . 
+653326042887647232	rt @jillelswick : from donald trump , hints of a campaign exit strategy * i called this the first time he publicly env … 
+653310460247326720	trump's exit strategy ? 
+653306240592945152	rt @alantonelson : kind of a long silence from @maggienyt in our exchange re my accusation of bias in this #trump article : … 
+653306167372959745	the inevitable trump exit edges closer : from donald trump , hints of a campaign exit strategy 
+653293581462016000	kind of a long silence from @maggienyt in our exchange re my accusation of bias in this #trump article : #lastword ? 
+653272597132541952	from @realdonaldtrump , hints of a campaign exit strategy 
+653265990311104512	in unmistakable ways over last 2 weeks , trump has started to articulate way out of presidential race . 
+653245445070721024	my christmas wish ... from donald trump , hints of a campaign exit strategy 
+653211705024102401	from donald trump , hints of a campaign exit strategy all a lie from the left . 
+653206428744704000	from donald trump , hints of a campaign exit strategy via @nytimes ( vía @sarabentivegna ) 
+653204828211027968	" mr. trump , who has made his standing in the polls a central facet of his campaign message " 
+653200991660187649	ny times doing a ' trump mindread ' what could go wrong ? 
+653194784857792512	from @realdonaldtrump , hints of a campaign exit strategy . i don't think so . in bus , we plan ahead just in case . 
+
+=======
+653546210352087040	nytimes : morning briefing : here's what you need to know to start your day . 
+
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 http://t.co/UrrqvafAxL
 656644083373309952	rt @marstu67 : more drama : clinton emails became new focus of benghazi inquiry scandals on life support but r's lurch … 
 656428840370044928	clinton emails became the new focus of benghazi inquiry 
@@ -1040,6 +1510,10 @@ http://t.co/3islyrrpvD
 654462596406358016	a true reason for prayer . ... the chains of mental illness in west africa #name #namistl #mental illness 
 
 http://t.co/0XQDeJltvo
+<<<<<<< HEAD
+656649285983969280	workplace diversity is a good thing . some small changes to cultural signals can get loads more women in tech . 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 656620178709479424	what really keeps women out of tech 
 656614534040322048	glad the girls & i caught @eileenpollack on pbs newshour discussing the lack of women in stem . great convo starter ! 
 656614116732350464	rt @vero360 : the percentage of women studying computer science actually has fallen since the 1980s . how come ? 
@@ -1105,7 +1579,10 @@ http://t.co/0XQDeJltvo
 655421756472172545	what really keeps women out of #tech : the image of scientists @eileenpollack @fpinterrupted @macgirlsweden 
 655368930966376449	opinion : what really keeps women out of tech #wiredwomen 
 655365008772198400	i'm interested in ppl's thoughts on this : 
+<<<<<<< HEAD
+=======
 655362068149870592	what really keeps women out of tech #gtchat #edtechchat #edchat 
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 
 http://t.co/Z0RKjEU
 
@@ -1367,6 +1844,10 @@ http://t.co/1xQX4bLXEf
 653690928801034242	photos of the day 
 653688316093669376	" rt nytimesphoto : photos of the day " 
 653688265330061312	rt nytimesphoto : photos of the day 
+<<<<<<< HEAD
+653687976753504256	rt nytimesphoto : photos of the day via nytimes 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653687784079794176	nytimes : rt nytimesphoto : photos of the day 
 653682523902504960	photos of the day #photo 
 
@@ -1374,6 +1855,10 @@ http://t.co/kCUDSjdFD1
 654221185492848640	rt @nytimes : morning briefing : here's what you need to know to start your day . 
 653619160904241153	morning briefing : here's what you need to know to start your day . 
 653575875628265472	nytimes : morning briefing : here's what you need to know to start your day . 
+<<<<<<< HEAD
+653574348536725504	morning briefing : here's what you need to know to start your day . via nytimes 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 
 http://t.co/WpTQSoQ8GW
 656178818076536832	what an isis chemical strike did to one syrian family #edmonton #edmontoncondos #edgemontravine #theparc 
@@ -2048,6 +2533,10 @@ http://t.co/AjElPpdioF
 653530995690356736	sciencetake : a snail that has a jump on climate change : a study showed that the humpback conch didn’t increase ... 
 
 http://t.co/m25oP3Wg3n
+<<<<<<< HEAD
+656653508234579968	you should read : a very revealing conversation with rihanna -- via @pocket + @ifttt 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 656634979175153664	a very revealing conversation with rihanna << i'm such a stan for @mirandajuly . dope interview ! >> 
 656630478263472128	rt @lenadunham : when @miranda_july does her thing on queen rih . oh happiest of mondays : 
 656617538978193408	👩‍ ❤ ️‍👩 a very revealing conversation with rihanna 👩‍ ❤ ️‍👩 
@@ -2218,6 +2707,10 @@ http://t.co/Gb2TzpoFD4
 653673669638627328	nytimes : rt nytvideo : how to be yourself while interviewing rihanna , with the writer miranda_july : … 
 653673016048619522	rt nytvideo : how to be yourself while interviewing rihanna , with the writer miranda_july : 
 653672759764062208	" rt nytvideo : how to be yourself while interviewing rihanna , with the writer miranda_july : " 
+<<<<<<< HEAD
+653672484135399424	rt nytvideo : how to be yourself while interviewing rihanna , with the writer miranda_july : … 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 
 http://t.co/0b3U194Vk5
 655207850873114624	rt @nytimesworld : zimbabwe has decided not to charge the dentist who killed cecil the lion . 
@@ -2242,6 +2735,10 @@ http://t.co/0b3U194Vk5
 
 http://t.co/pNih9xxv8I
 653979852698198016	rt @nytimes : sulfur mustard artillery attacks once seemed destined for history . isis has revived them . … 
+<<<<<<< HEAD
+653515920023908352	sulfur mustard artillery attacks once seemed destined for history . isis has revived them . … 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653515833780621312	nytimes : sulfur mustard artillery attacks once seemed destined for history . isis has revived them . … 
 653515758601809920	sulfur mustard artillery attacks once seemed destined for history . isis has revived them . 
 
@@ -2321,16 +2818,68 @@ http://t.co/FV5tpBKbyu
 653666364444512256	hazing and drinking deaths at asian-american fraternities raise concerns #home 
 653653524941664256	" many members said they joined because they were looked at as nerds rather than leaders by non-asians . " 
 
+<<<<<<< HEAD
+http://t.co/5L0CBSl12y
+656659856213020672	just 158 families have provided nearly half of the early money for efforts to capture the white house . 158 ! wtf ! 
+656647092979572736	rt @clairecmc : we must end the citizens united madness . from fracking to finance , a torrent of campaign cash - the new york times … 
+656612784894050304	the families funding the 2016 presidential election 
+656595975918632960	this tells you all you need to know ... 
+656580567446650880	rt @katrinanation : think citizens united didn't ravage our fragile democracy , read this : 158 families funding the 2016 prez election https : … 
+656566627564154880	the families funding the 2016 presidential election @chrisistephens 
+656526900941099008	rt @sarahkendzior : only 158 families are providing almost half the funding for the 2016 presidential election 
+656522954998730752	the families funding the 2016 presidential election fascinating and thought-provoking interactive piece . and insane ! 
+656521455048351744	families funding the 2016 presidential election our country is being sold out from under us . bernie is not for sale ! 
+656518877153615872	rt @timbrellow : the families funding the 2016 presidential election 
+656511723982209024	rt @_foresight : not since before watergate have so few people and businesses provided so much early money in a campaign - … 
+656507457238265856	rt @propublica : 158 families have provided nearly half of all the presidential elex cash so far #muckreads … 
+656500840400744448	>>> the families funding the 2016 presidential election 
+656497727413469184	most going to the republicon party >>>> the families funding the 2016 presidential election 
+656490616050864128	buying power : the families funding the 2016 presidential election #innovativemommas #babyankees #soothercaddy 
+656479523261825024	mt @katrinanation : think citizens united didn't ravage our fragile democracy ? 158 families funding 2016 election 
+656469158528483328	think citizens united didn't ravage our fragile democracy , read this : 158 families funding the 2016 prez election 
+656427337588854784	rt @hectorsolon : " just 158 families have provided nearly half of early $ for efforts to capture the white house " - @nytimes … 
+656357675819769856	rt @nytimes : special report : just 158 families gave nearly half the early money in the presidential race . we reveal who they are . … 
+656323456733089792	so those taking in most of our countries economic growth are not the " bosses " /business owners/ ceo's etc who ... 
+656293539287048196	the families funding the 2016 presidential election such an importent story 
+656263114728583168	" not since before watergate have so few people and businesses provided so much early money in a campaign ... " 
+656249077303144448	the 158 families funding the 2016 presidential election ( get me a paper bag , i'm hyperventilating ) 
+656239402591522816	so far , 158 families have donated nearly half of the money to the 2016 presidential campaign . #datanerdslove 
+656235418908762112	#ysrt : the families funding the 2016 presidential election — 
+656234339857006592	rt @cameroncrussell : must read 158 families have funded 50% the 2016 presidential election via @lessig 
+656230274070507520	oligarchy in the works ... the families funding the 2016 presidential election 
+656220868264247296	" just 158 families have provided nearly half of early $ for efforts to capture the white house " - @nytimes #plutocracy 
+656205189938987008	rt @alli_langley : the 158 families funding the 2016 presidential election ( @nytimes ) 
+656202880613879808	the 158 families funding the 2016 presidential election ( @nytimes ) 
+656191526469398528	the families funding the #presidentialelection2016 #data #viz 
+656167195190292480	rt @melaniegouby : the families funding the us 2016 presidential election fascinating , must-read #democracy ? #uselect … 
+656147211231756288	food for thought . the white house is up for grabs again . here is an interesting read from the ny times . 
+656146763913560064	158 families are funding nearly half of the lunacy of these us presidential hopefuls . and there's income inequality . 
+656129659235627008	#americanpolitics #democrat #republican #citizenunited . flawed system & america - the rich & powerful pull strings . 
+656126830462803968	late . long read . but worth it : the families funding the 2016 presidential election 
+656124924642336768	rt @adamshatz : " the executive of the modern state is nothing but a committee for managing affairs of the bourgeoisie . " … 
+656113564646682628	rt @boygobong : 158 families & their huge influence on the presidential race — 
+656104041764655105	rt @rivefuentes : working for the few in the us : " just 158 families contributed $176 million in the first phase of the campaign " … 
+
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 http://t.co/L9zIhBQS7I
 653759743782055936	rt @nytimes : an online " star trek " series boldly goes to upstate new york 
 653596893692493824	an online " star trek " series boldly goes to upstate new york 
 653595766552928256	nytimes : an online " star trek " series boldly goes to upstate new york 
+<<<<<<< HEAD
+653594433544437760	an online " star trek " series boldly goes to upstate new york via nytimes 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 
 http://t.co/afMDDD6UOf
 653595872425586688	rt @nytopinion : images of geeky computer scientists can do real harm , says @eileenpollack 
 653543450663612416	rt nytopinion : images of geeky computer scientists can do real harm , says eileenpollack 
 653509885938823168	@nytopinion : images of #geeky computer #scientists can do real harm , says @eileenpollack 
 653498205901070336	nytimes : rt nytopinion : images of geeky computer scientists can do real harm , says eileenpollack … 
+<<<<<<< HEAD
+653497024290136064	rt nytopinion : images of geeky computer scientists can do real harm , says eileenpollack v … 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653495381540540416	images of geeky computer scientists can do real harm , says @eileenpollack 
 
 http://t.co/Qrzwt36YQw
@@ -2401,6 +2950,10 @@ http://t.co/rVPSKhQjkI
 653668827146940416	nytimes : the times that nyt readers shaped our stories 
 653668484262395904	rt @nickwoltman : the grape salad kerfuffle made this list . mt @nytimes : the times readers shaped our stories : http :/ … 
 653667631120150528	" the times that nyt readers shaped our stories " 
+<<<<<<< HEAD
+653667155167313920	the times that nyt readers shaped our stories via nytimes 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653665547222036481	the grape salad kerfuffle made this list . mt @nytimes : the times readers shaped our stories : 
 
 http://t.co/4PcW7xNsxN
@@ -2439,6 +2992,68 @@ http://t.co/xr0Z7amsHj
 653961196924727296	how bernie sanders connects with his crowds u.s. 
 
 http://t.co/KK3SSYoGlC
+<<<<<<< HEAD
+656664242179862528	rt @nytnow : get the news fast , in your evening briefing by email 
+656609940916842496	rt nytnow : get the news fast , in your evening briefing by email 
+656609119529488384	rt nytnow : get the news fast , in your evening briefing by email … 
+656608643035496448	get the news fast , in your evening briefing by email 
+656381252015140864	rt @nytnow : need a quick news update ? your evening briefing is ready by email … 
+656243508471197696	need a quick news update ? your evening briefing is ready by email 
+656242164029136896	rt nytnow : need a quick news update ? your evening briefing is ready by email … 
+654841944208707584	rt nytnow : catch up on the news , with your thursday evening briefing by email 
+654828310711635968	rt @nytnow : catch up on the news , with your thursday evening briefing by email … 
+
+http://t.co/NvcxGaL704
+654692296231784448	sports of the times : mets meet up with an old antagonist in chase utley and the result is a broken leg 
+654628528026189825	sports of the times : mets get reacquainted with chase utley and the result is a broken leg 
+654345599593152512	mets get reacquainted with chase utley and the result is a broken leg 
+653724664758435840	rt @wcrhoden : nice piece by mp : the battle is on !! mets get reacquainted with chase utley and the result is a broken leg … 
+653683315552055296	great line in latest @powellnyt column : " we retreat into cliché to avoid thought . " 
+653663849820889088	mets ’ latest run-in with chase utley changes the focus of a series 
+653653986801643521	safe ? out ? retribution ? @baseball @dodgers mets ’ latest run-in with chase utley changes the focus of a series 
+653547677158932480	" mets get reacquainted with chase utley and the result is a broken leg " by michael powell via nyt sports via @nyti … 
+653543799789105152	mets ’ latest run-in with chase utley changes the focus of a series scumbag should be suspended from any more play ! 
+653467786862198784	new york times mets ' latest run-in with chase utley threatens to derail a series new york times los angeles — ruben … 
+653420692235489280	rt @stevevillano11 : “ #utley's one goal : take out #tejada any way he could . and that is against the rules of baseball . ” #mlb . disgrace . htt … 
+653419408426070016	“ #utley's one goal : take out #tejada any way he could . and that is against the rules of baseball . ” #mlb . disgrace . 
+653416295204061184	mets ’ latest run-in with chase utley threatens to derail a series 
+653403966957580290	rt @gibsonwrites : @powellnyt on knee-jerk chase utley defenders : " we retreat into cliché to avoid thought . " 
+653402926749085696	growup 
+653399957614014464	michael powell of the times ( new york , that is ) reminds that this isn't even the first time utley has taken out ... 
+653398419407536128	mets ’ latest run-in with chase utley threatens to derail a series by michael powell @powellnyt via @nytimes 
+653397788055703553	sports of the times : metsâ€™ latest run-in with chase utley threatens to derail a series #happy 
+653388636789035008	" we retreat into cliche to avoid thought . " mets ’ latest run-in with chase utley threatens to derail a series 
+653378825133420544	mets get reacquainted with chase utley and the result is a broken leg - the new york times - 
+653373290090655745	sports of the times : mets get reacquainted with chase utley and the result is a broken leg via nytimes 
+653373191650430977	video clip for @mets @dodgers highlights on @nytimes shows football ? must be a " freudian slip " ? 
+653367493529063425	" mets get reacquainted with chase utley and the result is a broken leg " by michael powell via nyt 
+653367169363873792	" mets get reacquainted with chase utley and the result is a broken leg " by michael powell … 
+653366520635105280	" mets get reacquainted with chase utley and the result is a broken leg " via @nytimes : #trending #news 
+653366132125134849	" mets get reacquainted with chase utley and the result is a broken leg " michael powell 
+653365983877464064	" mets get reacquainted with chase utley and the result is a broken leg " @nytimes #trending #news 
+653365907360714752	kesha likes " mets get reacquainted with chase utley and the result is a broken leg " by mich … 
+653365132081414144	" mets get reacquainted with chase utley and the result is a broken leg " by michael powell is trending . read it her … 
+653360038422179845	amen --- mets get reacquainted with chase utley and the result is a broken leg 
+653357405477191681	nice piece by mp : the battle is on !! mets get reacquainted with chase utley and the result is a broken leg 
+653353962364649472	mets get reacquainted with chase utley and the result is a broken leg utley has history of this , should be suspended 
+653342652537155584	mets meet up with an old antagonist in chase utley and the result is a broken leg via @but imes 
+653342457594257408	mets get reacquainted with chase utley and the result is a broken leg-confirmed . chase utley is an asshat 
+653341284103417856	rt @andykindler : mets get reacquainted with chase utley and the result is a broken leg 
+653336209402425344	mets get reacquainted with chase utley and the result is a broken leg - new york times : forwardmets get reacqu ... 
+653331504639180801	@powellnyt on knee-jerk chase utley defenders : " we retreat into cliché to avoid thought . " 
+653329300817608705	@desbishop once a bollix , always a bollix 
+653328354138025984	well written column . really enjoyed reading it . mets get reacquainted with chase utley and the result is a broken leg 
+653321643364872194	rt @emorwee : " [ some ] mumbled that utley’s slide was just ' good old-fashioned baseball ' ; we retreat into cliché to avoid thought . " … 
+653320628586586112	" [ some ] mumbled that utley’s slide was just ' good old-fashioned baseball ' ; we retreat into cliché to avoid thought . " 
+653309224940761088	dirty play . mets get reacquainted with chase utley and the result is a broken leg 
+653306997627092997	mets get reacquainted with chase utley and the result is a broken leg - new york times 
+653306399989100544	no #class #lowlife #player mets get reacquainted with chase utley and the result is a broken leg 
+653297698439827456	mets get reacquainted with chase utley and the result is a broken leg fuck that guy . 
+653293210928836608	rt @ernieschell : mets get reacquainted with chase utley and the result is a broken leg 
+653287112901554176	got that sunday crankiness . thanks a lot #chaseutley . #theslide @nytimes 
+653286599187271680	sports of the times : mets get reacquainted with chase utley and the result is a broken leg : utley’s controvers ... 
+653286588126883840	dating single sports of the times : mets get reacquainted with chase utley and the resul ... 
+=======
 656634101244542976	rt @nytnow : get the news fast , in your evening briefing by email 
 656609940916842496	rt nytnow : get the news fast , in your evening briefing by email 
 656608643035496448	get the news fast , in your evening briefing by email 
@@ -2447,6 +3062,7 @@ http://t.co/KK3SSYoGlC
 654841944208707584	rt nytnow : catch up on the news , with your thursday evening briefing by email 
 654828310711635968	rt @nytnow : catch up on the news , with your thursday evening briefing by email … 
 654798212742561792	catch up on the news , with your thursday evening briefing by email 
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 
 http://t.co/0DWmTI2Khw
 655182276494397440	in fantasy sports , signs of insiders ’ edge 
@@ -2511,10 +3127,79 @@ http://t.co/0DWmTI2Khw
 653584379789332480	in fantasy sports , signs of insiders ’ edge the @nytimes dives into this story 
 653573308101865472	looks like it wasn't uncommon for fantasy-sports employees to play on other sites 
 
+<<<<<<< HEAD
+http://t.co/L5Faf6hNbh
+656527348322308096	rt @wpiinsights : why aren't women's names on more buildings ? @nytimes explains : 
+656508256584663040	why aren't women's names on more buildings ? @nytimes explains : 
+656448853995102208	rt @wpiinsights : philanthropist adrienne arsht on why women should put their names on big gifts in @nytimes article : 
+656443753318785024	philanthropist adrienne arsht on why women should put their names on big gifts in @nytimes article : 
+656416777971220480	rt @kaylaablackwell : how do you raise $3.47 billion ? ask these guys . 
+656217315487404032	rt @mattockska : good read for @artsmgmtma students --> how do you raise $3.47 billion ? ask these guys . via @nytimesa … 
+656168149436469248	rt @wpiinsights : in #philanthropy women shy away from public acknowledgement but 1 woman philanthropist says it's important : @nytimes : http : … 
+656134262215823360	in #philanthropy women shy away from public acknowledgement but 1 woman philanthropist says it's important : @nytimes : 
+655801093788737537	much food for thought ( and , more importantly , action ) for #arts orgs , large & small . via @rpogrebin #fundraising 
+655730760452849664	how do you raise $3.47 billion ? ask these guys . 
+655122365031038976	rt @chrispolktweets : how do you raise $3.47 billion ? ask these guys . #philanthropymatters 
+655050821386805248	how do you raise $3.47 billion ? ask these guys . #philanthropymatters 
+655043084632375296	how do you raise $3.47 billion ? ask these guys . | by @rpogrebin for @nytimes | 
+654960641254510592	good read for @artsmgmtma students --> how do you raise $3.47 billion ? ask these guys . via @nytimesarts 
+654947533374930944	rt @mikecaren : how do you raise $3.47 billion ? ask these guys . - the new york times 
+654941630475182080	rt @arts_businessni : cultural fundraiser ? how do you raise $3.47 billion ? ask these guys . @nytimes via @artspro good … 
+654932022931144704	cultural fundraiser ? how do you raise $3.47 billion ? ask these guys . @nytimes via @artspro good reads 
+654826146119446528	rt @serranomejias : the business of fundraising for the arts : evidence from new york city #mustread @nytimes 
+654826120496480256	rt @lfung : great look at ny institutions ' fund-raising frenzy + the big givers via @rpogrebin @nytimes … 
+654440889868161025	how do you raise $3.47 billion ? ask these guys . #advancement 
+654338382953381888	how do you raise $3.5 billion ? 
+654282722672812032	philanthropy is biography . spend time understanding the business and personal life of the prospect . spend time ... 
+654220786664894464	don't forget to update status , action track , and detail each step in your donor database . 
+654071322276966400	#google and with the success of the new whitney museum of american art which 
+654061376172756993	how do you raise $3.47 billion in the arts ? ask these guys . 
+654052239431049216	rt @s4excel : how do you raise $3.47 billion ? ask these guys > 
+654051576621998080	how do you raise $3.47 billion ? ask these guys > 
+654012584153235456	to be a successful leader you need to know : how do you raise $3.47 billion ? ask these guys . 
+653972003163140100	how do you raise $3.47 billion ? ask these guys . #fundraising #nonprofit #leadership 
+653971702637035521	how do you raise $3.47 billion ? ask these guys . from @nytimes : #arts #development #fundraising 
+653967116551327744	here's how we do it in nyc 
+653953554546343937	my weekend study material ... how do you raise $3.47 billion ? ask these guys . 
+653911308505473028	good reading for #nonprofit #fundraisers . @nytimes @rpogrebin 
+653893867771678721	new york cultural institutions & fundraising - how do you raise $3.47 billion ? ask these guys . 
+653868827810238464	how do you raise $3.47 billion for the arts ? 
+653815862852390912	rt @deustachio : the big ask 
+653747616598126592	interesting read : how do you raise $3.47 billion ? ask these guys . 
+653734905067798528	how do you raise $3.47 billion ? ask these guys . this is a must read ! 
+653709171959943169	rt @dmfellows : how do you raise $3.47 billion ? ask these guys . 
+653703545049354240	great tips from nytimes to help nonprofit fundraisers , especially love the " dos and don'ts " 
+653679197941014528	rt @arts4la : how do you raise $3.5 b for cultural institutions ? new york is finding out . 
+653678946857435136	arts fundraising in the big apple : how do you raise $3.47 billion ? ask these guys . 
+653674750292586496	great interactive article from @nytimes on arts fundraising in nyc : how do you raise $3.47 billion ? ask these guys . 
+653650941103632384	can we artists make a " big ask " that a portion of money raised is earmarked for artist salaries ? 
+653644798864158720	how do you raise $3.47 billion ? ask these guys . #fundraising 
+653643729052504064	if you work in fundraising , read this ! " how do you raise $3.47 billion ? ask these guys " 
+653640671367143424	rt @daniellemattoon : nyc cultural orgs in frenzy to raise more than $3 billion . naming rights to bathroom stalls can get to 6 figures ! htt … 
+653638388591890432	since more than a few of my friends find themselves fundraising , let's dream big , y'all . it'll be interesting to ... 
+653618409842741248	" how do you raise $3.47 billion ? ask these guys . ” via @nytimes #fundchat #nonprofit 
+653615136062570496	rt @arts4la : how do you raise $3.47 billion for cultural institutions ? new york is finding out . … 
+653611504776810496	rt @pjlibby : amid this long nyt piece on " the ask " is a part " bigger boards , bigger donations . " my question is : do these boards g …… 
+653611218326786048	amid this long nyt piece on " the ask " is a part " bigger boards , bigger donations . " my question is : do these boards g … 
+653587219140247552	did you catch the ny times article about donors and capital campaigns ? the new a . r . t . /new york theatres got a nice ... 
+653582220511313920	lots of lessons for #nonprofits in @nytimes piece " how do you raise $3.47 billion ? " #fundraising 
+653579584223465472	all #fundraisers : read this now ! not just cap campaigns : #fundraising 101 & #nonprofit industry trends via @nytimes 
+653570059881811969	rt @annepasternak : how do nyc cultural orgs raise $3.47 billion ? ask these guys . 
+653569959193350145	rt @sallygold : the donors behind nyc's cultural capital projects and expansions : 
+653569782889979904	rt @morselibby : @notforwhatnow @saraestern @lipmanhearne how do you raise $3.47 billion ? ask these guys . 
+653552802816503808	fascinating read ! fundraising for ny cultural institutions : via @nytimes 
+653551333497290752	how do you raise $3.47 billion ? there is no rule book for raising money for nonprofits , but know these tips . 
+
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 http://t.co/7c51VpIpcw
 655205358793830400	rt @nytimes : real italian meat sauce isn't hard to make ; it just needs a long time and a low flame … 
 653505798002343937	nytimes : real italian meat sauce isn't hard to make ; it just needs a long time and a low flame … 
 653505280605618176	real italian meat sauce isn't hard to make ; it just needs a long time and a low flame 
+<<<<<<< HEAD
+653504568593137664	real italian meat sauce isn't hard to make ; it just needs a long time and a low flame via … 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 
 http://t.co/fLAjmZZnPP
 655624000035393536	rt @nytimes : steve sarkisian is fired as usc football coach 
@@ -2523,6 +3208,10 @@ http://t.co/fLAjmZZnPP
 653726841539293184	they should get him help rt @nytimes : steve sarkisian is fired as usc football coach 
 653721014375981056	" steve sarkisian is fired as usc football coach " 
 653718003436113920	nytimes : steve sarkisian is fired as usc football coach 
+<<<<<<< HEAD
+653716743030984704	steve sarkisian is fired as usc football coach via nytimes 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 
 http://t.co/lPHi9TAhph
 656243481485045760	rt @australiagerman : the flussbad plan in berlin reimagines a canal for the people #berlin 
@@ -2643,6 +3332,71 @@ http://t.co/SuzswKmTN2
 653770443959234560	@tavissmileyshow taliban's reach in afghanistan is the widest it's been since 2001 , the un says #uniteblue 
 653631588639617024	the taliban's reach in afghanistan is the widest it's been since 2001 , the un says 
 
+<<<<<<< HEAD
+http://t.co/hC1azzM5Qg
+656527348322308096	rt @wpiinsights : why aren't women's names on more buildings ? @nytimes explains : 
+656508256584663040	why aren't women's names on more buildings ? @nytimes explains : 
+656448853995102208	rt @wpiinsights : philanthropist adrienne arsht on why women should put their names on big gifts in @nytimes article : 
+656443753318785024	philanthropist adrienne arsht on why women should put their names on big gifts in @nytimes article : 
+656416777971220480	rt @kaylaablackwell : how do you raise $3.47 billion ? ask these guys . 
+656217315487404032	rt @mattockska : good read for @artsmgmtma students --> how do you raise $3.47 billion ? ask these guys . via @nytimesa … 
+656168149436469248	rt @wpiinsights : in #philanthropy women shy away from public acknowledgement but 1 woman philanthropist says it's important : @nytimes : http : … 
+656134262215823360	in #philanthropy women shy away from public acknowledgement but 1 woman philanthropist says it's important : @nytimes : 
+655801093788737537	much food for thought ( and , more importantly , action ) for #arts orgs , large & small . via @rpogrebin #fundraising 
+655730760452849664	how do you raise $3.47 billion ? ask these guys . 
+655122365031038976	rt @chrispolktweets : how do you raise $3.47 billion ? ask these guys . #philanthropymatters 
+655050821386805248	how do you raise $3.47 billion ? ask these guys . #philanthropymatters 
+655043084632375296	how do you raise $3.47 billion ? ask these guys . | by @rpogrebin for @nytimes | 
+654960641254510592	good read for @artsmgmtma students --> how do you raise $3.47 billion ? ask these guys . via @nytimesarts 
+654947533374930944	rt @mikecaren : how do you raise $3.47 billion ? ask these guys . - the new york times 
+654941630475182080	rt @arts_businessni : cultural fundraiser ? how do you raise $3.47 billion ? ask these guys . @nytimes via @artspro good … 
+654932022931144704	cultural fundraiser ? how do you raise $3.47 billion ? ask these guys . @nytimes via @artspro good reads 
+654826146119446528	rt @serranomejias : the business of fundraising for the arts : evidence from new york city #mustread @nytimes 
+654826120496480256	rt @lfung : great look at ny institutions ' fund-raising frenzy + the big givers via @rpogrebin @nytimes … 
+654440889868161025	how do you raise $3.47 billion ? ask these guys . #advancement 
+654338382953381888	how do you raise $3.5 billion ? 
+654282722672812032	philanthropy is biography . spend time understanding the business and personal life of the prospect . spend time ... 
+654220786664894464	don't forget to update status , action track , and detail each step in your donor database . 
+654071322276966400	#google and with the success of the new whitney museum of american art which 
+654061376172756993	how do you raise $3.47 billion in the arts ? ask these guys . 
+654052239431049216	rt @s4excel : how do you raise $3.47 billion ? ask these guys > 
+654051576621998080	how do you raise $3.47 billion ? ask these guys > 
+654012584153235456	to be a successful leader you need to know : how do you raise $3.47 billion ? ask these guys . 
+653972003163140100	how do you raise $3.47 billion ? ask these guys . #fundraising #nonprofit #leadership 
+653971702637035521	how do you raise $3.47 billion ? ask these guys . from @nytimes : #arts #development #fundraising 
+653967116551327744	here's how we do it in nyc 
+653953554546343937	my weekend study material ... how do you raise $3.47 billion ? ask these guys . 
+653911308505473028	good reading for #nonprofit #fundraisers . @nytimes @rpogrebin 
+653893867771678721	new york cultural institutions & fundraising - how do you raise $3.47 billion ? ask these guys . 
+653868827810238464	how do you raise $3.47 billion for the arts ? 
+653815862852390912	rt @deustachio : the big ask 
+653747616598126592	interesting read : how do you raise $3.47 billion ? ask these guys . 
+653734905067798528	how do you raise $3.47 billion ? ask these guys . this is a must read ! 
+653709171959943169	rt @dmfellows : how do you raise $3.47 billion ? ask these guys . 
+653703545049354240	great tips from nytimes to help nonprofit fundraisers , especially love the " dos and don'ts " 
+653679197941014528	rt @arts4la : how do you raise $3.5 b for cultural institutions ? new york is finding out . 
+653678946857435136	arts fundraising in the big apple : how do you raise $3.47 billion ? ask these guys . 
+653674750292586496	great interactive article from @nytimes on arts fundraising in nyc : how do you raise $3.47 billion ? ask these guys . 
+653650941103632384	can we artists make a " big ask " that a portion of money raised is earmarked for artist salaries ? 
+653644798864158720	how do you raise $3.47 billion ? ask these guys . #fundraising 
+653643729052504064	if you work in fundraising , read this ! " how do you raise $3.47 billion ? ask these guys " 
+653640671367143424	rt @daniellemattoon : nyc cultural orgs in frenzy to raise more than $3 billion . naming rights to bathroom stalls can get to 6 figures ! htt … 
+653638388591890432	since more than a few of my friends find themselves fundraising , let's dream big , y'all . it'll be interesting to ... 
+653618409842741248	" how do you raise $3.47 billion ? ask these guys . ” via @nytimes #fundchat #nonprofit 
+653615136062570496	rt @arts4la : how do you raise $3.47 billion for cultural institutions ? new york is finding out . … 
+653611504776810496	rt @pjlibby : amid this long nyt piece on " the ask " is a part " bigger boards , bigger donations . " my question is : do these boards g …… 
+653611218326786048	amid this long nyt piece on " the ask " is a part " bigger boards , bigger donations . " my question is : do these boards g … 
+653587219140247552	did you catch the ny times article about donors and capital campaigns ? the new a . r . t . /new york theatres got a nice ... 
+653582220511313920	lots of lessons for #nonprofits in @nytimes piece " how do you raise $3.47 billion ? " #fundraising 
+653579584223465472	all #fundraisers : read this now ! not just cap campaigns : #fundraising 101 & #nonprofit industry trends via @nytimes 
+653570059881811969	rt @annepasternak : how do nyc cultural orgs raise $3.47 billion ? ask these guys . 
+653569959193350145	rt @sallygold : the donors behind nyc's cultural capital projects and expansions : 
+653569782889979904	rt @morselibby : @notforwhatnow @saraestern @lipmanhearne how do you raise $3.47 billion ? ask these guys . 
+653552802816503808	fascinating read ! fundraising for ny cultural institutions : via @nytimes 
+653551333497290752	how do you raise $3.47 billion ? there is no rule book for raising money for nonprofits , but know these tips . 
+
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 http://t.co/Md00Uhc8f5
 654248534372417537	rt @nytnow : catch up on the news fast , with your evening briefing by email … 
 653924464338575360	your monday evening briefing : new york mets , syria , ankara 
@@ -2669,9 +3423,15 @@ http://t.co/Md00Uhc8f5
 653789783576018944	your monday evening briefing : new york mets , syria , ankara #nytimes 
 653787706649133056	your monday evening briefing : new york mets , syria , ankara - the new york times : 
 653786187555991552	dillydee blogs your monday evening briefing : new york mets , syria , ankara : here’s what you need to k ... follow us 
+<<<<<<< HEAD
+653786141934530560	your monday evening briefing : new york mets , syria , ankara : here’s what you need to know at the end o ... #nytimes 
+653786010254340096	somaliland : your monday evening briefing : new york mets , syria , ankara : here’s what you need to kn ... #somaliland 
+653785963324293121	your monday evening briefing : new york mets , syria , ankara #teamfollowback 
+=======
 653786159001112578	your monday evening briefing : new york mets , syria , ankara : here’s what you need to know at th ... #breaking #news 
 653786141934530560	your monday evening briefing : new york mets , syria , ankara : here’s what you need to know at the end o ... #nytimes 
 653786010254340096	somaliland : your monday evening briefing : new york mets , syria , ankara : here’s what you need to kn ... #somaliland 
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653785842880675840	your monday evening briefing : new york mets , syria , ankara : here’s what you need to know at the ... #news_on_world 
 653785818562039808	your monday evening briefing : new york mets , syria , ankara : here’s what you need to kno ... 
 653784819969622016	the latest news ... 
@@ -2705,7 +3465,10 @@ http://t.co/Na4rGwMZEa
 654780169668825088	just a man in a hawaiian shirt side-eyeing his low-flow toilet 
 654716156431888384	rt a culture of nagging helps #california save #water 
 654714899562561536	a culture of nagging helps #california save #water 
+<<<<<<< HEAD
+=======
 654629455181271040	rt ocean sciences article of the day - need to save water ? nagging helps ( new york times ) 
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 654626280516812801	ocean sciences article of the day - need to save water ? nagging helps ( new york times ) 
 654516293316530176	rt big brother ... big sister ... big kids ... big neighbor ... big police are watching you .... 
 654514193421369344	big brother ... big sister ... big kids ... big neighbor ... big police are watching you .... 
@@ -2729,17 +3492,110 @@ http://t.co/Na4rGwMZEa
 654273027107106816	rt @taigacompany : a culture of nagging helps california save #water - 
 654272946903515136	a culture of nagging helps california save #water - 
 654203238846230528	rt " never let a serious crisis go to waste ! " - water saving nudging of californians also … 
+<<<<<<< HEAD
+654200059224031232	" never let a serious crisis go to waste ! " - water saving nudging of californians also reveals hidden agendas ... 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 
 http://t.co/DSgd7yjJAw
 653862607309287425	rt @nytscience : do you know what " eau de cone snail " smells like ? 
 653650170505207808	nytimes : rt nytscience : do you know what " eau de cone snail " smells like ? 
 653649601073950720	rt nytscience : do you know what " eau de cone snail " smells like ? 
 653649189432393728	" rt nytscience : do you know what " eau de cone snail " smells like ? " 
+<<<<<<< HEAD
+653648718860800005	rt nytscience : do you know what " eau de cone snail " smells like ? via nytimes 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653646636669927424	do you know what " eau de cone snail " smells like ? 
 653612898732929024	nyt science nytscience : do you know what " eau de cone snail " smells like ? 
 653594097417068545	nytscience : do you know what " eau de cone snail " smells like ? 
 
+<<<<<<< HEAD
+http://t.co/5NkG4Cvzaf
+656471836801134592	rt @realtyprosatx : " new worry for home buyers : a party house next door " - nytimes article featuring austin shor t-t erm rentals … 
+656471423502974976	" new worry for home buyers : a party house next door " - nytimes article featuring austin shor t-t erm rentals 
+656157640255475712	new worry for home buyers : a party house next door 
+656124430268039168	new worry for home buyers : a party house next door - the new york times 
+655780915843502080	@ncardenastx str type2 do not belong in our residential neighborhoods @jmvc_atx 
+654985341418512385	rt is that a party house next door ? something new to check when buying a home : is a nearb … 
+654982641557643264	is that a party house next door ? something new to check when buying a home : is a nearby house a homeaway nuisance ? 
+654707741198389249	the downside of airbnb : the rise of the ' party house ' next door - nyt 
+654540276912951296	rt @yespropf : new worry for home buyers : a party house next door another ' home sharer making ends meet ' @airbnb ? #ye … 
+654341585640009729	" sometimes , when they are outside , they’re playing beer pong just wearing their underwear " said hazel , age 11 #strs 
+654315889727115264	rt @ronlieber : said a friend : " i have all the feelings about airbnb . love them as a consumer . hate them as a neighbor . " my column : … 
+654154186410430465	@niaby512 @mayoradler help us fix our neighborhoods #austin a-worry 4home buyers : a party house next door #austin 
+654074712293675008	rt @sanantoguera : austin exposed . new worry for home buyers : a party house next door 
+654074608769830913	rt @justica4all : @impactnews_ltw hazel 11 yrs old says “ when they r outside they’re playing beer pong just wearing their underwear , ” http : … 
+654040850872168448	@nytimes hahahaha good luck your gonna need it #austin i suggest u read comments here 
+654001459072237568	something #homeowners don't need ! new worry for #homebuyers : a party house next door 
+653988886847229952	@impactnews_ltw hazel 11 yrs old says “ when they r outside they’re playing beer pong just wearing their underwear , ” 
+653988425410867200	@impactnews_ltw in austin : new worry for home buyers : a party house next door see what 11yr hazel says #dontdoit 
+653977066921050112	rt @cmgfi : take a look at the newest worry for potential home buyers - a party house next door . #homebuyer #neighbor … 
+653959946111991808	new worry for home buyers : a party house next door #shopping #sharingeconomy 
+653749771736223744	rt @dwellinatx : in austin : new worry for home buyers : a party house next door 
+653749518123462656	rt @shanand : new worry for home buyers : a party house next door 
+653749478877298688	rt @cloudteamatexit : new worry for home buyers : a party house next door 
+653729469690023937	i may be getting old , because the idea of this happening on my street makes me go full " get off my lawn ! " 
+653695398456901634	take a look at the newest worry for potential home buyers - a party house next door . #homebuyer #neighborhood 
+653689466033340416	rt @aunttracesmith : " sometimes , when they are outside , they’re playing beer pong just wearing their underwear " said hazel , age 11 #strs ht … 
+653687037275570177	new worry for home buyers : a party house next door #buyerbeware #uber cities ought to be tougher on #airbnb & renters 
+653676925383110656	@urb_mag " sometimes when they r outside , they’re playing beer pong just wearing their underwear " hazel age 11 #strs 
+653671546959978496	rt @spatialaustin : " sometimes , when they are outside , they’re playing beer pong just wearing their underwear " said hazel , age 11 #strs htt … 
+653671187155808256	rt @wherethisplace : " new worry for home buyers : a party house next door " by ron lieber via nyt 
+653671171485863936	rt @master_fran : " new worry for home buyers : a party house next door " by ron lieber via nyt 
+653671155316862976	rt @bumps2babies1 : " new worry for home buyers : a party house next door " by ron lieber via nyt 
+653671131749023744	rt @kumarmangla : " new worry for home buyers : a party house next door " by ron lieber via nyt 
+653671108747497472	rt @marcustec : " new worry for home buyers : a party house next door " by ron lieber via nyt 
+653671096919592960	rt @josephmaiorana : " new worry for home buyers : a party house next door " by ron lieber via nyt 
+653671064606609409	rt @gdledsan : " new worry for home buyers : a party house next door " by ron lieber via nyt #times #nytimes … … 
+653671043656122369	rt @somerandominfo : " new worry for home buyers : a party house next door " by ron lieber is trending . read it here : 
+653671029496115200	rt @dremmyj : " new worry for home buyers : a party house next door " by ron lieber via nyt 
+653671012953821184	rt @fiverrtoy : " new worry for home buyers : a party house next door " by ron lieber via nyt 
+653670987112648704	rt @quackmoopownews : " new worry for home buyers : a party house next door " by ron lieber via nyt … 
+653670968477376512	rt @misonoalex : " new worry for home buyers : a party house next door " by ron lieber via nyt 
+653670953323376640	rt @kalingtsui : " new worry for home buyers : a party house next door " by ron lieber via nyt 
+653670923585781760	rt @keshalovebaby : kesha likes " new worry for home buyers : a party house next door " by ron lieber via nyt … 
+653670891830665216	rt @digantj : " new worry for home buyers : a party house next door " by ron lieber via nyt 
+653670871744143360	rt @asenaduman12 : " new worry for home buyers : a party house next door " ron lieber 
+653670845391372288	rt @banerjeerahul : " new worry for home buyers : a party house next door " by ron lieber via nyt 
+653670831957012480	rt @michael_gabrill : " new worry for home buyers : a party house next door " by ron lieber via nyt … 
+653670807298641920	rt @richardcarr_ : " new worry for home buyers : a party house next door " by ron lieber via nyt 
+653670788818558976	rt @socialpressblog : " new worry for home buyers : a party house next door " by ron lieber via nyt 
+653670765334695936	rt @markmobility : new worry for home buyers : an airbnb rental next door via @ronlieber c @share_better … 
+653670628172521472	rt @lmjb : " new worry for home buyers : a party house next door " by ron lieber via nyt your money via @nytimes 
+653670365625872384	rt @davidstreitfeld : @ronlieber investigates the world of airbnb party houses by renting one . 
+653670044753235968	rt @iiiorg : a new front in the home-sharing wars : the rise of the " party house . " via @nytimes @ronlieber 
+653665327994138624	these will likely be outlawed at some point due to excessive partying : worry for home buyers : a party house next door 
+653660006231973888	new worry for home buyers : a party house next door because of homeaway or airbnb 
+653627690558210048	new worry for home buyers : a party house next door #austin #atxgov 
+653619162732867584	@memphisnews new worry 4 home buyers a party house next door #helpus #austin #commercialhotels in #singlefamilyzones 
+653618814148476928	@pressherald new worry 4 home buyers a party house next door #austin #commercialhotels in #singlefamilyzones 
+653618732091084800	@pressherald new worry 4 home buyers a party house next door #helpus #austin #commercialhotels in #singlefamilyzones 
+653618600662536192	@sdreader new worry 4 home buyers a party house next door #austin #commercialhotels in #singlefamilyzones 
+653618276384157696	@jerseycitynj_rr dont do it new worry 4 home buyers a party house next door 
+653618181089595392	@jerseycitynj_rr new worry 4 home buyers a party house next door #austin #commercialhotels in #singlefamilyzones 
+653617889455423488	@trdny new worry 4 home buyers a party house next door #helpus #austin #commercialhotels in #singlefamilyzones 
+653617741694300160	@trdny @stevenfulop new worry 4 home buyers a party house next door #austin #commercialhotels in #singlefamilyzones 
+653617674233053184	@stevenfulop new worry 4 home buyers a party house next door #helpus #austin #commercialhotels in #singlefamilyzones 
+653616718477004800	@skift new worry 4 home buyers a party house next door they are #commercialhotels in #singlefamilyzones 
+653616535454380033	@inc @kerryclose new worry 4 home buyers a party house next door they r #commercialhotels in #singlefamilyzones 
+653615993487388672	@caseymorourke new worry4home buyers a party house next door #helpus #austin #commercialhotels in #singlefamilyzones 
+653615858984419328	@bloombergtv @sruhle @david_westin new worry 4 home buyers a party house next door #commercialhotels 
+653615759592034305	@share_better @airbnb @yespropf worry 4 home buyers a party house next door #commercialhotels in #singlefamilyzones 
+653615579702554624	@fortunemagazine new worry 4 home buyers a party house next door #austin #commercialhotels in #singlefamilyzones 
+653615508831383552	@cbsnewyork new worry 4 home buyers a party house next door #helpus #austin #commercialhotels in #singlefamilyzones 
+653615459405664256	@daveambrose new worry 4 home buyers a party house next door #helpus #austin #commercialhotels in #singlefamilyzones 
+653615369354018816	@nytimes dont new worryhome buyers a party house next door #helpus #austin #commercialhotels in #singlefamilyzones 
+653615072233713664	@mc_nyc new worry 4 home buyers a party house next door #helpus #austin #commercialhotels in #singlefamilyzones 
+653615047277588480	@wiredjc @mc_nyc new worry 4 home buyers a party house next door #austin #commercialhotels in #singlefamilyzones 
+653614880293957633	@jerseycitydaily new worryhome buyers party house next door #helpus #austin #commercialhotels in #singlefamilyzones 
+653614766640893953	@jc_gov new worry 4 home buyers a party house next door #helpus #austin #commercialhotels in #singlefamilyzones 
+
 http://t.co/R4oOG1lUEx
+656653508234579968	you should read : a very revealing conversation with rihanna -- via @pocket + @ifttt 
+=======
+http://t.co/R4oOG1lUEx
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 656634979175153664	a very revealing conversation with rihanna << i'm such a stan for @mirandajuly . dope interview ! >> 
 656630478263472128	rt @lenadunham : when @miranda_july does her thing on queen rih . oh happiest of mondays : 
 656617538978193408	👩‍ ❤ ️‍👩 a very revealing conversation with rihanna 👩‍ ❤ ️‍👩 
@@ -2964,12 +3820,20 @@ http://t.co/Wwi6JaZOyL
 653689848583323649	" steve sarkisian is fired as u.s.c. football coach " 
 653689810972905472	nyt : steve sarkisian is fired as u.s.c. football coach 
 653689582542811137	#sportsnews : steve sarkisian is fired as u.s.c. football coach 
+<<<<<<< HEAD
+653689458529828864	" steve sarkisian is fired as u.s.c. football coach " by marc tracy via nyt #cigars 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 
 http://t.co/acIsdKBqO8
 653952412374405120	rt @nytimes : a biography reveals new details about the tragic life of rosemary kennedy 
 653561739544412160	rt @celeste_albion : " @nytimes : a biography reveals new details about the tragic life of rosemary kennedy … 
 653549128765558784	a biography reveals new details about the tragic life of rosemary kennedy 
 653530184277032960	" @nytimes : a biography reveals new details about the tragic life of rosemary kennedy " #til 
+<<<<<<< HEAD
+653519694243233792	a biography reveals new details about the tragic life of rosemary kennedy via nytimes 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653519464542158848	nytimes : a biography reveals new details about the tragic life of rosemary kennedy 
 
 http://t.co/GhdCVXmLP1
@@ -2981,6 +3845,10 @@ http://t.co/GhdCVXmLP1
 654015711858294784	how will the #demdebate compare to the republicans’ ? #gwu’s @franksesno helps explain : 
 653998252170149888	#cnn sees smaller field , with greater focus , as lure for #democratic #debate 
 653990893557579776	the @nytimes quoted @franksesno in “ cnn sees smaller field , with greater focus , as lure for democratic debate . ” 
+<<<<<<< HEAD
+653974526741610496	nytpolitics : rt ashleyrparker : biden's podium stands ready , " just in case , " but cnn's #demdebate is shaping up to … 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653972957686009856	excuse me if i fail to give a fuck if a debate has " huge ratings . " 
 653972282159812608	rt @ashleyrparker : biden's podium stands ready , " just in case , " but cnn's #demdebate is shaping up to be a more tame affair . … 
 653970565783416834	biden's podium stands ready , " just in case , " but cnn's #demdebate is shaping up to be a more tame affair . 
@@ -3000,6 +3868,10 @@ http://t.co/GhdCVXmLP1
 653942874644586496	cnn sees smaller field , with greater focus , as lure for democratic debate #ccitj02 
 653941313453342720	no trump + playoffs + less friction = smaller audience for democrats debate @ashleyrparker 
 653936616436838400	. @cnn sees smaller field , with greater focus , as lure for democratic debate #demdebate #election2016 
+<<<<<<< HEAD
+653931783520698368	rt tackettdc : no trump + playoffs + less friction = smaller audience for democrats debate ashleyrparker … 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653931426304364544	we wonder why politics is what it is . mt @tackettdc : no trump + playoffs + less friction = smaller audience for dems 
 
 http://t.co/xDwN
@@ -3096,6 +3968,10 @@ http://t.co/7qvpiWKosS
 654015711858294784	how will the #demdebate compare to the republicans’ ? #gwu’s @franksesno helps explain : 
 653998252170149888	#cnn sees smaller field , with greater focus , as lure for #democratic #debate 
 653990893557579776	the @nytimes quoted @franksesno in “ cnn sees smaller field , with greater focus , as lure for democratic debate . ” 
+<<<<<<< HEAD
+653974526741610496	nytpolitics : rt ashleyrparker : biden's podium stands ready , " just in case , " but cnn's #demdebate is shaping up to … 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653972957686009856	excuse me if i fail to give a fuck if a debate has " huge ratings . " 
 653972282159812608	rt @ashleyrparker : biden's podium stands ready , " just in case , " but cnn's #demdebate is shaping up to be a more tame affair . … 
 653970565783416834	biden's podium stands ready , " just in case , " but cnn's #demdebate is shaping up to be a more tame affair . 
@@ -3115,6 +3991,10 @@ http://t.co/7qvpiWKosS
 653942874644586496	cnn sees smaller field , with greater focus , as lure for democratic debate #ccitj02 
 653941313453342720	no trump + playoffs + less friction = smaller audience for democrats debate @ashleyrparker 
 653936616436838400	. @cnn sees smaller field , with greater focus , as lure for democratic debate #demdebate #election2016 
+<<<<<<< HEAD
+653931783520698368	rt tackettdc : no trump + playoffs + less friction = smaller audience for democrats debate ashleyrparker … 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653931426304364544	we wonder why politics is what it is . mt @tackettdc : no trump + playoffs + less friction = smaller audience for dems 
 
 http://t.co/Zq6VnuiGLp
@@ -3148,7 +4028,11 @@ http://t.co/Zq6VnuiGLp
 654314782623973376	no hay fracaso , hay progreso : angus deaton : " life is better now than at almost any time in history . " 
 
 http://t.co/TZhL3MKtzI
+<<<<<<< HEAD
+656668437930872833	rt @nytimes : why many people who need hearing aids don't wear them 
+=======
 655717994211840000	rt @nytimes : why many people who need hearing aids don't wear them 
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653490133157683200	why many people who need hearing aids don't wear them 
 653489262931877888	nytimes : why many people who need hearing aids don't wear them 
 
@@ -3391,13 +4275,22 @@ http://t.co/YBqPwAtOrq
 653979048624922624	today in politics : democrats eye a debate stage of their own #politics #news #world 
 653661823204397056	today in politics : democrats eye a debate stage of their own #feelthebern #bernie2016 can't wait for this debate ! 
 653660350496161792	today in politics : democrats eye a debate stage of their own a must watch on tues . 
+<<<<<<< HEAD
+653603042839826432	first draft : today in politics : democrats eye a debate stage of their own : after watching their republican cou ... 
+=======
 653603638107963393	first draft : today in politics : democrats eye a debate stage of their own : after watching their republican cou ... 
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653595642321891328	rt @rachel_ohno : @theellenshow on thurs & @billmaher on fri !! 😃👍🏼 #feelthebern ! 🔥 
 653595258601779200	@theellenshow on thurs & @billmaher on fri !! 😃👍🏼 #feelthebern ! 🔥 
 653594420068134913	first draft : today in politics : democrats eye a debate stage of their own 
 653588157250670593	dillydee blogs first draft : today in politics : democrats eye a debate stage of their own : after watc ... follow us 
+<<<<<<< HEAD
+653588109284605952	first draft : today in politics : democrats eye a debate stage of their own : after watching their repub ... #nytimes 
+653587893420560384	first draft : today in politics : democrats eye a debate stage of their own #teamfollowback 
+=======
 653588125155876865	first draft : today in politics : democrats eye a debate stage of their own : after watching thei ... #breaking #news 
 653588109284605952	first draft : today in politics : democrats eye a debate stage of their own : after watching their repub ... #nytimes 
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653587752571678721	first draft : today in politics : democrats eye a debate stage of their own : after watching their ... #news_on_world 
 653587719369523200	first draft : today in politics : democrats eye a debate stage of their own : after watchi ... 
 653583254461677568	first draft : today in politics : democrats eye a debate stage of their own #newyorktimes 
@@ -3442,6 +4335,69 @@ http://t.co/zSfGOg3fSY
 653799945896620032	" zimbabwe won’t charge dentist who killed cecil the lion " #newspapers #feedly 
 653792348258836480	" zimbabwe won’t charge dentist who killed cecil the lion " by norimitsu onishi via nyt 
 
+<<<<<<< HEAD
+http://t.co/Z43RunOUeh
+655881429629276164	after landmark privacy case in the european courts @snowden told @maxschrems ... 
+655827050297729024	how 24 year old student stood up for privacy against internet giants . so far , he's winning . facebook kept every chat . 
+655724977895927808	rt @contrariansmind : behind the european privacy ruling that’s confounding silicon valley 
+655724801651310592	behind the european privacy ruling that’s confounding silicon valley 
+655664496866959362	rt @violinmemory : what does the recent european privacy ruling really mean ? comprehensive read at : … 
+655394606087929856	" surveillance is the business model of the internet . " the elephant in the room . @schneierblog 
+655375297513033729	rt @sebprovencher : behind the european privacy ruling that’s confounding silicon valley via @nytimes 
+655374534825091072	behind the european privacy ruling that’s confounding silicon valley via @nytimes 
+655361481920389120	a great look at data privacy from the @nytimes 
+655207893852098560	what does the recent european privacy ruling really mean ? comprehensive read at : 
+655136736197021696	us v eu : “ data protection is a right to determine how — rather than whether one participates in sharing information ” 
+655098130631815168	rt @vormetric : the @nytimes takes us behind the european privacy ruling that’s confounding silicon valley 
+654976941704003584	rt @btitze : behind the european privacy ruling : law student max schrems #safeharbor 
+654972785094172672	behind the european privacy ruling : law student max schrems #safeharbor 
+654795549611167746	the @nytimes takes us behind the european privacy ruling that’s confounding silicon valley 
+654718403630907393	rt @kaylaablackwell : behind the european privacy ruling that’s confounding silicon valley 
+654658983425257473	really informative article on the recent data privacy ruling ( thanks suzanne costa for sharing ) ... 
+654625492503556096	rt @sturkle : another story on privacy becoming the story . " only in the area of privacy , can we dump blame on the users .… 
+654514821736595456	the austrian law student behind the european #privacy ruling that’s confounding silicon valley 
+654275272062189569	rt @cleargrip : easby04 : #data transfers may be the lifeblood of the #digitaleconomy but what about #dataprivacy ? via … 
+654273080768856064	rt @easby04 : #data transfers may be the lifeblood of the #digitaleconomy but what about #dataprivacy ? via @nytimes # … 
+654271687073112064	easby04 : #data transfers may be the lifeblood of the #digitaleconomy but what about #dataprivacy ? via nytimes #big … 
+654270382975795200	#data transfers may be the lifeblood of the #digitaleconomy but what about #dataprivacy ? via @nytimes #bigdata 
+654269877117714432	it seems reasonable to assume that ' deleted data ' should be just that . big tech thinks not . #dataprivacy #eudatap 
+654230937488728064	rt @igrobrien : best summary i've seen . #safeharbor #privacy behind the european privacy ruling that’s confounding silicon valley … 
+654219275650101248	really good article -behind the european privacy ruling that’s confounding silicon valley 
+654216371740540929	best summary i've seen . #safeharbor #privacy behind the european privacy ruling that’s confounding silicon valley 
+654191090124242945	rt @jtrevorhughes : great story from nyt #safeharbor @privacypros behind the european #privacy ruling that’s confounding silicon valley htt … 
+654097452522274816	maxschrems ' eu privacy ruling confounds silicon valley/us rights to #privacy of #health & other #data are far weaker 
+654050829582790656	rt @danielsolove : behind the european privacy ruling that’s confounding silicon valley 
+654015520916664320	rt @scuprivacy : behind the european #privacy ruling that’s confounding #siliconvalley 
+654011438864990208	european ruling invalidates safe harbor agreement #privacy #safeharbour #dataprotection 
+653973933595721728	rt @leahcdaly : " international data transfers are the lifeblood of the digital economy " - good piece on the wild west of #bigdata law https :/ … 
+653973173990371328	" international data transfers are the lifeblood of the digital economy " - good piece on the wild west of #bigdata law 
+653919097143590912	more on the impact of the eu on the safe harbor and privacy principles #privacy #privacyisnotdead #safeharbor 
+653874214252838912	rt @kristygranthart : fascinating article detailing schrems : behind the european #data #privacy ruling that’s confounding silicon valley htt … 
+653870187431751680	fascinating article detailing schrems : behind the european #data #privacy ruling that’s confounding silicon valley 
+653839075930042368	how a david took on the digital goliaths : behind the european privacy ruling that’s confounding silicon valley 
+653812304157515776	rt @kirst3nf : worth a read : behind the european #privacy ruling that’s confounding silicon valley #safeharbor #eudat … 
+653738515037995010	rt @deborahgage : behind the european privacy ruling that’s confounding silicon valley 
+653694121706659840	rt @dearbhaildibs : behind the european privacy ruling that’s confounding silicon valley 
+653664619748130816	great background on the decision and in plain language . thanks to janet elie faulkner for sharing ! 
+653663411818000384	rt @faulknerlegal : court restricts companies ' transfer of your data across atlantic : european privacy ruling’s confounding silicon valley ht … 
+653662512068489216	culture collision over privacy v . business rights : behind the eu privacy ruling confounding silicon valley #dabcla 
+653660349611294720	rt @tapolicy : nice in-depth piece on the recent eu #safeharbor ruling via @nytimes #privacy 
+653657830835286016	nice in-depth piece on the recent eu #safeharbor ruling via @nytimes #privacy 
+653656280733741057	court restricts companies ' transfer of your data across atlantic : european privacy ruling’s confounding silicon valley 
+653646493082103809	good article re invalidation of us safe harbor : behind the european privacy ruling that’s confounding silicon valley 
+653644577962872832	behind the european #privacy ruling that’s confounding silicon valley | 
+653614349907464193	mr. schrems , lawmakers and various regulators are essentially asking why consumers don’t have more control over the … 
+653592668270907392	rt @elgrouty : the tensions between sv's libertarianism & europe's privacy laws or why we should be grateful to austrian law student http://… 
+653592083123449856	rt @4thibeau : behind the european privacy ruling that’s confounding silicon valley 
+653581097914232832	rt @nytimesbits : behind the european privacy ruling that’s confounding silicon valley 
+653578018800168960	rt @nancyscola : really nice deep dive into whence europe's safe harbor ruling came : 
+653577925825007616	really nice deep dive into whence europe's safe harbor ruling came : 
+653553052394389504	" the student who stood up for privacy " 
+653547241433645060	worth a read : behind the european #privacy ruling that’s confounding silicon valley #safeharbor #eudatap 
+653538909129838592	there’s a massive tension between the libertarian values of silicon valley , which is focused on innovation , and the … 
+
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 http://t.co/vb8ePFwjcM
 656531222462644224	rt @rodnordland : #afghanistan map : threat level has never been so red and black . 2009 v 2015 . 
 656482341892681728	afghan taliban’s reach is widest since 2001 , u.n. says 
@@ -3507,7 +4463,86 @@ http://t.co/FSjTM5s4U6
 653821481516945409	southern shrimp scampi 
 653713336916385792	southern shrimp scampi #nytcooking 
 
+<<<<<<< HEAD
+http://t.co/z0jgBUlHDX
+656595342754975744	#electric cars outpace plugs if memory serves @sagassi called the need for #ev infrastructure 6-7 yrs ago . 
+656569630354481156	in california , electric cars outpace plugs , and sparks fly 
+656568889791279104	people are fighting for public plugs : in ca , electric cars outpace plugs & sparks fly #evetiquette #tesla #i3 #leaf 
+656549117347414016	in california , many more electric cars than public charging stations . conflicts are arising . coping strategies ? 
+656516003153645568	@kiddynamiteblog good thing you don't live in bay area ; would have been keyed or beat up . 
+656485183844188161	the latest from the new york times ! " in california , electric cars outpace plugs , and sparks fly " by matt richtel 
+656378171105873920	in california , electric cars outpace plugs , and sparks fly 
+656166123478519808	" right now , there is one public charger for every 10 electric vehicles — 15k in california and 33k across the us " 
+656122335825698817	rt @saelig : electric cars outpace plugs in ca & sparks fly ( nyt ) 
+656118956604956672	electric cars outpace plugs in ca & sparks fly ( nyt ) 
+656095235055988736	nytimes : in california , electric cars outpace plugs , and sparks fly 
+656091504604258304	rt @johncalia : nytimes : in #california , #electriccars outpace plugs , and sparks fly #tech #roc 
+656091359762358272	nytimes : in #california , #electriccars outpace plugs , and sparks fly #tech #roc 
+656078252746874880	california , a state that holds 50% of the country's electric cars , is facing a plug-in shortage 
+655912631727861760	rt @aprilsixteenday : in california , electric cars outpace plugs , and sparks fly 
+655615820781850625	will tesla deliver a self powered car before 2020 ? ask m . t . keshe , qeg & auroratek 
+655574985768095744	sign of the times : ..... in california , electric cars outpace plugs , and sparks fly 
+655447185048342528	with the rise in ev use , it’s time to think about etiquette 
+655415585489063936	“ in california , electric cars outpace plugs , and sparks fly ” but the push to make the state greener is creating an … 
+655310521688838144	rt @erikbryn : suggestion : prices can be used to allocate scarce resources . " electric cars outpace free plugs , and sparks fly " … 
+655072849154211840	increased ev ownership , limited charger access leads to bad behavior in california . 
+655058460892110848	@whitneymcknight hey , @sherryboschert good to hear from you . i meant to send you this last week : re : e-cars in sfca 
+654894295678255104	electric vehicle owners in california face a growing etiquette shortage ... #electriccars 
+654781813378777088	in california , electric cars outpace plugs , and sparks fly - new york times 
+654761187356217345	in california , #electric cars outpace plugs , and sparks fly via @nytimes 
+654707866801041413	new york times in california , electric cars outpace plugs , and sparks fly new york times san francisco — of all the … 
+654692289462190081	this explains all the eco rage in #ca #sf #prius #tesla 
+654644337385578496	do you know electric vehicle etiquette ? in california people are learning . #drivesafe 
+654530678692933632	sounds like smug ev owners are getting into cat fights over charging stations . lol the sense of entitlement runs ... 
+654526401773764608	in california , electric cars outpace plugs ... and sparks fly 
+654484682705387520	in district , electric vehicles outpace objects , and sparks fly 
+654480971929096193	cars at their greenest , humanity at its darkest : ny times piece on electric vehicle drivers fighting over charging 
+654426252544188416	problems due to increased demand in e . v . ' s mean we're on the right track ... but increased infrastructure requires bo … 
+654409518873485312	rt @freewiretech : in california , electric cars outpace plugs , and sparks fly via @nytimes - and @freewiretech has a solution . … 
+654363582465839104	in california , electric cars outpace plugs , and sparks fly via @nytimes 
+654335252765126656	“ they’re not bad people , necessarily , ” she said . “ they may have some entitlement . ” 
+654332132899225600	in california , arm wrestling at the plugs ! need to solve the etiquette of charging #ev -cars in public outlets ! 
+654221806065352704	in california , electric cars outpace plugs , and sparks fly #visionzero #actonclimate 
+654183735064174592	rt @rezendi : '“ they’re not bad people , necessarily , ” she said . “ they may have some amount of entitlement . ”' 
+654156137391001600	rt @mrichtel : unintended side effect of electric cars : people get meaner . read about parking rage in @nytimescience … 
+654137265749393408	in california , #electriccars outpace plugs , and sparks fly 
+654132807355138048	in california , electric cars outpace plugs , and sparks fly - the new york times 
+654101604359106560	electric car charging station conflicts 9,000 ev etiquette survival packs sold black market in trading spots 
+654088019142647809	rt @dcsolar : need more access to #ev charging ? we have a #solar solution that might surprise you ! … 
+654062489370406912	how is your charge rage going @rb2k 
+654061653189873664	in california , electric cars outspace plugs , and sparks fly via @nytimes #ev #greencalifornia 
+654061033225498624	in california , #electricvehicles outpace plugs , and sparks fly via @nytimes 
+654057709424119808	in california , electric cars outpace plugs , and sparks fly ( via @pocket ) 
+654054033460563968	#electric cars in california are facing a plugshare problem via @nytimes 
+654047798573330433	they are calling it " recharge rage " 
+654012834007896066	in california , electric cars outpace plugs , and sparks fly #ev 
+654012542428299269	in california , electric cars outpace plugs , and sparks fly #envhm14 
+653996664664006656	rt @dwberkley : rumble ! " in california , electric cars outpace plugs , and sparks fly " 
+653991755843551232	in california , electric cars outpace plugs , and sparks fly via @nytimes - and @freewiretech has a solution . 
+653981174491181056	a new twist on road rage : in california , electric cars outpace plugs , and sparks fly 
+653975473999867904	in california , electric cars outpace plugs , and sparks fly #infrastructure 
+653959763009667073	" electric-vehicle etiquette " -- filed under " things we never thought would be a thing . " #dontunplugme 
+653959641844465664	vruuuuum ! in california , electric cars outpace plugs , and sparks fly 
+653953551325102080	the only solution to poor #ev charging etiquette is more powerpost #chargingstations ! #phev #electricvehicle 
+653934593175879680	rumble ! " in california , electric cars outpace plugs , and sparks fly " 
+653933275988127745	the surge for #electric cars in california is great but the need for more outlets is causing issues among drivers . 
+653927074449752064	“ it’s high time , ” she said , “ for somebody to tackle the electric-vehicle etiquette problem . ” 
+653925826715500544	rt @bennohansen : #chargerage : not enough workplace chargers ; americans unplug each other's electrical cars … 
+653920355342413824	good or bad ? 
+653913242553724928	rt @nytcorneroffice : in california , electric cars outpace plugs , and sparks fly 
+653909460415565825	the push to make california greener is creating an unintended side effect : it is making some people meaner . 
+653898476548419584	rt @kristofcloud : in california , electric cars outpace plugs , and sparks fly . flying to us & ca tomorrow , @evbox can/will solve this http :/ … 
+653892154612391936	" ice holes " & the blackmarket for ev charging spots 
+653867466406395904	" in california , electric cars outpace plugs , and sparks fly " by matt richtel via nyt 
+653849476306726912	in california , electric cars outpace charging points , and sparks fly . 
+653841435309969408	in california , #electric cars outpace plugs & sparks fly . #foodforthought #planforthis @larissawaters @turnbullmalcolm 
+
 http://t.co/hGQhVfuQ27
+656665231293190144	rt @kangouen : " he had no job , no car , no home of his own . he weighed 567 pounds , and his wife had left him , so ... " #yeswekangou … 
+656662294181445636	" he had no job , no car , no home of his own . he weighed 567 pounds , and his wife had left him , so ... " #yeswekangou 
+=======
+http://t.co/hGQhVfuQ27
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 656642392192385024	eric hites was 40 , living with parents , out of work , out of love , weighing a quarter ton . but he had a plan . 
 656592148490530817	fat guy across america ( and indiana native ) is taking a journey most cyclists dream of , but for different reasons . 
 656582544758992897	great story from @nytimes about “ fat guy across america ” on a bike : cycling can change your life ! 
@@ -3540,6 +4575,10 @@ http://t.co/hGQhVfuQ27
 653326635375140864	this ‘ fat guy across america ’ hits new york 
 653326040564166656	#nytimes ‘ fat guy across america hits new york 
 653289850683179008	‘ fat guy across america ’ hits new york love this 
+<<<<<<< HEAD
+653227926574379009	rt @thebabyshark : #fatguyacrossamerica , inspiring story , everything's worth it to get your life and wife back http : … 
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653226651074097152	fat guy across america : unemployed , in debt , and estranged from his wife , eric hites starts biking across the u.s. 
 
 http://t.co/07ZakeCAwD
@@ -3686,6 +4725,123 @@ http://t.co/cCdifQQjJz
 653799421138874368	rt rt nytimes : 5-star southern shrimp scampi : so easy , so delicious , so perfect for a wee … 
 653718891861032961	5-star southern shrimp scampi : so easy , so delicious , so perfect for a weeknight via @nytimes 
 
+<<<<<<< HEAD
+http://t.co/3lfSHK8sIL
+656673593615609857	rt @clairecmc : we must end the citizens united madness . from fracking to finance , a torrent of campaign cash - the new york times … 
+656659856213020672	just 158 families have provided nearly half of the early money for efforts to capture the white house . 158 ! wtf ! 
+656612784894050304	the families funding the 2016 presidential election 
+656595975918632960	this tells you all you need to know ... 
+656580567446650880	rt @katrinanation : think citizens united didn't ravage our fragile democracy , read this : 158 families funding the 2016 prez election https : … 
+656566627564154880	the families funding the 2016 presidential election @chrisistephens 
+656526900941099008	rt @sarahkendzior : only 158 families are providing almost half the funding for the 2016 presidential election 
+656522954998730752	the families funding the 2016 presidential election fascinating and thought-provoking interactive piece . and insane ! 
+656521455048351744	families funding the 2016 presidential election our country is being sold out from under us . bernie is not for sale ! 
+656518877153615872	rt @timbrellow : the families funding the 2016 presidential election 
+656511723982209024	rt @_foresight : not since before watergate have so few people and businesses provided so much early money in a campaign - … 
+656507457238265856	rt @propublica : 158 families have provided nearly half of all the presidential elex cash so far #muckreads … 
+656500840400744448	>>> the families funding the 2016 presidential election 
+656497727413469184	most going to the republicon party >>>> the families funding the 2016 presidential election 
+656490616050864128	buying power : the families funding the 2016 presidential election #innovativemommas #babyankees #soothercaddy 
+656479523261825024	mt @katrinanation : think citizens united didn't ravage our fragile democracy ? 158 families funding 2016 election 
+656469158528483328	think citizens united didn't ravage our fragile democracy , read this : 158 families funding the 2016 prez election 
+656427337588854784	rt @hectorsolon : " just 158 families have provided nearly half of early $ for efforts to capture the white house " - @nytimes … 
+656357675819769856	rt @nytimes : special report : just 158 families gave nearly half the early money in the presidential race . we reveal who they are . … 
+656323456733089792	so those taking in most of our countries economic growth are not the " bosses " /business owners/ ceo's etc who ... 
+656293539287048196	the families funding the 2016 presidential election such an importent story 
+656263114728583168	" not since before watergate have so few people and businesses provided so much early money in a campaign ... " 
+656249077303144448	the 158 families funding the 2016 presidential election ( get me a paper bag , i'm hyperventilating ) 
+656239402591522816	so far , 158 families have donated nearly half of the money to the 2016 presidential campaign . #datanerdslove 
+656235418908762112	#ysrt : the families funding the 2016 presidential election — 
+656234339857006592	rt @cameroncrussell : must read 158 families have funded 50% the 2016 presidential election via @lessig 
+656230274070507520	oligarchy in the works ... the families funding the 2016 presidential election 
+656220868264247296	" just 158 families have provided nearly half of early $ for efforts to capture the white house " - @nytimes #plutocracy 
+656205189938987008	rt @alli_langley : the 158 families funding the 2016 presidential election ( @nytimes ) 
+656202880613879808	the 158 families funding the 2016 presidential election ( @nytimes ) 
+656191526469398528	the families funding the #presidentialelection2016 #data #viz 
+656167195190292480	rt @melaniegouby : the families funding the us 2016 presidential election fascinating , must-read #democracy ? #uselect … 
+656147211231756288	food for thought . the white house is up for grabs again . here is an interesting read from the ny times . 
+656146763913560064	158 families are funding nearly half of the lunacy of these us presidential hopefuls . and there's income inequality . 
+656129659235627008	#americanpolitics #democrat #republican #citizenunited . flawed system & america - the rich & powerful pull strings . 
+656126830462803968	late . long read . but worth it : the families funding the 2016 presidential election 
+656124924642336768	rt @adamshatz : " the executive of the modern state is nothing but a committee for managing affairs of the bourgeoisie . " … 
+656113564646682628	rt @boygobong : 158 families & their huge influence on the presidential race — 
+656104041764655105	rt @rivefuentes : working for the few in the us : " just 158 families contributed $176 million in the first phase of the campaign " … 
+
+http://t.co/jPfp2FwRMr
+656595342754975744	#electric cars outpace plugs if memory serves @sagassi called the need for #ev infrastructure 6-7 yrs ago . 
+656569630354481156	in california , electric cars outpace plugs , and sparks fly 
+656568889791279104	people are fighting for public plugs : in ca , electric cars outpace plugs & sparks fly #evetiquette #tesla #i3 #leaf 
+656549117347414016	in california , many more electric cars than public charging stations . conflicts are arising . coping strategies ? 
+656516003153645568	@kiddynamiteblog good thing you don't live in bay area ; would have been keyed or beat up . 
+656485183844188161	the latest from the new york times ! " in california , electric cars outpace plugs , and sparks fly " by matt richtel 
+656378171105873920	in california , electric cars outpace plugs , and sparks fly 
+656166123478519808	" right now , there is one public charger for every 10 electric vehicles — 15k in california and 33k across the us " 
+656122335825698817	rt @saelig : electric cars outpace plugs in ca & sparks fly ( nyt ) 
+656118956604956672	electric cars outpace plugs in ca & sparks fly ( nyt ) 
+656095235055988736	nytimes : in california , electric cars outpace plugs , and sparks fly 
+656091504604258304	rt @johncalia : nytimes : in #california , #electriccars outpace plugs , and sparks fly #tech #roc 
+656091359762358272	nytimes : in #california , #electriccars outpace plugs , and sparks fly #tech #roc 
+656078252746874880	california , a state that holds 50% of the country's electric cars , is facing a plug-in shortage 
+655912631727861760	rt @aprilsixteenday : in california , electric cars outpace plugs , and sparks fly 
+655615820781850625	will tesla deliver a self powered car before 2020 ? ask m . t . keshe , qeg & auroratek 
+655574985768095744	sign of the times : ..... in california , electric cars outpace plugs , and sparks fly 
+655447185048342528	with the rise in ev use , it’s time to think about etiquette 
+655415585489063936	“ in california , electric cars outpace plugs , and sparks fly ” but the push to make the state greener is creating an … 
+655310521688838144	rt @erikbryn : suggestion : prices can be used to allocate scarce resources . " electric cars outpace free plugs , and sparks fly " … 
+655072849154211840	increased ev ownership , limited charger access leads to bad behavior in california . 
+655058460892110848	@whitneymcknight hey , @sherryboschert good to hear from you . i meant to send you this last week : re : e-cars in sfca 
+654894295678255104	electric vehicle owners in california face a growing etiquette shortage ... #electriccars 
+654781813378777088	in california , electric cars outpace plugs , and sparks fly - new york times 
+654761187356217345	in california , #electric cars outpace plugs , and sparks fly via @nytimes 
+654707866801041413	new york times in california , electric cars outpace plugs , and sparks fly new york times san francisco — of all the … 
+654692289462190081	this explains all the eco rage in #ca #sf #prius #tesla 
+654644337385578496	do you know electric vehicle etiquette ? in california people are learning . #drivesafe 
+654530678692933632	sounds like smug ev owners are getting into cat fights over charging stations . lol the sense of entitlement runs ... 
+654526401773764608	in california , electric cars outpace plugs ... and sparks fly 
+654484682705387520	in district , electric vehicles outpace objects , and sparks fly 
+654480971929096193	cars at their greenest , humanity at its darkest : ny times piece on electric vehicle drivers fighting over charging 
+654426252544188416	problems due to increased demand in e . v . ' s mean we're on the right track ... but increased infrastructure requires bo … 
+654409518873485312	rt @freewiretech : in california , electric cars outpace plugs , and sparks fly via @nytimes - and @freewiretech has a solution . … 
+654363582465839104	in california , electric cars outpace plugs , and sparks fly via @nytimes 
+654335252765126656	“ they’re not bad people , necessarily , ” she said . “ they may have some entitlement . ” 
+654332132899225600	in california , arm wrestling at the plugs ! need to solve the etiquette of charging #ev -cars in public outlets ! 
+654221806065352704	in california , electric cars outpace plugs , and sparks fly #visionzero #actonclimate 
+654183735064174592	rt @rezendi : '“ they’re not bad people , necessarily , ” she said . “ they may have some amount of entitlement . ”' 
+654156137391001600	rt @mrichtel : unintended side effect of electric cars : people get meaner . read about parking rage in @nytimescience … 
+654137265749393408	in california , #electriccars outpace plugs , and sparks fly 
+654132807355138048	in california , electric cars outpace plugs , and sparks fly - the new york times 
+654101604359106560	electric car charging station conflicts 9,000 ev etiquette survival packs sold black market in trading spots 
+654088019142647809	rt @dcsolar : need more access to #ev charging ? we have a #solar solution that might surprise you ! … 
+654062489370406912	how is your charge rage going @rb2k 
+654061653189873664	in california , electric cars outspace plugs , and sparks fly via @nytimes #ev #greencalifornia 
+654061033225498624	in california , #electricvehicles outpace plugs , and sparks fly via @nytimes 
+654057709424119808	in california , electric cars outpace plugs , and sparks fly ( via @pocket ) 
+654054033460563968	#electric cars in california are facing a plugshare problem via @nytimes 
+654047798573330433	they are calling it " recharge rage " 
+654012834007896066	in california , electric cars outpace plugs , and sparks fly #ev 
+654012542428299269	in california , electric cars outpace plugs , and sparks fly #envhm14 
+653996664664006656	rt @dwberkley : rumble ! " in california , electric cars outpace plugs , and sparks fly " 
+653991755843551232	in california , electric cars outpace plugs , and sparks fly via @nytimes - and @freewiretech has a solution . 
+653981174491181056	a new twist on road rage : in california , electric cars outpace plugs , and sparks fly 
+653975473999867904	in california , electric cars outpace plugs , and sparks fly #infrastructure 
+653959763009667073	" electric-vehicle etiquette " -- filed under " things we never thought would be a thing . " #dontunplugme 
+653959641844465664	vruuuuum ! in california , electric cars outpace plugs , and sparks fly 
+653953551325102080	the only solution to poor #ev charging etiquette is more powerpost #chargingstations ! #phev #electricvehicle 
+653934593175879680	rumble ! " in california , electric cars outpace plugs , and sparks fly " 
+653933275988127745	the surge for #electric cars in california is great but the need for more outlets is causing issues among drivers . 
+653927074449752064	“ it’s high time , ” she said , “ for somebody to tackle the electric-vehicle etiquette problem . ” 
+653925826715500544	rt @bennohansen : #chargerage : not enough workplace chargers ; americans unplug each other's electrical cars … 
+653920355342413824	good or bad ? 
+653913242553724928	rt @nytcorneroffice : in california , electric cars outpace plugs , and sparks fly 
+653909460415565825	the push to make california greener is creating an unintended side effect : it is making some people meaner . 
+653898476548419584	rt @kristofcloud : in california , electric cars outpace plugs , and sparks fly . flying to us & ca tomorrow , @evbox can/will solve this http :/ … 
+653892154612391936	" ice holes " & the blackmarket for ev charging spots 
+653867466406395904	" in california , electric cars outpace plugs , and sparks fly " by matt richtel via nyt 
+653849476306726912	in california , electric cars outpace charging points , and sparks fly . 
+653841435309969408	in california , #electric cars outpace plugs & sparks fly . #foodforthought #planforthis @larissawaters @turnbullmalcolm 
+
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 http://t.co/7yw68Mccrb
 654085162469224448	rt @nytimes : miranda july's very revealing conversation with rihanna 
 653694350698893313	miranda july's very revealing conversation with rihanna 
@@ -3732,6 +4888,50 @@ http://t.co/06KIt1EFsC
 653631309273763840	why can’t we sit still anymore ? an interesting perspective on our fidgety-ness . 
 653622656021995520	rt @debnicolina : why can’t we sit still anymore ? #lifestyle 
 
+<<<<<<< HEAD
+http://t.co/aKXpxJ3QE0
+656673593615609857	rt @clairecmc : we must end the citizens united madness . from fracking to finance , a torrent of campaign cash - the new york times … 
+656659856213020672	just 158 families have provided nearly half of the early money for efforts to capture the white house . 158 ! wtf ! 
+656612784894050304	the families funding the 2016 presidential election 
+656595975918632960	this tells you all you need to know ... 
+656580567446650880	rt @katrinanation : think citizens united didn't ravage our fragile democracy , read this : 158 families funding the 2016 prez election https : … 
+656566627564154880	the families funding the 2016 presidential election @chrisistephens 
+656526900941099008	rt @sarahkendzior : only 158 families are providing almost half the funding for the 2016 presidential election 
+656522954998730752	the families funding the 2016 presidential election fascinating and thought-provoking interactive piece . and insane ! 
+656521455048351744	families funding the 2016 presidential election our country is being sold out from under us . bernie is not for sale ! 
+656518877153615872	rt @timbrellow : the families funding the 2016 presidential election 
+656511723982209024	rt @_foresight : not since before watergate have so few people and businesses provided so much early money in a campaign - … 
+656507457238265856	rt @propublica : 158 families have provided nearly half of all the presidential elex cash so far #muckreads … 
+656500840400744448	>>> the families funding the 2016 presidential election 
+656497727413469184	most going to the republicon party >>>> the families funding the 2016 presidential election 
+656490616050864128	buying power : the families funding the 2016 presidential election #innovativemommas #babyankees #soothercaddy 
+656479523261825024	mt @katrinanation : think citizens united didn't ravage our fragile democracy ? 158 families funding 2016 election 
+656469158528483328	think citizens united didn't ravage our fragile democracy , read this : 158 families funding the 2016 prez election 
+656427337588854784	rt @hectorsolon : " just 158 families have provided nearly half of early $ for efforts to capture the white house " - @nytimes … 
+656357675819769856	rt @nytimes : special report : just 158 families gave nearly half the early money in the presidential race . we reveal who they are . … 
+656323456733089792	so those taking in most of our countries economic growth are not the " bosses " /business owners/ ceo's etc who ... 
+656293539287048196	the families funding the 2016 presidential election such an importent story 
+656263114728583168	" not since before watergate have so few people and businesses provided so much early money in a campaign ... " 
+656249077303144448	the 158 families funding the 2016 presidential election ( get me a paper bag , i'm hyperventilating ) 
+656239402591522816	so far , 158 families have donated nearly half of the money to the 2016 presidential campaign . #datanerdslove 
+656235418908762112	#ysrt : the families funding the 2016 presidential election — 
+656234339857006592	rt @cameroncrussell : must read 158 families have funded 50% the 2016 presidential election via @lessig 
+656230274070507520	oligarchy in the works ... the families funding the 2016 presidential election 
+656220868264247296	" just 158 families have provided nearly half of early $ for efforts to capture the white house " - @nytimes #plutocracy 
+656205189938987008	rt @alli_langley : the 158 families funding the 2016 presidential election ( @nytimes ) 
+656202880613879808	the 158 families funding the 2016 presidential election ( @nytimes ) 
+656191526469398528	the families funding the #presidentialelection2016 #data #viz 
+656167195190292480	rt @melaniegouby : the families funding the us 2016 presidential election fascinating , must-read #democracy ? #uselect … 
+656147211231756288	food for thought . the white house is up for grabs again . here is an interesting read from the ny times . 
+656146763913560064	158 families are funding nearly half of the lunacy of these us presidential hopefuls . and there's income inequality . 
+656129659235627008	#americanpolitics #democrat #republican #citizenunited . flawed system & america - the rich & powerful pull strings . 
+656126830462803968	late . long read . but worth it : the families funding the 2016 presidential election 
+656124924642336768	rt @adamshatz : " the executive of the modern state is nothing but a committee for managing affairs of the bourgeoisie . " … 
+656113564646682628	rt @boygobong : 158 families & their huge influence on the presidential race — 
+656104041764655105	rt @rivefuentes : working for the few in the us : " just 158 families contributed $176 million in the first phase of the campaign " … 
+
+=======
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 http://t.co/zljF9NF458
 655844454729826304	this exemplifies the best journalism . may it spur change : oregon killings amplify crusade of virginia victim’s father 
 655472575196364800	rt @applebome : heartbreaking look at gun violence by @sherylstolberg ; multiply times many thousands and you get the picture . … 
@@ -3819,7 +5019,10 @@ http://t.co/BSyRa8hVaU
 653346432682868736	great piece . chick-fil-a and the politics of eating 
 653344373514440704	smart take on chick fil a and the politics of eating : 
 653288184562978816	agita on a bun ... chick-fil-a and the politics of eating 
+<<<<<<< HEAD
+=======
 653248645098270720	rt @davidwchen : food for thought : @chickfila's higher wages and " the complicated politics of urban consumerism " in nyc … 
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 653219420953686016	what do we do with the often-made argument that corporate chains are good for the city because they employ many ... 
 653204411762782208	insightful and interesting : chick-fil-a and the politics of eating #foodconvictionscanbecomplicated 
 653203028296761345	the politics of eating chicken in nyc 
@@ -3881,6 +5084,39 @@ http://t.co/5HVdZFhRyD
 653592966859128832	amid report of jason rezaian’s conviction , iran hints at prisoner exchange : tehran appeared to be ... via @nytimes 
 653592962291494913	ny times : amid report of jason rezaian’s conviction , iran hints at prisoner exchange 
 
+<<<<<<< HEAD
+http://t.co/kTVfFfR1lK
+656658687537250304	ronda rousey’s next fight : body image in hollywood 
+656330613738213376	ronda rousey’s next fight : body image in hollywood : the undefeated mixed martial arts fighter wants to both fi ... 
+656288019201159168	ronda rousey’s next fight : body image in hollywood : the undefeated mixed martial arts fighter wants to b ... #news 
+656268718775758849	ronda rousey tries to ' embrace the body that used to embarrass her ' by giving up trying to fit certain body ideals : 
+656230131636269058	rt @nyt : ronda rousey’s next fight : body image in hollywood . 
+656228254861369344	ronda rousey’s next fight : body image in hollywood . 
+656224699517706244	" i swear to god , if anyone calls me #fat 1 more time in my life , i’m going to kill them . ” amen , sister ! @rondarousey 
+655692714701377536	rt @womenssportsfdn : the first female athlete co-anchor for #sportscenter and now ' @rondarousey's next fight : body image in hollywood ' http … 
+655352189624434688	rt @kmfarrell2 : ronda rousey’s next fight : body image in hollywood #com238 
+655342888885317632	i heart @rondarousey . she's such a bad ass in so many ways . || ronda rousey’s next fight : body image in hollywood 
+655036900890320896	ronda rousey’s next fight : body image in hollywood #bodyposi #bodypositive 
+654741798393217024	ronda rousey’s next fight : body image in hollywood #teamreebok 
+654694204585570304	rt @ufc : . @rondarousey : the antagonist via @nytimes 
+654390614855954432	ronda rousey’s next fight : body image in hollywood #com238 
+654388106645270529	rt @ellacyclingtips : ronda rousey’s next fight : body image in hollywood #ellapickoftheday #womeninsports 
+654327623036878852	ronda rousey’s next fight : body image in hollywood #ellapickoftheday #womeninsports 
+654313584487497728	rt @dhe_remitz : ronda rousey’s next fight : body image in hollywood 
+654280540393242624	call her fat , at your peril ( also , hello ? ) ... ronda rousey’s next fight : body image in hollywood 
+654246057262587904	rt @eralbertson : mixed marcial arts figther ronda rousey’s next fight : #bodyimage in hollywood 
+654010990678421504	ronda rousey’s next fight is not just in “ mile 22 , ” but changing the hollywood stereotype of a woman’s body in film : 
+653948485457346560	. rondarousey : the antagonist via nytimes 
+653922980490313728	ronda rousey's next fight : body image in hollywood . #fem2 
+653915727619993600	rt @femcho1 : this accomplished woman " fights " to break the mold of hollywood body image for females ! so #femcho 
+653915490801184768	this accomplished woman " fights " to break the mold of hollywood body image for females ! so #femcho 
+653896693495238656	rt stella1291 : rt ufc : . rondarousey : the antagonist via nytimes 
+653804468371333120	rt nikkishaven : ronda rousey’s next fight : body image in hollywood #embracestrong 
+653804298371923968	ronda rousey’s next fight : body image in hollywood #embracestrong 
+653792623124082688	fucking boss . @rondarousey 
+653734981836087296	rt jules0987 : rt womenssportsfdn : the first female athlete co-anchor for #sportscenter and now ' rondarousey's next … 
+653725873594499072	this : ronda rousey’s next fight : body image in hollywood 
+=======
 http://t.co/ifVsItssj7
 656012631703187456	relatives of black man shot by off-duty officer in texas question police actions 
 655499893570605056	rt @johnnyheldt : texas police shoot #charlesgoodridge then watch him bleed to death #blacklivesmatter #fixthepolice … 
@@ -11954,6 +13190,7 @@ http://t.co/5HVdZFhRyD
 653592980251475968	amid report of jason rezaian’s conviction , iran hints at prisoner exchange #itsparto 
 653592966859128832	amid report of jason rezaian’s conviction , iran hints at prisoner exchange : tehran appeared to be ... via @nytimes 
 653592962291494913	ny times : amid report of jason rezaian’s conviction , iran hints at prisoner exchange 
+>>>>>>> 544f0725e5f50ccd87621f85b9a1338272006f02
 
 http://t.co/ifVsItssj7
 656012631703187456	relatives of black man shot by off-duty officer in texas question police actions 

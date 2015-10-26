@@ -5,7 +5,7 @@ except ImportError:
 
 from twitter import Twitter, OAuth
 from tokenize import *
-import re, os,time
+import re, os,time,sys
 from configHelper import myconfig
 import datetime
 URLINTEXT_PAT = \
@@ -177,6 +177,7 @@ def buildurlDictfromFile(handler):
 def job():
     for acnt in formalaccount:
         print acnt, time.asctime()
+	sys.stdout.flush()
         urlfiles = 'files/'+acnt+'_urls.txt'
         urlfile_handler= open(urlfiles,'a+')
         urldict = getOldUrl(urlfile_handler)
@@ -203,6 +204,7 @@ def job():
 
 schedule.every().hour.do(job)
 
+job()
 
 while True:
     schedule.run_pending()
