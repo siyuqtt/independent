@@ -136,3 +136,9 @@
 @CNN Tue Oct 27 11:35:37 2015
 @ABC Tue Oct 27 11:46:19 2015
 @NBCNews Tue Oct 27 11:56:28 2015
+@nytimes Tue Oct 27 13:11:23 2015
+@cnnbrk Tue Oct 27 13:28:01 2015
+@BBCBreaking Tue Oct 27 13:31:35 2015
+@CNN Tue Oct 27 13:31:49 2015
+@ABC Tue Oct 27 13:42:36 2015
+@NBCNews Tue Oct 27 13:52:44 2015
