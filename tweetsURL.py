@@ -41,28 +41,30 @@ def getOldUrl(fhander):
 
 def queryNewUrl(oldurls,acnt):
     targetdate = getTargetDate()
-    query = twitter.search.tweets(q="from:"+acnt,
+    try:
+        query = twitter.search.tweets(q="from:"+acnt,
                                   count="100",
                                   lang="en",
                                   until=targetdate
                                   )
+    except:
+        return
+    else:
+        shorturlsets = set()
+        for result in query["statuses"]:
+            try:
+                for url in URLINTEXT_PAT.findall(result["text"]):
+                    if oldurls.has_key(url):
+                        continue
+                    shorturlsets.add(url)
+            except:
+                pass
 
-
-    shorturlsets = set()
-    for result in query["statuses"]:
-        try:
-            for url in URLINTEXT_PAT.findall(result["text"]):
-                if oldurls.has_key(url):
-                    continue
-                shorturlsets.add(url)
-        except:
-            pass
-
-    for surl in shorturlsets:
-        try:
-            oldurls[surl] =requests.get(surl).url.split('?')[0]
-        except:
-            pass
+        for surl in shorturlsets:
+            try:
+                oldurls[surl] =requests.get(surl).url.split('?')[0]
+            except:
+                pass
 
 
 
@@ -83,22 +85,33 @@ def RateLimited(maxPerSecond,lastTimeCalled):
 def getQuery(maxid, minid, furl):
 
     if maxid is not None and minid is not None:
-        query = twitter.search.tweets(q=furl,
+        try:
+            query = twitter.search.tweets(q=furl,
                                       count="100",
                                       lang="en",
                                       max_id=minid
                                       )
-        if len(query["statuses"])==0:
-            query = twitter.search.tweets(q=furl,
+        except:
+            return None
+        else:
+            if len(query["statuses"])==0:
+                try:
+                    query = twitter.search.tweets(q=furl,
                                       count="100",
                                       lang="en",
                                       since_id=maxid
                                       )
-    else:
-        query = twitter.search.tweets(q=furl,
-                                      count="100",
-                                      lang="en"
-                                      )
+                except:
+                    return None
+                else:
+                    if len(query["statuses"])==0:
+                        try:
+                            query = twitter.search.tweets(q=furl,
+                                                  count="100",
+                                                  lang="en"
+                                                  )
+                        except:
+                            return None
 
     return query
 
@@ -118,6 +131,8 @@ def querywithFull(urldict,acnt,urlid_dict):
             maxid, minid = None, None
 
         query = getQuery(maxid,minid,furl)
+        if query is None:
+            continue
         for result in query["statuses"]:
             nre = re.sub(URLINTEXT_PAT,"",result["text"]).lower().strip()
             if nre not in cur:
