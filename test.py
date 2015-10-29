@@ -377,3 +377,4 @@ for acn, datedict in acnt_date.items():
     painter.plotBar([i+1 for i in xrange(len(totalsum))],totalsum,None,acn+"_Url_Num")
 
 
+print "finish!"

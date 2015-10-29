@@ -22,10 +22,21 @@ warnings.simplefilter("error")
 class statis:
 
     def __init__(self, arr):
-        self.array = np.array(arr)
+        if arr:
+            self.array = np.array(arr)
+        self.plain_arr = []
 
     def setArray(self,arr):
         self.array = np.array(arr)
+
+    def appendArray(self,num):
+        self.plain_arr.append(num)
+
+    def getPlainArr(self):
+        return self.plain_arr
+
+    def setFromPlainArr(self):
+        self.array = np.array(self.plain_arr)
 
     def getavg(self):
         try:
