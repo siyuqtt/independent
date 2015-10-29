@@ -83,7 +83,7 @@ def RateLimited(maxPerSecond,lastTimeCalled):
     return time.clock()
 
 def getQuery(maxid, minid, furl):
-
+    query = None
     if maxid is not None and minid is not None:
         try:
             query = twitter.search.tweets(q=furl,
