@@ -112,7 +112,8 @@ def getQuery(maxid, minid, furl):
                                                   )
                         except:
                             return None
-
+    if query is None:
+	print None
     return query
 
 
