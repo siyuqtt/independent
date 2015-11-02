@@ -94,7 +94,7 @@ def getQuery(maxid, minid, furl):
         except:
             return None
         else:
-            if len(query["statuses"])==0:
+            if len(query["statuses"]) == 0:
                 try:
                     query = twitter.search.tweets(q=furl,
                                       count="100",
@@ -103,17 +103,15 @@ def getQuery(maxid, minid, furl):
                                       )
                 except:
                     return None
-                else:
-                    if len(query["statuses"])==0:
-                        try:
-                            query = twitter.search.tweets(q=furl,
-                                                  count="100",
-                                                  lang="en"
-                                                  )
-                        except:
-                            return None
-    if query is None:
-	print None
+    else:
+        try:
+            query = twitter.search.tweets(q=furl,
+                                  count="100",
+                                  lang="en"
+                                  )
+        except:
+            return None
+
     return query
 
 
