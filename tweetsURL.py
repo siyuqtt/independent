@@ -169,8 +169,14 @@ def querywithFull(urldict,acnt,urlid_dict):
         f.write('\n')
         ff.write('\n')
         if len(v) < 50:
-            del urldict[k]
-            del urlid_dict[k]
+            try:
+		del urldict[k]
+	    except:
+		pass
+	    try:
+            	del urlid_dict[k]
+	    except:
+		pass
     f.close()
     statff.close()
     ff.close()
