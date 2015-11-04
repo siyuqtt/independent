@@ -362,17 +362,21 @@ class sentenceSimilarity:
         words = self.extracAllword(candi)
         word_dict = {w:idx for idx, w in enumerate(words)}
         x = [[0 for _ in xrange(len(words))] for _ in xrange(len(candi))]
-        if len(x) < 2:
+        if len(x) < 3:
             return candi
         for id, s in enumerate(candi):
             tmp = self.text_to_vector(s)
             for k,v in tmp.items():
-                x[id][word_dict[k]] = v
+                x[id][word_dict[k]] = float(v)
 
-        km = KMeans(n_clusters=2)
+        km = KMeans(n_clusters=3)
         km.fit(x)
         samples = {}
         X_new = km.transform(x)
+        # try:
+        #     X_new = km.transform(x)
+        # except:
+        #     print 'mooo'
         for idx, l in enumerate(km.labels_):
             try:
                 samples[l][idx] = X_new[idx][l]
@@ -382,7 +386,7 @@ class sentenceSimilarity:
         ret = []
         for k, v in samples.items():
             sortedv = sorted(v.items(), key=operator.itemgetter(1), reverse=True)
-            for it in sortedv[:5]:
+            for it in sortedv:
                 ret.append(candi[it[0]])
         return ret
 

@@ -22,7 +22,7 @@ def splitCleanTweet2Sents(tweet):
 def splitTweet2Sents(tweet):
 	tweet = re.sub(u'\u201c', '\"', tweet)
 	tweet = re.sub(u'\u201d', '\"', tweet)
-        tweet = tweet.encode('ascii', 'ignore')
+	tweet = tweet.encode('ascii', 'ignore')
 	tokenizedtweet = u" ".join(tokenize(tweet))
 	cleantweet = filterTweetText(tokenizedtweet)
 	sents = sentSplitter(cleantweet)
@@ -39,15 +39,15 @@ def filterUniqSentSet (sentences) :
 		
 		if len(filteredsents) > 0 :
 			for i, filteredsent in enumerate(filteredsents) :
-                                sentence_nopunc = re.sub(r' +', r' ', regex.sub('', sentence)).strip()
-                                filteredsent_nopunc = re.sub(r' +', r' ', regex.sub('', filteredsent)).strip()
+				sentence_nopunc = re.sub(r' +', r' ', regex.sub('', sentence)).strip()
+				filteredsent_nopunc = re.sub(r' +', r' ', regex.sub('', filteredsent)).strip()
 				# print sentence_nopunc
-				# print filteredsent_nopunc
-				# print
+				#  print filteredsent_nopunc
+				#  print
 				if sentence.lower() in filteredsent.lower() or sentence_nopunc.lower() in filteredsent_nopunc.lower():
 					merged = True
 					break
-				if filteredsent.lower() in sentence.lower() or filteredsent_nopunc.lower() in sentence_nopunc.lower():
+				if filteredsent.lower() in sentence.lower()or filteredsent_nopunc.lower() in sentence_nopunc.lower():
 					filteredsents[i] = sentence
 					merged = True
 					break
@@ -59,6 +59,8 @@ def filterUniqSentSet (sentences) :
 	dsent_sent = {}
 	
 	for sentence in filteredsents :
+		if sentence.startswith('rt '):
+			sentence = sentence[2:].strip()
 		dsentence = re.sub(r'[@#]\S+', r'', sentence)	
 		dsentence = re.sub(r' +', r'', dsentence)	
 		dsentence = re.sub(r'\d+', r'%NUMBER%', dsentence)
@@ -72,6 +74,8 @@ def filterUniqSentSet (sentences) :
 	filteredsents2 = []
 	
 	for sentence in filteredsents :
+		if sentence.startswith('rt '):
+			sentence = sentence[2:].strip()
 		dsentence = re.sub(r'[@#]\S+', r'', sentence)	
 		dsentence = re.sub(r' +', r'', dsentence)
 		dsentence = re.sub(r'\d+', r'%NUMBER%', dsentence)	
@@ -137,7 +141,7 @@ def filterTweetText (tokenizedtext) :
 	
 	
 	text = ' '.join(puretokens)  
-       
+
 	return text  
 	
 # main sentence spliter	for tweets
@@ -208,4 +212,8 @@ def cleanSent(sentence) :
 	tokens = filterTweetText(sentence).strip().split()
 	sentence = ' '.join(tokens)
 	
-	return sentence  
+	return sentence
+
+
+
+
