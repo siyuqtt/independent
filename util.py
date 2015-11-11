@@ -115,7 +115,7 @@ class dataprepare:
         :return:
         '''
 
-        vectorizer = TfidfVectorizer(stop_words='english', min_df=5,smooth_idf=True, sublinear_tf=False,
+        vectorizer = TfidfVectorizer(stop_words='english',smooth_idf=True, sublinear_tf=False,
                  use_idf=True)
         tfidf = vectorizer.fit_transform(ls_x)
         array = tfidf.toarray()
@@ -125,9 +125,13 @@ class dataprepare:
         for idx,l in enumerate(ls_x):
             ws = l.split()
             maxtoken = max(len(ws),maxtoken)
-            stops = round(reduce(lambda x,y: x+1 if y in self.tweetmanager.stop else x, ws,0)/(len(ws)+1e-10),2)
-            append( [len(ws),self.avgch(ws),stops
-                 , min(array[idx]), max(array[idx]), sum(array[idx])/len(array[idx])])
+            try:
+                stops = round(reduce(lambda x,y: x+1 if y in self.tweetmanager.stop else x, ws,0)/(len(ws)+1e-10),2)
+            except:
+                pass
+
+            append([len(ws),self.avgch(ws), stops,
+                    min(array[idx]), max(array[idx]), sum(array[idx])/len(array[idx])])
 
         return [[round(x[0]*1.0/maxtoken,2)] + x[1:]  for x in X]
 

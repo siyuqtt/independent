@@ -29,62 +29,27 @@ def splitTweet2Sents(tweet):
 	return sents
 
 def filterUniqSentSet (sentences) :
-	filteredsents = []
-
-	regex = re.compile('[%s]' % re.escape(string.punctuation))
+    filteredsents = []
+    regex = re.compile('[%s]' % re.escape(string.punctuation))
 	# replace #hashtag and @usrname
-	# merge those are the same
-	for sentence in sentences :     
-		merged = False
-		
-		if len(filteredsents) > 0 :
-			for i, filteredsent in enumerate(filteredsents) :
-				sentence_nopunc = re.sub(r' +', r' ', regex.sub('', sentence)).strip()
-				filteredsent_nopunc = re.sub(r' +', r' ', regex.sub('', filteredsent)).strip()
-				# print sentence_nopunc
-				#  print filteredsent_nopunc
-				#  print
-				if sentence.lower() in filteredsent.lower() or sentence_nopunc.lower() in filteredsent_nopunc.lower():
-					merged = True
-					break
-				if filteredsent.lower() in sentence.lower()or filteredsent_nopunc.lower() in sentence_nopunc.lower():
-					filteredsents[i] = sentence
-					merged = True
-					break
-							
-		if merged == False :
-			filteredsents.append(sentence.strip())
-
-	dsent_count = {}
-	dsent_sent = {}
-	
-	for sentence in filteredsents :
-
-		dsentence = re.sub(r'[@#]\S+', r'', sentence)
-		dsentence = re.sub(r' +', r'', dsentence)	
-		dsentence = re.sub(r'\d+', r'%NUMBER%', dsentence)
-		dsent_count[dsentence] = dsent_count.get(dsentence, 0.0) + 1.0
-		if dsentence in dsent_sent:
-			if len(sentence) < len(dsent_sent[dsentence]) :
-				dsent_sent[dsentence] = sentence
-		else :
-			dsent_sent[dsentence] = sentence
-	
-	filteredsents2 = []
-	
-	for sentence in filteredsents :
-
-		dsentence = re.sub(r'[@#]\S+', r'', sentence)	
-		dsentence = re.sub(r' +', r'', dsentence)
-		dsentence = re.sub(r'\d+', r'%NUMBER%', dsentence)	
-		if dsent_count[dsentence] == 1 :
-			filteredsents2.append(sentence)
-		else :
-			filteredsents2.append(dsent_sent[dsentence])
-	
-	filteredsents2 = list(set(filteredsents2))
-	
-	return filteredsents2
+	#  merge those are the same
+    for [id,acnt,sentence] in sentences :
+        merged = False
+        sentence = re.sub(r'[@#]\S+', r'', sentence).strip()
+        if len(filteredsents) > 0 :
+            for i, [_,_,filteredsent] in enumerate(filteredsents) :
+                sentence_nopunc = re.sub(r' +', r' ', regex.sub(' ', sentence)).strip()
+                filteredsent_nopunc = re.sub(r' +', r' ', regex.sub(' ', filteredsent)).strip()
+                if sentence_nopunc.lower() in filteredsent_nopunc.lower():
+                    filteredsents[i] =[id,acnt,sentence]
+                    merged = True
+                    break
+                if filteredsent_nopunc.lower() in sentence_nopunc.lower():
+                    merged = True
+                    break
+        if merged == False :
+            filteredsents.append([id,acnt,sentence])
+    return filteredsents
 
 # Remove symbols, emticons, urls from tweet
 def filterTweetText (tokenizedtext) :

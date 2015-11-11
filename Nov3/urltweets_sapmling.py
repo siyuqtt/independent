@@ -5,6 +5,7 @@ except ImportError:
 
 from twitter import Twitter, OAuth
 from tokenize import *
+from BeautifulSoup import BeautifulSoup
 import re, os,time,sys
 from configHelper import myconfig
 import datetime
@@ -13,6 +14,7 @@ URLINTEXT_PAT = \
 
 from twitter_sentence_spliter import *
 import requests
+from collections import deque
 # Variables that contains the user credentials to access Twitter API 
 ACCESS_TOKEN = myconfig.accesstoken
 ACCESS_SECRET = myconfig.accessscecret
@@ -24,14 +26,14 @@ oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 
 twitter = Twitter(auth=oauth)
 # Get a sample of the public data following through Twitter
-formalaccount = ['@nytimes','@cnnbrk','@BBCBreaking','@CNN','@ABC','@NBCNews']
-# formalaccount = ['@BBCBreaking']
+#formalaccount = ['@nytimes','@cnnbrk','@BBCBreaking','@CNN','@ABC','@NBCNews']
+formalaccount = ['BBCNews']
 
 def getDate():
     return datetime.date.today().__str__()
 
 def getTargetDate():
-    targetdate = (datetime.date.today()- datetime.timedelta(days=7)).__str__()
+    targetdate = (datetime.date.today() - datetime.timedelta(days=0)).__str__()
     return targetdate
 def getOldUrl(fhander):
     try:
@@ -41,32 +43,57 @@ def getOldUrl(fhander):
         return dict()
 
 
-def queryNewUrl(oldurls,acnt):
-    targetdate = getTargetDate()
+def queryNewUrl(oldurls, acnt):
+    '''
+        try new method using user timeline
+    '''
+    newurl2test ={}
+
+    #targetdate = getTargetDate()
     try:
-        query = twitter.search.tweets(q="from:"+acnt,
-                                  count="100",
-                                  lang="en",
-                                  until=targetdate
-                                  )
+    #     query = twitter.search.tweets(q="from:"+acnt,
+    #                               count="100",
+    #                               lang="en",
+    #                               until=targetdate,
+    #                               )
+        query = twitter.statuses.user_timeline(screen_name=acnt, include_rts=False)
     except:
         return
     else:
         shorturlsets = set()
-        for result in query["statuses"]:
+        for result in query:
             try:
                 for url in URLINTEXT_PAT.findall(result["text"]):
                     if oldurls.has_key(url):
                         continue
                     shorturlsets.add(url)
+                    newurl2test[url] = [result]
             except:
                 pass
 
         for surl in shorturlsets:
             try:
-                oldurls[surl] =requests.get(surl).url.split('?')[0]
+                r = requests.get(surl)
+                parsed_html = BeautifulSoup(r.text)
+                oldurls[surl] = r.url.split('?')[0]
+                try:
+                    # property --- nytimes
+                    # name --- bbc
+                    tw_prop = parsed_html.find('meta',attrs={'name':"twitter:title"}).attrMap
+                    newurl2test[surl].append(tw_prop['content'])
+                except:
+                    pass
+
+                try:
+                    tw_prop = parsed_html.find('meta',attrs={'name':"twitter:description"}).attrMap
+                    newurl2test[surl].append(tw_prop['content'])
+                except:
+                    pass
+
             except:
                 pass
+    return newurl2test
+
 
 
 
@@ -84,7 +111,7 @@ def RateLimited(maxPerSecond,lastTimeCalled):
         time.sleep(leftToWait)
     return time.clock()
 
-def getQuery(maxid, minid,surl, furl,acnt):
+def getQuery(oritweets, maxid, minid, furl):
     query = None
     if maxid is not None and minid is not None:
         try:
@@ -107,66 +134,64 @@ def getQuery(maxid, minid,surl, furl,acnt):
                     return None
     else:
         try:
-            acnt_q = twitter.search.tweets(q="from:"+acnt+"+"+surl,
-                                  count="100",
-                                  lang="en"
-                                  )
             query = twitter.search.tweets(q=furl,
                                   count="100",
                                   lang="en"
                                   )
-            query['statuses'] += acnt_q['statuses']
+            if oritweets is not None:
+                query['statuses'].append(oritweets)
         except:
             return None
 
     return query
 
 
-def querywithFull(urldict,acnt,urlid_dict):
+def querywithFull(newurl2text, urldict, acnt, urlid_dict):
     date = getDate()
     data = {}
     lastTimeCalled = time.clock()
     for surl, furl in urldict.items():
         data[furl] = []
         cur = set()
-        lastTimeCalled = RateLimited(0.2,lastTimeCalled)
+        lastTimeCalled = RateLimited(0.2, lastTimeCalled)
         if urlid_dict.has_key(surl):
             maxid = urlid_dict[surl][0]
             minid = urlid_dict[surl][1]
         else:
             maxid, minid = None, None
-
-        query = getQuery(maxid,minid,surl,furl,acnt)
+        oritweets = newurl2text[surl] if newurl2text.has_key(surl) else [None]
+        query = getQuery(oritweets[0], maxid, minid, furl)
         if query is None:
             continue
         for result in query["statuses"]:
             nre = re.sub(URLINTEXT_PAT,"",result["text"]).lower().strip()
             if nre not in cur:
-                data[furl].append([result["id_str"],result['user']['screen_name'],nre])
+                data[furl].append([result["id_str"], result['user']['screen_name'], nre])
                 maxid = max(maxid, result["id_str"])
                 if minid is None:
                     minid = result["id_str"]
                 else:
                     minid = min(minid, result["id_str"])
                 cur.add(nre)
+
+        if oritweets is not None:
+            for i in xrange(1, len(oritweets)):
+                data[furl].append(["", "", oritweets[i].lower().strip()])
         urlid_dict[furl] = (maxid, minid)
 
 
 
-    f = open('files/info_'+acnt+'_'+date+'_auto.txt','a')
+    f = open('files/info_'+acnt+'_'+date+'_auto.txt', 'a')
     rawfilename = 'files/'+acnt+'_'+date+'_auto.txt'
-    ff = open(rawfilename,'a')
-    statff = open('files/'+acnt+'_'+date+'_urlcounts.txt','a')
+    ff = open(rawfilename, 'a')
+    statff = open('files/'+acnt+'_'+date+'_urlcounts.txt', 'a')
     # mytextmanager = textManager()
     for k,v in data.items():
         f.write(k+'\n')
-
-        texts2id = {vv:idx for idx,[_,_,vv] in enumerate(v)}
-        filteredv = filterUniqSentSet(texts2id.keys())
+        filteredv = filterUniqSentSet(v)
         statff.write(k+'\t'+str(len(filteredv))+'\n')
-        for selected in filteredv:
-            [id, scrn_name, vv] = v[texts2id[selected]]
-            tokens = tokenizeRawTweetText(vv)
+        for [id, scrn_name,selected] in filteredv:
+            tokens = tokenizeRawTweetText(selected)
             f.write(id+"\t")
             f.write(scrn_name+"\t")
             for t in tokens:
@@ -218,9 +243,9 @@ def job():
         urlidfiles = "files/"+ acnt+"_urlID.txt"
         urlid_handler = open(urlidfiles,'a+')
         urlid_dict = buildurlDictfromFile(urlid_handler)
-        queryNewUrl(urldict,acnt)
+        newurl2text = queryNewUrl(urldict,acnt)
         if len(urldict) > 0:
-            querywithFull(urldict,acnt,urlid_dict)
+            querywithFull(newurl2text,urldict,acnt,urlid_dict)
         urlfile_handler.seek(0, os.SEEK_SET)
         urlfile_handler.truncate(0)
         for k,v in urldict.items():

@@ -9,7 +9,7 @@ class textManager:
     def __init__(self):
         self.punctuation = list(string.punctuation)
         self.remove = self.punctuation + ['rt', 'via']
-        self.stop = stopwords.words('english')
+        self.stop = [str(x)  for x in stopwords.words('english')]
         self.regex_str = [
             r'<[^>]+>', # HTML tags
             r'(?:@[\w_]+)', # @-mentions
