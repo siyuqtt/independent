@@ -27,7 +27,7 @@ oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 twitter = Twitter(auth=oauth)
 # Get a sample of the public data following through Twitter
 #formalaccount = ['@nytimes','@cnnbrk','@BBCBreaking','@CNN','@ABC','@NBCNews']
-formalaccount = ['BBCNews']
+formalaccount = ['nytimes']
 
 def getDate():
     return datetime.date.today().__str__()
@@ -78,14 +78,14 @@ def queryNewUrl(oldurls, acnt):
                 oldurls[surl] = r.url.split('?')[0]
                 try:
                     # property --- nytimes
-                    # name --- bbc
-                    tw_prop = parsed_html.find('meta',attrs={'name':"twitter:title"}).attrMap
+                    # name --- bbc/cnn/NBCNews
+                    tw_prop = parsed_html.find('meta',attrs={'property':"twitter:title"}).attrMap
                     newurl2test[surl].append(tw_prop['content'])
                 except:
                     pass
 
                 try:
-                    tw_prop = parsed_html.find('meta',attrs={'name':"twitter:description"}).attrMap
+                    tw_prop = parsed_html.find('meta',attrs={'property':"twitter:description"}).attrMap
                     newurl2test[surl].append(tw_prop['content'])
                 except:
                     pass

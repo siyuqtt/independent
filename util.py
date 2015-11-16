@@ -104,7 +104,7 @@ class dataprepare:
     def avgch(self,ws):
         total = reduce(lambda x,y: x+len(y), ws,0)
         return round(total/(len(ws)+1e-10),2)
-    def genfeature(self,ls_x):
+    def genfeature(self, ls_x):
         '''
         a. Shallow features
 	        1. number of words in the sentence (normalize)
