@@ -1,14 +1,2 @@
-http://well.blogs.nytimes.com/2015/11/12/online-matchmaking-but-with-dogs-as-dates/	665217990183493632	664941378691014656
-http://www.nytimes.com/2015/11/13/us/politics/obama-legacy-in-state-offices-a-shrinking-democratic-share.html	665219599009468419	664963140015271937
-http://well.blogs.nytimes.com/2015/11/11/is-fat-stigma-making-us-miserable/	665196233670139905	664808786293628929
-http://www.nytimes.com/2015/11/15/arts/music/adele-25-album-interview.html	665211891497705472	664924961987923968
-http://www.nytimes.com/interactive/2015/11/12/us/gun-traffickers-smuggling-state-gun-laws.html	665221239263334400	665207053296660480
-http://well.blogs.nytimes.com/2015/11/12/how-period-trackers-have-changed-girl-culture/	665218222132621312	664971132060110848
-http://www.nytimes.com/2015/11/13/business/expecting-warm-embrace-rei-chief-is-harangued-in-reddit-forum.html	665220257649459200	665039286023143424
-http://www.nytimes.com/2015/11/12/nyregion/shia-labeouf-offers-view-of-himself-viewing-his-movies.html	665019844459429890	664576574788890624
-http://www.nytimes.com/	665220949843705856	665164273753001984
-http://www.nytimes.com/2015/11/15/fashion/one-bouquet-of-fleeting-beauty-please.html	665216103963082753	664939159497261057
-http://parenting.blogs.nytimes.com/2015/11/11/when-a-childs-project-shows-a-parental-hand-at-work/	665220316290002944	664904391233769472
-http://www.nytimes.com/2015/11/15/magazine/the-dream-life-of-driverless-cars.html	665220625292652544	664935677037953024
-http://www.nytimes.com/2015/11/14/world/asia/china-one-child-policy-loneliest-generation.html	665218904143372288	665106870273777664
-http://www.nytimes.com/2015/11/13/greathomesanddestinations/the-house-that-julia-built.html	665220496598913024	664969044756418561
+http://www.nytimes.com/2015/11/17/business/marriott-to-buy-starwood-hotels.html	666274789569376258	666242586139586560
+http://www.nytimes.com/2015/11/17/world/europe/paris-terror-attack.html	666274016370536448	666256986565029888

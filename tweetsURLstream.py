@@ -31,124 +31,135 @@ twitter_stream = TwitterStream(auth=oauth)
 iterator = twitter_stream.statuses.sample()
 
 goal = 1000
-curStage = 0
-while curStage < goal:
-    time.sleep(5)
-    iter = curStage%100
-    tweet_count = 100
-    shorturlsets = set()
-    for tweet in iterator:
-        try:
-            if tweet['lang'] != 'en':
-                continue
-                '''
-                take only tweets at most 15 days away from today
-                '''
-            if abs((datetime.datetime.now() - parser.parse(tweet["created_at"]).now()).days) < 15:
-                urls = URLINTEXT_PAT.findall(tweet["text"])
-                if len(urls) ==0:
-                    continue
+tweet_count = 0
+shorturlsets = set()
+nourls = 0
+urls_count = 0
+# while tweet_count < goal:
+#     time.sleep(5)
+#
+#     cur_no_urls = 0
+
+
+for tweet in iterator:
+    try:
+        if tweet['lang'] != 'en':
+            continue
+            '''
+            take only tweets at most 15 days away from today
+            '''
+        if abs((datetime.datetime.now() - parser.parse(tweet["created_at"]).now()).days) < 15:
+            urls = URLINTEXT_PAT.findall(tweet["text"])
+            if len(urls) ==0:
+                nourls += 1
+            else:
                 for url in urls:
                     shorturlsets.add(url)
+                    urls_count += 1
+            tweet_count += 1
+    except:
+        continue
+    if tweet_count >= goal:
+        break
 
-                tweet_count -= 1
-        except:
-            continue
-        if tweet_count <= 0:
-            break
-
-
-
-    fullurlset = set()
-    for surl in shorturlsets:
-        try:
-            fullurlset.add(requests.get(surl).url.split('?')[0])
-        except:
-            pass
-
-    data = {}
-    twitter = Twitter(auth=oauth)
-    for furl in fullurlset:
-        data[furl] = []
-        cur = set()
-        query = twitter.search.tweets(q=furl,
-                                  count="100",
-                                  lang="en")
-        for result in query["statuses"]:
-
-            nre = re.sub(URLINTEXT_PAT,"",result["text"]).lower().strip()
-            if nre not in cur:
-                data[furl].append([result["id_str"],nre])
-                cur.add(nre)
-
-    f = open('files/urltweets_stream_info_'+str(iter)+'.txt','w')
-    rawfilename = 'files/urltweets_stream_'+str(iter)+'.txt'
-    ff = open(rawfilename,'w')
-    tweetsstatic =[]
-    tokenstatic =[]
-    mytextmanager = textManager()
-    for k,v in data.items():
-        f.write(k+'\n')
-        for [id,vv] in v:
-            tokens = mytextmanager.tokenizefromstring(vv)
-            f.write(id+"\t")
-            for t in tokens:
-                try:
-                    f.write(t.encode('utf-8')+" ")
-                    ff.write(t.encode('utf-8')+" ")
-                except:
-                    # f.write(t+" ")
-                    pass
-            tweetsstatic.append(len(v))
-            tokenstatic.append(len(tokens))
-            f.write('\n')
-            ff.write('\n')
-        f.write('\n')
-        ff.write('\n')
-    f.close()
-    ff.close()
-    anylasis = util.statis(tweetsstatic)
-    print anylasis.getreport()
-    anylasis.setArray(tokenstatic)
-    print anylasis.getreport()
+print len(shorturlsets),
+print '\t',
+print nourls,
+print '\t',
+print urls_count,
+print tweet_count
 
 
-
-    similarity = util.sentenceSimilarity()
-
-    similarity.buildEmbedding()
-    fout = open('files/filtered_'+str(iter)+'.txt','w')
-    with open(rawfilename) as f:
-            candi = []
-            for line in f:
-                line = line.strip()
-                if len(line) != 0:
-                    candi.append(line)
-                else:
-                    '''
-                        first filting
-                        filter out tweets look too same or too different
-                    '''
-                    candi = similarity.groupExcatWordscore(candi,0.8,0.3)
-                    '''
-                        second filting
-                        filter by embedding
-                    '''
-                    candi = similarity.embeddingScore(0.6, candi)
-                    '''
-                        third filting
-                        filter by wordNet
-                    '''
-                    candi = similarity.wordNetScore(0.6,candi)
-                    if len(candi) < 2:
-                        candi = []
-                        continue
-                    curStage += 1
-                    for c in candi:
-                        fout.write(c+'\n')
-                    fout.write('\n')
-                    candi = []
-    fout.close()
+    # fullurlset = set()
+    # for surl in shorturlsets:
+    #     try:
+    #         fullurlset.add(requests.get(surl).url.split('?')[0])
+    #     except:
+    #         pass
+    #
+    # data = {}
+    # twitter = Twitter(auth=oauth)
+    # for furl in fullurlset:
+    #     data[furl] = []
+    #     cur = set()
+    #     query = twitter.search.tweets(q=furl,
+    #                               count="100",
+    #                               lang="en")
+    #     for result in query["statuses"]:
+    #
+    #         nre = re.sub(URLINTEXT_PAT,"",result["text"]).lower().strip()
+    #         if nre not in cur:
+    #             data[furl].append([result["id_str"],nre])
+    #             cur.add(nre)
+    #
+    # f = open('files/urltweets_stream_info_'+str(iter)+'.txt','w')
+    # rawfilename = 'files/urltweets_stream_'+str(iter)+'.txt'
+    # ff = open(rawfilename,'w')
+    # tweetsstatic =[]
+    # tokenstatic =[]
+    # mytextmanager = textManager()
+    # for k,v in data.items():
+    #     f.write(k+'\n')
+    #     for [id,vv] in v:
+    #         tokens = mytextmanager.tokenizefromstring(vv)
+    #         f.write(id+"\t")
+    #         for t in tokens:
+    #             try:
+    #                 f.write(t.encode('utf-8')+" ")
+    #                 ff.write(t.encode('utf-8')+" ")
+    #             except:
+    #                 # f.write(t+" ")
+    #                 pass
+    #         tweetsstatic.append(len(v))
+    #         tokenstatic.append(len(tokens))
+    #         f.write('\n')
+    #         ff.write('\n')
+    #     f.write('\n')
+    #     ff.write('\n')
+    # f.close()
+    # ff.close()
+    # anylasis = util.statis(tweetsstatic)
+    # print anylasis.getreport()
+    # anylasis.setArray(tokenstatic)
+    # print anylasis.getreport()
+    #
+    #
+    #
+    # similarity = util.sentenceSimilarity()
+    #
+    # similarity.buildEmbedding()
+    # fout = open('files/filtered_'+str(iter)+'.txt','w')
+    # with open(rawfilename) as f:
+    #         candi = []
+    #         for line in f:
+    #             line = line.strip()
+    #             if len(line) != 0:
+    #                 candi.append(line)
+    #             else:
+    #                 '''
+    #                     first filting
+    #                     filter out tweets look too same or too different
+    #                 '''
+    #                 candi = similarity.groupExcatWordscore(candi,0.8,0.3)
+    #                 '''
+    #                     second filting
+    #                     filter by embedding
+    #                 '''
+    #                 candi = similarity.embeddingScore(0.6, candi)
+    #                 '''
+    #                     third filting
+    #                     filter by wordNet
+    #                 '''
+    #                 candi = similarity.wordNetScore(0.6,candi)
+    #                 if len(candi) < 2:
+    #                     candi = []
+    #                     continue
+    #                 curStage += 1
+    #                 for c in candi:
+    #                     fout.write(c+'\n')
+    #                 fout.write('\n')
+    #                 candi = []
+    # fout.close()
 
 
 

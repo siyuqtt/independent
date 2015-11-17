@@ -14,6 +14,7 @@ URLINTEXT_PAT = \
 
 from twitter_sentence_spliter import *
 import requests
+import schedule
 from collections import deque
 # Variables that contains the user credentials to access Twitter API 
 ACCESS_TOKEN = myconfig.accesstoken
@@ -26,8 +27,8 @@ oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 
 twitter = Twitter(auth=oauth)
 # Get a sample of the public data following through Twitter
-#formalaccount = ['@nytimes','@cnnbrk','@BBCBreaking','@CNN','@ABC','@NBCNews']
-formalaccount = ['nytimes']
+formalaccount = ['@nytimes','@cnnbrk','@BBCBreaking','@CNN','@ABC','@NBCNews']
+#formalaccount = ['NBCNews']
 
 def getDate():
     return datetime.date.today().__str__()
@@ -71,6 +72,13 @@ def queryNewUrl(oldurls, acnt):
             except:
                 pass
 
+        tag = None
+        if 'nytimes' in acnt:
+            tag = 'property'
+        else:
+            tag = 'name'
+
+
         for surl in shorturlsets:
             try:
                 r = requests.get(surl)
@@ -79,13 +87,14 @@ def queryNewUrl(oldurls, acnt):
                 try:
                     # property --- nytimes
                     # name --- bbc/cnn/NBCNews
-                    tw_prop = parsed_html.find('meta',attrs={'property':"twitter:title"}).attrMap
+
+                    tw_prop = parsed_html.find('meta',attrs={tag:"twitter:title"}).attrMap
                     newurl2test[surl].append(tw_prop['content'])
                 except:
                     pass
 
                 try:
-                    tw_prop = parsed_html.find('meta',attrs={'property':"twitter:description"}).attrMap
+                    tw_prop = parsed_html.find('meta',attrs={tag:"twitter:description"}).attrMap
                     newurl2test[surl].append(tw_prop['content'])
                 except:
                     pass
@@ -260,14 +269,14 @@ def job():
 
 
 
-# schedule.every().hour.do(job)
+schedule.every().hour.do(job)
 
 job()
 
-# while True:
-#     schedule.run_pending()
-#     time.sleep(1)
-    # for iter in xrange(10):
+while True:
+    schedule.run_pending()
+    time.sleep(1)
+    #for iter in xrange(10):
 
 
 
