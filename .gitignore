@@ -3,5 +3,6 @@ config
 .DS_Store
 glove.twitter.27B.50d.txt
 .idea
-files/
-
+files/**
+Nov3/version-14-10-17/models/14-05-29/train.ind
+Nov3/version-14-10-17/models/14-10-31/train.ind

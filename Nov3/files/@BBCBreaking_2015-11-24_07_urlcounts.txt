@@ -1,0 +1,17 @@
+http://www.bbc.co.uk/news/live/uk-politics-34898411	7	10
+http://www.bbc.co.uk/news/world-middle-east-34907983	24	46
+http://www.bbc.co.uk/news/business-34900344	18	58
+http://www.bbc.co.uk/news/world-latin-america-34897150	20	56
+http://www.bbc.co.uk/news/uk-34897076	37	57
+http://www.bbc.co.uk/news/world-europe-34896883	10	19
+http://www.bbc.co.uk/news/entertainment-arts-34902244	21	51
+http://www.bbc.co.uk/news/uk-34908420	10	50
+http://www.bbc.co.uk/news/world-latin-america-34896847	7	43
+http://www.bbc.co.uk/news/uk-34901946	7	37
+http://www.bbc.co.uk/news/10318089	6	27
+http://www.bbc.co.uk/news/live/world-middle-east-34908469	8	11
+http://www.bbc.co.uk/news/world-europe-34906116	8	41
+http://www.bbc.co.uk/news/uk-politics-34897288	19	52
+http://www.bbc.co.uk/news/world-us-canada-34907009	15	45
+http://www.bbc.co.uk/news/world-europe-34896125	17	44
+http://www.bbc.co.uk/news/live/world-europe-34898331	12	20
