@@ -1,0 +1,4 @@
+For Wiktionary and WordNet
+    The text.em file contains the definition with examples.
+    The text.w file has the target word of the definition.
+    text.wem is the concatination of both files.

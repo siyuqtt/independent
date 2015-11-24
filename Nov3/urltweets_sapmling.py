@@ -15,7 +15,7 @@ URLINTEXT_PAT = \
 from twitter_sentence_spliter import *
 import requests
 import schedule
-from collections import deque
+import util
 # Variables that contains the user credentials to access Twitter API 
 ACCESS_TOKEN = myconfig.accesstoken
 ACCESS_SECRET = myconfig.accessscecret
@@ -31,7 +31,8 @@ formalaccount = ['@nytimes','@cnnbrk','@BBCBreaking','@CNN','@ABC','@NBCNews']
 #formalaccount = ['NBCNews']
 
 def getDate():
-    return datetime.date.today().__str__()
+    return '_'.join(datetime.datetime.now().__str__().split(':')[0].split())
+    #return datetime.date.today().__str__()
 
 def getTargetDate():
     targetdate = (datetime.date.today() - datetime.timedelta(days=0)).__str__()
@@ -64,11 +65,11 @@ def queryNewUrl(oldurls, acnt):
         shorturlsets = set()
         for result in query:
             try:
-                for url in URLINTEXT_PAT.findall(result["text"]):
-                    if oldurls.has_key(url):
-                        continue
-                    shorturlsets.add(url)
-                    newurl2test[url] = [result]
+                url = URLINTEXT_PAT.findall(result["text"])[0]
+                if oldurls.has_key(url):
+                    continue
+                shorturlsets.add(url)
+                newurl2test[url] = [result]
             except:
                 pass
 
@@ -198,7 +199,7 @@ def querywithFull(newurl2text, urldict, acnt, urlid_dict):
     for k,v in data.items():
         f.write(k+'\n')
         filteredv = filterUniqSentSet(v)
-        statff.write(k+'\t'+str(len(filteredv))+'\n')
+        statff.write(k+'\t'+str(len(filteredv))+'\t'+str(len(v))+'\n')
         for [id, scrn_name,selected] in filteredv:
             tokens = tokenizeRawTweetText(selected)
             f.write(id+"\t")
@@ -227,6 +228,7 @@ def querywithFull(newurl2text, urldict, acnt, urlid_dict):
     f.close()
     statff.close()
     ff.close()
+
 
 def buildurlDictfromFile(handler):
     handler.seek(0, os.SEEK_SET)
@@ -266,7 +268,6 @@ def job():
         for k,v in urlid_dict.items():
             urlid_handler.write(k+'\t'+v[0]+'\t'+v[1]+'\n')
         urlid_handler.close()
-
 
 
 schedule.every().hour.do(job)

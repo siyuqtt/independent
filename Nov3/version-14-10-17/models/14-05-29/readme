@@ -1,0 +1,16 @@
+the basic model: 
+1. corpora: definitions of wn, wik, brown. 
+        with examples in wn and wik. 
+	infrequent words removed (< 2).
+	
+	cat  data/WordNet/text.wem  data/Wiktionary/text.wem  data/Brown/text  >  models/14-02-27/train.txt
+
+
+2. model: no supervised info.
+	w_m = 0.01
+	K = 100
+	alpha = 0  ### WMF model (Guo & Diab 2012)
+	lambda = 20
+        iteration = 20
+	
+ 

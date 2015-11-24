@@ -33,19 +33,27 @@ for acnt in formalaccount:
     # formaltweets += [y["text"] for y in [x for x in query['statuses']]]
     goal = 100
     tweet_count = 0
+    more = 0
     shorturlsets = set()
     nourls = 0
     urls_count = 0
     for tweet in query['statuses']:
         try:
             if abs((datetime.datetime.now() - parser.parse(tweet["created_at"]).now()).days) < 15:
-                urls = URLINTEXT_PAT.findall(tweet["text"])
+                urls = set(URLINTEXT_PAT.findall(tweet["text"]))
                 if len(urls) ==0:
                     nourls += 1
                 else:
                     for url in urls:
                         shorturlsets.add(url)
                         urls_count += 1
+                    if len(urls) > 1:
+                        more += 1
+                        # print tweet["text"],
+                        # for u in urls:
+                        #     print u,
+                        # print
+
 
                 tweet_count += 1
         except:
@@ -53,9 +61,11 @@ for acnt in formalaccount:
         if tweet_count >= goal:
             break
     print acnt,
-    print '\t',
+    print '\t more than one',
+    print more,
+    print '\t # short URLs',
     print len(shorturlsets),
-    print '\t',
+    print '\t # no URLs',
     print nourls,
     print '\t',
     print urls_count,

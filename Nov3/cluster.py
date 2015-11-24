@@ -32,6 +32,7 @@ def getXY(fname):
     features =  []
     lines = [line.decode('utf-8').strip() for line in open(fname).readlines()]
     count = 0
+    count2 = 0
     candi =[]
     for line in lines:
         if line == "" and len(candi) > 0:
@@ -40,7 +41,8 @@ def getXY(fname):
             gengeafeature: my code
 
             '''
-            # features += Das_genfeature(candi)
+            count2 += len(candi)
+            features += Das_genfeature(candi)
             candi = []
             Y.pop()
             count += 1
@@ -56,9 +58,11 @@ def getXY(fname):
             gengeafeature: my code
 
         '''
-        # features += Das_genfeature(candi)
+        features += Das_genfeature(candi)
+        count += 1
+        count2 += len(candi)
         Y.pop()
-    print count
+    print count,count2, count2 - count
     return features,Y
 
 def intersect (list1, list2) :
@@ -82,7 +86,7 @@ def Das_genfeature(candi):
 def paraphrase_Das_features(source, target):
     source_words = word_tokenize(source)
     target_words = word_tokenize(target)
-
+    eitha = 1e-20
     features = {}
 
     ###### Word Features ########
@@ -111,20 +115,20 @@ def paraphrase_Das_features(source, target):
             t3grams.append(t3gram)
 
     f1gram = 0
-    precision1gram = len(set(intersect(s1grams, t1grams))) / len(set(s1grams))
-    recall1gram    = len(set(intersect(s1grams, t1grams))) / len(set(t1grams))
+    precision1gram = len(set(intersect(s1grams, t1grams))) / (len(set(s1grams))+eitha)
+    recall1gram    = len(set(intersect(s1grams, t1grams))) / (len(set(t1grams))+eitha)
     if (precision1gram + recall1gram) > 0:
-        f1gram = 2 * precision1gram * recall1gram / (precision1gram + recall1gram)
-    precision2gram = len(set(intersect(s2grams, t2grams))) / len(set(s2grams))
-    recall2gram    = len(set(intersect(s2grams, t2grams))) / len(set(t2grams))
+        f1gram = 2 * precision1gram * recall1gram / ((precision1gram + recall1gram)+eitha)
+    precision2gram = len(set(intersect(s2grams, t2grams))) / (len(set(s2grams))+eitha)
+    recall2gram    = len(set(intersect(s2grams, t2grams))) / (len(set(t2grams))+eitha)
     f2gram = 0
     if (precision2gram + recall2gram) > 0:
-        f2gram = 2 * precision1gram * recall2gram / (precision2gram + recall2gram)
-    precision3gram = len(set(intersect(s3grams, t3grams))) / len(set(s3grams))
-    recall3gram    = len(set(intersect(s3grams, t3grams))) / len(set(t3grams))
+        f2gram = 2 * precision1gram * recall2gram / (precision2gram + recall2gram +eitha)
+    precision3gram = len(set(intersect(s3grams, t3grams))) / (len(set(s3grams))+eitha)
+    recall3gram    = len(set(intersect(s3grams, t3grams))) / (len(set(t3grams))+eitha)
     f3gram = 0
     if (precision3gram + recall3gram) > 0:
-        f3gram = 2 * precision3gram * recall3gram /(precision3gram + recall3gram)
+        f3gram = 2 * precision3gram * recall3gram /(precision3gram + recall3gram +eitha)
 
     features["precision1gram"] = precision1gram
     features["recall1gram"] = recall1gram
@@ -162,21 +166,21 @@ def paraphrase_Das_features(source, target):
             t3stem = t1stems[i] + " " + t1stems[i+1] + " " + t1stems[i+2]
             t3stems.append(t3stem)
 
-    precision1stem = len(set(intersect(s1stems, t1stems))) / len(set(s1stems))
-    recall1stem    = len(set(intersect(s1stems, t1stems))) / len(set(t1stems))
+    precision1stem = len(set(intersect(s1stems, t1stems))) / (len(set(s1stems))+eitha)
+    recall1stem    = len(set(intersect(s1stems, t1stems))) / (len(set(t1stems))+eitha)
     f1stem = 0
     if (precision1stem + recall1stem) > 0:
-        f1stem = 2 * precision1stem * recall1stem / (precision1stem + recall1stem)
-    precision2stem = len(set(intersect(s2stems, t2stems))) / len(set(s2stems))
-    recall2stem    = len(set(intersect(s2stems, t2stems))) / len(set(t2stems))
+        f1stem = 2 * precision1stem * recall1stem / (precision1stem + recall1stem+eitha)
+    precision2stem = len(set(intersect(s2stems, t2stems))) / (len(set(s2stems))+eitha)
+    recall2stem    = len(set(intersect(s2stems, t2stems))) / (len(set(t2stems))+eitha)
     f2stem = 0
     if (precision2stem + recall2stem) > 0:
-        f2stem = 2 * precision2stem * recall2stem / (precision2stem + recall2stem)
-    precision3stem = len(set(intersect(s3stems, t3stems))) / len(set(s3stems))
-    recall3stem    = len(set(intersect(s3stems, t3stems))) / len(set(t3stems))
+        f2stem = 2 * precision2stem * recall2stem / (precision2stem + recall2stem +eitha)
+    precision3stem = len(set(intersect(s3stems, t3stems))) / (len(set(s3stems))+eitha)
+    recall3stem    = len(set(intersect(s3stems, t3stems))) / (len(set(t3stems))+eitha)
     f3stem = 0
     if (precision3stem + recall3stem) > 0:
-        f3stem = 2 * precision3stem * recall3stem / (precision3stem + recall3stem)
+        f3stem = 2 * precision3stem * recall3stem / (precision3stem + recall3stem +eitha)
 
     features["precision1stem"] = precision1stem
     features["recall1stem"] = recall1stem
@@ -191,20 +195,28 @@ def paraphrase_Das_features(source, target):
     return features
 
 
-
+def getOrMF(fname):
+    return [float(line.strip()) for line in open(fname).readlines()]
 
 X, Y = getXY('files/train.txt')
-#logreg.fit(X, Y)
+OrMF_train = getOrMF('files/train_OrMF.sim')
+OrMF_test = getOrMF('files/test_OrMF.sim')
+for idx,x in enumerate(X):
+    x.append(OrMF_train[idx])
 test_X, test_Y = getXY('files/test.txt')
-# pred_Y = logreg.predict(test_X)
-# fout = open('result.txt','w')
-# for y in pred_Y:
-#     fout.write(str(y)+'\n')
-# fout.close()
-#
-# print 'f1 score'
-# print f1_score(test_Y, pred_Y, average='micro')
-# print logreg.score(test_X,test_Y)
+for idx,x in enumerate(test_X):
+    x.append(OrMF_test[idx])
+
+logreg.fit(X, Y)
+pred_Y = logreg.predict(test_X)
+fout = open('result.txt','w')
+for y in pred_Y:
+    fout.write(str(y)+'\n')
+fout.close()
+
+print 'f1 score'
+print f1_score(test_Y, pred_Y, average='micro')
+print logreg.score(test_X,test_Y)
 
 '''
     random guessing : 1,2 3
