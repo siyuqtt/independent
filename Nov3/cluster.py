@@ -1,7 +1,7 @@
 __author__ = 'siyuqiu'
 from util import *
 from sklearn.linear_model import LogisticRegressionCV
-from sklearn.metrics import f1_score
+from sklearn.metrics import f1_score,precision_score,recall_score
 from nltk.stem import porter
 from nltk.tokenize import word_tokenize
 data_feature = dataprepare()
@@ -26,6 +26,34 @@ def genfeature(candi):
     clean_pivot = re.sub(r'[^\w\s]+','',pivot)
     lca_score = [wordnetutil.similarity(clean_pivot, re.sub(r'[^\w\s]+', '', l), True) for l in candi[:-1]]
     return [cf + [s1,s2]for cf,s1,s2 in zip(candi_features,exact_word_score,lca_score)]
+
+def getY(fname):
+    Y = []
+    lines = [line.decode('utf-8').strip() for line in open(fname).readlines()]
+    count = 0
+    count2 = 0
+    candi =[]
+    for line in lines:
+        if line == "" and len(candi) > 0:
+            count2 += len(candi)
+            candi = []
+            Y.pop()
+            count += 1
+        elif line.strip() == "":
+            continue
+        else:
+            try:
+                [tw, label] = line.strip().split('\t')
+            except:
+                print 'err'
+            candi.append(tw)
+            Y.append(int(label))
+    if len(candi) > 0:
+        count += 1
+        count2 += len(candi)
+        Y.pop()
+    print count,count2, count2 - count
+    return Y
 
 def getXY(fname):
     Y = []
@@ -198,6 +226,18 @@ def paraphrase_Das_features(source, target):
 def getOrMF(fname):
     return [float(line.strip()) for line in open(fname).readlines()]
 
+
+
+Y = getY('files/train.txt') + getY('files/test.txt')
+cnt = Counter(Y)
+for k,v in cnt.items():
+    print k,v, v*1.0/len(Y)
+
+
+
+'''
+----------
+'''
 X, Y = getXY('files/train.txt')
 OrMF_train = getOrMF('files/train_OrMF.sim')
 OrMF_test = getOrMF('files/test_OrMF.sim')
@@ -208,14 +248,16 @@ for idx,x in enumerate(test_X):
     x.append(OrMF_test[idx])
 
 logreg.fit(X, Y)
-pred_Y = logreg.predict(test_X)
+pred_Y = [0 if y != 1 else y for y in logreg.predict(test_X) ]
+test_Y = [0 if y != 1 else y for y in test_Y]
 fout = open('result.txt','w')
 for y in pred_Y:
     fout.write(str(y)+'\n')
 fout.close()
 
-print 'f1 score'
-print f1_score(test_Y, pred_Y, average='micro')
+print 'f1 score\tprecision\trecall'
+print f1_score(test_Y, pred_Y, average='binary'),'\t',precision_score(test_Y, pred_Y, average='binary'),
+'\t' , recall_score(test_Y, pred_Y, average='binary')
 print logreg.score(test_X,test_Y)
 
 '''
@@ -226,16 +268,22 @@ from random import randint
 pred_Y = []
 for i in xrange(len(test_Y)):
     pred_Y.append(randint(1,3))
-print f1_score(test_Y, pred_Y, average='micro')
+pred_Y = [0 if y != 1 else y for y in pred_Y]
+print f1_score(test_Y, pred_Y, average='binary'),'\t',precision_score(test_Y, pred_Y, average='binary'),
+print '\t' , recall_score(test_Y, pred_Y, average='binary')
+
 
 '''
     majority guess
 
 '''
-def most_common(lst):
-    return max(set(lst), key=lst.count)
-maj = most_common(Y)
-pred_Y = [maj for _ in xrange(len(test_Y))]
-print f1_score(test_Y, pred_Y, average='micro')
+# def most_common(lst):
+#     return 0 if max(set(lst), key=lst.count) != 1 else 1
+# maj = most_common(Y)
+# pred_Y = [maj for _ in xrange(len(test_Y))]
+# print f1_score(test_Y, pred_Y, average='binary'),'\t',precision_score(test_Y, pred_Y, average='binary'),
+# '\t' , recall_score(test_Y, pred_Y, average='binary')
+#
+
 
 
