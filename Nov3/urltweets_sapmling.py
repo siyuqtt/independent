@@ -15,7 +15,7 @@ URLINTEXT_PAT = \
 from twitter_sentence_spliter import *
 import requests
 import schedule
-import util
+
 # Variables that contains the user credentials to access Twitter API 
 ACCESS_TOKEN = myconfig.accesstoken
 ACCESS_SECRET = myconfig.accessscecret
@@ -60,7 +60,7 @@ def queryNewUrl(oldurls, acnt):
     #                               )
         query = twitter.statuses.user_timeline(screen_name=acnt, include_rts=False)
     except:
-        return
+        return newurl2test,oldurls
     else:
         shorturlsets = set()
         for result in query:
@@ -102,7 +102,7 @@ def queryNewUrl(oldurls, acnt):
 
             except:
                 pass
-    return newurl2test
+    return newurl2test,oldurls
 
 
 
@@ -216,7 +216,7 @@ def querywithFull(newurl2text, urldict, acnt, urlid_dict):
             ff.write('\n')
         f.write('\n')
         ff.write('\n')
-        if len(v) < 50:
+        if len(v) < 10:
             try:
                 del urldict[k]
             except:
@@ -228,6 +228,7 @@ def querywithFull(newurl2text, urldict, acnt, urlid_dict):
     f.close()
     statff.close()
     ff.close()
+    return urldict,urlid_dict
 
 
 def buildurlDictfromFile(handler):
@@ -254,9 +255,9 @@ def job():
         urlidfiles = "files/"+ acnt+"_urlID.txt"
         urlid_handler = open(urlidfiles,'a+')
         urlid_dict = buildurlDictfromFile(urlid_handler)
-        newurl2text = queryNewUrl(urldict,acnt)
+        newurl2text,urldict = queryNewUrl(urldict,acnt)
         if len(urldict) > 0:
-            querywithFull(newurl2text,urldict,acnt,urlid_dict)
+            urldict,urlid_dict = querywithFull(newurl2text,urldict,acnt,urlid_dict)
         urlfile_handler.seek(0, os.SEEK_SET)
         urlfile_handler.truncate(0)
         for k,v in urldict.items():

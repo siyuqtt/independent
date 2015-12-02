@@ -1,0 +1,14 @@
+http://www.cnn.com/2015/11/30/europe/paris-terror-attacks/index.html	12	31
+http://www.cnn.com/2015/11/29/europe/france-paris-cop21-climate-change-conference/index.html	31	55
+http://www.cnn.com/2015/11/29/middleeast/saudi-arabia-poet-ashraf-fayadh-death-sentence/index.html	10	19
+http://www.cnn.com/2015/11/29/europe/syria-turkey-russia-warplane/index.html	8	29
+http://www.cnn.com/2015/11/30/politics/paul-ryan-state-of-the-union-address-january-12/index.html	8	19
+http://www.cnn.com/2015/11/30/us/virginia-bus-accident/index.html	3	5
+http://www.cnn.com/2015/11/29/politics/barack-obama-bataclan-visit/index.html	8	32
+http://www.cnn.com/	54	66
+http://www.cnn.com/2015/11/30/africa/burkina-faso-elections/index.html	4	14
+http://www.cnn.com/2015/11/29/politics/hillary-clinton-infrastructure-spending/index.html	9	18
+http://www.cnn.com/2015/11/29/politics/obama-paris-climate-change/index.html	5	14
+http://www.cnn.com/2015/11/30/us/university-of-chicago-closed-threat/index.html	31	48
+http://www.cnn.com/2015/11/29/us/colorado-planned-parenthood-shooting/index.html	24	44
+http://www.cnn.com/2015/11/30/us/colorado-planned-parenthood-shooting/index.html	10	15

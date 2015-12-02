@@ -53,10 +53,14 @@ def queryNewUrl(oldurls,acnt):
         shorturlsets = set()
         for result in query["statuses"]:
             try:
-                for url in URLINTEXT_PAT.findall(result["text"]):
-                    if oldurls.has_key(url):
-                        continue
-                    shorturlsets.add(url)
+                # for url in URLINTEXT_PAT.findall(result["text"]):
+                #     if oldurls.has_key(url):
+                #         continue
+                #     shorturlsets.add(url)
+                url = URLINTEXT_PAT.findall(result["text"])[0]
+                if oldurls.has_key(url):
+                    continue
+                shorturlsets.add(url)
             except:
                 pass
 

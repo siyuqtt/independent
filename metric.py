@@ -57,26 +57,13 @@ def pinc ( ssent, csent) :
 
 def JaccardSimToken( tokens1, tokens2):
 
-		v1 = {}
-		v2 = {}
-
-		for token1 in tokens1 :
-			v1[token1] = v1.get(token1, 0.0) + 1.0
-		for token2 in tokens2 :
-			v2[token2] = v2.get(token2, 0.0) + 1.0
-
-		cSum = 0.0
-		for k in list(set(v1.keys()) & set(v2.keys())):
-			cSum += 1
-			#cSum += min ( v1.get(k, 0.0) , v2.get(k, 0.0))
-		vSum = 0.0
-		for k in list(set(v1.keys()) | set(v2.keys())):
-			vSum += 1
-			#vSum += max ( v1.get(k, 0.0) , v2.get(k, 0.0))
-			#vSum += v1.get(k, 0.0) + v2.get(k, 0.0)
+		v1 = set(tokens1)
+		v2 = set(tokens2)
+		cSum = len(v1 & v2)
+		vSum = len(v1 | v2)
 		if vSum == 0 :
 			vSum = 1
-		return cSum / vSum
+		return cSum *1.0 / vSum
     #print intersect(s1grams, c1grams)   
 
 #inssent = "i am finished ."

@@ -301,17 +301,19 @@ import re
 the code below are for plotting
 '''''
 
-import re
+import re,util
 from DateUrl import DateUrl
 from collections import defaultdict
-p = re.compile(r'@(.*)_(.*)_urlcounts.txt')
+p = re.compile(r'@(.*)_(.*_\d{2})_urlcounts.txt')
 from os import listdir
 from os.path import isfile, join
-mypath = "files"
+mypath = "Nov3/ServerFile"
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 date_urls = defaultdict(list)
 acnt_date = {}
 acnt_url  = {}
+url_nofilt = defaultdict(list)
+url_filt = defaultdict(list)
 for fn in onlyfiles:
     m = p.match(fn)
     if p.match(fn):
@@ -323,20 +325,31 @@ for fn in onlyfiles:
         dateurlObj = DateUrl(date, acnt)
         with open(join(mypath,fn)) as fhandler:
             tmp = {}
-            for [x, y ] in [l.strip().split() for l in fhandler.readlines()]:
-                 if tmp.has_key(x):
-                    tmp[x] += int(y)
+            for [x, y, z] in [l.strip().split() for l in fhandler.readlines()]:
+                 if url_nofilt.has_key(x):
+                     url_nofilt[x].append(int(z) - sum(url_nofilt[x]))
+                     url_filt[x].append(int(y) - sum(url_filt[x]))
                  else:
-                     tmp[x] = int(y)
+                    url_filt[x].append(int(y))
+                    url_nofilt[x].append(int(z))
+
+                 if tmp.has_key(x):
+                    tmp[x] += int(z)
+                 else:
+                     tmp[x] = int(z)
             dateurlObj.setUrlNum(len(tmp))
             dateurlObj.setTotaltweet(sum(tmp.values()))
             dateurlObj.setUrlNumDict(tmp)
-            acnt_date[acnt][date]= tmp.values()
+            acnt_date[acnt][date] = tmp.values()
             for k,v in tmp.items():
                 acnt_url[acnt][k].append(v)
         date_urls[date].append(dateurlObj)
-
-
+print len(url_nofilt)
+statis_helper = util.statis(None)
+statis_helper.setArray([sum(x) for x in url_filt.values()])
+print statis_helper.getreport()
+statis_helper.setArray([sum(x) for x in url_nofilt.values()])
+print(statis_helper.getreport())
 
 '''
  one account avg single tweet amount daily trend
@@ -371,10 +384,10 @@ for acn, datedict in acnt_date.items():
         statis_helper.setArray(tup[1])
         means.append(statis_helper.getavg())
         stds.append(statis_helper.getstd())
-        xlabel.append(tup[0])
-    painter.plotBar(xlabel,means,stds,acn+"_AvgTweetPerUrl")
+        xlabel.append(tup[0].split('_')[1])
+    painter.plotBar(xlabel,means,stds,acn+"_AvgTweetPerUrlAtDifferentTime")
 
-    painter.plotBar(xlabel,[len(tup[1]) for tup in sorted_tuple],None,acn+"_UrlPerDay")
+    painter.plotBar(xlabel,[len(tup[1]) for tup in sorted_tuple],None,acn+"_AvgUrlAtDifferentTime")
     '''
     acnt_url[acnt][k].append(v)
     '''

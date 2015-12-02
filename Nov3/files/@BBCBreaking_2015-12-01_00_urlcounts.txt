@@ -1,0 +1,17 @@
+http://www.bbc.co.uk/news/world-europe-34957830	23	41
+http://www.bbc.co.uk/sport/live/boxing/34014640	11	11
+http://www.bbc.co.uk/sport/live/tennis/34402185	11	15
+http://www.bbc.co.uk/news/uk-politics-34970516	11	33
+http://www.bbc.co.uk/news/world-africa-34956969	10	43
+http://www.bbc.co.uk/news/world-europe-34954575	18	46
+http://www.bbc.co.uk/news/live/science-environment-34922775	45	58
+http://www.bbc.co.uk/sport/tennis/34957711	32	41
+http://www.bbc.co.uk/news/uk-northern-ireland-34963159	11	34
+http://www.bbc.co.uk/news/world-europe-34957224	12	37
+http://www.bbc.co.uk/news/live/uk-politics-34930632	11	19
+http://www.bbc.co.uk/news/world-europe-34970121	5	41
+http://www.bbc.co.uk/news/uk-politics-34967024	21	56
+http://www.bbc.co.uk/news/world-34956825	24	46
+http://www.bbc.co.uk/news/health-34965603	9	30
+http://www.bbc.co.uk/news/world-europe-34960730	9	30
+http://www.bbc.co.uk/news/uk-34962745	19	42
