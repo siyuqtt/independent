@@ -25,15 +25,18 @@ class PlotView:
     def newFigure(self):
         plt.figure()
 
-    def plotLine(self, x, y, lab,mark=None):
-        if mark:
+    def plotLine(self, x, y, lab = None,mark=None):
+        if mark and lab:
             plt.plot(x,y,mark, label=lab)
-        else:
+        elif mark:
+            plt.plot(x,y,mark)
+        elif lab:
             plt.plot(x,y, label=lab)
+        else:
+            plt.plot(x,y)
 
 
-
-    def plotBar(self, xlable, means, std, title,lab):
+    def plotBar(self, xlable, means, std, lab,color):
         """
 
         :param singleUrlDict: (date: num)
@@ -43,7 +46,7 @@ class PlotView:
 
 
 
-       # fig, ax = plt.subplots()
+        #plt.subplots()
 
         index = np.arange(n_groups)
         bar_width = 0.35
@@ -53,23 +56,24 @@ class PlotView:
         if std is not None:
             plt.bar(index, means, bar_width,
                          alpha=opacity,
-                         color='b',
+                         color=color,
                          yerr=std,
                          error_kw=error_config,
                          label=lab)
         else:
             plt.bar(index, means, bar_width,
                          alpha=opacity,
-                         color='b',
+                         color=color,
                          label=lab)
 
 
 
 
-        plt.xlabel('Time')
-        plt.ylabel('Num')
-        plt.title(title)
-        # plt.xticks(index + bar_width, ('A', 'B', 'C', 'D', 'E'))
-        plt.xticks(index + bar_width, xlable)
+        # plt.xlabel('Time')
+        # plt.ylabel('Num')
+        # plt.title(title)
+        # # plt.xticks(index + bar_width, ('A', 'B', 'C', 'D', 'E'))
+        # plt.xticks(index + bar_width, xlable)
+        
         plt.legend()
         plt.tight_layout()

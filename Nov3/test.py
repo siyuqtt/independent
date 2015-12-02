@@ -380,22 +380,24 @@ first we want to find some pattern url_filt
 do classification using kmeans
 then plot the centra
 '''
-from sklearn.cluster import KMeans
-km = KMeans(n_clusters=3)
-km.fit(avg_filt)
-centras = km.cluster_centers_
+# from sklearn.cluster import KMeans
+# km = KMeans(n_clusters=3)
+# km.fit(avg_filt)
+# centras = km.cluster_centers_
 xlabel = [int(x) for x in times_label]
-class_percentage = {}
-for i in xrange(km.n_clusters):
-    class_percentage[i] = 0
-for i in km.labels_:
-    class_percentage[i]+=1
-for i in xrange(km.n_clusters):
-    print class_percentage[i]*1.0/len(km.labels_)
-for idx, data in enumerate(centras):
-    painter.plotLine(xlabel,data,str(idx))
-#painter.showplot(xlabel)
-painter.showLegend()
+# class_percentage = {}
+# for i in xrange(km.n_clusters):
+#     class_percentage[i] = 0
+# for i in km.labels_:
+#     class_percentage[i]+=1
+# for i in xrange(km.n_clusters):
+#     print class_percentage[i]*1.0/len(km.labels_)
+# for idx, data in enumerate(centras):
+#     painter.plotLine(xlabel,data,str(idx))
+for data in avg_filt:
+    painter.plotLine(xlabel,data,None,'r*')
+painter.showplot(xlabel)
+#painter.showLegend()
 painter.newFigure()
 painter.plotLine(xlabel, time_counts,"number of new urls","r")
 def cumulativeSum(vlist,start = 0):
