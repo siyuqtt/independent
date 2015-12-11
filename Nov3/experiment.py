@@ -88,9 +88,10 @@ def experiment2():
     from os import listdir
     from os.path import isfile, join
     from PlotView import PlotView
-    mypath = "files"
+    from util import savitzky_golay
+    mypath = "ServerFile/files"
     onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
-
+    formalaccount = ['@nytimes','@cnnbrk','@BBCBreaking','@CNN','@ABC','@NBCNews']
 
     '''
      at each time
@@ -108,7 +109,7 @@ def experiment2():
             dateTimeKey = m.group(2)
             with open(join(mypath,fn)) as fhandler:
                 for [x, y, z] in [l.strip().split('\t') for l in fhandler.readlines()]:
-                    if z == '0':
+                    if int(y) == 0:
                         continue
                     '''
                         use url_nofilt and url_filt
@@ -138,11 +139,19 @@ def experiment2():
         return m
     halfLifeCounterFilter = dict()
     halfLifeCounterNoFilter = dict()
+    from ctypes import c_int64
+    timeNewUrl = [(c_int64(0),set()) for _ in xrange(24)]
+
     for k, v in url_filt.items():
         sorted_v = dict(sorted(v.items(),key=operator.itemgetter(0)))
         summed_v = list(accumulitiveSum(sorted_v.values()))
         half = findHalfLife(summed_v)
         halfLifeCounterFilter[half] = halfLifeCounterFilter.get(half,0)+1.0
+        [date, idx]= sorted_v.keys()[0].split('_')
+        timeNewUrl[int(idx)][0].value += 1
+        timeNewUrl[int(idx)][1].add(date)
+
+
     for k, v in url_nofilt.items():
         sorted_v = dict(sorted(v.items(),key=operator.itemgetter(0)))
         summed_v = list(accumulitiveSum(sorted_v.values()))
@@ -151,9 +160,29 @@ def experiment2():
     painter = PlotView()
     total = len(url_filt)
     painter.newFigure()
-    painter.plotBar(halfLifeCounterFilter.keys(),[it/total for it in halfLifeCounterFilter.values()],None,"Percentage After Filtering",'b')
-    painter.plotBar(halfLifeCounterNoFilter.keys(),[it/total for it in halfLifeCounterNoFilter.values()],None,"Percentage Before Filtering",'r')
+    plt = painter.getPLT()
+    ax = painter.subPlots()
+    #plotBar(self, xlable, means, std, lab,color, ax = None, no = None)
+    painter.plotBar(halfLifeCounterFilter.keys(),
+                    [it/total for it in halfLifeCounterFilter.values()],None,"Percentage After Filtering",'b',ax,0)
+    painter.plotBar(halfLifeCounterNoFilter.keys(),
+                    [it/total for it in halfLifeCounterNoFilter.values()],None,"Percentage Before Filtering",'r',ax,1)
+
+    plt.xlabel("number of hours")
+    plt.ylabel("percentage of new tweets")
+
     painter.showplot(halfLifeCounterNoFilter.keys())
+    # painter.newFigure()
+    # #smoothTimeUrl = savitzky_golay([x.value/(len(y)+1e-10) for (x,y) in timeNewUrl],5, 3)
+    # painter.plotLine([x for x in xrange(24)], [x.value/(len(y)+1e-10) for (x,y) in timeNewUrl],"No Smooth")
+    # #painter.plotLine([x for x in xrange(24)], smoothTimeUrl,"Savitzky Golay Smooth")
+    # plt = painter.getPLT()
+    # plt.xlabel("time clock")
+    # plt.ylabel("number of new URLs")
+    # plt.title("New URL at each Time")
+    # plt.legend(loc=2)
+    # painter.showplot([x for x in xrange(24)])
+    print 'finish'
 
 
 '''
@@ -168,7 +197,7 @@ def experiment3():
     p = re.compile(r'@(.*)_(.*)_(\d{2})_urlcounts.txt')
     from os import listdir
     from os.path import isfile, join
-    mypath = "files"
+    mypath = "ServerFile/files"
     onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
     times_label = ['00','01','02','03','04','05','06','07','08','09','10',
                    '11','12','13','14','15','16','17','18','19','20','21',
@@ -180,9 +209,11 @@ def experiment3():
     '''
     time_urls = defaultdict(set)
     time_counts = [0]*24
+    accu_time_counts = [0]*24
     url_nofilt = defaultdict(list)
     url_filt = defaultdict(list)
-
+    count_total = 0
+    count_over = 0
     for idx,t in enumerate(times_label):
         findno = 0
         for fn in onlyfiles:
@@ -194,8 +225,11 @@ def experiment3():
                 findno += 1
                 with open(join(mypath,fn)) as fhandler:
                     for [x, y, z] in [l.strip().split('\t') for l in fhandler.readlines()]:
-                        if z == '0':
+                        if int(z) == 0:
                             continue
+                        count_total += 1
+                        if int(z) >= 100:
+                            count_over += 1
                         '''
                             use url_nofilt and url_filt
                             to record the impact of filtering
@@ -210,8 +244,9 @@ def experiment3():
         for subidx in xrange(idx):
             tmp = tmp - time_urls[times_label[subidx]]
         time_counts[int(t)] = len(tmp)/(findno+1e-10)
+        accu_time_counts[int(t)] = len(time_urls[t])/(findno+1e-10)
 
-    print len(url_nofilt)
+    print len(url_nofilt),count_total,count_over
     statis_helper = util.statis(None)
     avg_filt = [[t[0]/t[1] for t in xlist] for xlist in url_filt.values()]
     sum_filt = [reduce(lambda x,y: x+y[0], xlist,0 ) for xlist in url_filt.values()]
@@ -246,17 +281,99 @@ def experiment3():
     #     print class_percentage[i]*1.0/len(km.labels_)
     # for idx, data in enumerate(centras):
     #     painter.plotLine(xlabel,data,str(idx))
+    plt = painter.getPLT()
+    for data in avg_filt:
+        #plt.scatter(xlabel,data,marker='o',facecolors='none')
+        plt.plot(xlabel,data,'r.',alpha=0.2)
     for data in avg_nofilt:
-        painter.plotLine(xlabel,data,None,'r*')
-    painter.showplot(xlabel)
-    #painter.showLegend()
-    painter.newFigure()
-    painter.plotLine(xlabel, time_counts,"number of new urls","r")
-    def cumulativeSum(vlist,start = 0):
-        for v in vlist:
-            start+= v
-            yield start
+        #plt.scatter(xlabel,data,marker='o',facecolors='none')
+         plt.plot([x+0.3 for x in xlabel],data,'b.',alpha=0.2)
+    def elementAdd(arr1, arr2):
+        return [x[0]+x[1] for x in zip(arr1,arr2)]
 
-    painter.plotBar(xlabel,[len(t) for t in time_urls.values()],None,"Communicative URLs",'b')
+    avg_avg_filt = [x/len(avg_filt) for x in reduce(elementAdd, avg_filt)]
+    avg_avg_nofilt = [x/len(avg_nofilt) for x in reduce(elementAdd, avg_nofilt)]
+    painter.plotLine(xlabel,avg_avg_filt,'Mean of New Tweets(filtered)','black')
+    painter.plotLine([x+0.3 for x in xlabel],avg_avg_nofilt,'Mean of New Tweets','g')
+    plt.xlabel("time clock")
+    plt.ylabel("number of new tweets")
+    plt.legend()
     painter.showplot(xlabel)
-experiment3()
+
+
+
+'''
+in this experiment
+we will calculate the time when new url comes for each accout
+'''
+
+def experiment4():
+    import re
+    from collections import defaultdict
+    p = re.compile(r'@(.*)_(.*_\d{2})_urlcounts.txt')
+    from os import listdir
+    from os.path import isfile, join
+    from PlotView import PlotView
+    from ctypes import c_int64
+    mypath = "files"
+    onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
+    formalaccount = ['nytimes','cnnbrk','BBCBreaking','CNN','ABC','NBCNews']
+    colors = ['r','g','b','c','m','y']
+
+    '''
+     at each time
+     how many new urls appear
+    '''
+
+    painter = PlotView()
+    plt = painter.getPLT()
+    ax = painter.subPlots()
+    timeNewUrlAll = [(c_int64(0),set()) for _ in xrange(24)]
+    for acnIdx,targetAcn in enumerate(formalaccount):
+        url_nofilt = defaultdict(dict)
+        url_filt = defaultdict(dict)
+        for fn in onlyfiles:
+            m = p.match(fn)
+            if m:
+                acnt = m.group(1)
+                if acnt != targetAcn:
+                    continue
+                dateTimeKey = m.group(2)
+                with open(join(mypath,fn)) as fhandler:
+                    for [x, y, z] in [l.strip().split('\t') for l in fhandler.readlines()]:
+                        if int(y) == 0:
+                            continue
+                        '''
+                            use url_nofilt and url_filt
+                            to record the impact of filtering
+                        '''
+
+                        url_filt[x][dateTimeKey] = int(y)
+                        url_nofilt[x][dateTimeKey] = int(z)
+
+
+        timeNewUrl = [(c_int64(0),set()) for _ in xrange(24)]
+
+        shift = -5 if targetAcn == 'BBCBreaking' else 0
+        for k, v in url_filt.items():
+            sorted_v = dict(sorted(v.items(),key=operator.itemgetter(0)))
+            [date, idx]= sorted_v.keys()[0].split('_')
+            timeNewUrl[int(idx)+shift][0].value += 1
+            timeNewUrl[int(idx)+shift][1].add(date)
+            timeNewUrlAll[int(idx)+shift][0].value += 1
+            timeNewUrlAll[int(idx)+shift][1].add(date)
+
+
+
+        painter.plotBar([x for x in xrange(24)],
+                        [x.value/(len(y)+1e-10) for (x,y) in timeNewUrl],None,targetAcn,colors[acnIdx],ax, acnIdx)
+        plt.legend(loc=2)
+    painter.plotLine([x for x in xrange(24)], [x.value/(len(y)+6+1e-10) for (x,y) in timeNewUrlAll],"Average")
+    print 'sum', sum([x.value/(len(y)+1e-10) for (x,y) in timeNewUrlAll])
+    plt.xlabel("time clock")
+    plt.ylabel("number of new URLs")
+    #plt.title("New URL at each Time")
+    painter.showplot([x for x in xrange(24)])
+    print 'finish'
+
+experiment4()

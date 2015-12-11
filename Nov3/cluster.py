@@ -4,10 +4,11 @@ from sklearn.linear_model import LogisticRegressionCV
 from sklearn.metrics import f1_score,precision_score,recall_score
 from nltk.stem import porter
 from nltk.tokenize import word_tokenize
+from nltk.metrics.distance import edit_distance
 data_feature = dataprepare()
 data_semi    =sentenceSimilarity()
-logreg = LogisticRegressionCV(cv = 10, solver='newton-cg',multi_class='multinomial')
-
+#logreg = LogisticRegressionCV(cv = 10, solver='newton-cg',multi_class='multinomial')
+logreg = LogisticRegressionCV(cv = 10, solver='liblinear')
 def genfeature(candi):
     candi_features = data_feature.genfeature(candi)[:-1]
     '''
@@ -55,44 +56,75 @@ def getY(fname):
     print count,count2, count2 - count
     return Y
 
+# def getXY(fname):
+#     Y = []
+#     features =  []
+#     lines = [line.decode('utf-8').strip() for line in open(fname).readlines()]
+#     count = 0
+#     count2 = 0
+#     candi =[]
+#     for line in lines:
+#         if line == "" and len(candi) > 0:
+#             '''
+#             Das_genfeature : wei's code
+#             gengeafeature: my code
+#
+#             '''
+#             count2 += len(candi)
+#             features += Das_genfeature(candi)
+#             candi = []
+#             Y.pop()
+#             count += 1
+#         elif line.strip() == "":
+#             continue
+#         else:
+#             [tw, label] = line.strip().split('\t')
+#             candi.append(tw)
+#             Y.append(int(label))
+#     if len(candi) > 0:
+#         '''
+#             Das_genfeature : wei's code
+#             gengeafeature: my code
+#
+#         '''
+#         features += Das_genfeature(candi)
+#         count += 1
+#         count2 += len(candi)
+#         Y.pop()
+#     print count,count2, count2 - count
+#     return features,Y
 def getXY(fname):
     Y = []
-    features =  []
+    X = []
     lines = [line.decode('utf-8').strip() for line in open(fname).readlines()]
-    count = 0
-    count2 = 0
-    candi =[]
+    countGroup = 0
+    countTweets = 0
+    candiX = []
+    candiY = []
     for line in lines:
-        if line == "" and len(candi) > 0:
-            '''
-            Das_genfeature : wei's code
-            gengeafeature: my code
+        if line == "" and len(candiX) > 0:
 
-            '''
-            count2 += len(candi)
-            features += Das_genfeature(candi)
-            candi = []
-            Y.pop()
-            count += 1
+            countTweets += len(candiX)
+            X.append(candiX)
+            Y.append(candiY)
+            candiX = []
+            candiY = []
+            countGroup += 1
         elif line.strip() == "":
             continue
         else:
             [tw, label] = line.strip().split('\t')
-            candi.append(tw)
-            Y.append(int(label))
-    if len(candi) > 0:
-        '''
-            Das_genfeature : wei's code
-            gengeafeature: my code
+            candiX.append(tw)
+            candiY.append(int(label))
+    if len(candiX) > 0:
 
-        '''
-        features += Das_genfeature(candi)
-        count += 1
-        count2 += len(candi)
-        Y.pop()
-    print count,count2, count2 - count
-    return features,Y
+        X.append(candiX)
+        Y.append(candiY)
+        countGroup += 1
+        countTweets += len(candiX)
 
+    print "group: ",countGroup, "tweets: ",countTweets
+    return X,Y
 def intersect (list1, list2) :
     cnt1 = Counter()
     cnt2 = Counter()
@@ -110,6 +142,12 @@ def Das_genfeature(candi):
         features += [paraphrase_Das_features(source, t).values()]
     return features
 
+def EditDistane(candi):
+    source = candi[-1]
+    features = []
+    for t in candi[:-1]:
+        features.append(edit_distance(source, t))
+    return features
 
 def paraphrase_Das_features(source, target):
     source_words = word_tokenize(source)
@@ -223,12 +261,222 @@ def paraphrase_Das_features(source, target):
     return features
 
 
+def OrMFGenFeature(vfilename):
+    count = 0
+    pivot = None # even line
+    sample = None
+
+    vfeatures = []
+
+    for vline in open(vfilename).readlines():
+        count += 1
+        vline = vline.strip()
+
+        if count % 2 != 0 : #odd line number
+            sample = vline.split()
+        else:
+            pivot = vline.split()
+            vsum = [float(i) + float(j) for i, j in zip(pivot, sample)]
+            vsub = [abs(float(i) - float(j)) for i, j in zip(pivot, sample)]
+            vtogether = vsum + vsub
+            vfeatures.append(vtogether)
+
+    return vfeatures
+
 def getOrMF(fname):
     return [float(line.strip()) for line in open(fname).readlines()]
 
 
 
-Y = getY('files/train.txt') + getY('files/test.txt')
+def dropFeatureClass(X,labels, todrop=2):
+    newX = []
+    newLabels = []
+    for (x,y) in zip(X,labels):
+        if y == todrop:
+            continue
+        newX.append(x)
+        newLabels.append(y)
+    print len(newX)
+    return newX,newLabels
+
+
+def colapTwoClass(labels, l1,l2):
+    newLabels= []
+    for l in labels:
+        if l == l2:
+            newLabels.append(l1)
+        else:
+            newLabels.append(l)
+    return newLabels
+
+
+
+def combineTwoPrediction(pred1, pred2):
+    comPred = []
+    for (p1,p2) in zip(pred1,pred2):
+        if p1 == 3:
+            comPred.append(p1)
+        else:
+            comPred.append(p2)
+    return comPred
+
+
+def genGoal(arr, goal, other):
+    return [other if y != goal else y for y in arr]
+
+
+def result(method,rule,pred):
+    print method,'\t',f1_score(rule, pred, average='binary'),\
+        '\t',precision_score(rule, pred,average='binary'),\
+        '\t', recall_score(rule, pred, average='binary')
+
+def dropMethod():
+
+    dropOrMFFeatureTrain, dropTrainY = dropFeatureClass(OrMFFeatureTrain,trainY,2)
+    dropOrMFFeatureTest, dropTestY = dropFeatureClass(OrMFFeatureTest,testY,2)
+
+    dropOrMFFeatureTrainSim, dropTrainY = dropFeatureClass(OrMFFeaturetrainSim,trainY,2)
+    dropOrMFFeatureTestSim, dropTestY = dropFeatureClass(OrMFFeaturetestSim,testY,2)
+    dropOrMFFeatureTrainSim = np.array(dropOrMFFeatureTrainSim).reshape(-1,1).tolist()
+    dropOrMFFeatureTestSim = np.array(dropOrMFFeatureTestSim).reshape(-1,1).tolist()
+
+    dropLRfeatureTrainX,dropTrainY = dropFeatureClass(featureLRTrainX,trainY,2)
+    dropLRfeatureTestX,dropTestY = dropFeatureClass(featureLRTestX,testY,2)
+
+    dropEditfeatureTrainX,dropTrainY = dropFeatureClass(featureEditTrainX,trainY,2)
+    dropEditfeatureTestX,dropTestY = dropFeatureClass(featureEditTestX,testY,2)
+
+    dropLexfeatureTrainX,dropTrainY = dropFeatureClass(featureLexTrain,trainY,2)
+    dropLexfeatureTestX,dropTestY = dropFeatureClass(featureLexTest,testY,2)
+    dropLexfeatureTrainXSim,dropTrainY = dropFeatureClass(featureLexTrainSim,trainY,2)
+    dropLexfeatureTestXSim,dropTestY = dropFeatureClass(featureLexTestSim,testY,2)
+
+    dropEmbfeatureTrainX,dropTrainY = dropFeatureClass(featureEmbTrainX,trainY,2)
+    dropEmbfeatureTestX,dropTestY = dropFeatureClass(featureEmbTestX,testY,2)
+    dropEmbfeatureTrainX = np.array(dropEmbfeatureTrainX).reshape(-1,1).tolist()
+    dropEmbfeatureTestX = np.array(dropEmbfeatureTestX).reshape(-1,1).tolist()
+
+    ruleTrainY = genGoal(dropTrainY,1,0)
+    ruleTestY = genGoal(dropTestY,1,0)
+
+
+    logreg.fit(dropOrMFFeatureTrain, ruleTrainY)
+    predOrMF = logreg.predict(dropOrMFFeatureTest)
+    result('OrMF(vec)',ruleTestY,predOrMF)
+    logreg.fit(dropOrMFFeatureTrainSim, ruleTrainY)
+    predOrMF = logreg.predict(dropOrMFFeatureTestSim)
+    result('OrMF(sim)',ruleTestY,predOrMF)
+
+
+    logreg.fit(dropLRfeatureTrainX,ruleTrainY)
+    predLR = logreg.predict(dropLRfeatureTestX)
+    result('LR',ruleTestY,predLR)
+
+    logreg.fit(dropEditfeatureTrainX,ruleTrainY)
+    predEdit = logreg.predict(dropEditfeatureTestX)
+    result('Edit',ruleTestY,predEdit)
+
+    logreg.fit(dropLexfeatureTrainX,ruleTrainY)
+    predLex = logreg.predict(dropLexfeatureTestX)
+    result('Lex(vec)',ruleTestY,predLex)
+    logreg.fit(dropLexfeatureTrainXSim,ruleTrainY)
+    predLex = logreg.predict(dropLexfeatureTestXSim)
+    result('Lex(sim)',ruleTestY,predLex)
+
+    logreg.fit(dropEmbfeatureTrainX, ruleTrainY)
+    predEm = logreg.predict(dropEmbfeatureTestX)
+    result('Embed',ruleTestY,predEm)
+
+def hierachyMethod():
+    '''
+    step one classing 1&2 with 3
+     step two drop class 3
+    '''
+    colapTestY = colapTwoClass(testY,1,2)
+    colapTrainY = colapTwoClass(trainY,1,2)
+
+
+
+    dropOrMFFeatureTrain, dropTrainY = dropFeatureClass(OrMFFeatureTrain,trainY,3)
+    dropOrMFFeatureTest, dropTestY = dropFeatureClass(OrMFFeatureTest,testY,3)
+
+    dropOrMFFeatureTrainSim, dropTrainY = dropFeatureClass(OrMFFeaturetrainSim,trainY,3)
+    dropOrMFFeatureTestSim, dropTestY = dropFeatureClass(OrMFFeaturetestSim,testY,3)
+    dropOrMFFeatureTrainSim = np.array(dropOrMFFeatureTrainSim).reshape(-1,1).tolist()
+    dropOrMFFeatureTestSim = np.array(dropOrMFFeatureTestSim).reshape(-1,1).tolist()
+
+    dropLRfeatureTrainX,dropTrainY = dropFeatureClass(featureLRTrainX,trainY,3)
+    dropLRfeatureTestX,dropTestY = dropFeatureClass(featureLRTestX,testY,3)
+
+    dropEditfeatureTrainX,dropTrainY = dropFeatureClass(featureEditTrainX,trainY,3)
+    dropEditfeatureTestX,dropTestY = dropFeatureClass(featureEditTestX,testY,3)
+
+    dropLexfeatureTrainX,dropTrainY = dropFeatureClass(featureLexTrain,trainY,3)
+    dropLexfeatureTestX,dropTestY = dropFeatureClass(featureLexTest,testY,3)
+    dropLexfeatureTrainXSim,dropTrainY = dropFeatureClass(featureLexTrainSim,trainY,3)
+    dropLexfeatureTestXSim,dropTestY = dropFeatureClass(featureLexTestSim,testY,3)
+
+    dropEmbfeatureTrainX,dropTrainY = dropFeatureClass(featureEmbTrainX,trainY,3)
+    dropEmbfeatureTestX,dropTestY = dropFeatureClass(featureEmbTestX,testY,3)
+    dropEmbfeatureTrainX = np.array(dropEmbfeatureTrainX).reshape(-1,1).tolist()
+    dropEmbfeatureTestX = np.array(dropEmbfeatureTestX).reshape(-1,1).tolist()
+
+    def reconstruct(pred):
+        ret = []
+        idx = 0
+        for y in testY:
+            if y == 3:
+                ret.append(y)
+            else:
+                ret.append(pred[idx])
+                idx += 1
+        return ret
+    ruleTestY = genGoal(testY,1,0)
+
+    stepOnePredYOrMF = logreg.fit(OrMFFeatureTrain, colapTrainY).predict(OrMFFeatureTest)
+    logreg.fit(dropOrMFFeatureTrain, dropTrainY)
+    predOrMF = reconstruct(logreg.predict(dropOrMFFeatureTest))
+    predOrMF = genGoal(combineTwoPrediction(stepOnePredYOrMF,predOrMF),1,0)
+    result('OrMF(vec)',ruleTestY,predOrMF)
+    stepOnePredYOrMF = logreg.fit(OrMFFeaturetrainSim, colapTrainY).predict(OrMFFeaturetestSim)
+    logreg.fit(dropOrMFFeatureTrainSim, dropTrainY)
+    predOrMF = reconstruct(logreg.predict(dropOrMFFeatureTestSim))
+    predOrMF = genGoal(combineTwoPrediction(stepOnePredYOrMF,predOrMF),1,0)
+    result('OrMF(vec)',ruleTestY,predOrMF)
+
+    stepOnePredYLR = logreg.fit(featureLRTrainX, colapTrainY).predict(featureLRTestX)
+    logreg.fit(dropLRfeatureTrainX, dropTrainY)
+    predLR = reconstruct(logreg.predict(dropLRfeatureTestX))
+    predLR = genGoal(combineTwoPrediction(stepOnePredYLR,predLR),1,0)
+    result('LR',ruleTestY,predLR)
+
+    stepOnePredYEdit = logreg.fit(featureEditTrainX, colapTrainY).predict(featureEditTestX)
+    logreg.fit(dropEditfeatureTrainX, dropTrainY)
+    predEdit = reconstruct(logreg.predict(dropLRfeatureTestX))
+    predEdit = genGoal(combineTwoPrediction(stepOnePredYEdit,predEdit),1,0)
+    result('LR',ruleTestY,predEdit)
+
+    stepOnePredYLex = logreg.fit(featureLexTrain, colapTrainY).predict(featureLexTest)
+    logreg.fit(dropLexfeatureTrainX, dropTrainY)
+    predLex = reconstruct(logreg.predict(dropLexfeatureTestX))
+    predLex = genGoal(combineTwoPrediction(stepOnePredYLex,predLex),1,0)
+    result('Lex(vec)',ruleTestY,predLex)
+    stepOnePredYLexSim = logreg.fit(featureLexTrainSim, colapTrainY).predict(featureLexTestSim)
+    logreg.fit(dropLexfeatureTrainXSim, dropTrainY)
+    predLex = reconstruct(logreg.predict(dropLexfeatureTestXSim))
+    predLex = genGoal(combineTwoPrediction(stepOnePredYLexSim,predLex),1,0)
+    result('Lex(sim)',ruleTestY,predLex)
+
+
+    stepOnePredYEm = logreg.fit(featureEmbTrainX, colapTrainY).predict(featureEmbTestX)
+    logreg.fit(dropEmbfeatureTrainX, dropTrainY)
+    predEmb = reconstruct(logreg.predict(dropEmbfeatureTestX))
+    predEmb = genGoal(combineTwoPrediction(stepOnePredYEm,predEmb),1,0)
+    result('Embed',ruleTestY,predEmb)
+
+
+mypath = "oldFiles/"
+Y = getY(mypath+'files/train.txt') + getY(mypath+'files/test.txt')
 cnt = Counter(Y)
 for k,v in cnt.items():
     print k,v, v*1.0/len(Y)
@@ -238,41 +486,89 @@ for k,v in cnt.items():
 '''
 ----------
 '''
-X, Y = getXY('files/train.txt')
-OrMF_train = getOrMF('files/train_OrMF.sim')
-OrMF_test = getOrMF('files/test_OrMF.sim')
-for idx,x in enumerate(X):
-    x.append(OrMF_train[idx])
-test_X, test_Y = getXY('files/test.txt')
-for idx,x in enumerate(test_X):
-    x.append(OrMF_test[idx])
+X, Y = getXY(mypath+'files/train.txt')
+test_X, test_Y = getXY(mypath+'files/test.txt')
+testY =[]
+for y in test_Y:
+    testY += y[:-1]
 
-logreg.fit(X, Y)
-pred_Y = [0 if y != 1 else y for y in logreg.predict(test_X) ]
-test_Y = [0 if y != 1 else y for y in test_Y]
-fout = open('result.txt','w')
-for y in pred_Y:
-    fout.write(str(y)+'\n')
-fout.close()
 
-print 'f1 score\tprecision\trecall'
-print f1_score(test_Y, pred_Y, average='binary'),'\t',precision_score(test_Y, pred_Y, average='binary'),
-'\t' , recall_score(test_Y, pred_Y, average='binary')
-print logreg.score(test_X,test_Y)
+trainY = []
+for idx, _ in enumerate(Y):
+    trainY += Y[idx][:-1]
+
+
+
+print 'method\tf1 score\tprecision\trecall'
+featureLRTrainX = []
+for idx, x in enumerate(X):
+    featureLRTrainX += Das_genfeature(x)
+featureLRTestX = []
+for idx, x in enumerate(test_X):
+    featureLRTestX += Das_genfeature(x)
+
+featureEditTrainX = []
+for idx, x in enumerate(X):
+    featureEditTrainX += EditDistane(x)
+featureEditTestX = []
+for idx, x in enumerate(test_X):
+    featureEditTestX +=  EditDistane(x)
+
+OrMFFeaturetrainSim = getOrMF(mypath+'files/train.sim')
+OrMFFeaturetestSim = getOrMF(mypath+'files/test.sim')
+OrMFFeaturetrainSim = np.array(OrMFFeaturetrainSim).reshape(-1,1).tolist()
+OrMFFeaturetestSim = np.array(OrMFFeaturetestSim).reshape(-1,1).tolist()
+OrMFFeatureTrain = OrMFGenFeature(mypath +'files/train_OrMF.txt.ls')
+OrMFFeatureTest = OrMFGenFeature(mypath +'files/test_OrMF.txt.ls')
+
+featureLexTrain = []
+featureLexTest = []
+for idx,x in enumerate(featureLRTrainX):
+    featureLexTrain.append(x + OrMFFeatureTrain[idx])
+for idx,x in enumerate(featureLRTestX):
+    featureLexTest.append(x + OrMFFeatureTest[idx])
+featureLexTrainSim = []
+featureLexTestSim = []
+for idx,x in enumerate(featureLRTrainX):
+    featureLexTrainSim.append(x + OrMFFeaturetrainSim[idx])
+for idx,x in enumerate(featureLRTestX):
+    featureLexTestSim.append(x + OrMFFeaturetestSim[idx])
+
+from util import sentenceSimilarity
+mySim = sentenceSimilarity()
+mySim.buildEmbedding('glove.twitter.27B.25d.txt')
+
+featureEmbTrainX = []
+featureEmbTestX = []
+for x in X:
+    featureEmbTrainX += mySim.embeddingScore(x)
+for x in test_X:
+    featureEmbTestX += mySim.embeddingScore(x)
+
+
+# from sklearn.decomposition import PCA
+# pca = PCA(n_components=50)
+# OrMFFeatureTrain = (pca.fit_transform(OrMFFeatureTrain)).tolist()
+# print(pca.explained_variance_ratio_), sum(pca.explained_variance_ratio_)
+# OrMFFeatureTest = pca.transform(OrMFFeatureTest).tolist()
+
+
+
 
 '''
+
     random guessing : 1,2 3
 
-'''
+
 from random import randint
-pred_Y = []
-for i in xrange(len(test_Y)):
-    pred_Y.append(randint(1,3))
-pred_Y = [0 if y != 1 else y for y in pred_Y]
-print f1_score(test_Y, pred_Y, average='binary'),'\t',precision_score(test_Y, pred_Y, average='binary'),
-print '\t' , recall_score(test_Y, pred_Y, average='binary')
+predY = []
+for i in xrange(len(dropTestY)):
+    predY.append(randint(1,2))
+predY = [0 if y != 1 else 1 for y in predY]
+print "random\t",f1_score(goalTestY, predY, average='binary'),'\t',precision_score(goalTestY, predY, average='binary'),
+print '\t' , recall_score(goalTestY, predY, average='binary')
 
-
+'''
 '''
     majority guess
 
@@ -284,6 +580,5 @@ print '\t' , recall_score(test_Y, pred_Y, average='binary')
 # print f1_score(test_Y, pred_Y, average='binary'),'\t',precision_score(test_Y, pred_Y, average='binary'),
 # '\t' , recall_score(test_Y, pred_Y, average='binary')
 #
-
 
 

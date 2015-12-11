@@ -43,8 +43,8 @@ def getXY(fname):
     print count
     print count2
     return X
-X = getXY('files/test.txt')
-f = open('files/test_OrMF.txt','w')
+X = getXY('oldFiles/files/train.txt')
+f = open('oldFiles/files/train_OrMF.txt','w')
 for l in X:
     f.write(l.encode('utf-8')+'\n')
 f.close()
